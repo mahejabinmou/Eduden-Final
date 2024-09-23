@@ -223,7 +223,10 @@ text-black py-[11.5px] rounded-full"
           </div>
 
           <div className="flex  gap-x-[30px] ">
-            <div className="h-[60px] w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
+            <div
+              className="2xl:h-[60px] 2xl:w-[60px] xl:h-[60px] xl:w-[85px]
+            lg:h-[60px] lg:w-[100px]  md:h-[60px] md:w-[100px] bg-[#8EFA6D] rounded-full flex items-center justify-center"
+            >
               <FaLocationDot size={27} className="text-black" />
             </div>
 

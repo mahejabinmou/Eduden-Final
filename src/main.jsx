@@ -1,8 +1,8 @@
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./ClientSide/Home/Home";
-import FoundationCourse from "./ClientSide/CourseDetails/FoundationCourse";
 import "./index.css";
+import CourseDetails from "./ClientSide/CourseDetails/CourseDetails";
 
 const router = createBrowserRouter([
   {
@@ -10,8 +10,8 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/foundationcourse",
-    element: <FoundationCourse></FoundationCourse>,
+    path: "/coursedetails",
+    element: <CourseDetails></CourseDetails>,
   },
 ]);
 
