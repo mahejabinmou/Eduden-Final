@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import CourseDetails from "./ClientSide/CourseDetails/CourseDetails";
 import AboutUs from "./ClientSide/AboutUs/AboutUs";
 import Verify from "./ClientSide/Verify/Verify";
+import ContactUs from "./ClientSide/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/verify",
     element: <Verify></Verify>,
+  },
+  {
+    path: "/contactUs",
+    element: <ContactUs></ContactUs>,
   },
 ]);
 
