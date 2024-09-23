@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gucina";
+  src: url("/path-to-your-font/Gucina.woff2") format("woff2"),
+    url("/path-to-your-font/Gucina.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .sectionGap {
+    @apply mt-[60px] px-[30px]
+     md:mt-[80px] md:px-[32px]
+     lg:px-[60px] lg:mt-[80px]
+     xl:px-[100px] xl:mt-[100px]
+     2xl:px-[100px] 2xl:mt-[100px];
+  }
+
+  .sectionPadding {
+    @apply pt-[60px] px-[30px] pb-[60px]
+     md:pt-[80px] md:px-[32px]  md:pb-[80px]
+     lg:px-[60px] lg:pt-[80px] lg:pb-[80px]
+     xl:px-[100px] xl:pt-[100px] xl:pb-[100px]
+     2xl:px-[100px] 2xl:pt-[100px] 2xl:pb-[100px];
+  }
+
+  .subTitle {
+    @apply 2xl:text-[30px] 2xl:leading-[39px] 
+
+    font-bold font-gucina;
+  }
+
+  .para {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+
+    font-normal font-sans;
+  }
+
+  .buttonPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+
+    font-semibold font-sans;
+  }
+
+  .hoverbuttonPara {
+    @apply 2xl:text-[12px] 2xl:leading-[18px] 
+
+    font-medium font-sans;
+  }
+
+  .title {
+    @apply 2xl:text-[50px] 2xl:leading-[65px] 
+
+    font-bold font-sans;
+  }
+}
