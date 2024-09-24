@@ -31,3 +31,9 @@
 .swiper-slide.upCmnhover {
     background: #a8ff57 !important;
 }
+
+.webNarContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+    gap: 32px;
+}

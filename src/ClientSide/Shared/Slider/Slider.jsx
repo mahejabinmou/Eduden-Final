@@ -15,7 +15,6 @@ const Slider = () => {
     const handleMouseLeave = () => {
         setIsHover("")
     }
-    console.log(isHover)
     return (
         <div className="upCmnCrs">
             <Swiper

@@ -1,4 +1,14 @@
-import { upCmnPic1, upCmnPic2, upCmnPic3 } from "./images"
+import {
+    upCmnPic1,
+    upCmnPic2,
+    upCmnPic3,
+    webinarImg1,
+    webinarImg2,
+    webinarImg3,
+    webinarImg4,
+    webinarImg5,
+    webinarImg6,
+} from "./images"
 
 const upComingCourses = [
     {
@@ -41,7 +51,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
         id: 3,
         category: "Graphics Design",
         price: "$20",
-        title: "Introduce About Graphic Design for Beginners",
+        title: "UI/UX Design for Web and Mobile for Kids",
         rating: 5,
         image: "url-to-image3",
         hoverBgColor: "bg-green-500",
@@ -115,4 +125,49 @@ we're your one-stop destination for unlocking your potential and conquering the 
     },
 ]
 
-export { upComingCourses }
+const freeWebinar = [
+    {
+        id: 1,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg1,
+    },
+    {
+        id: 2,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg2,
+    },
+    {
+        id: 3,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg3,
+    },
+    {
+        id: 4,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg4,
+    },
+    {
+        id: 5,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg5,
+    },
+    {
+        id: 6,
+        category: "Cyber Security",
+        time: "9 oct 2024 9:00 pm",
+        title: "Introduction to Python Programming",
+        img: webinarImg6,
+    },
+]
+
+export { upComingCourses, freeWebinar }
