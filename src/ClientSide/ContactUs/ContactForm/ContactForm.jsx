@@ -33,17 +33,28 @@ const ContactForm = () => {
   };
   return (
     <div className="sectionPadding">
-      <div className="lg:grid grid-cols-2 justify-between items-center text-white">
-        <div>
-          <img src="" alt="" />
+      <div className="lg:grid grid-cols-2 gap-x-[100px] mx-[89px] justify-between items-center text-white">
+        <div className=" h-[731px]">
+          <img
+            className="w-full h-full"
+            src="https://i.ibb.co.com/3sCWhbG/image-10-66f21ff3dce94.webp"
+            alt=""
+          />
         </div>
-        <div className=" my-[23px] text-[#FFFFFF]">
-          <h3 className="max-w-[656px] ">Have a Question? Contact Us Today</h3>
+        <div className=" my-[23px] text-[#FFFFFF] max-w-[656px] h-[685px]">
+          <div>
+            <button className="para mb-[40px] px-[40px] py-[10px]  rounded-[30px] bg-[#1A1A1A]">
+              Contact Us
+            </button>
+          </div>
+          <h3 className=" mb-[30px] formTitle ">
+            Have a Question? Contact Us Today
+          </h3>
 
-          <form className="max-w-[656px] bg-[#010101]">
-            <div className="">
+          <form className=" bg-[#010101]">
+            <div className=" mb-[30px] ">
               <input
-                className="py-[10px] pl-[20px] bg-[#010101]  border border-[#FFFFFF33]/[.2]"
+                className="py-[10px] pl-[20px]  w-full bg-[#010101]  border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Name"
                 name="from_name"
@@ -53,9 +64,9 @@ const ContactForm = () => {
               />
             </div>
 
-            <div className="">
+            <div className="mb-[30px]">
               <input
-                className="py-[10px] pl-[20px] bg-[#010101]"
+                className="py-[10px] pl-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="email"
                 placeholder="Email"
                 name="from_email"
@@ -65,9 +76,9 @@ const ContactForm = () => {
               />
             </div>
 
-            <div className="">
+            <div className="mb-[30px]">
               <input
-                className="py-[10px] pl-[20px] bg-[#010101]"
+                className="py-[10px] pl-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Subject"
                 name="from_Subject"
@@ -76,9 +87,9 @@ const ContactForm = () => {
                 onChange={handleInputChange}
               />
             </div>
-            <div className="">
+            <div className="mb-[50px]">
               <input
-                className="pt-[10px] pl-[20px] pb-[70px] bg-[#010101]"
+                className="pt-[10px] pl-[20px] pb-[70px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Message"
                 name="from_message"
@@ -88,11 +99,9 @@ const ContactForm = () => {
               />
             </div>
 
-            <div className=" pt-[30px] pb-[15px] md:pt-[35px] md:pb-[20px] lg:pt-[40px] lg:pb-[20px] xl:pt-[40px] xl:pb-[20px]  2xl:pb-[30px]">
+            <div className=" ">
               <input
-                className={` bg-[#A8FF57] text-[#010101]  py-[16px] px-[50px] rounded-[50px]   ${
-                  isFormValid ? "" : "cursor-not-allowed opacity-50"
-                }`}
+                className=" bg-[#A8FF57] text-[#010101]  py-[16px] px-[50px] rounded-[50px]   "
                 type="submit"
                 value="Send Message"
                 disabled={!isFormValid}

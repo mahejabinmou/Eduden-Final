@@ -20,7 +20,7 @@
      md:mt-[80px] md:px-[32px]
      lg:px-[60px] lg:mt-[80px]
      xl:px-[100px] xl:mt-[100px]
-     2xl:px-[100px] 2xl:mt-[100px];
+     2xl:px-[150px] 2xl:mt-[100px];
   }
 
   .sectionPadding {
@@ -28,7 +28,44 @@
      md:pt-[80px] md:px-[32px]  md:pb-[80px]
      lg:px-[60px] lg:pt-[80px] lg:pb-[80px]
      xl:px-[100px] xl:pt-[100px] xl:pb-[100px]
-     2xl:px-[100px] 2xl:pt-[100px] 2xl:pb-[100px];
+     2xl:px-[150px] 2xl:pt-[100px] 2xl:pb-[100px];
+  }
+
+  .section {
+    @apply pt-[60px]  pb-[60px]
+     md:pt-[80px]  md:pb-[80px]
+      lg:pt-[80px] lg:pb-[80px]
+      xl:pt-[100px] xl:pb-[100px]
+      2xl:pt-[100px] 2xl:pb-[100px];
+  }
+
+  .navbarLeftRightSpace {
+    @apply px-[28px] py-[12px] 
+    /* -------- */
+    md:py-[25px] md:px-[50px];
+  }
+
+  .headerLogo {
+    @apply h-[22px]
+    
+    /* ====== */
+    md:h-[30px]
+    /* ==== */
+    lg:h-[35px]
+    /* ==== */
+    xl:h-[45px];
+  }
+
+  .mobileMenuParent {
+    @apply pt-[25px] text-[14px]   space-x-[5px]
+    /* ======== */
+    md:pt-[30px] md:text-[16px]
+    /* ======== */
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:space-x-[20px]
+    /* ======== */
+    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
+    /* ============ */
+    font-sans font-medium w-full;
   }
 
   .subTitle {
@@ -39,6 +76,7 @@
 
   .para {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
 
     font-normal font-sans;
   }
@@ -57,8 +95,17 @@
 
   .title {
     @apply 2xl:text-[50px] 2xl:leading-[65px] 
+    xl:text-[50px] xl:leading-[65px] 
+    /* lg:text-[50px] lg:leading-[65px]  */
 
     font-bold font-sans;
+  }
+  .formTitle {
+    @apply 2xl:text-[35px] 2xl:leading-[65px] 
+    xl:text-[30px] xl:leading-[50px] 
+    lg:text-[25px] lg:leading-[50px] 
+
+    font-bold font-gucina;
   }
 
   .joinClanPara {
@@ -85,5 +132,52 @@
     md:text-[70px] md:leading-[80px]
     
     font-gucina font-bold;
+  }
+  .FaqFreHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[50px] lg:leading-[80px]
+    md:text-[40px] md:leading-[80px]
+    
+    font-gucina font-bold;
+  }
+  .faqPara {
+    @apply 2xl:text-[14px] 2xl:leading-[21px] 
+    xl:text-[14px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px] 
+    md:text-[14px] md:leading-[21px]
+
+    font-normal font-sans;
+  }
+
+  .faqActionHead {
+    @apply 2xl:text-[55px] 2xl:leading-[50px] 
+    xl:text-[50px] xl:leading-[50px] 
+    lg:text-[40px] lg:leading-[50px]
+    md:text-[40px] md:leading-[50px] 
+
+    font-bold font-gucina;
+  }
+
+  .largeScreenMenu {
+    @apply lg:mx-[50px] lg:pt-[12px]
+    /* ========= */ 
+    xl:mx-[150px] xl:pt-[50px] 
+    /* ========= */
+    2xl:mx-[150px] 2xl:pt-[50px] 
+    /* ========= */
+    flex justify-between items-center;
+  }
+
+  .homeLargeAppoinMent {
+    @apply md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[18px] xl:leading-[23px] xl:py-[13px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[18px] 2xl:leading-[23px] 2xl:py-[13px] 2xl:px-[20px] 
+    font-gucina font-normal bg-white text-white;
   }
 }

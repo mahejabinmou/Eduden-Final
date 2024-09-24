@@ -2,7 +2,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 const JoinOurClan = () => {
   return (
-    <div className="  ">
+    <div className=" section ">
       <div className="  ">
         <div className="relative">
           <div
@@ -16,13 +16,13 @@ const JoinOurClan = () => {
             <p className="text-[#A8FF57] joinClanPara pb-[25px]">
               Join Our Clan
             </p>
-            <h1 className="joinClanHead text-[#FFFFFF] pb-[25px]">
+            <h1 className="joinClanHead text-[#FFFFFF] pb-[25px] text-center">
               Unlock Your Inner Genius at Edu-Den!
             </h1>
             <p className="text-[#FFFFFF] joinClanSubPara pb-[35px]">
               Join the Learning Party Now – No Boring Stuff Allowed.
             </p>
-            <button className="buttonPara bg-[#A8FF57] flex items-center justify-between rounded-[50px] py-[8px] px-[18px] gap-x-[10px] text-[#010101]">
+            <button className="buttonPara bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[8px] px-[18px] gap-x-[10px] text-[#010101]">
               Enroll Now <MdArrowRightAlt />
             </button>
           </div>

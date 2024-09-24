@@ -9,11 +9,24 @@ import CourseDetails from "./ClientSide/CourseDetails/CourseDetails";
 import AboutUs from "./ClientSide/AboutUs/AboutUs";
 import Verify from "./ClientSide/Verify/Verify";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
+import "./index.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import Navbar from "./ClientSide/Shared/Navbar/Navbar";
+import Footer from "./ClientSide/Shared/Footer/Footer";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+  },
+  {
+    path: "/navbar",
+    element: <Navbar></Navbar>,
+  },
+  {
+    path: "/footer",
+    element: <Footer></Footer>,
   },
   {
     path: "/courseDetails",

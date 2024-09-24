@@ -1,4 +1,4 @@
-import UpcomingCard from "./UpcomingCard"
+import Slider from "../../ClientSide/Shared/Slider/Slider"
 
 const UpcomingCourses = () => {
     return (
@@ -12,11 +12,11 @@ const UpcomingCourses = () => {
             </div>
             <div>
                 <h3 className="font-gucina text-[70px] text-white font-bold leading-[80px] text-center mt-[ ]">
-                    Upcoming Courses
+                    Upcoming Coursesx
                 </h3>
             </div>
-            <div className="mt-[75px]">
-                <UpcomingCard />
+            <div className="mt-[75px] text-white ">
+                <Slider />
             </div>
         </div>
     )
