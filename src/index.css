@@ -15,6 +15,15 @@
 }
 
 @layer components {
+  /* In your global CSS file (e.g., index.css) */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #010101; /* Optional for redundancy */
+  }
+
   .sectionGap {
     @apply mt-[60px] px-[30px]
      md:mt-[80px] md:px-[32px]
@@ -53,7 +62,8 @@
     /* ==== */
     lg:h-[35px]
     /* ==== */
-    xl:h-[45px];
+    xl:h-[55px]
+    2xl:h-[55px];
   }
 
   .mobileMenuParent {
@@ -61,9 +71,10 @@
     /* ======== */
     md:pt-[30px] md:text-[16px]
     /* ======== */
-    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:space-x-[20px]
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:gap-x-[20px]
     /* ======== */
-    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
+    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:gap-x-[30x]
+    2xl:pt-[0px] 2xl:text-[18px] 2xl:flex 2xl:list-none 2xl:text-black 2xl:gap-x-[45px]
     /* ============ */
     font-sans font-medium w-full;
   }
@@ -175,9 +186,9 @@
 
     lg:text-[16px] lg:py-[8px] lg:px-[16px]
     /* =========  */
-    xl:text-[18px] xl:leading-[23px] xl:py-[13px] xl:px-[20px] 
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
     /* =========  */
-    2xl:text-[18px] 2xl:leading-[23px] 2xl:py-[13px] 2xl:px-[20px] 
-    font-gucina font-normal bg-white text-white;
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-gucina font-normal  rounded-[50px];
   }
 }
