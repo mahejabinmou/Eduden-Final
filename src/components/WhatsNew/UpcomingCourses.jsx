@@ -10,7 +10,7 @@ const UpcomingCourses = () => {
                     Upcoming Coursesx
                 </h3>
             </div>
-            <div className="mt-[75px] text-white h-[650px]">
+            <div className="mt-[75px] text-white h-[680px]">
                 <Slider />
             </div>
         </div>

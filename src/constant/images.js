@@ -9,6 +9,7 @@ import webinarImg3 from "/assets/images/freewebnier/img3.png"
 import webinarImg4 from "/assets/images/freewebnier/img4.png"
 import webinarImg5 from "/assets/images/freewebnier/img5.png"
 import webinarImg6 from "/assets/images/freewebnier/img6.png"
+import verifyImg from "/assets/images/verify/verifyImg.png"
 
 export {
     upCmnPic1,
@@ -21,4 +22,5 @@ export {
     webinarImg4,
     webinarImg5,
     webinarImg6,
+    verifyImg,
 }
