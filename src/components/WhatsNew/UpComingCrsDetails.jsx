@@ -1,18 +1,4 @@
-// id: number;
-// : string;
-// price: string;
-// title: string;
-// rating: number;
-// image: string;
-// hoverBgColor: string;
-// description: string;
-// details: {
-//     students: number;
-//     duration: string;
-// };
-// img: any;
-// button?: undefined;
-// } | {        */
+/* eslint-disable react/prop-types */
 
 import { CiStar } from "react-icons/ci"
 import { FaStar } from "react-icons/fa"
@@ -22,7 +8,7 @@ import CardFotter from "./CardFotter"
 
 const UpComingCrsDetails = ({ title, rating, price, crsDetails, category }) => {
     return (
-        <div className="px-[25px] text-left">
+        <div className="px-[25px] text-left h-full">
             <div className="flex items-center justify-between mt-[35px]">
                 <h4 className="text-[#A8FF57] rounded-[50px] bg-[#010101] px-[9px] py-[5px]">
                     {category}
@@ -45,7 +31,7 @@ const UpComingCrsDetails = ({ title, rating, price, crsDetails, category }) => {
                 {title}
             </div>
             <div className="mt-[10px]">
-                <p className="text-[#010101] text-[14px] font-sans">
+                <p className="text-[#010101] text-[14px] font-sans leading-[24px ]">
                     {crsDetails}
                 </p>
             </div>

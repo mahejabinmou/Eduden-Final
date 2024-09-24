@@ -1,9 +1,11 @@
-const Verify = () => {
-  return (
-    <div>
-      <h1>This is Verify</h1>
-    </div>
-  );
-};
+import VerifyForm from "../../components/Verify/VerifyForm"
 
-export default Verify;
+const Verify = () => {
+    return (
+        <div className="mt-[150px] sectionPadding bg-black">
+            <VerifyForm />
+        </div>
+    )
+}
+
+export default Verify

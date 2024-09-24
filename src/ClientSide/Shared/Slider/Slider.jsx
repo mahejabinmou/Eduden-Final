@@ -14,20 +14,20 @@ const Slider = () => {
     }
     const handleMouseLeave = () => {
         setIsHover("")
+        console.log("leave")
     }
     console.log(isHover)
     return (
-        <div className="upCmnCrs">
+        <div className="upCmnCrs" onMouseLeave={handleMouseLeave}>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={26}
-                // autoplay={{
-                //     delay: 3000, // 3 seconds delay between slides
-                //     disableOnInteraction: false, // Continue autoplay after user interaction
-                // }}
-                // loop={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false, //
+                }}
+                loop={true}
                 breakpoints={{
-                    // Define breakpoints for responsive design
                     1620: {
                         slidesPerView: 4,
                         spaceBetween: 26,
