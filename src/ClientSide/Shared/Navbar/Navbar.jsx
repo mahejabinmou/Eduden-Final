@@ -60,11 +60,7 @@ const Navbar = () => {
     <div>
       {/* Fixed Navbar */}
 
-      <nav
-        className={`lg:hidden fix ${scrolled ? "hidden" : ""} ${
-          isHomePage ? "fixed-navbar" : ""
-        }`}
-      >
+      <nav className={`lg:hidden fix ${scrolled ? "hidden" : ""} `}>
         <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
           <div className="headerLogo ">
             <Link to="/">
@@ -212,11 +208,7 @@ const Navbar = () => {
 
       {/* large screen nav */}
       <div>
-        <div
-          className={`hidden lg:block w-full z-50 ${
-            isHomePage ? "absolute" : "relative"
-          }`}
-        >
+        <div className="hidden lg:block w-full z-50 relative ">
           <div className="largeScreenMenu bg-[#010101] font-helvetica font-normal">
             <div className="headerLogo">
               <Link to="/">

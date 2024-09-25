@@ -1,9 +1,11 @@
-import Navbar from "../Shared/Navbar/Navbar";
+import AboutUs from "./AboutUs/AboutUs";
+import HeroSection from "./HeroSection/HeroSection";
 
 const Home = () => {
   return (
     <div className="">
-      <Navbar></Navbar>
+      <HeroSection></HeroSection>
+      <AboutUs></AboutUs>
     </div>
   );
 };

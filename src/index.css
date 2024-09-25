@@ -191,4 +191,29 @@
     2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
     font-gucina font-normal  rounded-[50px];
   }
+
+  .heroSecSubHead {
+    @apply text-[20px] leading-[20px]
+    font-gucina font-medium;
+  }
+
+  .heroHead {
+    @apply text-[80px] leading-[92px]
+    font-gucina font-bold;
+  }
+
+  .aboutBtn {
+    @apply text-[20px] leading-[30px]
+    
+    font-medium font-gucina;
+  }
+
+  .AboutUsHead {
+    @apply 2xl:text-[40px] 2xl:leading-[40px]
+    xl:text-[40px] xl:leading-[40px] 
+    lg:text-[30px] lg:leading-[40px]
+    md:text-[30px] md:leading-[80px]
+    
+    font-gucina font-bold;
+  }
 }
