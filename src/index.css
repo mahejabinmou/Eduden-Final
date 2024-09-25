@@ -198,7 +198,8 @@
   }
 
   .heroHead {
-    @apply text-[80px] leading-[92px]
+    @apply lg:text-[80px] lg:leading-[92px]
+    md:text-[60px] md:leading-[70px]
     font-gucina font-bold;
   }
 
@@ -215,5 +216,27 @@
     md:text-[30px] md:leading-[80px]
     
     font-gucina font-bold;
+  }
+
+  .popularCategoryHead {
+    @apply 2xl:text-[30px] 2xl:leading-[34.5px] 
+    xl:text-[16px] xl:leading-[34.5px] 
+    lg:text-[30px] lg:leading-[34.5px]
+    md:text-[30px] md:leading-[34.5px] 
+
+    font-bold font-gucina;
+  }
+  .popularCategoryPara {
+    @apply 2xl:text-[12px] 2xl:leading-[21px] 
+    xl:text-[10px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px]
+    md:text-[14px] md:leading-[21px] 
+
+    font-normal font-sans;
+  }
+
+  .allCoursesBtn {
+    @apply text-[16px] leading-[24px] px-[20px] py-[5px]
+    font-gucina font-semibold;
   }
 }

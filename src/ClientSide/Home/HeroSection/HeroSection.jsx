@@ -83,7 +83,10 @@ const HeroSection = () => {
                   </button>
 
                   <div className="flex flex-row justify-between items-center">
-                    <h1 className="heroHead mb-[25px] text-[#FFFFFF] max-w-[738px]">
+                    <h1
+                      className="heroHead mb-[25px] text-[#FFFFFF] 2xl:max-w-[700px]
+                    xl:max-w-[700px]  lg:max-w-[700px] max-w-[700px]"
+                    >
                       Where Learning Meets Imagination & Innovation!
                     </h1>
                     <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[20px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-[20px]">

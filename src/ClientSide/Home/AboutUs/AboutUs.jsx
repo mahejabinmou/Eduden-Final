@@ -3,7 +3,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 const AboutUs = () => {
   return (
     <div className="text-[#FFFFFF] sectionGap">
-      <div className="flex lg:flex-row  flex-col justify-between items-center 2xl-0">
+      <div className="flex lg:flex-row  flex-col justify-between items-center ">
         <h1 className="AboutUsHead mb-[30px]">
           {" "}
           <span className="border-b-4 border-[#A8FF57]">
@@ -13,6 +13,7 @@ const AboutUs = () => {
         </h1>
         <p
           className="joinClanSubPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px]
+          
         "
         >
           Well, because we’re not your grandma’s boring old school! At Edu-Den,
