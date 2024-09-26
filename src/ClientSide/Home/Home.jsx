@@ -1,9 +1,14 @@
+import Faq from "../ContactUs/Faq/Faq";
+import JoinOurClan from "../CourseDetails/JoinOurClan/JoinOurClan";
+import Footer from "../Shared/Footer/Footer";
 import AboutUs from "./AboutUs/AboutUs";
 import AllCourses from "./AllCourses/AllCourses";
 import HeroSection from "./HeroSection/HeroSection";
+import NeedHelp from "./NeedHelp/NeedHelp";
 import OurCollaboration from "./OurCollaboration/OurCollaboration";
 import PopularCategories from "./PopularCategories/PopularCategories";
 import TrendingCourses from "./TrendingCourses/TrendingCourses";
+import UpcominEvents from "./UpcomingEvents/UpcominEvents";
 import Video from "./Video/Video";
 
 const Home = () => {
@@ -16,6 +21,11 @@ const Home = () => {
       {/* <AllCourses></AllCourses> */}
       <Video></Video>
       <OurCollaboration></OurCollaboration>
+      <JoinOurClan></JoinOurClan>
+      <UpcominEvents></UpcominEvents>
+      <NeedHelp></NeedHelp>
+      <Faq></Faq>
+      <Footer></Footer>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const JoinOurClan = () => {
         <div className="relative">
           <div
             style={{
-              backgroundImage: `url("https://i.ibb.co.com/n0TJfNH/coursedeatails-66f1189b9fd55.webp")`,
+              backgroundImage: `url("https://i.ibb.co.com/yhFHHCt/rectangle-139-66f4ca32c7136.webp")`,
             }}
             className="bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center"
           ></div>

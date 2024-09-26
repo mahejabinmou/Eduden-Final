@@ -7,6 +7,9 @@ export default {
         gucina: ["Gucina"],
         sans: ["Open Sans"],
       },
+      screens: {
+        xs: "350px",
+      },
     },
   },
   plugins: [],

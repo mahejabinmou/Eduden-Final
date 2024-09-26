@@ -131,7 +131,7 @@
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
     xl:text-[18px] xl:leading-[27px] 
     lg:text-[18px] lg:leading-[27px] 
-    md:text-[18px] md:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
 
     font-medium font-sans;
   }
@@ -238,5 +238,160 @@
   .allCoursesBtn {
     @apply text-[16px] leading-[24px] px-[20px] py-[5px]
     font-gucina font-semibold;
+  }
+
+  .upcomingEvent {
+    @apply text-[14px] leading-[16.1px] 
+    font-sans font-semibold;
+  }
+
+  .upcomingHead {
+    @apply text-[30px] leading-[34.5px] 
+    font-gucina font-bold;
+  }
+
+  .upcomingPara {
+    @apply text-[14px] leading-[21px] 
+    font-gucina font-normal;
+  }
+
+  .upcomingTitle {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[70px] lg:leading-[80px]
+    md:text-[70px] md:leading-[80px]
+    text-[40px] leading-[80px]
+    
+    font-gucina font-bold;
+  }
+
+  .upComingSubTitle {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[12px] leading-[20px] 
+
+    font-medium font-sans;
+  }
+
+  .NeedHelpHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px]
+    xl:text-[70px] xl:leading-[80px] 
+    lg:text-[50px] lg:leading-[80px]
+    md:text-[40px] md:leading-[80px]
+    
+    font-gucina font-bold;
+  }
+
+  .needHelpPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+
+    font-medium font-sans;
+  }
+
+  .NeedHelpbuttonPara {
+    @apply xl:text-[18px] xl:leading-[27px] 
+    text-[12px] leading-[20px] 
+
+    font-semibold font-sans;
+  }
+
+  .footerTopImg {
+    @apply h-[57px] w-[57px] lg:h-[65px] lg:w-[65px] xl:h-[80px] xl:w-[80px]
+    /* ======= */
+    2xl:h-[171px] 2xl:w-[171px];
+  }
+
+  .footerTopTitle {
+    @apply text-[20px] leading-[27px]
+    /* ======== */
+    xs:text-[16px] xs:leading-[27px]
+    /* ami */
+    /* ======= */ 
+    /* === */
+    md:text-[22px] lg:text-[19px] xl:text-[25px] 2xl:text-[48px] 2xl:leading-[50px]
+    /* =========== */
+    font-gucina font-bold;
+  }
+
+  .footerTopSubParent {
+    @apply pt-[25px] px-[25px] pb-[25px] space-x-[20px]
+    /* ========== */
+    md:pt-[50px] md:px-[50px] md:pb-[40px] md:space-x-[20px]
+    /* ========== */
+    lg:pt-[40px] lg:px-[40px] lg:pb-[40px] lg:space-x-[30px]
+    /* ========== */
+    xl:pt-[80px] xl:px-[80px] xl:pb-[80px] xl:space-x-[40px]
+    /* ======== */
+    flex justify-center items-center;
+  }
+
+  .footerTopBtn {
+    @apply text-[14px] leading-[24px] py-[4px] px-[17px] md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[18px] lg:text-[16px] lg:leading-[28px] lg:py-[8px] lg:px-[20px] xl:text-[16px] xl:leading-[28px] xl:py-[8px] xl:px-[20px] 2xl:text-[18px] 2xl:leading-[28px] 2xl:py-[24px] 2xl:px-[28px]
+    /* ============= */
+    font-gucina font-medium text-white bg-[#7EA254] rounded-full;
+  }
+
+  .footerTopnumber {
+    @apply text-[20px] leading-[24px] pt-[15px] pb-[25px]
+    /* ============= */
+    font-gucina font-bold text-[#7EA254];
+  }
+
+  .footerLogoparent {
+    @apply h-[44px] max-w-[207px];
+  }
+
+  .footerSocailIcon {
+    @apply text-[20px] md:text-[25px];
+  }
+
+  .footerMenuText {
+    @apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-gucina font-bold text-white;
+  }
+
+  .footerHeaderLogoText {
+    @apply text-[14px] leading-[21px]  
+    md:text-[14px] md:leading-[21px] 
+    lg:text-[14px] lg:leading-[23px]   
+    xl:text-[14px] xl:leading-[21px]  
+    2xl:text-[14px] 2xl:leading-[21px] 
+    md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]
+    font-gucina font-normal text-white;
+  }
+
+  .footerMenuTextTitle {
+    @apply text-[20px] leading-[30px]  pb-[15px] 
+    md:text-[20px] md:leading-[30px]  
+    /* ========== */
+    lg:text-[20px] lg:leading-[30px]   
+    /* ========== */
+    xl:text-[20px] xl:leading-[30px]   
+    /* ========== */
+    2xl:text-[20px] 2xl:leading-[30px] 
+    /* ========== */
+
+    md:pb-[20px] lg:pb-[20px] xl:pb-[20px] 2xl:pb-[20px]
+    /* ========== */
+    font-gucina font-bold text-white;
+  }
+
+  .copyWritePara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+
+    font-[300px] font-sans;
   }
 }

@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Navbar from "./ClientSide/Shared/Navbar/Navbar";
 import Footer from "./ClientSide/Shared/Footer/Footer";
+import Courses from "./ClientSide/Courses/Courses";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: "/contactUs",
     element: <ContactUs></ContactUs>,
+  },
+  {
+    path: "/courses",
+    element: <Courses></Courses>,
   },
 ]);
 
