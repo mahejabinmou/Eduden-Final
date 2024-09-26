@@ -3,13 +3,13 @@
 
 const FreeWebinarCard = ({ category, time, title, img }) => {
     return (
-        <div className="flex p-[15px] items-center justify-between bg-white gap-5 rounded-[16px]">
+        <div className="flex p-3 md:p-[15px] items-center justify-between bg-white gap-3 rounded-[16px]">
             <div>
                 <img
                     src={img}
                     alt="webinar"
                     width={272}
-                    className="max-w-[272px]"
+                    className="max-w-[148px]"
                 />
             </div>
             <div>
@@ -29,7 +29,7 @@ const FreeWebinarCard = ({ category, time, title, img }) => {
                     <p className="text-[#3D7D01] text-[12px]">{time}</p>
                 </div>
                 <div className="mt-2">
-                    <h4 className="text-[#1A1A1A] text-[16px] font-semibold font-sans">
+                    <h4 className="text-[#1A1A1A] text-[14px] md:text-[16px] font-semibold font-sans">
                         {title}
                     </h4>
                 </div>

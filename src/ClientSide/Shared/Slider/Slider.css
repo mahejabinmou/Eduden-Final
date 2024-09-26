@@ -8,7 +8,6 @@
     font-size: 18px;
     background: #fff;
 
-    /* Center slide text vertically */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -26,14 +25,31 @@
 }
 
 .upCmnCrs .swiper-slide {
-    border-radius: 20px;
+    border-radius: 100px;
 }
-.swiper-slide.upCmnhover {
+.swiper-slide.upCmnhover,
+.courses.upCmnhover {
     background: #a8ff57 !important;
 }
 
 .webNarContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
-    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .webNarContainer {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+    }
+    .upCmnCrs .swiper-slide {
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    .webNarContainer {
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+        gap: 32px;
+    }
 }

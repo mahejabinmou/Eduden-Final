@@ -6,14 +6,21 @@ import TitleContainer from "../../ClientSide/Shared/TitleContainer/TitleContaine
 import { BsArrowRight } from "react-icons/bs"
 import CardFotter from "./CardFotter"
 
-const UpComingCrsDetails = ({ title, rating, price, crsDetails, category }) => {
+const UpComingCrsDetails = ({
+    title,
+    rating,
+    price,
+    crsDetails,
+    category,
+    ...rest
+}) => {
     return (
-        <div className="px-[25px] text-left h-full">
+        <div className="px-[25px] md:px-4 2xl:px-[25px] text-left" {...rest}>
             <div className="flex items-center justify-between mt-[35px]">
                 <h4 className="text-[#A8FF57] rounded-[50px] bg-[#010101] px-[9px] py-[5px]">
                     {category}
                 </h4>
-                <div className="flex items-center gap-[10px]">
+                <div className="flex items-center gap-[5px] 2xl:gap-[10px]">
                     {[1, 2, 3, 4, 5].map((i, index) => {
                         return (
                             <div key={index}>
@@ -39,7 +46,7 @@ const UpComingCrsDetails = ({ title, rating, price, crsDetails, category }) => {
                 <TitleContainer
                     title={"Enroll Now"}
                     className={
-                        "px-[18px] py-2 bg-[#000] text-[#A8FF57] rounded-[50px] "
+                        "px-[18px] py-2 bg-[#000] text-[#A8FF57] rounded-[50px] text-nowrap"
                     }
                 />
                 <BsArrowRight size={50} color="black" />
