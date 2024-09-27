@@ -28,25 +28,26 @@ const OurCollaboration = () => {
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-[32px]">
-        <div className="py-[70px] px-[30px]  bg-[#FFFFFF0D]">
+        <div className="py-[72px] px-[30px]  bg-[#FFFFFF0D] flex items-center justify-center">
           <img
+            className=""
             src="https://i.ibb.co.com/s6mR8v2/group-1006-66f4c462be331.webp"
             alt=""
           />
         </div>
-        <div className="py-[70px] px-[30px]  bg-[#FFFFFF0D]">
+        <div className="py-[72px] px-[30px]  bg-[#FFFFFF0D] flex items-center justify-center">
           <img
             src="https://i.ibb.co.com/BT4jTSc/group-150-66f4c4e2bdff1.webp"
             alt=""
           />
         </div>
-        <div className="py-[70px] px-[30px]  bg-[#FFFFFF0D]">
+        <div className="py-[72px] px-[30px]  bg-[#FFFFFF0D] flex items-center justify-center">
           <img
             src="https://i.ibb.co.com/N9hDfXT/layer-1-2-66f4c5223ede6.webp"
             alt=""
           />
         </div>
-        <div className="py-[70px] px-[30px]  bg-[#FFFFFF0D]">
+        <div className="py-[72px] px-[30px]  bg-[#FFFFFF0D] flex items-center justify-center">
           <img
             src="https://i.ibb.co.com/FHLkNRP/layer-1-4-66f4c5bdc0e71.webp"
             alt=""

@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
-import { MdArrowRightAlt, MdClose } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "./Navbar.css";
+import { MdClose } from "react-icons/md";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -17,15 +17,6 @@ const Navbar = () => {
   const toggleDropdown2 = () => {
     setIsDropdown2Open(!isDropdown2Open);
   };
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
-  const isAboutPage = location.pathname === "/About";
-  const isBlogsPage = location.pathname === "/blogs";
-  const isContactPage = location.pathname === "/contactUs";
-  const isStudyDistention = location.pathname === "/studyDistention";
-  const isStudyDistention2 = location.pathname === "/studyDistention2";
-  const isPhotoGallery = location.pathname === "/photo-gallery";
-  const isVideoGallery = location.pathname === "/video-gallery";
 
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -73,7 +64,8 @@ const Navbar = () => {
           </div>
           <div>
             <IoMenu
-              className={` ${isHomePage ? "text-white" : "text-black/[.8]"}`}
+              className="text-[#A8FF57] h-[55px] w-full
+              "
               onClick={handleMenu}
             ></IoMenu>
           </div>
@@ -84,7 +76,7 @@ const Navbar = () => {
                   <Link to="/">
                     <img
                       className="h-full w-full object-cover"
-                      src="https://i.ibb.co/7R7kn56/logo-66ced2cb8a688.webp"
+                      src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp"
                       alt="brand logo"
                     />
                   </Link>
@@ -93,58 +85,32 @@ const Navbar = () => {
                   className="md:text-[38px] text-[35px] font-title"
                   onClick={handleClose}
                 >
-                  <MdClose className="text-[#7EA254]" />
+                  <MdClose className="text-[#A8FF57]" />
                 </div>
               </div>
-              <div className="mobileMenuParent">
+              <div className="mobileMenuParent23">
                 <Link to="/" onClick={menuClose}>
-                  <li
-                    className={` ${
-                      isHomePage
-                        ? "text-[#F6941E] hover:text-[#F6941E]"
-                        : "text-black hover:text-[#F6941E]"
-                    }`}
-                  >
-                    Home
-                  </li>
+                  <li className="text-black hover:text-[#A8FF57]">Home</li>
                 </Link>
-                <Link to="/About" onClick={menuClose}>
-                  <li
-                    className={` ${
-                      isAboutPage ? "text-[#f6941e]" : "text-black"
-                    }`}
-                  >
-                    About Us
-                  </li>
+                <Link to="/Aboutus" onClick={menuClose}>
+                  <li className="text-black">About Us</li>
                 </Link>
 
                 <li className="relative">
                   <button
                     onClick={toggleDropdown2}
-                    className="flex items-center w-full text-left px-0 py-2 text-black hover:text-[#f6941e] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#A8FF57] focus:outline-none"
                   >
-                    Study Distention
+                    Courses
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdown2Open && (
-                    <ul className="ml-4 mt-2 w-full bg-[#F5F5F5] text-black rounded shadow-lg">
-                      <Link to="/studyDistention">
-                        <li
-                          className={`px-4 py-2 ${
-                            isStudyDistention ? "text-[#F6941E]" : "text-black"
-                          }`}
-                        >
-                          Study Distention
-                        </li>
+                    <ul className="mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
+                      <Link to="/courses1">
+                        <li className="px-4 py-[5px] text-black">Courses 1</li>
                       </Link>
-                      <Link to="/studyDistention2">
-                        <li
-                          className={`px-4 py-2 ${
-                            isStudyDistention2 ? "text-[#F6941E]" : "text-black"
-                          }`}
-                        >
-                          Study Distention 2
-                        </li>
+                      <Link to="/courses2">
+                        <li className="text-black px-4 pb-[5px] ">Courses 2</li>
                       </Link>
                     </ul>
                   )}
@@ -152,51 +118,33 @@ const Navbar = () => {
                 <li className="relative">
                   <button
                     onClick={toggleDropdown}
-                    className="flex items-center w-full text-left px-0 py-2 text-black hover:text-[#f6941e] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#A8FF57] focus:outline-none"
                   >
-                    Gallery
+                    What’s New
                     {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdownOpen && (
-                    <ul className="ml-4 mt-2 w-full bg-[#F5F5F5] text-black rounded shadow-lg">
-                      <Link to="/photo-gallery">
-                        <li
-                          className={`px-4 py-2 ${
-                            isPhotoGallery ? "text-[#F6941E]" : "text-black"
-                          }`}
-                        >
-                          Photo Gallery
+                    <ul className=" mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
+                      <Link to="/whatsnew1">
+                        <li className="px-4 py-[5px] text-black hover:text-[#A8FF57]">
+                          What’s New 1
                         </li>
                       </Link>
-                      <Link to="/video-gallery">
-                        <li
-                          className={`px-4 py-2 ${
-                            isVideoGallery ? "text-[#F6941E]" : "text-black"
-                          }`}
-                        >
-                          Video Gallery
+                      <Link to="/whatsnew2">
+                        <li className="px-4 pb-[5px] text-black hover:text-[#A8FF57]">
+                          What’s New 2
                         </li>
                       </Link>
                     </ul>
                   )}
                 </li>
 
-                <Link to="/blogs" onClick={menuClose}>
-                  <li
-                    className={` ${
-                      isBlogsPage ? "text-[#f6941e]" : "text-black"
-                    }`}
-                  >
-                    Blogs
-                  </li>
+                <Link to="/verify" onClick={menuClose}>
+                  <li className="text-black hover:text-[#A8FF57]">Verify</li>
                 </Link>
 
                 <Link to="/contactUs">
-                  <li
-                    className={` ${
-                      isContactPage ? "text-[#f6941e]" : "text-black"
-                    }`}
-                  >
+                  <li className="text-black hover:text-[#A8FF57]">
                     Contact us
                   </li>
                 </Link>

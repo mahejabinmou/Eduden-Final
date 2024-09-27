@@ -7,6 +7,7 @@ import HeroSection from "./HeroSection/HeroSection";
 import NeedHelp from "./NeedHelp/NeedHelp";
 import OurCollaboration from "./OurCollaboration/OurCollaboration";
 import PopularCategories from "./PopularCategories/PopularCategories";
+import Testimonial from "./Testimonial/Testimonial";
 import TrendingCourses from "./TrendingCourses/TrendingCourses";
 import UpcominEvents from "./UpcomingEvents/UpcominEvents";
 import Video from "./Video/Video";
@@ -23,6 +24,7 @@ const Home = () => {
       <OurCollaboration></OurCollaboration>
       <JoinOurClan></JoinOurClan>
       <UpcominEvents></UpcominEvents>
+      <Testimonial></Testimonial>
       <NeedHelp></NeedHelp>
       <Faq></Faq>
       <Footer></Footer>
