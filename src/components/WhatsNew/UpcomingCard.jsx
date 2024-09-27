@@ -24,16 +24,16 @@ import CardFotter from "./CardFotter"
 } | {        */
 const UpcomingCard = ({ category, price, title, rating, img, description }) => {
     return (
-        <div className="text-left">
-            <div className="relative">
-                <img src={img} alt="course picture" />
+        <div className="text-left rounded-[20px] bg-white">
+            <div className="relative ">
+                <img src={img} alt="course picture" className="w-full" />
                 <div className="absolute w-[102px] h-[102px] rounded-full bg-[#010101] flex items-center justify-center right-[35px] -translate-y-1/2">
                     <h4 className="font-gucina text-[#93DF4C] font-bold text-[35px]">
                         {price}
                     </h4>
                 </div>
             </div>
-            <div className=" ml-[25px]">
+            <div className="ml-[25px] md:ml-4 2xl:ml-[25px] bg-white rounded-b-[20px]">
                 <div className="mt-[71px] flex gap-[25px]">
                     <h4 className="font-gucina text-[#A8FF57] text-[20px] font-bold leading-[23px] py-[5px] px-[9px] rounded-[50px] bg-[#010101]">
                         {category}

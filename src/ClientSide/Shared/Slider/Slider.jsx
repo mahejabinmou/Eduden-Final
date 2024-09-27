@@ -6,34 +6,33 @@ import { upComingCourses } from "../../../constant/dummyJson"
 import "./Slider.css"
 import { useState } from "react"
 import UpComingCrsDetails from "../../../components/WhatsNew/UpComingCrsDetails"
+import handleMouseEnter from "../../../helpers/handleMouseEnter.js"
 
 const Slider = () => {
     const [isHover, setIsHover] = useState("")
-    const handleMouseEnter = (id) => {
-        setIsHover(id)
-    }
-    const handleMouseLeave = () => {
-        setIsHover("")
-        console.log("leave")
-    }
+
     console.log(isHover)
     return (
-        <div className="upCmnCrs" onMouseLeave={handleMouseLeave}>
+        <div className="upCmnCrs" onMouseLeave={() => setIsHover("")}>
             <Swiper
-                slidesPerView={3}
-                spaceBetween={26}
+                slidesPerView={1}
                 autoplay={{
                     delay: 3000,
                     disableOnInteraction: false, //
                 }}
                 loop={true}
                 breakpoints={{
-                    1620: {
-                        slidesPerView: 4,
+                    1440: {
                         spaceBetween: 26,
+                        slidesPerView: 4,
                     },
-                    0: {
-                        slidesPerView: 3, // 3 slides for smaller screens
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
                     },
                 }}
                 pagination={false}
@@ -43,18 +42,23 @@ const Slider = () => {
             >
                 {upComingCourses.map((courseDetails) => (
                     <SwiperSlide
-                        className={`${
+                        className={` ${
                             isHover === courseDetails.id && "upCmnhover"
-                        } cursor-pointer`}
+                        } cursor-pointer `}
                         key={courseDetails.id}
-                        onMouseEnter={() => handleMouseEnter(courseDetails.id)}
-                        onMouseLeave={handleMouseLeave}
+                        onMouseEnter={() =>
+                            handleMouseEnter(courseDetails.id, setIsHover)
+                        }
+                        onMouseLeave={() => setIsHover("")}
                     >
                         {isHover !== courseDetails.id ? (
                             <UpcomingCard
                                 {...courseDetails}
-                                onMouseEnter={(e) =>
-                                    handleMouseEnter(e, courseDetails.id)
+                                onMouseEnter={() =>
+                                    handleMouseEnter(
+                                        courseDetails.id,
+                                        setIsHover
+                                    )
                                 }
                             />
                         ) : (
