@@ -409,4 +409,13 @@
     
     font-gucina font-bold;
   }
+
+  .aboutPageHero {
+    @apply 2xl:text-[50px] 2xl:leading-[65px]
+    xl:text-[50px] xl:leading-[65px] 
+    lg:text-[40px] lg:leading-[55px]
+    md:text-[50px] md:leading-[65px]
+    
+    font-gucina font-bold;
+  }
 }
