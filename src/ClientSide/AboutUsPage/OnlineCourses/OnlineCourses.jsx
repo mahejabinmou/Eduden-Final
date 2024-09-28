@@ -1,80 +1,41 @@
-import { IoMdLock } from "react-icons/io";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const OnlineCourses = () => {
   return (
-    <div className="text-[#FFFFFF] sectionGap">
-      <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-center ">
-        <h1 className="aboutPageHero mb-[30px] 2xl:max-w-[506px] xl:max-w-[506px] ">
-          We Providing The Best Quality Online Courses
-        </h1>
-        <p className="joinClanSubPara 2xl:max-w-[700px] xl:max-w-[700px] lg:max-w-[550px] ">
-          Well, because we’re not your grandma’s boring old school! At Edu-Den,
-          we’re the rebels of education, the mavericks of learning, and the
-          champions of fun-filled knowledge. We’ll teach you how to slay dragons
-          and code websites, all while cracking jokes and sipping on virtual
-          coffee. So, why settle for snooze-worthy lectures when you can join
-          the Edu-Den revolution? Let’s make learning epic together!Well,
-          because we’re not your grandma’s boring old school! At Edu-Den, we’re
-          the rebels of education, the mavericks of learning, and the champions
-          of fun-filled knowledge. We’ll teach you how to slay dragons and code
-          websites, all while cracking jokes and sipping on virtual coffee.
-        </p>
-      </div>
+    <div className="text-[#FFFFFF] ">
+      <div className="sectionGap">
+        <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-center ">
+          <h1 className="aboutPageHero mb-[30px] 2xl:max-w-[506px] xl:max-w-[506px] ">
+            We Providing The Best Quality Online Courses
+          </h1>
+          <p className="joinClanSubPara 2xl:max-w-[700px] xl:max-w-[700px] lg:max-w-[550px] ">
+            Well, because we’re not your grandma’s boring old school! At
+            Edu-Den, we’re the rebels of education, the mavericks of learning,
+            and the champions of fun-filled knowledge. We’ll teach you how to
+            slay dragons and code websites, all while cracking jokes and sipping
+            on virtual coffee. So, why settle for snooze-worthy lectures when
+            you can join the Edu-Den revolution? Let’s make learning epic
+            together!Well, because we’re not your grandma’s boring old school!
+            At Edu-Den, we’re the rebels of education, the mavericks of
+            learning, and the champions of fun-filled knowledge. We’ll teach you
+            how to slay dragons and code websites, all while cracking jokes and
+            sipping on virtual coffee.
+          </p>
+        </div>
 
-      <div className="mt-[50px]">
-        <button
-          className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
+        <div className="mt-[50px]">
+          <button
+            className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
     border border-[#A8FF57]"
-        >
-          Read More <MdArrowRightAlt />
-        </button>
+          >
+            Read More <MdArrowRightAlt />
+          </button>
+        </div>
       </div>
 
-      <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
-        <div className="hover:bg-[#A8FF57B2]/[.7] group h-[405px] rounded-[20px] text-center py-[58px] ">
-          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
-            <IoMdLock
-              size={30}
-              className=" group-hover:text-white text-[#000000]"
-            />
-          </div>
-
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
-            Cyber Security
-          </h1>
-          <p className="xl:mb-[50px]  lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
-          </p>
-        </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
-          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
-            <svg
-              width="30"
-              height="30"
-              viewBox="0 0 63 47"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-[#000000] group-hover:text-white"
-            >
-              <path d="M38.313 34.4156H9.75489C7.84038 34.4156 6.29053 32.8658 6.29053 30.9513V3.46435C6.29053 1.54984 7.84038 0 9.75489 0H53.5379C55.4524 0 57.0023 1.54984 57.0023 3.46435V10.8489H54.2673V3.46435C54.2673 3.0541 53.9482 2.73502 53.5379 2.73502H9.75489C9.34464 2.73502 9.02554 3.0541 9.02554 3.46435V30.9513C9.02554 31.3615 9.34464 31.6806 9.75489 31.6806H38.313V34.4156Z" />
-              <path d="M38.313 46.8828H3.07687C1.39028 46.86 0 45.4697 0 43.7832V40.1365C0 38.4499 1.39028 37.0596 3.07687 37.0596H38.313V39.7946H3.07687C2.89454 39.7946 2.73501 39.9541 2.73501 40.1365V43.7832C2.73501 43.9655 2.89454 44.125 3.07687 44.125H38.313V46.8828Z" />
-              <path d="M59.1674 46.8832H44.4439C42.5522 46.8832 41.0251 45.3561 41.0251 43.4644V16.7752C41.0251 14.8835 42.5522 13.3564 44.4439 13.3564H59.1674C61.0591 13.3564 62.5862 14.8835 62.5862 16.7752V43.4644C62.5862 45.3561 61.0591 46.8832 59.1674 46.8832ZM44.4439 16.1143C44.0792 16.1143 43.7602 16.4105 43.7602 16.798V43.4872C43.7602 43.8519 44.0565 44.171 44.4439 44.171H59.1674C59.5321 44.171 59.8512 43.8747 59.8512 43.4872V16.798C59.8512 16.4333 59.5549 16.1143 59.1674 16.1143H44.4439Z" />
-              <path d="M57.3669 3.46436H53.9481V10.8489H57.3669V3.46436Z" />
-              <path d="M51.8057 41.2764C52.5861 41.2764 53.2187 40.6437 53.2187 39.8633C53.2187 39.0829 52.5861 38.4502 51.8057 38.4502C51.0252 38.4502 50.3926 39.0829 50.3926 39.8633C50.3926 40.6437 51.0252 41.2764 51.8057 41.2764Z" />
-            </svg>
-          </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
-            UI/UX Design
-          </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
-          </p>
-        </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+      <div className="sectionGap  grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
+        <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -95,15 +56,72 @@ const OnlineCourses = () => {
             </svg>
           </div>
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
-            Web Development
+            Life Time Access
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
+            labore dolore magna.
           </p>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 61 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+            >
+              <path
+                d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
+                fill="currentColor"
+              />
+              <path
+                d="M45.706 30.2776C45.3636 30.2776 44.9983 30.1407 44.7472 29.8667C44.2222 29.3417 44.2222 28.4743 44.7472 27.9264L57.1196 15.5541L44.519 2.95352C43.994 2.4285 43.994 1.56107 44.519 1.01321C45.044 0.465362 45.9114 0.488189 46.4593 1.01321L61.0002 15.5541L46.6875 29.8667C46.4136 30.1407 46.0713 30.2776 45.7288 30.2776H45.706Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+            Life Time Access
+          </h1>
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
+            labore dolore magna.
+          </p>
+        </div>
+        <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 61 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+            >
+              <path
+                d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
+                fill="currentColor"
+              />
+              <path
+                d="M45.706 30.2776C45.3636 30.2776 44.9983 30.1407 44.7472 29.8667C44.2222 29.3417 44.2222 28.4743 44.7472 27.9264L57.1196 15.5541L44.519 2.95352C43.994 2.4285 43.994 1.56107 44.519 1.01321C45.044 0.465362 45.9114 0.488189 46.4593 1.01321L61.0002 15.5541L46.6875 29.8667C46.4136 30.1407 46.0713 30.2776 45.7288 30.2776H45.706Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+            Expert Instructors
+          </h1>
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
+            labore dolore magna.
+          </p>
+        </div>
+
+        <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -152,11 +170,11 @@ const OnlineCourses = () => {
             </svg>
           </div>
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
-            Graphic Design
+            Lowest Price
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
+            labore dolore magna.
           </p>
         </div>
       </div>

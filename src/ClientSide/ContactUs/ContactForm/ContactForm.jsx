@@ -1,6 +1,4 @@
 import { useRef, useState } from "react";
-import { IoCallSharp } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -32,7 +30,7 @@ const ContactForm = () => {
     setModalVisible(false);
   };
   return (
-    <div className="sectionPadding">
+    <div className="sectionGap">
       <div className="lg:grid grid-cols-2 gap-x-[100px] mx-[89px] justify-between items-center text-white">
         <div className=" h-[731px]">
           <img

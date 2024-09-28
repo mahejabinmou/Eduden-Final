@@ -27,7 +27,7 @@ const HeroSection = () => {
     <div className="">
       <Navbar></Navbar>
 
-      <div className="sectionGap  relative">
+      <div className="mt-[50px]  relative">
         {/* mobile */}
         {/* Slider Container */}
         <div className="slider-container  md:hidden block ">

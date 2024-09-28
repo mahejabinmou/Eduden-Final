@@ -106,11 +106,13 @@ const Navbar = () => {
                   </button>
                   {isDropdown2Open && (
                     <ul className="mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
-                      <Link to="/courses1">
-                        <li className="px-4 py-[5px] text-black">Courses 1</li>
+                      <Link to="/courses">
+                        <li className="px-4 py-[5px] text-black">Courses </li>
                       </Link>
-                      <Link to="/courses2">
-                        <li className="text-black px-4 pb-[5px] ">Courses 2</li>
+                      <Link to="/courseDetails">
+                        <li className="text-black px-4 pb-[5px] ">
+                          Courses Details
+                        </li>
                       </Link>
                     </ul>
                   )}
@@ -125,9 +127,9 @@ const Navbar = () => {
                   </button>
                   {isDropdownOpen && (
                     <ul className=" mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
-                      <Link to="/whatsnew1">
+                      <Link to="/whatsnew">
                         <li className="px-4 py-[5px] text-black hover:text-[#A8FF57]">
-                          What’s New 1
+                          What’s New
                         </li>
                       </Link>
                       <Link to="/whatsnew2">
@@ -191,15 +193,15 @@ const Navbar = () => {
 
                   {/* Dropdown Menu */}
                   {isDropdown2Open && (
-                    <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg">
-                      <Link to="/whatsnew">
+                    <ul className="absolute left-0 mt-2 w-40 bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
+                      <Link to="/courses">
                         {" "}
-                        <li className="px-4 py-2 text-[14px] text-[#FFFFFF] hover:text-[#A8FF57]">
-                          Course 1
+                        <li className="px-4 py-2 text-[14px] text-black hover:text-[#A8FF57]">
+                          Course
                         </li>
                       </Link>
-                      <li className="px-4 py-2 text-[14px] text-[#FFFFFF] hover:text-[#A8FF57]">
-                        <Link to="/studyDistention2">Course 2</Link>
+                      <li className="px-4 py-2 text-[14px] text-black hover:text-[#A8FF57]">
+                        <Link to="/courseDetails">Course Details</Link>
                       </li>
                     </ul>
                   )}
@@ -217,12 +219,12 @@ const Navbar = () => {
 
                   {/* Dropdown Menu */}
                   {isDropdownOpen && (
-                    <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg">
-                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
-                        <Link to="/photo-gallery">whats new 1</Link>
+                    <ul className="absolute left-20 mt-2 w-40 bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
+                      <li className="px-4 py-2 text-black hover:text-[#A8FF57]">
+                        <Link to="/whatsnew">whats new 1</Link>
                       </li>
-                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
-                        <Link to="/video-gallery">whats new 2</Link>
+                      <li className="px-4 py-2 text-black hover:text-[#A8FF57]">
+                        <Link to="/whatsnewdetails">whats new details </Link>
                       </li>
                     </ul>
                   )}

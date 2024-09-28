@@ -254,25 +254,10 @@ const Footer = () => {
           </div>
           <hr className="border-1 border-[#FFFFFF]" />
 
-          <div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
-            <div
-              className="flex justify-center items-center space-x-[40px]
-          "
-            >
-              <p
-                className="copyWritePara
- "
-              >
+          <div className="pt-[25px] px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
+            <div className="flex justify-center items-center space-x-[40px]">
+              <p className="copyWritePara">
                 Copyright © 2024 Edu Den Powered by Ethical Den
-                {/* <span>
-                <Link
-                  to="https://www.ethicalden.com/"
-                  target="_blank"
-                  className="underline"
-                >
-                  Ethical Den
-                </Link>
-              </span> */}
               </p>
             </div>
           </div>
