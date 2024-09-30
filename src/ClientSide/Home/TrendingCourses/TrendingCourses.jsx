@@ -1,8 +1,8 @@
 const TrendingCourses = () => {
   return (
     <div className="sectionGap">
-      <div className="  text-white flex flex-col lg:flex-row items-center justify-between">
-        <h1 className="AboutUsHead  ">
+      <div className="  text-white flex flex-col lg:flex-row md:items-center items-start justify-between  ">
+        <h1 className="AboutUsHead  pb-[20px]">
           Trending <span className="border-b-4 border-[#A8FF57]">Courses</span>
         </h1>
         <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[700px] lg:max-w-[600px] ">
@@ -17,7 +17,7 @@ const TrendingCourses = () => {
         </p>
       </div>
 
-      <div className="flex flex-row items-center gap-x-[20px] mt-[80px]">
+      <div className="flex md:flex-row flex-col items-center gap-[20px] mt-[80px]">
         <div>
           <img
             src="https://i.ibb.co.com/VpXpTwd/rectangle-108-66f3daaa27fd4.webp"
@@ -25,7 +25,7 @@ const TrendingCourses = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 items-center gap-[20px]">
+        <div className="grid md:grid-cols-2  grid-cols-1 items-center gap-[20px]">
           <div>
             <img
               src="https://i.ibb.co.com/1bgG01s/rectangle-120-66f3db2b9e8b1.webp"

@@ -8,7 +8,7 @@ export default {
         sans: ["Open Sans"],
       },
       screens: {
-        xs: "350px",
+        xs: "375px",
       },
     },
   },

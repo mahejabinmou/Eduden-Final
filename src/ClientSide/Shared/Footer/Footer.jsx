@@ -56,29 +56,92 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="text-white">
-              <h2 className="footerMenuTextTitle ">Quick Link</h2>
+            <div className="">
+              <h2 className="footerMenuTextTitle">Quick Link</h2>
               <Link to="/About">
-                <p className="footerMenuText ">Home</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px] ">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Home
+                </p>
               </Link>
               <Link to="/service">
-                <p className="footerMenuText">About</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  About
+                </p>
               </Link>
               <Link to="/membership">
-                {" "}
-                <p className="footerMenuText">Courses</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Courses
+                </p>
               </Link>
               <Link to="/event">
-                {" "}
-                <p className="footerMenuText">Contact</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Contact
+                </p>
               </Link>
             </div>
 
             <div className="text-white">
               <h2 className="footerMenuTextTitle">Learning platform</h2>
-              <p className="footerMenuText">YouTube</p>
-              <p className="footerMenuText">Facebook</p>
-              <p className="footerMenuText">Instagram</p>
+
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[16px] h-[16px] "
+                    src="https://i.ibb.co.com/S3ST2gG/group-4-66fa406b5db94.webp"
+                    alt=""
+                  />
+                </span>
+                YouTube
+              </p>
+
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[16px] h-[16px] "
+                    src="https://i.ibb.co.com/z8tBgyH/group-5-66fa4117cfb29.webp"
+                    alt=""
+                  />
+                </span>
+                Facebook
+              </p>
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[16px] h-[16px] "
+                    src="https://i.ibb.co.com/dbgJ823/group-1041-66fa414b43acc.webp"
+                    alt=""
+                  />
+                </span>
+                Instagram
+              </p>
             </div>
 
             <div className="text-white">
@@ -206,24 +269,89 @@ const Footer = () => {
             <div className="">
               <h2 className="footerMenuTextTitle">Quick Link</h2>
               <Link to="/About">
-                <p className="footerMenuText">Home</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Home
+                </p>
               </Link>
               <Link to="/service">
-                <p className="footerMenuText">About</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  About
+                </p>
               </Link>
               <Link to="/membership">
-                <p className="footerMenuText">Courses</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Courses
+                </p>
               </Link>
               <Link to="/event">
-                <p className="footerMenuText">Contact</p>
+                <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                  <span>
+                    <img
+                      className="w-[9px] h-[9px] "
+                      src="https://i.ibb.co.com/b294MBZ/vector-29-66fa3e2be48bf.webp"
+                      alt=""
+                    />
+                  </span>
+                  Contact
+                </p>
               </Link>
             </div>
 
             <div className="text-white">
               <h2 className="footerMenuTextTitle">Learning platform</h2>
-              <p className="footerMenuText">YouTube</p>
-              <p className="footerMenuText">Facebook</p>
-              <p className="footerMenuText">Instagram</p>
+
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[20px] h-[20px] "
+                    src="https://i.ibb.co.com/S3ST2gG/group-4-66fa406b5db94.webp"
+                    alt=""
+                  />
+                </span>
+                YouTube
+              </p>
+
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[20px] h-[20px] "
+                    src="https://i.ibb.co.com/z8tBgyH/group-5-66fa4117cfb29.webp"
+                    alt=""
+                  />
+                </span>
+                Facebook
+              </p>
+              <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+                <span>
+                  <img
+                    className="w-[20px] h-[20px] "
+                    src="https://i.ibb.co.com/dbgJ823/group-1041-66fa414b43acc.webp"
+                    alt=""
+                  />
+                </span>
+                Instagram
+              </p>
             </div>
 
             <div className="text-white">

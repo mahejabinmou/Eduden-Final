@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
 import Navbar from "../../Shared/Navbar/Navbar";
-import { MdArrowDownward, MdArrowRightAlt } from "react-icons/md";
+import { MdArrowDownward } from "react-icons/md";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiYoutube } from "react-icons/ci";
@@ -38,29 +38,88 @@ const HeroSection = () => {
                   backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
                 }}
                 className="
-            bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] xs:h-[65vh] md:h-[80vh]   lg:h-[100vh] 2xl:h-[100vh]"
+            bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
+
+              <div className="absolute inset-0 mx-[50px] ">
+                <div>
+                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
+                    WELCOME TO EDUDEN
+                  </button>
+
+                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
+                    Where Learning Meets Imagination & Innovation!
+                  </h1>
+
+                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+                    we're your one-stop destination for unlocking your potential
+                    and conquering the digital realm with confidence.
+                  </p>
+                </div>
+                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
+                  Discover More
+                </button>
+              </div>
             </div>
             {/* slider two */}
-            <div className="relative">
+            <div className="relative ">
               <div
                 style={{
                   backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
                 }}
                 className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] md:h-[80vh] xs:h-[65vh]  lg:h-[100vh]  "
+            bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
-            </div>
 
+              <div className="absolute inset-0 mx-[50px] ">
+                <div>
+                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
+                    WELCOME TO EDUDEN
+                  </button>
+
+                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
+                    Where Learning Meets Imagination & Innovation!
+                  </h1>
+
+                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+                    we're your one-stop destination for unlocking your potential
+                    and conquering the digital realm with confidence.
+                  </p>
+                </div>
+                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
+                  Discover More
+                </button>
+              </div>
+            </div>
             {/* slider three */}
-            <div className="relative">
+            <div className="relative ">
               <div
                 style={{
                   backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
                 }}
                 className="
-          bg-no-repeat bg-center bg-cover w-[100%] h-[80vh] md:h-[80vh]  xs:h-[65vh] lg:h-[80vh]  "
+            bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
+
+              <div className="absolute inset-0 mx-[50px] ">
+                <div>
+                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
+                    WELCOME TO EDUDEN
+                  </button>
+
+                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
+                    Where Learning Meets Imagination & Innovation!
+                  </h1>
+
+                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+                    we're your one-stop destination for unlocking your potential
+                    and conquering the digital realm with confidence.
+                  </p>
+                </div>
+                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
+                  Discover More
+                </button>
+              </div>
             </div>
           </Slider>
         </div>

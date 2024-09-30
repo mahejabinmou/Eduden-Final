@@ -1,13 +1,14 @@
 const ContactUsHero = () => {
   return (
-    <div className=" mt-[50px] ">
+    <div className="  ">
       <div className="  ">
         <div className="relative">
           <div
             style={{
               backgroundImage: `url("https://i.ibb.co.com/8DWrcYw/bg-66f7a99a0a4d3.webp")`,
             }}
-            className="bg-no-repeat bg-center bg-cover w-full h-[500px] flex justify-center items-center"
+            className="bg-no-repeat  bg-cover w-full md:h-[500px]
+            h-[300px] flex justify-center items-center"
           ></div>
 
           <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">

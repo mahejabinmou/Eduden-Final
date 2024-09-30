@@ -92,7 +92,7 @@ const Navbar = () => {
                 <Link to="/" onClick={menuClose}>
                   <li className="text-black hover:text-[#A8FF57]">Home</li>
                 </Link>
-                <Link to="/Aboutus" onClick={menuClose}>
+                <Link to="/about" onClick={menuClose}>
                   <li className="text-black">About Us</li>
                 </Link>
 

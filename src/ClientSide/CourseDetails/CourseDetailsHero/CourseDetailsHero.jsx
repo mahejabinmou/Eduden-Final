@@ -1,6 +1,6 @@
 const CourseDetailsHero = () => {
   return (
-    <div className=" mt-[50px] ">
+    <div className="  ">
       <div className="  ">
         <div className="relative">
           <div

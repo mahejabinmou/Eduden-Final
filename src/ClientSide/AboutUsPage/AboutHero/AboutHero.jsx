@@ -9,7 +9,7 @@ const AboutHero = () => {
             style={{
               backgroundImage: `url("https://i.ibb.co.com/sP74kk7/banner-17-66f786e96b74f.webp")`,
             }}
-            className="bg-no-repeat bg-center bg-cover w-full h-[500px] flex justify-center items-center"
+            className="bg-no-repeat bg-center bg-cover w-full h-[500px]  flex justify-center items-center"
           ></div>
 
           <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">

@@ -89,18 +89,21 @@
   .para {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
     xl:text-[18px] xl:leading-[27px] 
+    text-[5px] leading-[10px] 
 
     font-normal font-sans;
   }
 
   .buttonPara {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    text-[8px] leading-[12px]
 
     font-semibold font-sans;
   }
 
   .hoverbuttonPara {
     @apply 2xl:text-[12px] 2xl:leading-[18px] 
+    px-[30px] py-[6px]
 
     font-medium font-sans;
   }
@@ -125,6 +128,7 @@
     xl:text-[20px] xl:leading-[23px] 
     lg:text-[20px] lg:leading-[23px] 
     md:text-[20px] md:leading-[23px] 
+    text-[8px] leading-[9.2px] 
     
     font-gucina font-bold;
   }
@@ -133,6 +137,7 @@
     xl:text-[18px] xl:leading-[27px] 
     lg:text-[18px] lg:leading-[27px] 
     md:text-[16px] md:leading-[27px] 
+    text-[8px] leading-[12px]
 
     font-medium font-sans;
   }
@@ -142,6 +147,7 @@
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[70px] lg:leading-[80px]
     md:text-[70px] md:leading-[80px]
+    text-[16px] leading-[18.4px]
     
     font-gucina font-bold;
   }
@@ -150,6 +156,7 @@
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[50px] lg:leading-[80px]
     md:text-[40px] md:leading-[80px]
+    text-[35px] leading-[50px]
     
     font-gucina font-bold;
   }
@@ -182,7 +189,9 @@
   }
 
   .homeLargeAppoinMent {
-    @apply md:text-[16px] md:py-[8px] md:px-[16px]
+    @apply text-[14px] leading-[21px]
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
     xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
 
     lg:text-[16px] lg:py-[8px] lg:px-[16px]
@@ -194,13 +203,15 @@
   }
 
   .heroSecSubHead {
-    @apply text-[20px] leading-[20px]
+    @apply md:text-[20px] md:leading-[20px]
+    text-[12px] leading-[12px]
     font-gucina font-medium;
   }
 
   .heroHead {
     @apply lg:text-[80px] lg:leading-[92px]
     md:text-[60px] md:leading-[70px]
+    text-[20px] leading-[23px]
     font-gucina font-bold;
   }
 
@@ -237,7 +248,8 @@
   }
 
   .allCoursesBtn {
-    @apply text-[16px] leading-[24px] px-[20px] py-[5px]
+    @apply lg:text-[16px] lg:leading-[24px] lg:px-[20px] py-[5px]
+    text-[12px] leading-[20px] px-[16px] 
     font-gucina font-semibold;
   }
 

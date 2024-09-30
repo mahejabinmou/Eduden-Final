@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 const ContactCard = () => {
   return (
     <div className="sectionGap">
-      <div className=" text-white grid grid-cols-3 gap-x-[36px] items-center    ">
+      <div className=" text-white grid grid-cols-1 lg:grid-cols-3 gap-[36px] items-center    ">
         {/* Title */}
 
         <div className="bg-[#1A1A1A] rounded-[16px] py-[40px] pl-[40px] pr-[57px] ">

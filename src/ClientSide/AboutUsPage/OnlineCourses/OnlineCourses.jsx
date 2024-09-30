@@ -1,3 +1,4 @@
+import { CgArrowLongRight } from "react-icons/cg";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const OnlineCourses = () => {
@@ -34,7 +35,7 @@ const OnlineCourses = () => {
         </div>
       </div>
 
-      <div className="sectionGap  grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
+      <div className="sectionGap  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 items-center gap-[20px]">
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
@@ -62,6 +63,12 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
+          <div className="flex items-center justify-center">
+            <CgArrowLongRight
+              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
+              size={75}
+            />
+          </div>
         </div>
 
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
@@ -91,7 +98,14 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
+          <div className="flex items-center justify-center">
+            <CgArrowLongRight
+              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
+              size={75}
+            />
+          </div>
         </div>
+
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
@@ -119,6 +133,13 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
+
+          <div className="flex items-center justify-center">
+            <CgArrowLongRight
+              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
+              size={75}
+            />
+          </div>
         </div>
 
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
@@ -176,6 +197,13 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
+
+          <div className="flex items-center justify-center">
+            <CgArrowLongRight
+              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
+              size={75}
+            />
+          </div>
         </div>
       </div>
     </div>

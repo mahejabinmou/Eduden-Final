@@ -50,7 +50,7 @@ const Faq = () => {
       </div>
 
       {/* Call to Action Section */}
-      <div className=" bg-gray-900 rounded-lg py-[100px]  flex flex-col justify-center items-center">
+      <div className=" bg-gray-900 rounded-lg py-[100px] md:mt-[0px] mt-[50px] flex flex-col justify-center items-center">
         <div className="mb-[35px]">
           <BiMessageDetail size={121} />
         </div>
