@@ -1,14 +1,16 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import { useState } from "react"
 import { verifyImg } from "../../constant/images"
 
-const VerifyForm = () => {
+const VerifyForm = ({ setIsOkay, setIsErro }) => {
     const [formInput, setFormInput] = useState({ name: "", certificate: "" })
     const handleFrom = (e) => {
         e.preventDefault()
+        setIsOkay(true)
     }
-    console.log(formInput)
     return (
-        <div className="flex items-center justify-between gap-7 flex-col md:flex-row">
+        <div className="flex  items-center justify-between gap-7 flex-col md:flex-row">
             <div>
                 <img
                     src={verifyImg}

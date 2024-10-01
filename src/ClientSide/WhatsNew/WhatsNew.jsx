@@ -1,6 +1,5 @@
 import FreeWebinar from "../../components/WhatsNew/FreeWebinar"
 import UpcomingCourses from "../../components/WhatsNew/UpcomingCourses"
-import ContactUsHero from "../ContactUs/ContactUsHero/ContactUsHero"
 import UpcominEvents from "../Home/UpcomingEvents/UpcominEvents"
 import Footer from "../Shared/Footer/Footer"
 import Navbar from "../Shared/Navbar/Navbar"
