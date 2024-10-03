@@ -1,6 +1,6 @@
 const UserSidebar = () => {
   return (
-    <div className="w-64 bg-black p-4 text-white ">
+    <div className="w-64 bg-custom-gradient p-4 text-black ">
       <h2 className="text-2xl font-bold mb-6">User Dashboard</h2>
       <ul>
         <li className="mb-4">

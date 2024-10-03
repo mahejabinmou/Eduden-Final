@@ -4,7 +4,7 @@ const UserDashboard = () => {
   return (
     <div className="flex h-screen">
       <UserSidebar />
-      <div className="flex-1 p-6 bg-[#8EFA6D]/[.4]  text-white">
+      <div className="flex-1 p-6 bg-black  text-white">
         <h1>View Details</h1>
       </div>
     </div>

@@ -5,7 +5,7 @@ const AdminDashboard = () => {
     <div className="flex h-screen">
       <AdminSidebar />
 
-      <div className="flex-1 p-6 bg-[#8EFA6D]/[.4]  text-white">
+      <div className="flex-1 p-6 bg-black  text-white">
         <h1>View and manage Details</h1>
       </div>
     </div>

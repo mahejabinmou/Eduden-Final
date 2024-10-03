@@ -7,7 +7,7 @@ const AdminSidebar = () => {
     setIsToggled(!isToggled);
   };
   return (
-    <div className="w-64 bg-black p-4 text-white">
+    <div className="w-64 bg-custom-gradient p-4 text-black">
       <h2 className="text-2xl font-bold mb-6">Admin Dashboard</h2>
       <ul>
         <li className="mb-4">
@@ -38,7 +38,7 @@ const AdminSidebar = () => {
                   onChange={handleToggle}
                 />
                 {/* dark:peer-focus:ring-blue-800 */}
-                <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-[#8EFA6D]/[.7]  peer-checked:bg-[#A8FF57]/[92.3]"></div>
+                <div className="w-11 h-6 bg-blue-100 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-[.7]  peer-checked:bg-blue-500"></div>
                 <div className="w-5 h-5 bg-white rounded-full absolute left-1 top-0.5 peer-checked:left-6 transition-all"></div>
               </label>
             </div>

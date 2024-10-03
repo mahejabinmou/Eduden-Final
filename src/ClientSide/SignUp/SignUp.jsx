@@ -41,7 +41,7 @@ const SignUp = () => {
   };
   return (
     <div className="min-h-screen bg-black flex items-center justify-center">
-      <div className="bg-[#A8FF57]/[79.3] p-6 rounded shadow-md w-full max-w-md ">
+      <div className="bg-custom-gradient p-6 rounded shadow-md w-full max-w-md ">
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
