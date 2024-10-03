@@ -15,6 +15,9 @@ import Navbar from "./ClientSide/Shared/Navbar/Navbar";
 import Footer from "./ClientSide/Shared/Footer/Footer";
 import Courses from "./ClientSide/Courses/Courses";
 import AboutUsPage from "./ClientSide/AboutUsPage/AboutUsPage";
+import SignUp from "./ClientSide/SignUp/SignUp";
+import LogIn from "./ClientSide/LogIn/LogIn";
+import Dashboard from "./ClientSide/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +53,18 @@ const router = createBrowserRouter([
   {
     path: "/courses",
     element: <Courses></Courses>,
+  },
+  {
+    path: "/signUp",
+    element: <SignUp></SignUp>,
+  },
+  {
+    path: "/LogIn",
+    element: <LogIn></LogIn>,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard></Dashboard>,
   },
 ]);
 
