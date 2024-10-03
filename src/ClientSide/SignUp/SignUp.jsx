@@ -1,147 +1,123 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { BiLogoFacebook } from "react-icons/bi";
+import { FaGoogle } from "react-icons/fa";
 
 const SignUp = () => {
-  const [showPass, setShowPass] = useState(false);
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (password !== confirmPassword) {
+      alert("Passwords do not match!");
+      return;
+    }
+
+    try {
+      const response = await fetch(
+        "http://localhost:1337/api/auth/local/register",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            username: fullname,
+            email,
+            password,
+          }),
+        }
+      );
+      const data = await response.json();
+      if (response.ok) {
+        alert("Signup successful!");
+      } else {
+        alert(data.message[0].messages[0].message);
+      }
+    } catch (error) {
+      console.error("Error signing up:", error);
+      alert("Error signing up");
+    }
+  };
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row">
-        <div className="text-center md:w-1/2 ">
-          <img
-            className="w-[500px]"
-            src="https://i.ibb.co/rZkBdjK/sign.jpg"
-            alt=""
-          />
+    <div className="min-h-screen bg-black flex items-center justify-center">
+      <div className="bg-[#A8FF57]/[79.3] p-6 rounded shadow-md w-full max-w-md ">
+        <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="mb-4">
+            <label className="block text-gray-700">First Name</label>
+            <input
+              type="text"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+              value={fullname}
+              onChange={(e) => setFullname(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-gray-700">Email Address</label>
+            <input
+              type="email"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-gray-700">Password</label>
+            <input
+              type="password"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-gray-700">Confirm Password</label>
+            <input
+              type="password"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full  text-white py-2 rounded-md bg-black hover:bg-[#8EFA6D]/[79.68] transition duration-300"
+          >
+            Sign Up
+          </button>
+        </form>
+        <div className="text-center  mt-[20px]">
+          <button
+            type="button"
+            className="mx-1 h-9 w-9  rounded-full bg-black hover:bg-[#8EFA6D]/[79.68] text-white shadow-[0_4px_9px_-4px_#3b71ca]"
+          >
+            <BiLogoFacebook
+              size={20}
+              className="text-white flex justify-center items-center w-full"
+            />
+          </button>
+          <button
+            type="button"
+            className="inlne-block mx-1 h-9 w-9 rounded-full bg-black hover:bg-[#8EFA6D]/[79.68] uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca]"
+          >
+            <FaGoogle
+              size={20}
+              className="flex justify-center text-white items-center w-full"
+            />
+          </button>
         </div>
-        <div className="card p-2 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <h1 className="text-2xl text-center  font-bold">SignUp now!</h1>
-          <form className="card-body">
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Name</span>
-              </label>
-              <input
-                type="text"
-                name="name"
-                placeholder="name"
-                className="input input-bordered"
-              />
-
-              <span className="text-red-600">Name is required</span>
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Photo URL</span>
-              </label>
-              <input
-                type="text"
-                {...register("photoURL", { required: true })}
-                name="photoURL"
-                placeholder="photo URL"
-                className="input input-bordered"
-              />
-              {errors.photoURL && (
-                <span className="text-red-600">photoURL is required</span>
-              )}
-            </div>
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">Email</span>
-              </label>
-              <input
-                type="email"
-                {...register("email", { required: true })}
-                name="email"
-                placeholder="email"
-                className="input input-bordered"
-              />
-              {errors.email && (
-                <span className="text-red-600">Email is required</span>
-              )}
-            </div>
-            <div className="form-control relative">
-              <label className="label">
-                <span className="label-text">Password</span>
-              </label>
-              <input
-                type={showPass ? "text" : "password"}
-                {...register("password", {
-                  required: true,
-                  minLength: 6,
-                  maxLength: 20,
-                  pattern: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])/,
-                })}
-                placeholder="password"
-                className="input input-bordered"
-              />
-              <p
-                className="absolute top-[54px] right-[15px]"
-                onClick={() => setShowPass(!showPass)}
-              >
-                <small>{showPass ? <FaEye /> : <FaEyeSlash />}</small>
-              </p>
-              {errors.password?.type === "required" && (
-                <p className="text-red-600">Password required</p>
-              )}
-
-              {errors.password?.type === "minLength" && (
-                <p className="text-red-600">Password minimum 6 required</p>
-              )}
-
-              {errors.password?.type === "maxLength" && (
-                <p className="text-red-600">Password less than 20 characters</p>
-              )}
-
-              {errors.password?.type === "pattern" && (
-                <p className="text-red-600">
-                  Password must have one uppercase,one number and one special
-                  character
-                </p>
-              )}
-            </div>
-
-            <div className="form-control relative">
-              <label className="label">
-                <span className="label-text">Confirm Password</span>
-              </label>
-
-              <input
-                type={showPass ? "text" : "password"}
-                {...register("confirm", { required: true })}
-                name="confirm"
-                placeholder="confirm password"
-                className="input input-bordered"
-              />
-
-              <p
-                className="absolute top-[54px] right-[15px]"
-                onClick={() => setShowPass(!showPass)}
-              >
-                <small>{showPass ? <FaEye /> : <FaEyeSlash />}</small>
-              </p>
-
-              {errors.confirm && (
-                <span className="text-red-600">
-                  You need to re-type password
-                </span>
-              )}
-            </div>
-
-            <div className="form-control mt-6">
-              <input
-                type="submit"
-                value="Sign Up"
-                className="btn btn-primary"
-              />
-            </div>
-          </form>
-          <p className="text-center">
-            <small>
-              Already have an account? <Link to="/login">Login</Link>
-            </small>
-          </p>
-          {/* <SocialLogin></SocialLogin> */}
+        <div className="mt-4 text-center">
+          <a
+            href="/signin"
+            className="text-[#A8FF57]/[92.3] hover:text-[#8EFA6D]/[79.68] hover:underline"
+          >
+            Already have an account? Sign In
+          </a>
         </div>
       </div>
     </div>
