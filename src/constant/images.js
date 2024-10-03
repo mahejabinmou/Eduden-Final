@@ -10,6 +10,8 @@ import webinarImg4 from "/assets/images/freewebnier/img4.png"
 import webinarImg5 from "/assets/images/freewebnier/img5.png"
 import webinarImg6 from "/assets/images/freewebnier/img6.png"
 import verifyImg from "/assets/images/verify/verifyImg.png"
+import cancel from "/assets/images/verify/cancel.png"
+import ok from "/assets/images/verify/ok.png"
 
 export {
     upCmnPic1,
@@ -23,4 +25,6 @@ export {
     webinarImg5,
     webinarImg6,
     verifyImg,
+    ok,
+    cancel,
 }
