@@ -1,11 +1,27 @@
-const UserSidebar = () => {
+import DarkMode from "../../DarkMode/DarkMode";
+
+const UserSidebar = ({ setActiveSection }) => {
   return (
-    <div className="w-64 bg-custom-gradient p-4 text-black ">
+    <div className="w-64 bg-gray-200 dark:bg-custom-gradient p-4 text-black ">
       <h2 className="text-2xl font-bold mb-6">User Dashboard</h2>
       <ul>
         <li className="mb-4">
-          <a href="#" className="flex items-center">
+          <a
+            href="#"
+            className="flex items-center"
+            onClick={() => setActiveSection("view")}
+          >
             <i className="fas fa-chart-line mr-3"></i> View
+          </a>
+        </li>
+
+        <li className="mb-4">
+          <a
+            href="#"
+            className="flex items-center"
+            onClick={() => setActiveSection("home")}
+          >
+            <i className="fas fa-chart-line mr-3"></i> Home
           </a>
         </li>
       </ul>
@@ -22,6 +38,12 @@ const UserSidebar = () => {
           YouTube
         </a>
       </div> */}
+      <h1 className="flex flex-row gap-x-[5px]">
+        Mode{" "}
+        <span>
+          <DarkMode />
+        </span>
+      </h1>
     </div>
   );
 };

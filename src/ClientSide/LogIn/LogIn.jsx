@@ -3,18 +3,16 @@ import { FaGoogle } from "react-icons/fa";
 
 const LogIn = () => {
   return (
-    <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-2 mx-5 md:mx-0 md:my-0">
+    <section className="h-screen flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 md:space-x-16 items-center my-[80px] mx-5 md:mx-0 md:my-0">
       <div className="md:w-1/3 max-w-sm">
         <img
           src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
           alt="Sample image"
         />
       </div>
-      <div className="md:w-1/3 max-w-sm">
+      <div className="md:w-1/3 max-w-sm bg-custom-gradient p-10  rounded-[10px]">
         <div className="mb-[20px]">
-          <label className="mr-1 text-[#A8FF57]/[92.3] text-xl ">
-            Sign in with
-          </label>
+          <label className="mr-1 text-black text-xl ">Sign in with</label>
         </div>
         <input
           className="text-sm w-full px-4 py-2 border border-solid border-gray-300 rounded"
@@ -32,7 +30,7 @@ const LogIn = () => {
             <span>Remember Me</span>
           </label>
           <a
-            className="text-[#A8FF57]/[92.3] hover:text-[#8EFA6D]/[79.68] hover:underline hover:underline-offset-4"
+            className="text-black  hover:underline hover:underline-offset-4"
             href="#"
           >
             Forgot Password?
@@ -40,14 +38,14 @@ const LogIn = () => {
         </div>
         <div className="text-center md:text-left">
           <button
-            className="mt-4 bg-[#A8FF57]/[92.3] font-bold hover:bg-[#8EFA6D]/[79.68] px-4 py-2 text-black uppercase rounded text-xs tracking-wider"
+            className="mt-4 bg-black font-bold hover:opacity-5 px-4 py-2 text-white uppercase rounded text-xs tracking-wider"
             type="submit"
           >
             Login
           </button>
         </div>
 
-        <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
+        <div className="my-5 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-black after:mt-0.5 after:flex-1 after:border-t after:border-black">
           <p className="mx-4 mb-0 text-center font-semibold text-slate-500">
             Or
           </p>
@@ -75,7 +73,7 @@ const LogIn = () => {
         <div className="mt-4 font-semibold text-sm text-slate-500 text-center md:text-left">
           Don&apos;t have an account?{" "}
           <a
-            className="text-[#A8FF57]/[92.3] hover:text-[#8EFA6D]/[79.68] hover:underline hover:underline-offset-4"
+            className="text-black  hover:underline hover:underline-offset-4"
             href="#"
           >
             Register
