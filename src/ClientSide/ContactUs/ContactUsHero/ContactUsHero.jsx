@@ -16,7 +16,7 @@ const ContactUsHero = () => {
               Archives: Contact Us
             </h1>
             <p className="text-[#FFFFFF]/[.8] joinClanSubPara pb-[35px]">
-              Home > Contact Us
+              Home &gt; Contact Us
             </p>
           </div>
         </div>

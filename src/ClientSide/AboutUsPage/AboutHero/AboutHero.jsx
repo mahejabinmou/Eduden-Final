@@ -1,5 +1,3 @@
-import { MdArrowRightAlt } from "react-icons/md";
-
 const AboutHero = () => {
   return (
     <div className=" mt-[50px] ">
@@ -7,7 +5,7 @@ const AboutHero = () => {
         <div className="relative">
           <div
             style={{
-              backgroundImage: `url("https://i.ibb.co.com/sP74kk7/banner-17-66f786e96b74f.webp")`,
+              backgroundImage: `url("https://i.ibb.co.com/dM5DM24/About-Us-Edn.webp")`,
             }}
             className="bg-no-repeat bg-center bg-cover w-full h-[500px]  flex justify-center items-center"
           ></div>
@@ -17,7 +15,7 @@ const AboutHero = () => {
               A Large Range of Course Learning Paths Home
             </h1>
             <p className="text-[#FFFFFF]/[.8] joinClanSubPara pb-[35px]">
-              Home > About us
+              Home &gt; About us
             </p>
           </div>
         </div>

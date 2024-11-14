@@ -82,7 +82,7 @@ const Footer = () => {
                   About
                 </p>
               </Link>
-              <Link to="/membership">
+              <Link to="/courses">
                 <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
                   <span>
                     <img
@@ -94,7 +94,7 @@ const Footer = () => {
                   Courses
                 </p>
               </Link>
-              <Link to="/event">
+              <Link to="/contactus">
                 <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
                   <span>
                     <img
@@ -280,7 +280,7 @@ const Footer = () => {
                   Home
                 </p>
               </Link>
-              <Link to="/service">
+              <Link to="/about">
                 <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
                   <span>
                     <img
@@ -292,7 +292,7 @@ const Footer = () => {
                   About
                 </p>
               </Link>
-              <Link to="/membership">
+              <Link to="/courses">
                 <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
                   <span>
                     <img
@@ -304,7 +304,7 @@ const Footer = () => {
                   Courses
                 </p>
               </Link>
-              <Link to="/event">
+              <Link to="/contactus">
                 <p className="footerMenuText flex flex-row items-center gap-x-[10px]">
                   <span>
                     <img

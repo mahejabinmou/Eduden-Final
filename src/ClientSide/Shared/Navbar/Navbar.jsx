@@ -122,10 +122,10 @@ const Navbar = () => {
                     onClick={toggleDropdown}
                     className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#A8FF57] focus:outline-none"
                   >
-                    What’s New
-                    {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                    <Link to="/whatsnew">What's New </Link>
+                    {/* {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />} */}
                   </button>
-                  {isDropdownOpen && (
+                  {/* {isDropdownOpen && (
                     <ul className=" mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
                       <Link to="/whatsnew">
                         <li className="px-4 py-[5px] text-black hover:text-[#A8FF57]">
@@ -138,7 +138,7 @@ const Navbar = () => {
                         </li>
                       </Link>
                     </ul>
-                  )}
+                  )} */}
                 </li>
 
                 <Link to="/verify" onClick={menuClose}>
@@ -178,7 +178,7 @@ const Navbar = () => {
 
                 <Link to="/About" onClick={menuClose}>
                   <li className="text-[#FFFFFF] hover:text-[#A8FF57]">
-                    aboutUs
+                    About Us
                   </li>
                 </Link>
                 <li className="relative">
@@ -193,14 +193,14 @@ const Navbar = () => {
 
                   {/* Dropdown Menu */}
                   {isDropdown2Open && (
-                    <ul className="absolute left-0 mt-2 w-40 bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
+                    <ul className="absolute left-0 mt-2 z-100000 w-40 bg-[#A8FF57]/[.4] text-white rounded shadow-lg">
                       <Link to="/courses">
                         {" "}
-                        <li className="px-4 py-2 text-[14px] text-black hover:text-[#A8FF57]">
+                        <li className="px-4 py-1 text-[14px] text-white hover:text-[#A8FF57]">
                           Course
                         </li>
                       </Link>
-                      <li className="px-4 py-2 text-[14px] text-black hover:text-[#A8FF57]">
+                      <li className="px-4 py-1 text-[14px] text-white hover:text-[#A8FF57]">
                         <Link to="/courseDetails">Course Details</Link>
                       </li>
                     </ul>
@@ -213,21 +213,22 @@ const Navbar = () => {
                     onClick={toggleDropdown}
                     className="flex items-center  gap-x-[6px] text-[#FFFFFF] hover:text-[#A8FF57]"
                   >
-                    What’s New
-                    {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                    {/* What’s New
+                    {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />} */}
+                    <Link to="/whatsnew">What's New </Link>
                   </button>
 
                   {/* Dropdown Menu */}
-                  {isDropdownOpen && (
+                  {/* {isDropdownOpen && (
                     <ul className="absolute left-20 mt-2 w-40 bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
                       <li className="px-4 py-2 text-black hover:text-[#A8FF57]">
                         <Link to="/whatsnew">whats new 1</Link>
-                      </li>
-                      <li className="px-4 py-2 text-black hover:text-[#A8FF57]">
+                      </li> */}
+                  {/* <li className="px-4 py-2 text-black hover:text-[#A8FF57]">
                         <Link to="/whatsnewdetails">whats new details </Link>
-                      </li>
-                    </ul>
-                  )}
+                      </li> */}
+                  {/* </ul>
+                  )}*/}
                 </li>
                 {/* Other Menu Items */}
                 <li>

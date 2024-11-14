@@ -17,7 +17,6 @@ import Courses from "./ClientSide/Courses/Courses";
 import AboutUsPage from "./ClientSide/AboutUsPage/AboutUsPage";
 import SignUp from "./ClientSide/SignUp/SignUp";
 import LogIn from "./ClientSide/LogIn/LogIn";
-import Dashboard from "./ClientSide/Dashboard/UserDashboard/UserDashboard";
 import AdminDashboard from "./ClientSide/Dashboard/AdminDashboard/AdminDashboard";
 import UserDashboard from "./ClientSide/Dashboard/UserDashboard/UserDashboard";
 import ViewDetails from "./ClientSide/Dashboard/UserDashboard/ViewDetails/ViewDetails";

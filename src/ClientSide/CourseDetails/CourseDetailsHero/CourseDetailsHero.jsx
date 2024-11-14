@@ -15,7 +15,7 @@ const CourseDetailsHero = () => {
               Archives: Course details
             </h1>
             <p className="text-[#FFFFFF]/[.8] joinClanSubPara pb-[35px]">
-              Home > Courses > Course details
+              Home &gt; Courses &gt; Course details
             </p>
           </div>
         </div>
