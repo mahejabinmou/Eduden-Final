@@ -19,7 +19,7 @@ const Course = ({ currentCategory }) => {
     <div className="mt-[60px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3  gap-[26px]">
       {filteredCat.map((courseDetails) => (
         <div
-          className={`courses min-h-[500px] md:min-h-[680px] lg:min-h-[750px] 2xl:min-h-[0px] rounded-[20px] ${
+          className={`courses min-h-[400px] md:min-h-[0px] lg:min-h-[0px] 2xl:min-h-[0px] rounded-[20px] ${
             isHover === courseDetails.id && "upCmnhover"
           } cursor-pointer`}
           key={courseDetails.id}
