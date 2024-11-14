@@ -29,26 +29,32 @@ const Footer = () => {
 
               <div className="flex  flex-row mt-[20px] gap-x-[10px]">
                 <a
-                  href="  "
+                  href="https://www.facebook.com/profile.php?id=61557983775555"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
                   <SlSocialFacebook size={28} className="footerSocailIcon" />
                 </a>
                 <a
-                  href=""
+                  href="https://www.instagram.com/at_eduden/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
                   <FaInstagram size={28} className="footerSocailIcon" />
                 </a>
 
-                <a
+                {/* <a
                   href=""
                   className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
                   <CiYoutube size={28} className="footerSocailIcon" />
-                </a>
+                </a> */}
                 <a
-                  href=""
+                  href="https://www.linkedin.com/company/edu-den/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
                   <SlSocialLinkedin size={28} className="footerSocailIcon" />
@@ -222,7 +228,7 @@ const Footer = () => {
         ></div>
 
         <div className="absolute inset-0   sectionGap text-white/[.8]">
-          <div className="mb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between items-start gap-x-[100px] ">
+          <div className="xl:mb-[50px] lg:mb-[0px] md:mb-[0px] grid grid-cols-2 lg:grid-cols-4 justify-between items-start gap-x-[100px] ">
             <div className="">
               <div className="footerLogoparent mb-[25px]">
                 <img
@@ -239,25 +245,31 @@ const Footer = () => {
                 </p>
                 <div className="flex flex-row mt-[20px] gap-x-[10px]">
                   <a
-                    href=""
+                    href="https://www.facebook.com/profile.php?id=61557983775555"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
                     <SlSocialFacebook size={28} className="footerSocailIcon" />
                   </a>
                   <a
-                    href=""
+                    href="https://www.instagram.com/at_eduden/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
                     <FaInstagram size={30} className="footerSocailIcon" />
                   </a>
-                  <a
+                  {/* <a
                     href=""
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
                     <CiYoutube size={28} className="footerSocailIcon" />
-                  </a>
+                  </a> */}
                   <a
-                    href=""
+                    href="https://www.linkedin.com/company/edu-den/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
                     <SlSocialLinkedin size={28} className="footerSocailIcon" />
@@ -382,9 +394,9 @@ const Footer = () => {
           </div>
           <hr className="border-1 border-[#FFFFFF]" />
 
-          <div className="pt-[25px] px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
+          <div className="pt-[25px]   px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
             <div className="flex justify-center items-center space-x-[40px]">
-              <p className="copyWritePara">
+              <p className="copyWritePara mb-5">
                 Copyright © 2024 Edu Den Powered by Ethical Den
               </p>
             </div>
