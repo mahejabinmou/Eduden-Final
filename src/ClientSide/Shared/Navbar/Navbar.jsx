@@ -233,7 +233,7 @@ const Navbar = () => {
                 {/* Other Menu Items */}
                 <li>
                   <Link
-                    to="/contactus"
+                    to="/verify"
                     className="text-[#FFFFFF] hover:text-[#A8FF57]"
                   >
                     Verify
