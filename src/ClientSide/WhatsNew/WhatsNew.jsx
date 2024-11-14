@@ -7,7 +7,7 @@ import WhatsNewHero from "./WhatsNewHero";
 
 const WhatsNew = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <WhatsNewHero title={"What's New"} />
       <div className="bg-[#010101] sectionPadding">
@@ -18,7 +18,7 @@ const WhatsNew = () => {
         </div>
       </div>
       <Footer></Footer>
-    </>
+    </div>
   );
 };
 

@@ -2,7 +2,6 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./ClientSide/Home/Home";
 import "./index.css";
-import WhatsNew from "./ClientSide/WhatsNew/WhatsNew.jsx";
 import "swiper/css";
 import "swiper/css/pagination";
 import CourseDetails from "./ClientSide/CourseDetails/CourseDetails";
@@ -21,6 +20,8 @@ import AdminDashboard from "./ClientSide/Dashboard/AdminDashboard/AdminDashboard
 import UserDashboard from "./ClientSide/Dashboard/UserDashboard/UserDashboard";
 import ViewDetails from "./ClientSide/Dashboard/UserDashboard/ViewDetails/ViewDetails";
 
+import WhatsNew from "./ClientSide/WhatsNew/WhatsNew";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,7 +39,10 @@ const router = createBrowserRouter([
     path: "/courseDetails",
     element: <CourseDetails></CourseDetails>,
   },
-  { path: "/whatsnew", element: <WhatsNew></WhatsNew> },
+  {
+    path: "/whatsnew",
+    element: <WhatsNew></WhatsNew>,
+  },
 
   {
     path: "/about",
