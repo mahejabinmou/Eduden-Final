@@ -7,7 +7,11 @@ import Navbar from "../Shared/Navbar/Navbar";
 
 import Footer from "../Shared/Footer/Footer";
 import WhatsNewHero from "../Whatsnew/WhatsNewHero";
+import { useEffect } from "react";
 const Courses = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

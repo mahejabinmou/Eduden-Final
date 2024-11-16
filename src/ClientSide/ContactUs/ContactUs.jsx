@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import JoinOurClan from "../CourseDetails/JoinOurClan/JoinOurClan";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
@@ -7,6 +8,9 @@ import ContactUsHero from "./ContactUsHero/ContactUsHero";
 import Faq from "./Faq/Faq";
 
 const ContactUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // Function to handle input change
 
   return (

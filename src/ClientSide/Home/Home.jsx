@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Faq from "../ContactUs/Faq/Faq";
 import JoinOurClan from "../CourseDetails/JoinOurClan/JoinOurClan";
 import Footer from "../Shared/Footer/Footer";
@@ -13,6 +14,9 @@ import UpcominEvents from "./UpcomingEvents/UpcominEvents";
 import Video from "./Video/Video";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="">
       <HeroSection></HeroSection>
