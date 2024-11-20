@@ -248,7 +248,7 @@
   }
 
   .allCoursesBtn {
-    @apply lg:text-[16px] lg:leading-[24px] lg:px-[20px] py-[5px]
+    @apply lg:text-[12px] lg:leading-[24px] lg:px-[20px] py-[5px]
     text-[12px] leading-[20px] px-[16px] 
     font-gucina font-semibold;
   }
@@ -400,10 +400,10 @@
   }
 
   .copyWritePara {
-    @apply 2xl:text-[18px] 2xl:leading-[27px] 
-    xl:text-[18px] xl:leading-[27px] 
-    lg:text-[18px] lg:leading-[27px] 
-    md:text-[16px] md:leading-[27px] 
+    @apply 2xl:text-[16px] 2xl:leading-[27px] 
+    xl:text-[14px] xl:leading-[27px] 
+    lg:text-[14px] lg:leading-[27px] 
+    md:text-[12px] md:leading-[27px] 
 
     font-[300px] font-sans;
   }

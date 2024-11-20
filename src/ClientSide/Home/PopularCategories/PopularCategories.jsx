@@ -1,5 +1,4 @@
-import { CgArrowLongRight } from "react-icons/cg";
-import { HiOutlineMinusSmall } from "react-icons/hi2";
+import { HiArrowLongRight, HiOutlineMinusSmall } from "react-icons/hi2";
 import { IoMdLock } from "react-icons/io";
 
 const PopularCategories = () => {
@@ -33,7 +32,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
               size={75}
             />
@@ -67,7 +66,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />
@@ -101,7 +100,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight className=" text-[#FFFFFF] " size={75} />
+            <HiArrowLongRight className=" text-[#FFFFFF] " size={75} />
           </div>
         </div>
 
@@ -161,7 +160,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />
@@ -200,7 +199,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />
@@ -251,7 +250,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />
@@ -305,7 +304,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />
@@ -399,7 +398,7 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
+            <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
               size={75}
             />

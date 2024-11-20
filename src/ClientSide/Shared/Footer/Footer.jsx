@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { CiYoutube } from "react-icons/ci";
+import { CiLinkedin, CiYoutube } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { SlSocialFacebook, SlSocialLinkedin } from "react-icons/sl";
 import { Link } from "react-router-dom";
@@ -57,7 +57,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
-                  <SlSocialLinkedin size={28} className="footerSocailIcon" />
+                  <CiLinkedin size={28} className="footerSocailIcon" />
                 </a>
               </div>
             </div>
@@ -250,7 +250,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
-                    <SlSocialFacebook size={28} className="footerSocailIcon" />
+                    <SlSocialFacebook size={30} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.instagram.com/at_eduden/?hl=en"
@@ -272,7 +272,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
-                    <SlSocialLinkedin size={28} className="footerSocailIcon" />
+                    <CiLinkedin size={30} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>

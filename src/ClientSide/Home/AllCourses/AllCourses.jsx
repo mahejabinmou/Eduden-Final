@@ -42,7 +42,7 @@ const AllCourses = () => {
         </h1>
       </div>
 
-      <div className="hidden md:block flex flex-row lg:gap-x-[20px] gap-x-[5px] text-white group">
+      <div className="hidden lg:block flex text-center items-center flex-row lg:gap-x-[20px] gap-x-[5px] text-white group">
         <button
           onClick={() => handleCategories("Show All")}
           className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
