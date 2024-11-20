@@ -16,15 +16,15 @@ const PopularCategories = () => {
       <h1 className="joinClanHead mb-[80px] text-center"> Course Catagories</h1>
 
       <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
-        <div className="hover:bg-[#A8FF57B2]/[.7] group h-[405px] rounded-[20px] text-center py-[58px] ">
-          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
+        {/* <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-500  h-[405px] rounded-[20px] text-center py-[58px] ">
+          <div className="h-[60px] w-[60px]  mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
             <IoMdLock
               size={30}
-              className=" group-hover:text-white text-[#000000]"
+              className=" group-hover:text-white text-[#000000]  "
             />
           </div>
 
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] ">
             Cyber Security
           </h1>
           <p className="xl:mb-[50px]  lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
@@ -37,11 +37,33 @@ const PopularCategories = () => {
               size={75}
             />
           </div>
-          {/* <span className="text-[#FFFFFF] group-hover:text-black transition duration-200">
-            →
-          </span> */}
+         
+        </div> */}
+
+        <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px]">
+          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
+            <IoMdLock
+              size={30}
+              className="group-hover:text-white text-[#000000] transition duration-1000"
+            />
+          </div>
+
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000]">
+            Cyber Security
+          </h1>
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
+            iaculis inceptos ullamcorper habitasse
+          </p>
+          <div className="flex items-center justify-center">
+            <HiArrowLongRight
+              className="text-[#FFFFFF] group-hover:text-black transition duration-1000"
+              size={75}
+            />
+          </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
             <svg
               width="30"
@@ -49,7 +71,7 @@ const PopularCategories = () => {
               viewBox="0 0 63 47"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-[#000000] group-hover:text-white"
+              className="transition-colors transition duration-1000 fill-current text-[#000000] group-hover:text-white"
             >
               <path d="M38.313 34.4156H9.75489C7.84038 34.4156 6.29053 32.8658 6.29053 30.9513V3.46435C6.29053 1.54984 7.84038 0 9.75489 0H53.5379C55.4524 0 57.0023 1.54984 57.0023 3.46435V10.8489H54.2673V3.46435C54.2673 3.0541 53.9482 2.73502 53.5379 2.73502H9.75489C9.34464 2.73502 9.02554 3.0541 9.02554 3.46435V30.9513C9.02554 31.3615 9.34464 31.6806 9.75489 31.6806H38.313V34.4156Z" />
               <path d="M38.313 46.8828H3.07687C1.39028 46.86 0 45.4697 0 43.7832V40.1365C0 38.4499 1.39028 37.0596 3.07687 37.0596H38.313V39.7946H3.07687C2.89454 39.7946 2.73501 39.9541 2.73501 40.1365V43.7832C2.73501 43.9655 2.89454 44.125 3.07687 44.125H38.313V46.8828Z" />
@@ -61,18 +83,18 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             UI/UX Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -80,7 +102,7 @@ const PopularCategories = () => {
               viewBox="0 0 61 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors  duration-1000 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
@@ -95,12 +117,15 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             Web Development
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight className=" text-[#FFFFFF] " size={75} />
+            <HiArrowLongRight
+              className=" text-[#FFFFFF] transition duration-1000"
+              size={75}
+            />
           </div>
         </div>
 
@@ -112,7 +137,7 @@ const PopularCategories = () => {
               viewBox="0 0 54 60"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors  duration-1000 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M3.87392 14.4694L1.38208 14.1972C1.77994 10.6374 3.39228 7.26611 5.94694 4.69052C8.94132 1.67519 12.9408 0 17.2125 0C20.6467 0 23.8714 1.047 26.5935 3.05722C29.3157 1.047 32.5404 0 35.9746 0C40.2253 0 44.2248 1.65425 47.2402 4.64863C49.8577 7.28705 51.4281 10.5746 51.805 14.1762L49.3132 14.4485C48.9782 11.4122 47.659 8.6272 45.4603 6.42853C42.9266 3.89481 39.5343 2.5128 35.9746 2.5128C32.7917 2.5128 29.8392 3.58072 27.3892 5.61188L26.5935 6.28193L25.7978 5.61188C23.3688 3.58072 20.3954 2.5128 17.2125 2.5128C13.6318 2.5128 10.2605 3.91574 7.74773 6.44946C5.59093 8.62719 4.22985 11.4541 3.89481 14.4485L3.87392 14.4694Z"
@@ -155,19 +180,19 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             Graphic Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -175,7 +200,7 @@ const PopularCategories = () => {
               viewBox="0 0 37 61"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="group-hover:text-white text-[#000000] fill-current transition-colors duration-200"
+              className="group-hover:text-white text-[#000000] fill-current transition-colors  duration-1000"
             >
               <path
                 d="M32.7029 60.9172H4.04637C1.81311 60.9172 0 59.104 0 56.8708V4.04641C0 1.81315 1.81311 0 4.04637 0H32.7029C34.9362 0 36.7493 1.81315 36.7493 4.04641V56.8708C36.7493 59.104 34.9362 60.9172 32.7029 60.9172ZM4.04637 2.63127C3.27247 2.63127 2.65341 3.25039 2.65341 4.02429V56.8486C2.65341 57.6225 3.27247 58.2417 4.04637 58.2417H32.7029C33.4768 58.2417 34.096 57.6225 34.096 56.8486V4.02429C34.096 3.25039 33.4768 2.63127 32.7029 2.63127H4.04637Z"
@@ -194,19 +219,19 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-200">
             Mobile App Development
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -214,7 +239,7 @@ const PopularCategories = () => {
               viewBox="0 0 57 47"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="group-hover:text-white text-[#000000] fill-current transition-colors duration-200"
+              className="group-hover:text-white text-[#000000] fill-current transition-colors duration-1000"
             >
               <path
                 d="M53.8615 46.6645C53.2682 46.6645 52.7006 46.4323 52.2621 45.9938L49.3472 43.0788C46.6129 40.3445 42.9757 38.8226 39.1063 38.8226H5.00437C2.24423 38.8226 0 36.5783 0 33.8182V5.00438C0 2.24423 2.24423 0 5.00437 0H51.1529C53.913 0 56.1573 2.24423 56.1573 5.00438V44.3945C56.1573 45.3231 55.6156 46.1486 54.7643 46.4839C54.4806 46.5871 54.1968 46.6645 53.8873 46.6645H53.8615ZM4.97857 3.09552C3.92095 3.09552 3.06969 3.94675 3.06969 5.00438V33.8182C3.06969 34.8758 3.92095 35.7271 4.97857 35.7271H39.0805C43.7753 35.7271 48.1864 37.5586 51.514 40.8863L53.0102 42.3824V5.00438C53.0102 3.94675 52.1589 3.09552 51.1013 3.09552H4.97857Z"
@@ -242,21 +267,21 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-1000">
             Programming Languages
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group  rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
@@ -296,21 +321,21 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
             Data Science and AI
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
@@ -390,16 +415,16 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
             Database Management
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px]  popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px]  popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-200"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={75}
             />
           </div>
