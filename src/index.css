@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Gucina";
-  src: url("/path-to-your-font/Gucina.woff2") format("woff2");
+  src: url("/fonts/Gucina-Regular.woff") format("woff2");
   /* url("/path-to-your-font/Gucina.woff") format("woff"); */
   font-weight: normal;
   font-style: normal;
