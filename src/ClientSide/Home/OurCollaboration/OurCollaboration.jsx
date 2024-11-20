@@ -16,7 +16,7 @@ const OurCollaboration = () => {
         {" "}
         Our <span className="border-b-4 border-[#A8FF57]">Collaboration</span>
       </h1>
-      <p className="joinClanSubPara  mb-[50px] ">
+      <p className="joinClanSubPara  mb-[50px] text-center">
         Well, because we’re not your grandma’s boring old school! At Edu-Den,
         we’re the rebels of education, the mavericks of learning, and the
         champions of fun-filled knowledge. We’ll teach you how to slay dragons
