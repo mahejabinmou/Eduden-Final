@@ -64,7 +64,7 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center pb-[30px]">
             <HiArrowLongRight
               className="text-[#FFFFFF] group-hover:text-black transition duration-500"
               size={50}
@@ -99,7 +99,7 @@ const OnlineCourses = () => {
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center pb-[30px]">
             <HiArrowLongRight
               className="text-[#FFFFFF] group-hover:text-black transition duration-500"
               size={50}
@@ -135,7 +135,7 @@ const OnlineCourses = () => {
             labore dolore magna.
           </p>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center pb-[30px]">
             <HiArrowLongRight
               className="text-[#FFFFFF] group-hover:text-black transition duration-500"
               size={50}
@@ -199,7 +199,7 @@ const OnlineCourses = () => {
             labore dolore magna.
           </p>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center pb-[30px]">
             <HiArrowLongRight
               className="text-[#FFFFFF] group-hover:text-black transition duration-500"
               size={50}
