@@ -133,11 +133,11 @@
     font-gucina font-bold;
   }
   .FaqPara {
-    @apply 2xl:text-[28px] 2xl:leading-[40px] 
-    xl:text-[14px] xl:leading-[25px] 
-    lg:text-[16px] lg:leading-[27px] 
-    md:text-[16px] md:leading-[27px] 
-    text-[8px] leading-[12px]
+    @apply 2xl:text-[25px] 2xl:leading-[40px] 
+    xl:text-[19px] xl:leading-[25px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[18px] md:leading-[27px] 
+    text-[10px] leading-[20px]
 
     font-medium font-sans;
   }
@@ -257,8 +257,9 @@
   }
 
   .allCoursesBtn {
-    @apply lg:text-[12px] lg:leading-[24px] lg:px-[20px] py-[5px]
+    @apply lg:text-[16px] lg:leading-[24px] lg:px-[20px] py-[5px]
     text-[12px] leading-[20px] px-[16px] 
+     2xl:text-[22px]
     font-gucina font-semibold;
   }
 
@@ -319,7 +320,7 @@
     @apply xl:text-[18px] xl:leading-[27px] 
     text-[12px] leading-[20px] 
 
-    font-semibold font-sans;
+     font-sans;
   }
 
   .footerTopImg {

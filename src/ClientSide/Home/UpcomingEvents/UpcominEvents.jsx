@@ -52,7 +52,7 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/mFRHnyq/group-1090-66f4d156025ce.webp"
+            src="/assets/images/UpcomingEvents/Artificial Intelligence Bootcamp.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -106,7 +106,7 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/LkMLg9K/group-1076-66f4dbcb585e8.webp"
+            src="/assets/images/UpcomingEvents/Cybersecurity Mastery Bootcamp.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -160,7 +160,7 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/B4yPcfy/group-1022-66f4dc175bd81.webp"
+            src="/assets/images/UpcomingEvents/Android App Development Bootcamp.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -214,7 +214,7 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/9yFZVD7/group-1080-66f4dcb0195fe.webp"
+            src="/assets/images/UpcomingEvents/Database Management 2.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -268,12 +268,12 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/h91cb8f/group-1024-66f4dd09bcd8c.webp"
+            src="/assets/images/UpcomingEvents/Database Management.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
-              Database Management
+              Graphic Design
             </h1>
             <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
@@ -322,12 +322,12 @@ const UpcominEvents = () => {
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
-            src="https://i.ibb.co.com/X5w4s1R/group-1078-66f4dd5a506eb.webp"
+            src="/assets/images/UpcomingEvents/23411.jpg"
             alt=""
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
-              Database Management
+              UI/UX Design
             </h1>
             <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue

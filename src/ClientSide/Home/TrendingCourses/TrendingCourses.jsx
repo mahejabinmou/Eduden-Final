@@ -31,11 +31,13 @@ const TrendingCourses = () => {
           </div>
 
           {/* Text Section */}
-          <div className="absolute inset-0  flex flex-col justify-end pl-[25px] pb-[20px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-            <h1 className="text-white text-[35px] leading-[40px] font-gucina font-bold">
-              Cyber Security
-            </h1>
-            <HiArrowLongRight size={60} className="text-white " />
+          <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[20px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <div className="flex justify-between items-center">
+              <h1 className="text-white text-[35px] leading-[40px] font-gucina font-bold">
+                Cyber Security
+              </h1>
+              <HiArrowLongRight size={60} className="text-white " />
+            </div>
           </div>
         </div>
 
@@ -48,11 +50,13 @@ const TrendingCourses = () => {
                 alt=""
               />
             </div>
-            <div className="absolute inset-0  flex flex-col justify-end pl-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
-                Graphic Design
-              </h1>
-              <HiArrowLongRight size={60} className="text-white " />
+            <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="flex justify-between items-center">
+                <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
+                  Graphic Design
+                </h1>
+                <HiArrowLongRight size={60} className="text-white " />
+              </div>
             </div>
           </div>
 
@@ -64,11 +68,13 @@ const TrendingCourses = () => {
                 alt=""
               />
             </div>
-            <div className="absolute inset-0  flex flex-col justify-end pl-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
-                UI/UX Design
-              </h1>
-              <HiArrowLongRight size={60} className="text-white " />
+            <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="flex justify-between items-center">
+                <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
+                  UI/UX Design
+                </h1>
+                <HiArrowLongRight size={60} className="text-white " />
+              </div>
             </div>
           </div>
           <div className="relative group  overflow-hidden">
@@ -79,11 +85,13 @@ const TrendingCourses = () => {
                 alt=""
               />
             </div>
-            <div className="absolute inset-0  flex flex-col justify-end pl-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
-                Web Development
-              </h1>
-              <HiArrowLongRight size={60} className="text-white " />
+            <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="flex justify-between items-center">
+                <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
+                  Web Development
+                </h1>
+                <HiArrowLongRight size={60} className="text-white " />
+              </div>
             </div>
           </div>
           <div className="relative group  overflow-hidden">
@@ -94,11 +102,13 @@ const TrendingCourses = () => {
                 alt=""
               />
             </div>
-            <div className="absolute inset-0  flex flex-col justify-end pl-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
-                Mobile App Development
-              </h1>
-              <HiArrowLongRight size={60} className="text-white " />
+            <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[15px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <div className="flex justify-between items-center">
+                <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
+                  Mobile App Development
+                </h1>
+                <HiArrowLongRight size={60} className="text-white " />
+              </div>
             </div>
           </div>
         </div>

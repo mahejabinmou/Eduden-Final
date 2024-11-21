@@ -13,9 +13,11 @@ const Faq = () => {
     <div className="flex flex-col lg:flex-row sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] pb-[50px]">
       {/* FAQ Section */}
       <div className="max-w-[964px]">
-        <h2 className=" FaqFreHead mb-[80px] text-[#FFFFFF]">
-          <span className="border-b border-[#A8FF57] ">Frequently</span> Asked
-          Question
+        <h2 className=" FaqFreHead mb-[80px] text-[#FFFFFF] leading-[100px]">
+          <span className="border-b-4 border-[#A8FF57]">
+            Frequently {""} {""}
+          </span>
+          Asked Question
         </h2>
 
         <div className="mt-8 space-y-4">
@@ -59,12 +61,12 @@ const Faq = () => {
             Do you have more questions?
           </h3>
         </div>
-        <p className="FaqPara text-center text-[#FFFFFF]  px-[30px]  mb-[35px]">
+        <p className="FaqPara text-center max-w-[650px]  text-[#FFFFFF]  px-[30px]  mb-[35px]">
           Learn more about our services, course offerings, or support. We're
           here to help.
         </p>
         <button className=" px-[20px] py-[8px] bg-[#A8FF57] text-[#010101] rounded-full">
-          Contact us
+          Contact Us
         </button>
       </div>
     </div>

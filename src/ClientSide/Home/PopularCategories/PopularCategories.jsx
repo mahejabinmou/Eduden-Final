@@ -34,7 +34,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
+              size={50}
             />
           </div>
          
@@ -58,7 +58,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className="text-[#FFFFFF] group-hover:text-black transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -124,7 +124,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -187,7 +187,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -226,7 +226,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -277,7 +277,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -331,7 +331,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>
@@ -425,7 +425,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={75}
+              size={50}
             />
           </div>
         </div>

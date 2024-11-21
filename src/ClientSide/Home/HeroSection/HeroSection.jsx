@@ -125,8 +125,11 @@ const HeroSection = () => {
         </div>
 
         {/* Slider Container big screen*/}
-        <div className="slider-container  hidden md:block ">
-          <div className="absolute inset-0 z-10 mx-[50px] ">
+        <div className="slider-container  hidden md:block">
+          <div
+            className="absolute inset-0 z-10 px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px]
+           2xl:px-[150px]  "
+          >
             <div>
               <button className="py-[10px] px-[20px] text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[25px] mt-[109px]">
                 WELCOME TO EDUDEN
@@ -139,7 +142,7 @@ const HeroSection = () => {
                 >
                   Where Learning Meets Imagination & Innovation!
                 </h1>
-                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[20px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-[20px]">
+                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[20px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
                   {/* Rotated Text */}
                   <span className="transform rotate-90 heroSecSubHead mb-[30px] whitespace-nowrap">
                     follow now
