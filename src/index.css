@@ -132,6 +132,15 @@
     
     font-gucina font-bold;
   }
+  .FaqPara {
+    @apply 2xl:text-[28px] 2xl:leading-[40px] 
+    xl:text-[14px] xl:leading-[25px] 
+    lg:text-[16px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[8px] leading-[12px]
+
+    font-medium font-sans;
+  }
   .joinClanSubPara {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
     xl:text-[18px] xl:leading-[27px] 
@@ -171,7 +180,7 @@
 
   .faqActionHead {
     @apply 2xl:text-[55px] 2xl:leading-[50px] 
-    xl:text-[50px] xl:leading-[50px] 
+    xl:text-[45px] xl:leading-[50px] 
     lg:text-[40px] lg:leading-[50px]
     md:text-[40px] md:leading-[50px] 
 

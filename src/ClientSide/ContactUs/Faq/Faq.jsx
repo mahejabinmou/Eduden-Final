@@ -55,11 +55,11 @@ const Faq = () => {
           <BiMessageDetail size={121} />
         </div>
         <div className=" text-center  mb-[25px]">
-          <h3 className="faqActionHead text-[#FFFFFF] max-w-[393px] xl:0 lg:px-[50px]">
+          <h3 className="faqActionHead text-[#FFFFFF] max-w-[550px] leading-[50px] xl:0 lg:px-[50px]">
             Do you have more questions?
           </h3>
         </div>
-        <p className="joinClanSubPara text-center text-[#FFFFFF]  px-[30px]  mb-[35px]">
+        <p className="FaqPara text-center text-[#FFFFFF]  px-[30px]  mb-[35px]">
           Learn more about our services, course offerings, or support. We're
           here to help.
         </p>

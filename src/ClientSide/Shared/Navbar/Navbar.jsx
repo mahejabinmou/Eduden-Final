@@ -250,7 +250,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <button className="homeLargeAppoinMent  flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold">
+            <button className="homeLargeAppoinMent  flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
               Enroll Now
             </button>
           </div>

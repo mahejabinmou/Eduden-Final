@@ -228,7 +228,7 @@ const Footer = () => {
         ></div>
 
         <div className="absolute inset-0   sectionGap text-white/[.8]">
-          <div className="xl:mb-[50px] lg:mb-[0px] md:mb-[0px] grid grid-cols-2 lg:grid-cols-4 justify-between items-start gap-x-[100px] ">
+          <div className="xl:mb-[50px] lg:mb-[0px] md:mb-[0px] grid grid-cols-2 lg:grid-cols-4 justify-center  items-start gap-x-[100px] ">
             <div className="">
               <div className="footerLogoparent mb-[25px]">
                 <img
@@ -240,8 +240,7 @@ const Footer = () => {
               <div className="">
                 <p className="footerHeaderLogoText text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  ut enim ad minim veniam.
+                  do eiusmod tempor incididunt.
                 </p>
                 <div className="flex flex-row mt-[20px] gap-x-[10px]">
                   <a
@@ -392,6 +391,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
           <hr className="border-1 border-[#FFFFFF]" />
 
           <div className="pt-[25px]   px-[30px] 2xl:pt-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
