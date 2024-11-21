@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="  ">
+    <div className=" section ">
       {/* foooter content */}
-      <div className=" relative md:hidden block section ">
+      <div className=" relative md:hidden block  ">
         <div
           style={{
             backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
@@ -219,7 +219,7 @@ const Footer = () => {
         </div>
       </div>
       {/* large */}
-      <div className="relative hidden md:block  section">
+      <div className="relative hidden md:block  ">
         <div
           style={{
             backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
