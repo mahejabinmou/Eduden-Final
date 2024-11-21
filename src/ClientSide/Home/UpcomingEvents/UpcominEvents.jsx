@@ -49,21 +49,21 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-        <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+        <div className="rounded-[20px]  relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
             src="/assets/images/UpcomingEvents/Artificial Intelligence Bootcamp.jpg"
             alt=""
           />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          <div className="absolute inset-0 top-[277px]  flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               Artificial Intelligence Bootcamp
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -113,11 +113,11 @@ const UpcominEvents = () => {
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               Cybersecurity Mastery Bootcamp
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -167,11 +167,11 @@ const UpcominEvents = () => {
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               Android App Development Bootcamp
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -221,11 +221,11 @@ const UpcominEvents = () => {
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               Database Management
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -275,11 +275,11 @@ const UpcominEvents = () => {
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               Graphic Design
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -329,11 +329,11 @@ const UpcominEvents = () => {
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
               UI/UX Design
             </h1>
-            <p className="upcomingPara mb-[40px] lg:px-[50px] px-[20px]">
+            <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
               Fermentum fusce himenaeos neque condimentum maecenas vitae congue
               iaculis inceptos ullamcorper habitasse
             </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
+            <div className="flex flex-row items-center gap-x-[42px] pb-4">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
