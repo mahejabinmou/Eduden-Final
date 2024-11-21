@@ -1,4 +1,5 @@
 import { CgArrowLongRight } from "react-icons/cg";
+import { HiArrowLongRight } from "react-icons/hi2";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const OnlineCourses = () => {
@@ -44,7 +45,7 @@ const OnlineCourses = () => {
               viewBox="0 0 61 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors duration-500 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
@@ -56,17 +57,17 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
+            <HiArrowLongRight
+              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
+              size={50}
             />
           </div>
         </div>
@@ -79,7 +80,7 @@ const OnlineCourses = () => {
               viewBox="0 0 61 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors duration-500 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
@@ -91,17 +92,17 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
+            <HiArrowLongRight
+              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
+              size={50}
             />
           </div>
         </div>
@@ -114,7 +115,7 @@ const OnlineCourses = () => {
               viewBox="0 0 61 31"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors duration-500 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
@@ -126,18 +127,18 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Expert Instructors
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
 
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
+            <HiArrowLongRight
+              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
+              size={50}
             />
           </div>
         </div>
@@ -150,7 +151,7 @@ const OnlineCourses = () => {
               viewBox="0 0 54 60"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors duration-200 fill-current text-black group-hover:text-white"
+              className="transition-colors duration-500 fill-current text-black group-hover:text-white"
             >
               <path
                 d="M3.87392 14.4694L1.38208 14.1972C1.77994 10.6374 3.39228 7.26611 5.94694 4.69052C8.94132 1.67519 12.9408 0 17.2125 0C20.6467 0 23.8714 1.047 26.5935 3.05722C29.3157 1.047 32.5404 0 35.9746 0C40.2253 0 44.2248 1.65425 47.2402 4.64863C49.8577 7.28705 51.4281 10.5746 51.805 14.1762L49.3132 14.4485C48.9782 11.4122 47.659 8.6272 45.4603 6.42853C42.9266 3.89481 39.5343 2.5128 35.9746 2.5128C32.7917 2.5128 29.8392 3.58072 27.3892 5.61188L26.5935 6.28193L25.7978 5.61188C23.3688 3.58072 20.3954 2.5128 17.2125 2.5128C13.6318 2.5128 10.2605 3.91574 7.74773 6.44946C5.59093 8.62719 4.22985 11.4541 3.89481 14.4485L3.87392 14.4694Z"
@@ -190,18 +191,18 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Lowest Price
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
+          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
 
           <div className="flex items-center justify-center">
-            <CgArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
+            <HiArrowLongRight
+              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
+              size={50}
             />
           </div>
         </div>

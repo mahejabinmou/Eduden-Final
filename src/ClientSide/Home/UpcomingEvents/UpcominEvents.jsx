@@ -51,7 +51,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px]  relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/Artificial Intelligence Bootcamp.jpg"
             alt=""
           />
@@ -105,7 +105,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/Cybersecurity Mastery Bootcamp.jpg"
             alt=""
           />
@@ -159,7 +159,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/Android App Development Bootcamp.jpg"
             alt=""
           />
@@ -213,7 +213,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/Database Management 2.jpg"
             alt=""
           />
@@ -267,7 +267,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/Database Management.jpg"
             alt=""
           />
@@ -321,7 +321,7 @@ const UpcominEvents = () => {
 
         <div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
           <img
-            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-50"
+            className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
             src="/assets/images/UpcomingEvents/23411.jpg"
             alt=""
           />
