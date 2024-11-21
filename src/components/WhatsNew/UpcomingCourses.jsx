@@ -3,7 +3,7 @@ import UpCmnTtle from "./UpCmnTtle";
 
 const UpcomingCourses = () => {
   return (
-    <div>
+    <div className="sectionGap">
       <UpCmnTtle />
       <div>
         <h3 className="font-gucina text-[70px] text-white font-bold leading-[80px] text-center mt-[ ]">

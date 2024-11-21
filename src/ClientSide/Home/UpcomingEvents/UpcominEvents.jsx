@@ -3,7 +3,7 @@ import { SlCalender } from "react-icons/sl";
 
 const UpcominEvents = () => {
   return (
-    <div className="text-[#FFFFFF] sectionGap">
+    <div className="text-[#FFFFFF]  sectionGap">
       <div>
         <h1 className="upcomingTitle mb-[35px] text-center">
           {" "}

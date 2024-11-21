@@ -6,11 +6,22 @@ const OnlineCourses = () => {
   return (
     <div className="text-[#FFFFFF] ">
       <div className="sectionGap">
-        <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-center ">
-          <h1 className="aboutPageHero mb-[30px] 2xl:max-w-[506px] xl:max-w-[506px] ">
-            We Providing The Best Quality Online Courses
-          </h1>
-          <p className="joinClanSubPara 2xl:max-w-[700px] xl:max-w-[700px] lg:max-w-[550px] ">
+        <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-start ">
+          <div>
+            <h1 className="aboutPageHero mb-[30px] 2xl:max-w-[700px] xl:max-w-[506px] ">
+              We Providing The Best Quality Online Courses
+            </h1>
+            <div className="mt-[20px]">
+              <button
+                className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
+    
+    border border-[#A8FF57]"
+              >
+                Read More <MdArrowRightAlt />
+              </button>
+            </div>
+          </div>
+          <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[600px] ">
             Well, because we’re not your grandma’s boring old school! At
             Edu-Den, we’re the rebels of education, the mavericks of learning,
             and the champions of fun-filled knowledge. We’ll teach you how to
@@ -23,16 +34,6 @@ const OnlineCourses = () => {
             how to slay dragons and code websites, all while cracking jokes and
             sipping on virtual coffee.
           </p>
-        </div>
-
-        <div className="mt-[50px]">
-          <button
-            className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
-    
-    border border-[#A8FF57]"
-          >
-            Read More <MdArrowRightAlt />
-          </button>
         </div>
       </div>
 

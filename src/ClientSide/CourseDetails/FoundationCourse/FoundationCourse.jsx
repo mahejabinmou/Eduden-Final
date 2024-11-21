@@ -85,7 +85,9 @@ const FoundationCourse = () => {
             </div>
 
             <div>
-              <h1 className="subTitle text-[#FFFFFF]">What You Learn</h1>
+              <h1 className="subTitle text-[#FFFFFF] pt-[50px]">
+                What You Learn
+              </h1>
               <div className="">
                 <ul className="para text-[#FFFFFFCC]/[.8] pt-[15px]  ">
                   <li className="pb-[15px] flex gap-x-[20px]">
@@ -221,7 +223,7 @@ text-black py-[11.5px] rounded-full"
           </div>
 
           <div className="flex  gap-x-[30px] mb-[50px]">
-            <div className="h-[60px] w-[60px]   bg-[#8EFA6D] rounded-full flex items-center justify-center">
+            <div className="h-[60px] w-[60px] lg:h-[60px] lg:w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
               <MdEmail size={27} className="text-black" />
             </div>
 
@@ -249,18 +251,22 @@ text-black py-[11.5px] rounded-full"
             </div>
           </div>
           {/* large */}
-          <div className="flex  gap-x-[30px] md:block hidden">
-            <div
-              className="h-[60px] w-[60px]
-            bg-[#8EFA6D] rounded-full flex items-center justify-center"
-            >
-              <FaLocationDot size={27} className="text-black" />
-            </div>
+          <div className="md:block hidden">
+            <div className="flex  gap-x-[30px] ">
+              <div
+                className="xl:h-[60px] xl:w-[100px] lg:h-[60px] lg:w-[60px] 2xl:h-[60px] 2xl:w-[60px] rounded-full
+            bg-[#8EFA6D]  flex items-center justify-center"
+              >
+                <FaLocationDot size={27} className="text-black" />
+              </div>
 
-            <div>
-              <h1 className="subTitle pb-[12px]">Location</h1>
-              <p className="para pb-[8px]">5678 Bangla Main Road, cities 580</p>
-              <p className="para">GBnagla, example 54786</p>
+              <div>
+                <h1 className="subTitle pb-[12px]">Location</h1>
+                <p className="para pb-[8px]">
+                  5678 Bangla Main Road, cities 580
+                </p>
+                <p className="para">GBnagla, example 54786</p>
+              </div>
             </div>
           </div>
         </div>
