@@ -6,7 +6,7 @@ import CourseLists from "../../components/Courses/CourseLists/CourseLists";
 import Navbar from "../Shared/Navbar/Navbar";
 
 import Footer from "../Shared/Footer/Footer";
-import WhatsNewHero from "../Whatsnew/WhatsNewHero";
+import WhatsNewHero from "../../ClientSide/WhatsNew/WhatsNewHero";
 import { useEffect } from "react";
 const Courses = () => {
   useEffect(() => {
