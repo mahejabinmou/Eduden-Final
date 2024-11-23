@@ -204,7 +204,11 @@ const Testimonial = () => {
                 finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent
               </p>
-              <button className="text-[#010101] buttonPara">
+              {/* <button className="text-[#010101] buttonPara">
+                View All Testimonial
+              </button> */}
+
+              <button className="homeLargeAppoinMent  flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
                 View All Testimonial
               </button>
             </div>
@@ -230,9 +234,10 @@ const Testimonial = () => {
                 finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent
               </p>
-              <button className="text-[#010101] buttonPara">
+              <button className="homeLargeAppoinMent  flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
                 View All Testimonial
               </button>
+              {/* <button className="text-[#010101] buttonPara"></button> */}
             </div>
             {/* ------slider */}
             <div className="slider-container md:mb-[30px] pb-0 ">
