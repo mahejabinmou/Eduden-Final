@@ -46,49 +46,27 @@
 // export default Course;
 
 /* eslint-disable react/prop-types */
-import { useState } from "react";
-import handleMouseEnter from "../../../helpers/handleMouseEnter";
-import UpComingCrsDetails from "../../../components/WhatsNew/UpComingCrsDetails";
-import UpcomingCard from "../../../components/WhatsNew/UpcomingCard";
-import { filterCourse } from "../../../constant/dummyJson";
+import { filterCourse } from "../../../constant/dummyJson"
+import Card from "../../../components/Card/Card"
 
 const Course = ({ currentCategory }) => {
-  const [isHover, setIsHover] = useState("");
-
-  const filteredCat = filterCourse.filter((category) => {
-    if (currentCategory === "Show All") {
-      return category;
-    }
-    if (currentCategory === category.category) {
-      return category;
-    }
-  });
-  return (
-    <div className="mt-[60px] grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4  gap-[26px] h-full">
-      {filteredCat.map((courseDetails) => (
-        <div
-          className={`courses min-h-[400px] 2xl:pb-[0px] pb-[10px] md:min-h-[0px] lg:min-h-[613px] bg-white 2xl:min-h-[0px] rounded-[20px] ${
-            isHover === courseDetails.id && "upCmnhover"
-          } cursor-pointer`}
-          key={courseDetails.id}
-          onMouseEnter={() => handleMouseEnter(courseDetails.id, setIsHover)}
-          onMouseLeave={() => setIsHover("")}
-        >
-          {isHover !== courseDetails.id ? (
-            <UpcomingCard {...courseDetails} />
-          ) : (
-            <UpComingCrsDetails
-              crsDetails={courseDetails.crsDetails}
-              title={courseDetails.title}
-              rating={courseDetails.rating}
-              price={courseDetails.price}
-              category={courseDetails.category}
-            />
-          )}
+    const filteredCat = filterCourse.filter((category) => {
+        if (currentCategory === "Show All") {
+            return category
+        }
+        if (currentCategory === category.category) {
+            return category
+        }
+    })
+    return (
+        <div className="fleex justify-centere">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(385px,1fr))] gap-x-[26px] gap-y-[50px] place-items-center lg:max-w-[1620px] mx-auto">
+                {filteredCat.map((cat, index) => (
+                    <Card key={index} {...cat} />
+                ))}
+            </div>
         </div>
-      ))}
-    </div>
-  );
-};
+    )
+}
 
-export default Course;
+export default Course
