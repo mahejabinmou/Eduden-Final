@@ -36,6 +36,8 @@ const TrendingCourses = () => {
               <h1 className="text-white text-[35px] leading-[40px] font-gucina font-bold">
                 Cyber Security
               </h1>
+              {/* <HiArrowLongRight size={60} className="text-white " /> */}
+
               <HiArrowLongRight size={60} className="text-white " />
             </div>
           </div>
@@ -55,6 +57,8 @@ const TrendingCourses = () => {
                 <h1 className="text-white text-[28px] leading-[40px] font-gucina font-bold">
                   Graphic Design
                 </h1>
+                {/* <HiArrowLongRight size={60} className="text-white " /> */}
+
                 <HiArrowLongRight size={60} className="text-white " />
               </div>
             </div>

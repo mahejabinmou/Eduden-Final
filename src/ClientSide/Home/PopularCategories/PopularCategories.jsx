@@ -34,7 +34,7 @@ const PopularCategories = () => {
           <div className="flex items-center justify-center">
             <HiArrowLongRight
               className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={50}
+              size={75}
             />
           </div>
          
@@ -56,10 +56,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className="text-[#FFFFFF] group-hover:text-black transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -88,10 +99,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
         <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] ">
@@ -122,10 +144,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -185,10 +218,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -224,10 +268,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -275,10 +330,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
         <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group  rounded-[20px] text-center py-[58px] ">
@@ -329,10 +395,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
         <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
@@ -423,10 +500,21 @@ const PopularCategories = () => {
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
       </div>

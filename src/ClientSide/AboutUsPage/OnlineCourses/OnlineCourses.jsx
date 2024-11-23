@@ -64,15 +64,26 @@ const OnlineCourses = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
           <div className="flex items-center justify-center pb-[30px]">
-            <HiArrowLongRight
-              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -99,15 +110,26 @@ const OnlineCourses = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
           <div className="flex items-center justify-center pb-[30px]">
-            <HiArrowLongRight
-              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -134,16 +156,27 @@ const OnlineCourses = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Expert Instructors
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
 
           <div className="flex items-center justify-center pb-[30px]">
-            <HiArrowLongRight
-              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
 
@@ -198,16 +231,27 @@ const OnlineCourses = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
             Lowest Price
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
 
           <div className="flex items-center justify-center pb-[30px]">
-            <HiArrowLongRight
-              className="text-[#FFFFFF] group-hover:text-black transition duration-500"
-              size={50}
-            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="currentColor"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="currentColor" />
+            </svg>
           </div>
         </div>
       </div>

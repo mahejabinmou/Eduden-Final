@@ -124,7 +124,24 @@ const UpComingCrsDetails = ({
                 "px-[18px] py-2 bg-[#000] text-[#A8FF57] rounded-[50px] text-nowrap"
               }
             />
-            <BsArrowRight size={50} color="black" />
+            {/* <BsArrowRight size={50} color="black" /> */}
+            {/* <img src="/arrow.svg" className="inline-block" alt="" /> */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 200 60"
+              className="w-12 h-12 text-black"
+            >
+              <line
+                x1="0"
+                y1="30"
+                x2="170"
+                y2="30"
+                stroke="black"
+                strokeWidth="3"
+              />
+              <polygon points="170,30 150,20 150,40" fill="black" />
+            </svg>
+
             <TitleContainer
               title={price}
               className={
