@@ -214,7 +214,7 @@ const Testimonial = () => {
         {/* phone */}
 
         <div className="md:hidden block">
-          <div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between lg:gap-[119px] gap-[30px]">
+          <div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between  gap-[30px]">
             {/* text */}
 
             <div className=" ">
@@ -237,7 +237,7 @@ const Testimonial = () => {
             {/* ------slider */}
             <div className="slider-container md:mb-[30px] pb-0 ">
               <Slider {...settings}>
-                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[10px]    pl-[35px]  relative bg-[#22212199]/[.6] ">
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[20px]    pl-[35px]  relative bg-[#22212199]/[.6] ">
                   <div className="flex justify-between items-start">
                     {/* FaQuoteLeft Icon */}
                     <FaQuoteLeft
@@ -281,22 +281,22 @@ const Testimonial = () => {
                     </div>
                   </div>
                 </div>
-                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[20px]    pl-[35px]  relative bg-[#22212199]/[.6] ">
                   <div className="flex justify-between items-start">
                     {/* FaQuoteLeft Icon */}
                     <FaQuoteLeft
-                      size={45}
-                      className="  text-[#FFFFFF] pb-[15px]"
+                      size={20}
+                      className="  text-[#FFFFFF] mb-[15px]"
                     />
 
                     {/* Star Rating */}
-                    <div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
+                    <div className="flex items-center mb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
                       <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
                     </div>
                   </div>
 
                   <div>
-                    <p className="text-[#FFFFFF] font-sans font-normal pr-[46px] pb-[25px]">
+                    <p className="text-[#FFFFFF] text-[12px] leading-[18px] font-sans font-semibold pr-[46px] pb-[25px]">
                       Ex urna finibus natoque auctor pretium etiam consequat
                       eleifend himenaeos mauris placerat ridiculus odio praesent
                       Ex urna finibus natoque auctor pretium etiam consequat
@@ -325,22 +325,22 @@ const Testimonial = () => {
                     </div>
                   </div>
                 </div>
-                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[20px]    pl-[35px]  relative bg-[#22212199]/[.6] ">
                   <div className="flex justify-between items-start">
                     {/* FaQuoteLeft Icon */}
                     <FaQuoteLeft
-                      size={45}
-                      className="  text-[#FFFFFF] pb-[15px]"
+                      size={20}
+                      className="  text-[#FFFFFF] mb-[15px]"
                     />
 
                     {/* Star Rating */}
-                    <div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
+                    <div className="flex items-center mb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
                       <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
                     </div>
                   </div>
 
                   <div>
-                    <p className="text-[#FFFFFF] font-sans font-normal pr-[46px] pb-[25px]">
+                    <p className="text-[#FFFFFF] text-[12px] leading-[18px] font-sans font-semibold pr-[46px] pb-[25px]">
                       Ex urna finibus natoque auctor pretium etiam consequat
                       eleifend himenaeos mauris placerat ridiculus odio praesent
                       Ex urna finibus natoque auctor pretium etiam consequat

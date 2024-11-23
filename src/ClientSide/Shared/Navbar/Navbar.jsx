@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
           <div>
             <IoMenu
-              className="text-[#A8FF57] h-[55px] w-full
+              className="text-[#A8FF57] md:h-[35px] h-[28px] w-full
               "
               onClick={handleMenu}
             ></IoMenu>
