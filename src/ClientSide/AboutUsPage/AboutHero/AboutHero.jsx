@@ -13,7 +13,10 @@ const AboutHero = () => {
 
           <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">
             <h1 className="aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
-              A Large Range of Course Learning Paths Home
+              A Large Range of Course{" "}
+              <span className="border-b-4 border-[#A8FF57]">
+                Learning Paths Home
+              </span>
             </h1>
             <p className="text-[#FFFFFF]/[.8] joinClanSubPara pb-[35px]">
               Home &gt; About us

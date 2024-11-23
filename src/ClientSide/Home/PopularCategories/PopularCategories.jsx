@@ -71,7 +71,7 @@ const PopularCategories = () => {
               viewBox="0 0 63 47"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors transition duration-1000 fill-current text-[#000000] group-hover:text-white"
+              className="transition-colors  duration-1000 fill-current text-[#000000] group-hover:text-white"
             >
               <path d="M38.313 34.4156H9.75489C7.84038 34.4156 6.29053 32.8658 6.29053 30.9513V3.46435C6.29053 1.54984 7.84038 0 9.75489 0H53.5379C55.4524 0 57.0023 1.54984 57.0023 3.46435V10.8489H54.2673V3.46435C54.2673 3.0541 53.9482 2.73502 53.5379 2.73502H9.75489C9.34464 2.73502 9.02554 3.0541 9.02554 3.46435V30.9513C9.02554 31.3615 9.34464 31.6806 9.75489 31.6806H38.313V34.4156Z" />
               <path d="M38.313 46.8828H3.07687C1.39028 46.86 0 45.4697 0 43.7832V40.1365C0 38.4499 1.39028 37.0596 3.07687 37.0596H38.313V39.7946H3.07687C2.89454 39.7946 2.73501 39.9541 2.73501 40.1365V43.7832C2.73501 43.9655 2.89454 44.125 3.07687 44.125H38.313V46.8828Z" />
@@ -123,7 +123,7 @@ const PopularCategories = () => {
           </p>
           <div className="flex items-center justify-center">
             <HiArrowLongRight
-              className=" text-[#FFFFFF] transition duration-1000"
+              className=" text-[#FFFFFF] group-hover:text-[#000000] transition duration-1000"
               size={50}
             />
           </div>

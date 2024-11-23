@@ -37,7 +37,7 @@ const AboutUs = () => {
       </div>
 
       <div className="hidden md:block">
-        <div className="flex lg:flex-row  flex-col justify-between items-center ">
+        <div className="flex lg:flex-row  flex-col justify-between items-start ">
           <h1 className="AboutUsHead mb-[30px]">
             {" "}
             <span className="border-b-4 border-[#A8FF57]">
@@ -60,7 +60,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="flex lg:flex-row flex-col justify-between items-center mt-[50px]">
+        <div className="flex lg:flex-row flex-col justify-between items-start  mt-[30px]">
           <button
             className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
         

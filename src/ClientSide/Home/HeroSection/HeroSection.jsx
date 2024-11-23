@@ -31,6 +31,31 @@ const HeroSection = () => {
         {/* mobile */}
         {/* Slider Container */}
         <div className="slider-container  md:hidden block ">
+          <div
+            className="absolute inset-0 z-10  px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px]
+           2xl:px-[150px]  "
+          >
+            <div className="absolute inset-0 mx-[30px]  lg:mx-[50px] ">
+              <div>
+                <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
+                  WELCOME TO EDUDEN
+                </button>
+
+                <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
+                  Where Learning Meets Imagination & Innovation!
+                </h1>
+
+                <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+                  we're your one-stop destination for unlocking your potential
+                  and conquering the digital realm with confidence.
+                </p>
+              </div>
+              <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
+                Discover More
+              </button>
+            </div>
+          </div>
+
           <Slider {...settings}>
             <div className="relative ">
               <div
@@ -40,26 +65,6 @@ const HeroSection = () => {
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
-
-              <div className="absolute inset-0 mx-[50px] ">
-                <div>
-                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
-                    WELCOME TO EDUDEN
-                  </button>
-
-                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
-                    Where Learning Meets Imagination & Innovation!
-                  </h1>
-
-                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
-                    we're your one-stop destination for unlocking your potential
-                    and conquering the digital realm with confidence.
-                  </p>
-                </div>
-                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
-                  Discover More
-                </button>
-              </div>
             </div>
             {/* slider two */}
             <div className="relative ">
@@ -70,26 +75,6 @@ const HeroSection = () => {
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
-
-              <div className="absolute inset-0 mx-[50px] ">
-                <div>
-                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
-                    WELCOME TO EDUDEN
-                  </button>
-
-                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
-                    Where Learning Meets Imagination & Innovation!
-                  </h1>
-
-                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
-                    we're your one-stop destination for unlocking your potential
-                    and conquering the digital realm with confidence.
-                  </p>
-                </div>
-                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
-                  Discover More
-                </button>
-              </div>
             </div>
             {/* slider three */}
             <div className="relative ">
@@ -100,26 +85,6 @@ const HeroSection = () => {
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
               ></div>
-
-              <div className="absolute inset-0 mx-[50px] ">
-                <div>
-                  <button className="py-[10px] px-[20px]  text-[#A8FF57] border border-[#FFFFFF]/[0.5] rounded-[10px] heroSecSubHead mb-[20px] mt-[35px]">
-                    WELCOME TO EDUDEN
-                  </button>
-
-                  <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
-                    Where Learning Meets Imagination & Innovation!
-                  </h1>
-
-                  <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
-                    we're your one-stop destination for unlocking your potential
-                    and conquering the digital realm with confidence.
-                  </p>
-                </div>
-                <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
-                  Discover More
-                </button>
-              </div>
             </div>
           </Slider>
         </div>
@@ -127,7 +92,7 @@ const HeroSection = () => {
         {/* Slider Container big screen*/}
         <div className="slider-container  hidden md:block">
           <div
-            className="absolute inset-0 z-10 px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px]
+            className="absolute inset-0 z-10 px-[30px] md:px-[50px] lg:px-[60px] xl:px-[100px]
            2xl:px-[150px]  "
           >
             <div>
@@ -137,12 +102,12 @@ const HeroSection = () => {
 
               <div className="flex flex-row justify-between items-center">
                 <h1
-                  className="heroHead mb-[25px] text-[#FFFFFF] 2xl:max-w-[700px]
+                  className="heroHead  text-[#FFFFFF] 2xl:max-w-[700px]
                     xl:max-w-[700px]  lg:max-w-[700px] max-w-[700px]"
                 >
                   Where Learning Meets Imagination & Innovation!
                 </h1>
-                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[20px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
+                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[0px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
                   {/* Rotated Text */}
                   <span className="transform rotate-90 heroSecSubHead mb-[30px] whitespace-nowrap">
                     follow now
@@ -170,12 +135,13 @@ const HeroSection = () => {
                   </div>
                 </div>
               </div>
-              <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+
+              <p className="max-w-[604px]   joinClanSubPara  text-[#FFFFFF]">
                 we're your one-stop destination for unlocking your potential and
                 conquering the digital realm with confidence.
               </p>
             </div>
-            <button className="homeLargeAppoinMent mt-[35px] flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
+            <button className="homeLargeAppoinMent mt-[50px] flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
               Discover More
             </button>
           </div>

@@ -6,7 +6,7 @@ const WhatsNewHero = ({ title }) => {
         style={{
           backgroundImage: `url("https://i.ibb.co.com/zb910bd/Bg.webp")`,
         }}
-        className="bg-no-repeat  bg-cover w-full  md:h-[400px] 2xl:h-[600px]
+        className="bg-no-repeat  bg-cover w-full  md:h-[400px]  2xl:h-[600px]
               h-[300px] flex justify-center items-center"
       ></div>
 

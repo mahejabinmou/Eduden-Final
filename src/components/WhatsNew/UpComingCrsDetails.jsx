@@ -128,7 +128,7 @@ const UpComingCrsDetails = ({
             <TitleContainer
               title={price}
               className={
-                "px-[25px] py-[13px] text-[#A8FF57] rounded-[50px] bg-[#010101] text-[20px] font-gucina font-bold"
+                "px-[18px] py-2 text-[#A8FF57] rounded-[50px] bg-[#010101] text-[16px] font-gucina font-bold"
               }
             />
           </div>
