@@ -128,7 +128,7 @@
     xl:text-[20px] xl:leading-[23px] 
     lg:text-[20px] lg:leading-[23px] 
     md:text-[20px] md:leading-[23px] 
-    text-[8px] leading-[9.2px] 
+    text-[12px] leading-[13px] 
     
     font-gucina font-bold;
   }
@@ -137,9 +137,9 @@
     xl:text-[19px] xl:leading-[25px] 
     lg:text-[18px] lg:leading-[27px] 
     md:text-[18px] md:leading-[27px] 
-    text-[10px] leading-[20px]
+    text-[10px] leading-[15px]
 
-    font-medium font-sans;
+    font-normal font-sans;
   }
   .joinClanSubPara {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
@@ -165,7 +165,7 @@
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[50px] lg:leading-[80px]
     md:text-[40px] md:leading-[80px]
-    text-[35px] leading-[50px]
+    text-[20px] leading-[23px]
     
     font-gucina font-bold;
   }
@@ -419,7 +419,7 @@
   }
 
   .testimonialSub {
-    @apply text-[30px] leading-[34.5px]
+    @apply lg:text-[30px] leading-[34.5px] text-[8px]
     font-gucina font-bold;
   }
   .testimonialTitle {

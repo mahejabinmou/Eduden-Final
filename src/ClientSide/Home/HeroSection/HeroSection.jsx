@@ -107,7 +107,7 @@ const HeroSection = () => {
                 >
                   Where Learning Meets Imagination & Innovation!
                 </h1>
-                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[0px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
+                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[10px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
                   {/* Rotated Text */}
                   <span className="transform rotate-90 heroSecSubHead mb-[30px] whitespace-nowrap">
                     follow now
@@ -126,9 +126,9 @@ const HeroSection = () => {
                     <div className="bg-black p-2 rounded-full text-white">
                       <FaInstagram size={20} />
                     </div>
-                    <div className="bg-black p-2 rounded-full text-white">
+                    {/* <div className="bg-black p-2 rounded-full text-white">
                       <CiYoutube size={20} />
-                    </div>
+                    </div> */}
                     <div className="bg-black p-2 rounded-full text-white">
                       <LiaLinkedinIn size={20} />
                     </div>
