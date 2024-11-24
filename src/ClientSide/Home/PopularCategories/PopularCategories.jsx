@@ -1,5 +1,5 @@
-import { HiArrowLongRight, HiOutlineMinusSmall } from "react-icons/hi2";
-import { IoMdLock } from "react-icons/io";
+import { CiLock } from "react-icons/ci";
+import { HiOutlineMinusSmall } from "react-icons/hi2";
 
 const PopularCategories = () => {
   return (
@@ -13,7 +13,10 @@ const PopularCategories = () => {
           <HiOutlineMinusSmall />{" "}
         </span>
       </h1>
-      <h1 className="joinClanHead mb-[80px] text-center"> Course Catagories</h1>
+      <h1 className="AboutCardHead mb-[80px] text-center">
+        {" "}
+        Course Catagories
+      </h1>
 
       <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
         {/* <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-500  h-[405px] rounded-[20px] text-center py-[58px] ">
@@ -42,7 +45,7 @@ const PopularCategories = () => {
 
         <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px]">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
-            <IoMdLock
+            <CiLock
               size={30}
               className="group-hover:text-white text-[#000000] transition duration-1000"
             />
@@ -51,7 +54,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000]">
             Cyber Security
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -94,7 +97,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             UI/UX Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -139,7 +142,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             Web Development
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -213,7 +216,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
             Graphic Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -263,7 +266,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-200">
             Mobile App Development
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -325,7 +328,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-1000">
             Programming Languages
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -390,7 +393,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
             Data Science and AI
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -495,7 +498,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
             Database Management
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px]  popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px]  paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>

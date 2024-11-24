@@ -12,7 +12,7 @@ const AboutUs = () => {
             </span>
             {""} {""}Us
           </h1>
-          <p className="joinClanSubPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px] ">
+          <p className="HomeAboutPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px] ">
             Well, because we’re not your grandma’s boring old school! At
             Edu-Den, we’re the rebels of education, the mavericks of learning,
             and the champions of fun-filled knowledge. We’ll teach you how to
@@ -28,9 +28,9 @@ const AboutUs = () => {
         </div>
 
         <button
-          className="mt-[50px] flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
+          className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] AboutHome
         
-        border border-[#A8FF57]  px-[20px] py-[8px]"
+        border border-[#A8FF57]  "
         >
           Read More <MdArrowRightAlt />
         </button>
