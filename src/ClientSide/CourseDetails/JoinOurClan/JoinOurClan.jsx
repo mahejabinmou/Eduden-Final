@@ -25,7 +25,7 @@ const JoinOurClan = () => {
             <p className="text-[#FFFFFF] joinClanSubPara md:pb-[35px] mb-[10px]">
               Join the Learning Party Now – No Boring Stuff Allowed.
             </p>
-            <button className="homeLargeAppoinMent bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[8px] px-[18px] gap-x-[10px] text-[#010101]">
+            <button className="JoinButton bg-[#A8FF57] flex items-center justify-center rounded-[50px]  gap-x-[5px] text-[#010101]">
               Enroll Now <MdArrowRightAlt />
             </button>
           </div>

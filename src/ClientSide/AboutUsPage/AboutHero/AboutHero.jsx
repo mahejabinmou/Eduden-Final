@@ -12,7 +12,13 @@ const AboutHero = () => {
           ></div>
 
           <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">
-            <h1 className="aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
+            <h1 className="hidden md-block aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
+              A Large Range of Course{" "}
+              <span className="border-b-4 border-[#A8FF57]">
+                Learning Paths Home
+              </span>
+            </h1>
+            <h1 className="md-hidden block max-w-[250px] aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
               A Large Range of Course{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Learning Paths Home

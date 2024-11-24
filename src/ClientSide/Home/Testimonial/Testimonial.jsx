@@ -221,12 +221,12 @@ const Testimonial = () => {
           <div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between  gap-[30px]">
             {/* text */}
 
-            <div className=" ">
+            <div className=" text-center">
               <h1 className="text-[#A8FF57] testimonialSub ">Testimonial</h1>
               <h1 className="testimonialTitle text-[#FFFFFF]  ">
                 What students say
               </h1>
-              <p className="para text-[#FFFFFF]  ">
+              <p className="paraZ text-[#FFFFFF]  pt-[16px]">
                 Ex urna finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent Ex urna
                 finibus natoque auctor pretium etiam consequat eleifend
@@ -234,9 +234,11 @@ const Testimonial = () => {
                 finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent
               </p>
-              <button className="homeLargeAppoinMent  mt-[20px] flex items-center justify-between text-[#010101] bg-[#A8FF57] ">
-                View All Testimonial
-              </button>
+              <div className="text-center mb-[60px]">
+                <button className="homeLargeAppoinMent  mt-[20px]   text-[#010101] bg-[#A8FF57]  ">
+                  View All Testimonial
+                </button>
+              </div>
               {/* <button className="text-[#010101] buttonPara"></button> */}
             </div>
             {/* ------slider */}

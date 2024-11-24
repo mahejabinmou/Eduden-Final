@@ -41,16 +41,16 @@ const HeroSection = () => {
                   WELCOME TO EDUDEN
                 </button>
 
-                <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[12px]">
+                <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[5px]">
                   Where Learning Meets Imagination & Innovation!
                 </h1>
 
-                <p className="max-w-[604px]  joinClanSubPara  text-[#FFFFFF]">
+                <p className="max-w-[604px]  HomeBannerPara  text-[#FFFFFF]">
                   we're your one-stop destination for unlocking your potential
                   and conquering the digital realm with confidence.
                 </p>
               </div>
-              <button className="homeLargeAppoinMent mt-[12px] px-[20px] py-[8px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
+              <button className="homeLargeAppoinMent mt-[12px] px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#A8FF57] font-bold mb-[35px]">
                 Discover More
               </button>
             </div>
@@ -136,7 +136,7 @@ const HeroSection = () => {
                 </div>
               </div>
 
-              <p className="max-w-[604px]   joinClanSubPara  text-[#FFFFFF]">
+              <p className="max-w-[604px]   HomeBannerPara  text-[#FFFFFF]">
                 we're your one-stop destination for unlocking your potential and
                 conquering the digital realm with confidence.
               </p>

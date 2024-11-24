@@ -56,7 +56,7 @@ const Faq = () => {
         <div className="mb-[35px]">
           <BiMessageDetail size={121} />
         </div>
-        <div className=" text-center  mb-[25px]">
+        <div className=" text-center mb-[10px] md:mb-[25px]">
           <h3 className="faqActionHead text-[#FFFFFF] max-w-[550px] leading-[50px] xl:0 lg:px-[50px]">
             Do you have more questions?
           </h3>

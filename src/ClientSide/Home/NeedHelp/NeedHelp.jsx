@@ -1,7 +1,7 @@
 const NeedHelp = () => {
   return (
     <div>
-      <div className="mt-[100px] xs:mt-[130px]  md:mt-[80px]   lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]  relative">
+      <div className="pt-[60px] xs:mt-[130px]  md:mt-[80px]   lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]  relative">
         {/* Background image section */}
         <div
           style={{
@@ -13,7 +13,7 @@ const NeedHelp = () => {
         {/* Text Section */}
         <div className="absolute inset-0 flex flex-col items-center justify-center md:flex-row md:justify-between  px-[60px] md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[150px]    ">
           <div>
-            <h1 className="NeedHelpHead mb-[15px] text-center md:text-start text-[#FFFFFF]">
+            <h1 className="NeedHelpHead pt-[50px] mb-[15px] text-center md:text-start text-[#FFFFFF]">
               Need Help?
             </h1>
             <p
