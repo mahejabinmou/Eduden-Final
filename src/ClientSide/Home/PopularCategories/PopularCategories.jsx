@@ -1,7 +1,17 @@
+import { useState } from "react";
 import { CiLock } from "react-icons/ci";
 import { HiOutlineMinusSmall } from "react-icons/hi2";
 
 const PopularCategories = () => {
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
+  const [isHovered6, setIsHovered6] = useState(false);
+  const [isHovered7, setIsHovered7] = useState(false);
+  const [isHovered8, setIsHovered8] = useState(false);
+
   return (
     <div className="text-[#FFFFFF] sectionGap">
       <h1 className="joinClanPara mb-[25px]  flex items-center justify-center text-[#A8FF57]">
@@ -19,32 +29,12 @@ const PopularCategories = () => {
       </h1>
 
       <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
-        {/* <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-500  h-[405px] rounded-[20px] text-center py-[58px] ">
-          <div className="h-[60px] w-[60px]  mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
-            <IoMdLock
-              size={30}
-              className=" group-hover:text-white text-[#000000]  "
-            />
-          </div>
-
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] ">
-            Cyber Security
-          </h1>
-          <p className="xl:mb-[50px]  lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-200">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
-          </p>
-          <div className="flex items-center justify-center">
-            <HiArrowLongRight
-              className=" text-[#FFFFFF] group-hover:text-black transition duration-200"
-              size={75}
-            />
-          </div>
-         
-        </div> */}
-
-        <div className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px]">
-          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
+        <div
+          onMouseEnter={() => setIsHovered1(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered1(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px]"
+        >
+          <div className=" h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <CiLock
               size={30}
               className="group-hover:text-white text-[#000000] transition duration-1000"
@@ -54,30 +44,24 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000]">
             Cyber Security
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px]  lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered1 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered2(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered2(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000]  flex justify-center items-center">
             <svg
               width="30"
@@ -101,25 +85,20 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered2 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] ">
+
+        <div
+          onMouseEnter={() => setIsHovered3(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered3(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -146,26 +125,20 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered3 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered4(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered4(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -220,26 +193,20 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered4 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered5(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered5(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -270,26 +237,20 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered5 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
 
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered6(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered6(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               width="30"
@@ -332,25 +293,19 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered6 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group  rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered7(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered7(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group  rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
@@ -397,25 +352,19 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered7 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
-        <div className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] ">
+        <div
+          onMouseEnter={() => setIsHovered8(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered8(false)} // Set hover to false
+          className="hover:bg-[#A8FF57B2]/[.7] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] "
+        >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
@@ -502,22 +451,12 @@ const PopularCategories = () => {
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 200 60"
-              className="w-12 h-12 fill-current  group-hover:text-[#000000] text-white"
-            >
-              <line
-                x1="0"
-                y1="30"
-                x2="170"
-                y2="30"
-                stroke="currentColor"
-                strokeWidth="3"
-              />
-              <polygon points="170,30 150,20 150,40" fill="currentColor" />
-            </svg>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px]">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered8 ? "/arrow-black.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
           </div>
         </div>
       </div>

@@ -38,7 +38,10 @@ const TrendingCourses = () => {
               </h1>
               {/* <HiArrowLongRight size={60} className="text-white " /> */}
 
-              <HiArrowLongRight size={60} className="text-white " />
+              {/* <HiArrowLongRight size={60} className="text-white " /> */}
+              <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 flex justify-center items-center">
+                <img src="/arrow-white.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -59,7 +62,10 @@ const TrendingCourses = () => {
                 </h1>
                 {/* <HiArrowLongRight size={60} className="text-white " /> */}
 
-                <HiArrowLongRight size={60} className="text-white " />
+                {/* <HiArrowLongRight size={60} className="text-white " /> */}
+                <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 flex justify-center items-center">
+                  <img src="/arrow-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -77,7 +83,10 @@ const TrendingCourses = () => {
                 <h1 className="text-white text-[20px] leading-[23px] font-gucina font-bold">
                   UI/UX Design
                 </h1>
-                <HiArrowLongRight size={60} className="text-white " />
+                {/* <HiArrowLongRight size={60} className="text-white " /> */}
+                <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 flex justify-center items-center">
+                  <img src="/arrow-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -94,7 +103,10 @@ const TrendingCourses = () => {
                 <h1 className="text-white text-[20px] leading-[23px] font-gucina font-bold">
                   Web Development
                 </h1>
-                <HiArrowLongRight size={60} className="text-white " />
+                {/* <HiArrowLongRight size={60} className="text-white " /> */}
+                <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 flex justify-center items-center">
+                  <img src="/arrow-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -111,7 +123,10 @@ const TrendingCourses = () => {
                 <h1 className="text-white text-[20px] leading-[23px] font-gucina font-bold">
                   Mobile App Development
                 </h1>
-                <HiArrowLongRight size={60} className="text-white " />
+                {/* <HiArrowLongRight size={60} className="text-white " /> */}
+                <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 flex justify-center items-center">
+                  <img src="/arrow-white.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
