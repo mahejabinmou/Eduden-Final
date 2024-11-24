@@ -18,7 +18,7 @@ const AboutHero = () => {
                 Learning Paths Home
               </span>
             </h1>
-            <h1 className="block md:hidden max-w-[250px] aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
+            <h1 className="block md:hidden  BannerHead text-[#FFFFFF] pb-[25px] text-center">
               A Large Range of Course{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Learning Paths Home

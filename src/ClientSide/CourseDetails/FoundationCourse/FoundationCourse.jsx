@@ -208,7 +208,7 @@ text-black py-[11.5px] rounded-full"
 
         <div className="bg-[#1A1A1A] text-white p-[50px]  rounded-[10px] max-w-[523px] mb-[50px]">
           {/* Title */}
-          <h2 className="subTitle mb-[50px]">Contact Us</h2>
+          <h2 className="popularCategoryHead mb-[50px]">Contact Us</h2>
 
           <div className="flex  gap-x-[30px] mb-[50px]">
             <div className="h-[60px] w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
@@ -217,8 +217,8 @@ text-black py-[11.5px] rounded-full"
 
             <div>
               <h1 className="subTitle pb-[12px]">Phone Number</h1>
-              <p className="para pb-[8px]">+919547578920</p>
-              <p className="para">+919547578920</p>
+              <p className="testimonialSub pb-[8px]">+919547578920</p>
+              <p className="testimonialSub">+919547578920</p>
             </div>
           </div>
 
@@ -229,14 +229,14 @@ text-black py-[11.5px] rounded-full"
 
             <div>
               <h1 className="subTitle pb-[12px]">Email Address</h1>
-              <p className="para 2xl:pb-[8px]">example@gmail.com</p>
-              <p className="para">example@gmail.com</p>
+              <p className="testimonialSub 2xl:pb-[8px]">example@gmail.com</p>
+              <p className="testimonialSub">example@gmail.com</p>
             </div>
           </div>
 
           <div className="flex  gap-x-[30px] md:hidden block ">
             <div
-              className="h-[60px] w-[60px]
+              className="h-[60px] w-[72px]
             bg-[#8EFA6D] rounded-full flex items-center justify-center"
             >
               <FaLocationDot size={27} className="text-black" />
@@ -244,10 +244,10 @@ text-black py-[11.5px] rounded-full"
 
             <div>
               <h1 className="subTitle pb-[12px]">Location</h1>
-              <p className="para md:pb-[8px] pb-[4px]">
+              <p className="testimonialSub md:pb-[8px] pb-[4px]">
                 5678 Bangla Main Road, cities 580
               </p>
-              <p className="para">GBnagla, example 54786</p>
+              <p className="testimonialSub">GBnagla, example 54786</p>
             </div>
           </div>
           {/* large */}

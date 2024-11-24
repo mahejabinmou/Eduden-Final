@@ -6,7 +6,7 @@ const UpcomingCourses = () => {
     <div className="sectionGap">
       <UpCmnTtle />
       <div>
-        <h3 className="font-gucina text-[20px] leading-[23px] lg:text-[70px] lg:leading-[80px] text-white font-bold  text-center mt-[20px]">
+        <h3 className="font-gucina popularCategoryHead text-white font-bold  text-center mt-[20px]">
           Upcoming Courses
         </h3>
       </div>

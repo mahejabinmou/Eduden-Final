@@ -9,7 +9,6 @@ import Navbar from "../../Shared/Navbar/Navbar";
 import { MdArrowDownward } from "react-icons/md";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
-import { CiYoutube } from "react-icons/ci";
 
 const HeroSection = () => {
   const settings = {
@@ -107,7 +106,7 @@ const HeroSection = () => {
                 >
                   Where Learning Meets Imagination & Innovation!
                 </h1>
-                <div className=" bg-[#A8FF57] px-[30px] pt-[50px] pb-[10px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
+                <div className=" bg-[#A8FF57] px-[30px] pt-[60px] pb-[20px]  max-w-[46px] flex flex-col items-center space-y-[10px] rounded-full">
                   {/* Rotated Text */}
                   <span className="transform rotate-90 heroSecSubHead mb-[30px] whitespace-nowrap">
                     follow now

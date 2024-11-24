@@ -5,12 +5,12 @@ const UpcominEvents = () => {
   return (
     <div className="text-[#FFFFFF]  sectionGap">
       <div>
-        <h1 className="upcomingTitle mb-[35px] text-center">
+        <h1 className="popularCategoryHead mb-[35px] text-center">
           {" "}
           Upcoming <span className="border-b-4 border-[#A8FF57]">Events</span>
         </h1>
         <p
-          className="upComingSubTitle  mb-[50px]  2xl:px-[150px] xl:px-[150px] 
+          className="joinClanSubPara  mb-[50px]  2xl:px-[150px] xl:px-[150px] 
       md:px-[10px] px-[10px] text-center"
         >
           Well, because we’re not your grandma’s boring old school! At Edu-Den,

@@ -142,11 +142,11 @@
     font-normal font-sans;
   }
   .joinClanSubPara {
-    @apply 2xl:text-[18px] 2xl:leading-[27px] 2xl:px-[0px]
-    xl:text-[18px] xl:leading-[27px] xl:px-[0px]
-    lg:text-[18px] lg:leading-[27px] lg:px-[0px]
-    md:text-[16px] md:leading-[27px] md:px-[0px]
-    text-[8px] leading-[12px] px-[30px]
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[14px] leading-[21px] 
 
     font-medium font-sans;
   }
@@ -178,6 +178,16 @@
   }
 
   .joinClanHead {
+    @apply 2xl:text-[70px] 2xl:leading-[80px] 2xl:px-[0px]
+    xl:text-[70px] xl:leading-[80px] xl:px-[0px]
+    lg:text-[70px] lg:leading-[80px] lg:px-[0px]
+    md:text-[70px] md:leading-[80px] md:px-[0px]
+    text-[16px] leading-[18px] px-[30px]
+    
+    font-gucina font-bold;
+  }
+
+  .joinHead {
     @apply 2xl:text-[70px] 2xl:leading-[80px] 2xl:px-[0px]
     xl:text-[70px] xl:leading-[80px] xl:px-[0px]
     lg:text-[70px] lg:leading-[80px] lg:px-[0px]
@@ -234,7 +244,7 @@ text-[10px] leading-[15px]
   }
 
   .homeLargeAppoinMent {
-    @apply text-[10px] leading-[21px]  py-[3px] px-[10px]
+    @apply text-[14px] leading-[21px]  py-[3px] px-[10px]
     
     md:text-[16px] md:py-[8px] md:px-[16px]
     xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
@@ -308,7 +318,7 @@ text-[10px] leading-[15px]
     xl:text-[16px] xl:leading-[34.5px] 
     lg:text-[30px] lg:leading-[34.5px]
     md:text-[30px] md:leading-[34.5px] 
-text-[30px]  leading-[34px]
+  text-[25px]  leading-[34px]
     font-bold font-gucina;
   }
   .popularCategoryPara {
@@ -483,7 +493,8 @@ text-[30px]  leading-[34px]
   }
 
   .testimonialSub {
-    @apply lg:text-[30px] leading-[34.5px] text-[8px]
+    @apply lg:text-[30px] lg:leading-[34.5px] 
+    text-[14px] leading-[21px] 
     font-gucina font-bold;
   }
   .testimonialTitle {
@@ -504,5 +515,25 @@ text-[30px]  leading-[34px]
     text-[20px] leading-[26px]
     
     font-gucina font-bold;
+  }
+
+  .BannerHead {
+    @apply 2xl:text-[70px] 2xl:leading-[65px]
+    xl:text-[50px] xl:leading-[65px] 
+    lg:text-[40px] lg:leading-[55px]
+    md:text-[50px] md:leading-[65px]
+    text-[30px] leading-[40px]
+    
+    font-gucina font-bold;
+  }
+
+  .BannerPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[16px] md:leading-[27px] 
+    text-[8px] leading-[12px] 
+
+    font-medium font-sans;
   }
 }

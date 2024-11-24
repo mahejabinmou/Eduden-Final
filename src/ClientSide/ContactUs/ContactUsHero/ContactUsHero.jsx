@@ -10,10 +10,10 @@ const ContactUsHero = () => {
       ></div>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">
-        <h1 className="aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
+        <h1 className="BannerHead text-[#FFFFFF] pb-[25px] text-center">
           Archives: Contact Us
         </h1>
-        <p className="text-[#FFFFFF]/[.8] joinClanSubPara pb-[35px]">
+        <p className="text-[#FFFFFF]/[.8] BannerPara pb-[35px]">
           Home &gt; Contact Us
         </p>
       </div>

@@ -222,11 +222,13 @@ const Testimonial = () => {
             {/* text */}
 
             <div className=" text-center">
-              <h1 className="text-[#A8FF57] testimonialSub ">Testimonial</h1>
+              <h1 className="text-[#A8FF57] testimonialSub mb-[5px] ">
+                Testimonial
+              </h1>
               <h1 className="testimonialTitle text-[#FFFFFF]  ">
                 What students say
               </h1>
-              <p className="paraZ text-[#FFFFFF]  pt-[16px]">
+              <p className="joinClanSubPara text-[#FFFFFF]  pt-[16px]">
                 Ex urna finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent Ex urna
                 finibus natoque auctor pretium etiam consequat eleifend

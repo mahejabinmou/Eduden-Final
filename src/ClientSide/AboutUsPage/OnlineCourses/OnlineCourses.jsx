@@ -8,13 +8,13 @@ const OnlineCourses = () => {
       <div className="sectionGap">
         <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-start ">
           <div>
-            <h1 className="aboutPageHero mb-[30px] 2xl:max-w-[700px] xl:max-w-[506px] ">
+            <h1 className="popularCategoryHead  mb-[30px] 2xl:max-w-[700px] xl:max-w-[506px] ">
               We Providing The{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Best Quality Online Courses
               </span>
             </h1>
-            <div className="mt-[20px]">
+            <div className="mt-[20px] hidden md:block">
               <button
                 className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
@@ -24,19 +24,30 @@ const OnlineCourses = () => {
               </button>
             </div>
           </div>
-          <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[600px] ">
-            Well, because we’re not your grandma’s boring old school! At
-            Edu-Den, we’re the rebels of education, the mavericks of learning,
-            and the champions of fun-filled knowledge. We’ll teach you how to
-            slay dragons and code websites, all while cracking jokes and sipping
-            on virtual coffee. So, why settle for snooze-worthy lectures when
-            you can join the Edu-Den revolution? Let’s make learning epic
-            together!Well, because we’re not your grandma’s boring old school!
-            At Edu-Den, we’re the rebels of education, the mavericks of
-            learning, and the champions of fun-filled knowledge. We’ll teach you
-            how to slay dragons and code websites, all while cracking jokes and
-            sipping on virtual coffee.
-          </p>
+          <div>
+            <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[600px] ">
+              Well, because we’re not your grandma’s boring old school! At
+              Edu-Den, we’re the rebels of education, the mavericks of learning,
+              and the champions of fun-filled knowledge. We’ll teach you how to
+              slay dragons and code websites, all while cracking jokes and
+              sipping on virtual coffee. So, why settle for snooze-worthy
+              lectures when you can join the Edu-Den revolution? Let’s make
+              learning epic together!Well, because we’re not your grandma’s
+              boring old school! At Edu-Den, we’re the rebels of education, the
+              mavericks of learning, and the champions of fun-filled knowledge.
+              We’ll teach you how to slay dragons and code websites, all while
+              cracking jokes and sipping on virtual coffee.
+            </p>
+            <div className="mt-[20px] md:hidden block">
+              <button
+                className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
+    
+    border border-[#A8FF57]"
+              >
+                Read More <MdArrowRightAlt />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -61,10 +72,10 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
@@ -107,10 +118,10 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
             Life Time Access
           </h1>
-          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
@@ -153,10 +164,10 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
             Expert Instructors
           </h1>
-          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px]  group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>
@@ -228,10 +239,10 @@ const OnlineCourses = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-500">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
             Lowest Price
           </h1>
-          <p className="xl:mb-[20px] lg:mb-[20px] popularCategoryPara px-[10px] group-hover:text-[#000000] transition duration-500">
+          <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-500">
             Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
             labore dolore magna.
           </p>

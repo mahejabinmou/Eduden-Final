@@ -13,14 +13,14 @@ const Faq = () => {
     <div className="flex flex-col lg:flex-row sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] pb-[50px]">
       {/* FAQ Section */}
       <div className="max-w-[964px]">
-        <h2 className=" FaqFreHead mb-[40px] text-[#FFFFFF] leading-[100px]">
+        <h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] text-[#FFFFFF] leading-[100px]">
           <span className="border-b-4 border-[#A8FF57]">
             Frequently {""} {""}
           </span>
           Asked Question
         </h2>
 
-        <div className="mt-8 space-y-4">
+        <div className="mt-4 md:mt-8 space-y-4">
           {faqData.map((faq, index) => (
             <div
               key={index}

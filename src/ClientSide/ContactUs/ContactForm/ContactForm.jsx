@@ -41,7 +41,7 @@ const ContactForm = () => {
         </div>
         <div className=" my-[23px] text-[#FFFFFF] max-w-[656px] h-[685px]">
           <div>
-            <button className="para mb-[40px] px-[40px] py-[10px]  rounded-[30px] bg-[#1A1A1A]">
+            <button className="para pointer-events-none mb-[40px] px-[40px] py-[10px]  rounded-[30px] bg-[#1A1A1A]">
               Contact Us
             </button>
           </div>
@@ -52,7 +52,7 @@ const ContactForm = () => {
           <form className=" bg-[#010101]">
             <div className=" mb-[30px] ">
               <input
-                className="py-[10px] pl-[20px]  w-full bg-[#010101]  border border-[#FFFFFF33]/[.2]"
+                className="py-[10px] pl-[20px] rounded-[20px]  w-full bg-[#010101]  border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Name"
                 name="from_name"
@@ -64,7 +64,7 @@ const ContactForm = () => {
 
             <div className="mb-[30px]">
               <input
-                className="py-[10px] pl-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
+                className="py-[10px] pl-[20px] rounded-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="email"
                 placeholder="Email"
                 name="from_email"
@@ -76,7 +76,7 @@ const ContactForm = () => {
 
             <div className="mb-[30px]">
               <input
-                className="py-[10px] pl-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
+                className="py-[10px] pl-[20px] rounded-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Subject"
                 name="from_Subject"
@@ -87,7 +87,7 @@ const ContactForm = () => {
             </div>
             <div className="mb-[50px]">
               <input
-                className="pt-[10px] pl-[20px] pb-[70px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
+                className="pt-[10px] pl-[20px] pb-[70px] rounded-[20px] bg-[#010101] w-full border border-[#FFFFFF33]/[.2]"
                 type="text"
                 placeholder="Message"
                 name="from_message"
@@ -99,7 +99,7 @@ const ContactForm = () => {
 
             <div className=" ">
               <input
-                className=" bg-[#A8FF57] text-[#010101]  py-[16px] px-[50px] rounded-[50px]   "
+                className=" bg-[#A8FF57] text-[#010101]  py-[10px] px-[20px] rounded-[50px]   "
                 type="submit"
                 value="Send Message"
                 disabled={!isFormValid}

@@ -90,16 +90,16 @@ const Navbar = () => {
               </div>
               <div className="mobileMenuParent23">
                 <Link to="/" onClick={menuClose}>
-                  <li className="text-black hover:text-[#A8FF57]">Home</li>
+                  <li className="text-black hover:text-[#A8FF57] mt-2">Home</li>
                 </Link>
                 <Link to="/about" onClick={menuClose}>
-                  <li className="text-black">About Us</li>
+                  <li className="text-black mt-2">About Us</li>
                 </Link>
 
                 <li className="relative">
                   <button
                     onClick={toggleDropdown2}
-                    className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#A8FF57] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#A8FF57] focus:outline-none  mt-2"
                   >
                     Courses
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -107,10 +107,12 @@ const Navbar = () => {
                   {isDropdown2Open && (
                     <ul className="mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
                       <Link to="/courses">
-                        <li className="px-4 py-[5px] text-black">Courses </li>
+                        <li className="px-4 py-[5px] text-black  mt-2">
+                          Courses{" "}
+                        </li>
                       </Link>
                       <Link to="/courseDetails">
-                        <li className="text-black px-4 pb-[5px] ">
+                        <li className="text-black px-4 pb-[5px] mt-2">
                           Courses Details
                         </li>
                       </Link>
@@ -120,7 +122,7 @@ const Navbar = () => {
                 <li className="relative">
                   <button
                     onClick={toggleDropdown}
-                    className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#A8FF57] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#A8FF57] focus:outline-none mt-2"
                   >
                     <Link to="/whatsnew">What's New </Link>
                     {/* {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />} */}
@@ -142,11 +144,13 @@ const Navbar = () => {
                 </li>
 
                 <Link to="/verify" onClick={menuClose}>
-                  <li className="text-black hover:text-[#A8FF57]">Verify</li>
+                  <li className="text-black hover:text-[#A8FF57] mt-2">
+                    Verify
+                  </li>
                 </Link>
 
                 <Link to="/contactUs">
-                  <li className="text-black hover:text-[#A8FF57]">
+                  <li className="text-black hover:text-[#A8FF57] mt-2 mb-2">
                     Contact us
                   </li>
                 </Link>

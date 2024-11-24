@@ -15,8 +15,18 @@ const ContactCard = () => {
 
           <div>
             <h1 className="subTitle pb-[12px]">Our Phone Number</h1>
-            <p className="para pb-[8px]">+919547578920</p>
-            <p className="para">+919547578920</p>
+            <p
+              className="joinClanSubPara
+ pb-[8px]"
+            >
+              +919547578920
+            </p>
+            <p
+              className="joinClanSubPara
+"
+            >
+              +919547578920
+            </p>
           </div>
         </div>
 
@@ -27,8 +37,18 @@ const ContactCard = () => {
 
           <div>
             <h1 className="subTitle pb-[12px]">Our Email Address</h1>
-            <p className="para pb-[8px]">example@gmail.com</p>
-            <p className="para">example@gmail.com</p>
+            <p
+              className="joinClanSubPara
+ pb-[8px]"
+            >
+              example@gmail.com
+            </p>
+            <p
+              className="joinClanSubPara
+"
+            >
+              example@gmail.com
+            </p>
           </div>
         </div>
 
@@ -39,8 +59,18 @@ const ContactCard = () => {
 
           <div>
             <h1 className="subTitle pb-[12px]">Our Location</h1>
-            <p className="para pb-[8px]">5678 Bangla Main Road, cities 580</p>
-            <p className="para">GBnagla, example 54786</p>
+            <p
+              className="joinClanSubPara
+ pb-[8px]"
+            >
+              5678 Bangla Main Road, cities 580
+            </p>
+            <p
+              className="joinClanSubPara
+"
+            >
+              GBnagla, example 54786
+            </p>
           </div>
         </div>
       </div>
