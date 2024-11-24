@@ -14,16 +14,15 @@ import Card from "../../../components/Card/Card.jsx"
 const Slider = () => {
     const [isHover, setIsHover] = useState("")
 
-    console.log(isHover)
     return (
         <div className="upCmnCrs" onMouseLeave={() => setIsHover("")}>
             <Swiper
                 slidesPerView={1}
-                autoplay={{
-                    delay: 3000,
-                    disableOnInteraction: false, //
-                }}
-                loop={true}
+                // autoplay={{
+                //     delay: 3000,
+                //     disableOnInteraction: false, //
+                // }}
+                // loop={true}
                 breakpoints={{
                     1620: {
                         spaceBetween: 26,
