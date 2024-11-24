@@ -19,14 +19,14 @@ const Card = ({
     const [hover, setHover] = useState(false)
     return (
         <>
-            <div className="w-full md:min-h-[650px] md:h-[650px] bg-white rounded-[20px] flex flex-col justify-between group hover:bg-green-500 flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
+            <div className="w-full sm:min-h-[660px] sm:h-[660px] bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-green-500 flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
                 {/* Content shown when not hovered */}
                 <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">
                     <div className="relative">
                         <img
-                            src="/public/assets/images/picture.png"
+                            src="/assets/images/picture.png"
                             alt="picture"
-                            className="w-full rounded-t-[20px] h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110"
+                            className="w-full rounded-t-[20px] max-h-[296px] transition-transform duration-500 ease-in-out group-hover:scale-110"
                         />
                         <div className="w-[60px] h-[60px] md:w-[102px] md:h-[102px] rounded-full bg-black absolute bottom-0 flex items-center justify-center right-[35px] translate-y-1/2 font-bold text-[#93DF4C] font-gucina text-[20px] md:text-[35px]">
                             {price}
