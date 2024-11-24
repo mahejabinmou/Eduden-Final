@@ -19,7 +19,7 @@ const Card = ({
     const [hover, setHover] = useState(false)
     return (
         <>
-            <div className="w-full sm:min-h-[660px] sm:h-[660px] bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-green-500 flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
+            <div className="w-full sm:min-h-[670px] sm:h-[670px] 2xl:h-[695px] 2xl:min-h-[695px]  bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-green-500 flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
                 {/* Content shown when not hovered */}
                 <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">
                     <div className="relative">
@@ -35,7 +35,7 @@ const Card = ({
                     <div className="px-[25px] mt-10 md:mt-[68px]">
                         <div>
                             <div className="flex items-center justify-between">
-                                <p className="p-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
+                                <p className="py-[5px] px-[10px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
                                     {category}
                                 </p>
                                 <div className="flex items-center gap-[2px]">
@@ -48,7 +48,7 @@ const Card = ({
                             </div>
                         </div>
                         <div className="mt-5 md:mt-[25px]">
-                            <h3 className="font-gucina text-[20px] text-[#010101] font-bold">
+                            <h3 className="font-gucina text-[20px] md:text-[30px] text-[#010101] font-bold">
                                 {title}
                             </h3>
                             <p className="text-black text-[12px] md:text-[14px] mt-[6px] md:mt-[15px] font-sans">
@@ -61,7 +61,7 @@ const Card = ({
                 <div className="px-[25px] pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out">
                     <div>
                         <div className="flex items-center justify-between">
-                            <p className="p-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
+                            <p className="py-[5px] px-[10px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
                                 {category}
                             </p>
                             <div className="flex items-center gap-[2px]">
@@ -72,7 +72,7 @@ const Card = ({
                                 <FaStar fill="black" />
                             </div>
                         </div>
-                        <h2 className="font-bold text-[30px] mt-[35px] font-gucina leading-[34.5px] text-black">
+                        <h2 className="font-bold text-[20px] md:text-[30px] mt-[35px] font-gucina leading-[34.5px] text-black">
                             {title}
                         </h2>
                         <p className="mt-[14px] text-[14px] font-sans text-[#010101] leading-[21px]">
