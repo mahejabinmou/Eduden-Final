@@ -64,14 +64,14 @@ const Home = () => {
       <PopularCategories></PopularCategories>
       <TrendingCourses></TrendingCourses>
       <AllCourses></AllCourses>
-      {/*<Video></Video>
+      <Video></Video>
       <OurCollaboration></OurCollaboration>
       <JoinOurClan></JoinOurClan>
       <UpcominEvents></UpcominEvents>
       <Testimonial></Testimonial>
       <NeedHelp></NeedHelp>
       <Faq></Faq>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };

@@ -146,7 +146,7 @@
     xl:text-[18px] xl:leading-[27px] 
     lg:text-[18px] lg:leading-[27px] 
     md:text-[16px] md:leading-[27px] 
-    text-[8px] leading-[12px]
+    text-[14px] leading-[21px]
 
     font-medium font-sans;
   }
@@ -172,7 +172,7 @@
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[70px] lg:leading-[80px]
     md:text-[70px] md:leading-[80px]
-    text-[16px] leading-[18.4px]
+    text-[20px] leading-[23px]
     
     font-gucina font-bold;
   }
@@ -200,7 +200,7 @@
     xl:text-[14px] xl:leading-[21px]
     lg:text-[14px] lg:leading-[21px] 
     md:text-[14px] md:leading-[21px]
-
+text-[10px] leading-[15px]
     font-normal font-sans;
   }
 
@@ -323,7 +323,7 @@ text-[30px]  leading-[34px]
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[70px] lg:leading-[80px]
     md:text-[70px] md:leading-[80px]
-    text-[40px] leading-[80px]
+    text-[20px] leading-[23px]
     
     font-gucina font-bold;
   }
@@ -333,7 +333,7 @@ text-[30px]  leading-[34px]
     xl:text-[18px] xl:leading-[27px] 
     lg:text-[18px] lg:leading-[27px] 
     md:text-[16px] md:leading-[27px] 
-    text-[12px] leading-[20px] 
+    text-[14px] leading-[21px] 
 
     font-medium font-sans;
   }
@@ -467,7 +467,7 @@ text-[30px]  leading-[34px]
     xl:text-[70px] xl:leading-[80px] 
     lg:text-[70px] lg:leading-[80px]
     md:text-[70px] md:leading-[80px]
-    text-[40px] leading-[80px]
+    text-[14px] leading-[21px]
     
     font-gucina font-bold;
   }
