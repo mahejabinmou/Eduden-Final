@@ -17,7 +17,7 @@ const Footer = () => {
 					className="bg-no-repeat bg-center bg-cover w-full h-[900px]  flex justify-center items-center"
 				></div>
 				<div className="absolute inset-0  sectionGap text-white/[.8]">
-					<div className=" pb-[25px] grid grid-cols-1 px-[51px]  gap-y-[50px]">
+					<div className=" pb-[50px] grid grid-cols-1 px-0  gap-y-[50px]">
 						<div className="">
 							<div className="footerLogoparent mb-[25px]">
 								<img
