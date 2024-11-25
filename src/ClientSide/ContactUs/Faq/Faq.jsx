@@ -13,10 +13,11 @@ const Faq = () => {
     <div className="grid lg:grid-cols-2  grid-cols-1 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] pb-[50px]">
       {/* FAQ Section */}
       <div className="">
-        <h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] text-[#FFFFFF] ">
-          <span className="border-b-4 border-[#A8FF57]">
+        <h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] xl:mb-[80px] text-[#FFFFFF] ">
+          <span className="border-b-4 border-[#A8FF57] ">
             Frequently {""} {""}
           </span>
+          <br />
           Asked Question
         </h2>
 

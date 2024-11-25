@@ -8,7 +8,7 @@ const OnlineCourses = () => {
       <div className="sectionGap">
         <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-start ">
           <div>
-            <h1 className="popularCategoryHead  mb-[35px] 2xl:max-w-[700px] xl:max-w-[506px] ">
+            <h1 className="popularCategoryHead  mb-[50px] 2xl:max-w-[700px] xl:max-w-[506px] ">
               We Providing The{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Best Quality Online Courses
@@ -51,7 +51,7 @@ const OnlineCourses = () => {
         </div>
       </div>
 
-      <div className="sectionGap  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 items-center gap-[20px]">
+      <div className="sectionGap  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-center gap-[20px]">
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
@@ -107,7 +107,7 @@ const OnlineCourses = () => {
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
-              className="w-8 h-8 stroke-current text-black group-hover:text-white"
+              className="w-8 h-8 transition-colors duration-500 fill-current text-black group-hover:text-white"
               viewBox="0 0 41 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +149,7 @@ const OnlineCourses = () => {
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
-              className="w-8 h-8 stroke-current text-black hover:text-gray-500"
+              className="w-8 h-8 stroke-current text-black group-hover:text-white"
               viewBox="0 0 41 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,7 @@ const OnlineCourses = () => {
         <div className="hover:bg-[#A8FF57B2]/[.7] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
-              className="w-8 h-8 stroke-current text-black hover:text-gray-500"
+              className="w-8 h-8 stroke-current text-black group-hover:text-white"
               viewBox="0 0 41 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

@@ -1,6 +1,6 @@
 const ContactUsHero = () => {
   return (
-    <div className="relative xl:mt-[50px] lg:mt-[40px] mt-[10px]">
+    <div className="relative xl:mt-[25px] lg:mt-[20px] mt-[10px]">
       <div
         style={{
           backgroundImage: `url("https://i.ibb.co.com/zb910bd/Bg.webp")`,

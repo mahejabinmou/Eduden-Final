@@ -26,7 +26,7 @@ const HeroSection = () => {
     <div className="">
       <Navbar></Navbar>
 
-      <div className=" xl:mt-[50px] lg:mt-[40px] mt-[10px] relative">
+      <div className=" xl:mt-[25px] lg:mt-[20px] mt-[10px] relative">
         {/* mobile */}
         {/* Slider Container */}
         <div className="slider-container  md:hidden block ">

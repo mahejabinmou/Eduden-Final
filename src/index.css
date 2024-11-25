@@ -226,7 +226,7 @@ text-[10px] leading-[15px]
 
   .faqActionHead {
     @apply 2xl:text-[55px] 2xl:leading-[50px] 
-    xl:text-[45px] xl:leading-[50px] 
+    xl:text-[50px] xl:leading-[50px] 
     lg:text-[40px] lg:leading-[50px]
     md:text-[40px] md:leading-[50px] 
     text-[20px]  leading-[34px]
@@ -235,11 +235,11 @@ text-[10px] leading-[15px]
   }
 
   .largeScreenMenu {
-    @apply lg:px-[60px] lg:pt-[30px]
+    @apply lg:px-[60px] lg:pt-[20px] 
     /* ========= */ 
-    xl:px-[100px] xl:pt-[50px] 
+    xl:px-[100px] xl:pt-[25px] 
     /* ========= */
-    2xl:px-[150px] 2xl:pt-[50px] 
+    2xl:px-[150px] 2xl:pt-[25px] 
     /* ========= */
     flex justify-between items-center;
   }
@@ -332,7 +332,10 @@ text-[10px] leading-[15px]
   }
 
   .allCoursesBtn {
-    @apply lg:text-[16px] lg:leading-[24px] lg:px-[20px] py-[5px]
+    @apply lg:text-[16px] lg:leading-[24px] 
+    lg:px-[20px] py-[5px]
+    xl:text-[20px] xl:leading-[24px] 
+    xl:px-[20px]
     text-[12px] leading-[20px] px-[16px] 
      2xl:text-[22px]
     font-gucina font-semibold;
@@ -510,7 +513,7 @@ text-[10px] leading-[15px]
 
   .aboutPageHero {
     @apply 2xl:text-[40px] 2xl:leading-[60px]
-    xl:text-[30px] xl:leading-[65px] 
+    xl:text-[24px] xl:leading-[30px] 
     lg:text-[20px] lg:leading-[55px]
     md:text-[20px] md:leading-[65px]
     text-[20px] leading-[26px]
@@ -519,7 +522,7 @@ text-[10px] leading-[15px]
   }
 
   .BannerHead {
-    @apply 2xl:text-[80px] 2xl:leading-[80px] 
+    @apply 2xl:text-[80px] 2xl:leading-[90px] 
     xl:text-[50px] xl:leading-[65px] 
     lg:text-[40px] lg:leading-[55px]
     md:text-[50px] md:leading-[65px]

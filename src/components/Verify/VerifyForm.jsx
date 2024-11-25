@@ -10,16 +10,19 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
     setIsOkay(true);
   };
   return (
-    <div className="flex  items-center justify-between gap-7 flex-col md:flex-row">
-      <div>
+    <div
+      className="flex    flex-col md:flex-row justify-center items-center 2xl:gap-[118px]
+    gap-[70px]"
+    >
+      <div className="max-w-[625px]">
         <img
           src={verifyImg}
           alt="verify image"
           width={625}
-          className="max-w-[625px] w-full"
+          className=" w-full h-auto "
         />
       </div>
-      <div className="max-w-[656px] w-full">
+      <div className="max-w-[40%] w-full">
         <form className="flex flex-col w-full gap-[30px]" onSubmit={handleFrom}>
           <input
             type="text"
@@ -29,7 +32,7 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
                         border border-[rgba(255, 255, 255, 0.20)]
                         outline-none
                         w-full
-                        rounded-[20px]
+                        rounded-[8px]
                         placeholder:text-[18px] text-white placeholder:text-white
                         bg-[#1A1A1A]
                         "
@@ -48,7 +51,7 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
             placeholder="Enter Certificate/ID Here"
             name="certificate"
             className="p-5 outline-none border border-[rgba(255, 255, 255, 0.20)]
-                        w-full rounded-[20px]
+                        w-full rounded-[8px]
                          placeholder:text-[18px] text-white placeholder:text-white
                          bg-[#1A1A1A]"
             value={formInput.certificate}
@@ -61,7 +64,7 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
               })
             }
           />
-          <button className="bg-[#A8FF57] text-[#1A1A1A] max-w-[160px] font-gucina py-4 px-[50px] rounded-[20px] font-bold text-[18px]">
+          <button className="bg-[#A8FF57] text-[#1A1A1A] max-w-[160px] homeLargeAppoinMent">
             Verify
           </button>
         </form>

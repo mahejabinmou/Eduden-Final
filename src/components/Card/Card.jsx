@@ -22,7 +22,7 @@ const Card = ({
       <div className="w-full sm:min-h-[660px]  sm:h-[660px] bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-[#A8FF57] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
         {/* Content shown when not hovered */}
         <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">
-          <div className="relative">
+          <div className="relative bg-black">
             <img
               src="/assets/images/picture.png"
               alt="picture"

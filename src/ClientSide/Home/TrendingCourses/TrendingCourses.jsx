@@ -17,7 +17,7 @@ const TrendingCourses = () => {
         </p>
       </div>
 
-      <div className="flex md:flex-row flex-col justify-end items-center gap-[20px] mt-[80px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2  justify-center items-center gap-[40px] mt-[80px]">
         <div className="relative group  overflow-hidden">
           {/* Image Section */}
           <div className="h-full w-full">
@@ -42,11 +42,11 @@ const TrendingCourses = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2  grid-cols-1 items-center gap-[20px]">
+        <div className="grid md:grid-cols-2 h-full  grid-cols-1   gap-[20px]">
           <div className="relative group  overflow-hidden">
-            <div className="h-full w-full">
+            <div className="h-full w-full ">
               <img
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
                 src="https://i.ibb.co.com/1bgG01s/rectangle-120-66f3db2b9e8b1.webp"
                 alt=""
               />
@@ -67,7 +67,7 @@ const TrendingCourses = () => {
           <div className="relative group  overflow-hidden">
             <div className="h-full w-full">
               <img
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
                 src="https://i.ibb.co.com/p1HQB7F/group-30-66f3db519e317.webp"
                 alt=""
               />
@@ -85,7 +85,7 @@ const TrendingCourses = () => {
           <div className="relative group  overflow-hidden">
             <div className="h-full w-full">
               <img
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
                 src="https://i.ibb.co.com/P1BNGfB/group-1086-66f3db5f4b7d6.webp"
                 alt=""
               />
@@ -103,7 +103,7 @@ const TrendingCourses = () => {
           <div className="relative group  overflow-hidden">
             <div className="h-full w-full">
               <img
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
                 src="https://i.ibb.co.com/nggGJLH/rectangle-123-1-66f3dc2d8c7c7.webp"
                 alt=""
               />

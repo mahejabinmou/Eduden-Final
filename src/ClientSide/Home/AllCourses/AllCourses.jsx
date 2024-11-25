@@ -122,7 +122,7 @@ const AllCourses = () => {
   return (
     <div className="sectionGap text-[#FFFFFF]">
       <div>
-        <h1 className="testimonialSub mb-[25px]  flex items-center justify-center text-[#A8FF57]">
+        <h1 className="testimonialSub mb-[20px]  flex items-center justify-center text-[#A8FF57]">
           <span>
             <HiOutlineMinusSmall />{" "}
           </span>
@@ -131,7 +131,7 @@ const AllCourses = () => {
             <HiOutlineMinusSmall />{" "}
           </span>
         </h1>
-        <h1 className="popularCategoryHead mb-[80px] text-center">
+        <h1 className="popularCategoryHead mb-[50px] text-center">
           {" "}
           All <span className="border-b-4 border-[#A8FF57]">Courses</span>{" "}
         </h1>

@@ -1,6 +1,6 @@
 const AboutHero = () => {
   return (
-    <div className=" xl:mt-[50px] lg:mt-[40px] mt-[10px] ">
+    <div className=" xl:mt-[25px] lg:mt-[20px] mt-[10px] ">
       <div className="  ">
         <div className="relative">
           <div
@@ -11,7 +11,7 @@ const AboutHero = () => {
               h-[300px] flex justify-center items-center"
           ></div>
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[1000px]">
+          <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto 2xl:max-w-[1000px]  xl:max-w-[700px] lg:max-w-[500px] ">
             <h1 className="hidden md:block BannerHead text-[#FFFFFF] pb-[35px] text-center">
               A Large Range of Course{" "}
               <span className="border-b-4 border-[#A8FF57]">

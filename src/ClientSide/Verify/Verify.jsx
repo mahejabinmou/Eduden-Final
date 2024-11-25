@@ -17,13 +17,7 @@ const Verify = () => {
 
       <Navbar />
       <WhatsNewHero title={"verify"} />
-      <div
-        className=" md:mt-[150px] pt-[60px] px-[30px] pb-[0px]
-     md:pt-[80px] md:px-[32px]  md:pb-[80px]
-     lg:px-[60px] lg:pt-[80px] lg:pb-[80px]
-     xl:px-[100px] xl:pt-[100px] xl:pb-[100px]
-     2xl:px-[150px] 2xl:pt-[100px] 2xl:pb-[100px] bg-black"
-      >
+      <div className=" sectionGap  bg-black">
         <VerifyForm setIsOkay={setIsOkay} setIsError={setIsError} />
       </div>
       <div>
