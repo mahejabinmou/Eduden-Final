@@ -59,7 +59,7 @@ const HeroSection = () => {
             <div className="relative ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
@@ -69,7 +69,7 @@ const HeroSection = () => {
             <div className="relative ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
@@ -79,7 +79,7 @@ const HeroSection = () => {
             <div className="relative ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[283px]  "
@@ -149,7 +149,7 @@ const HeroSection = () => {
             <div className="relative ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
           bg-no-repeat bg-center bg-cover h-[741px]"
@@ -159,7 +159,7 @@ const HeroSection = () => {
             <div className="relative">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
           bg-no-repeat bg-center bg-cover h-[741px]"
@@ -169,7 +169,7 @@ const HeroSection = () => {
             <div className="relative">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co.com/sWxsjp8/rectangle-100-66f2fc7560a82.webp"})`,
+                  backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
                 }}
                 className="
           bg-no-repeat bg-center bg-cover h-[741px]"

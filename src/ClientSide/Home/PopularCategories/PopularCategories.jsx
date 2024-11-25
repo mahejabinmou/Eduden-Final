@@ -14,7 +14,7 @@ const PopularCategories = () => {
 
   return (
     <div className="text-[#FFFFFF] sectionGap">
-      <h1 className="joinClanPara mb-[25px]  flex items-center justify-center text-[#A8FF57]">
+      <h1 className="testimonialSub mb-[25px]  flex items-center justify-center text-[#A8FF57]">
         <span>
           <HiOutlineMinusSmall />{" "}
         </span>
@@ -23,10 +23,7 @@ const PopularCategories = () => {
           <HiOutlineMinusSmall />{" "}
         </span>
       </h1>
-      <h1 className="AboutCardHead mb-[80px] text-center">
-        {" "}
-        Course Catagories
-      </h1>
+      <h1 className="AboutUsHead mb-[80px] text-center"> Course Catagories</h1>
 
       <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
         <div

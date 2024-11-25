@@ -5,14 +5,14 @@ const AboutUs = () => {
     <div className="text-[#FFFFFF] sectionGap">
       <div className="md:hidden block">
         <div className="flex  flex-col justify-between  ">
-          <h1 className="AboutUsHead mb-[30px]">
+          <h1 className="popularCategoryHead mb-[30px]">
             {" "}
             <span className="border-b-4 border-[#A8FF57]">
               About {""} {""}
             </span>
             {""} {""}Us
           </h1>
-          <p className="HomeAboutPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px] ">
+          <p className="joinClanSubPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px] ">
             Well, because we’re not your grandma’s boring old school! At
             Edu-Den, we’re the rebels of education, the mavericks of learning,
             and the champions of fun-filled knowledge. We’ll teach you how to
@@ -38,7 +38,7 @@ const AboutUs = () => {
 
       <div className="hidden md:block">
         <div className="flex lg:flex-row  flex-col justify-between items-start ">
-          <h1 className="AboutUsHead mb-[30px]">
+          <h1 className="popularCategoryHead mb-[30px]">
             {" "}
             <span className="border-b-4 border-[#A8FF57]">
               About {""} {""}
