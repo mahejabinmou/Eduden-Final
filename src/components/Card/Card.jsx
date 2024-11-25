@@ -19,7 +19,7 @@ const Card = ({
   const [hover, setHover] = useState(false);
   return (
     <>
-      <div className="w-full sm:min-h-[660px]  sm:h-[660px] bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-green-500 flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
+      <div className="w-full sm:min-h-[660px]  sm:h-[660px] bg-white rounded-[20px] flex flex-col gap-3 justify-between group hover:bg-[#A8FF57] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders">
         {/* Content shown when not hovered */}
         <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">
           <div className="relative">
@@ -57,6 +57,7 @@ const Card = ({
             </div>
           </div>
         </div>
+
         {/* Content shown on hover */}
         <div className="px-[25px] pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out">
           <div>
@@ -113,6 +114,7 @@ const Card = ({
             </div>
           </div>
         </div>
+
         <div className="px-[25px]">
           {slider && <div className="h-[1px] bg-[#010101] mb-[15px]"></div>}
           <div

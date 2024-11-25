@@ -142,13 +142,11 @@ const Testimonial = () => {
                 </div>
                 <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
                   <div className="flex justify-between items-start">
-                    {/* FaQuoteLeft Icon */}
                     <FaQuoteLeft
                       size={45}
                       className="  text-[#FFFFFF] pb-[15px]"
                     />
 
-                    {/* Star Rating */}
                     <div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
                       <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
                     </div>
@@ -306,50 +304,6 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
-                    </p>
-                  </div>
-
-                  <div className="flex items-center mb-5">
-                    <div>
-                      <img
-                        className="w-[50px] h-[50px] object-cover"
-                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-                        alt="Lisa Dowen"
-                      />
-                    </div>
-                    <div className="ml-[12px]">
-                      <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#A8FF57]">
-                        Nazmul Islam
-                      </p>
-                      <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-                        Graphics Designer
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[20px]    pl-[35px]  relative bg-[#22212199]/[.6] ">
-                  <div className="flex justify-between items-start">
-                    {/* FaQuoteLeft Icon */}
-                    <FaQuoteLeft
-                      size={20}
-                      className="  text-[#FFFFFF] mb-[15px]"
-                    />
-
-                    {/* Star Rating */}
-                    <div className="flex items-center mb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
-                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-                    </div>
-                  </div>
-
-                  <div>
-                    <p className="text-[#FFFFFF]joinClanSubPara  pr-[46px] pb-[25px]">
                       Ex urna finibus natoque auctor pretium etiam consequat
                       eleifend himenaeos mauris placerat ridiculus odio praesent
                       Ex urna finibus natoque auctor pretium etiam consequat
