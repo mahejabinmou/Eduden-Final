@@ -17,7 +17,7 @@ const NeedHelp = () => {
               Need Help?
             </h1>
             <p
-              className="needHelpPara text-[#FFFFFF] xl:max-w-[800px]
+              className="joinClanSubPara text-[#FFFFFF] xl:max-w-[800px]
             lg:max-w-[600px] md:max-w-[500px] mb-[20px] md:text-start text-center"
             >
               Join the Learning Party Now – No Boring Stuff Allowed. Join the
@@ -25,7 +25,7 @@ const NeedHelp = () => {
               Party Now – No Boring Stuff Allowed.
             </p>
           </div>
-          <button className="NeedHelpbuttonPara bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[8px] px-[18px] gap-x-[10px] text-[#010101]">
+          <button className="NeedHelpbuttonPara bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[4px] px-[18px] gap-x-[10px] text-[#010101]">
             Contact Us
           </button>
         </div>

@@ -22,7 +22,7 @@ const JoinOurClan = () => {
             <h1 className="popularCategoryHead px-[30px] md:px-[0px] text-[#FFFFFF] md:pb-[25px] pb-[5px] text-center">
               Unlock Your Inner Genius at Edu-Den!
             </h1>
-            <p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px]">
+            <p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px] pb-[12px] lg:pb-0">
               Join the Learning Party Now – No Boring Stuff Allowed.
             </p>
             <button className="JoinButton bg-[#A8FF57] flex items-center justify-center rounded-[50px]  gap-x-[5px] text-[#010101]">

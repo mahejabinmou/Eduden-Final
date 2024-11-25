@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
 // import "./Testimonial.css";
 
-const Testimonial = () => {
+const TestimonialAbout = () => {
   const is2XL = useMediaQuery({ minWidth: 1536 });
   const isXl = useMediaQuery({ minWidth: 1366 });
   const isLg = useMediaQuery({ minWidth: 1024 });
@@ -190,13 +190,13 @@ const Testimonial = () => {
             {/* text */}
 
             <div className=" ">
-              <h1 className="text-[#A8FF57] testimonialSub pb-[25px]">
+              <h1 className="text-[#A8FF57] testimonialSub pb-[5px]">
                 Testimonial
               </h1>
-              <h1 className="testimonialTitle text-[#FFFFFF]  pb-[25px] ">
+              <h1 className="popularCategoryHead text-[#FFFFFF]  pb-[20px] ">
                 What students say
               </h1>
-              <p className="para text-[#FFFFFF] pb-[35px]">
+              <p className="joinClanSubPara text-[#FFFFFF] pb-[35px]">
                 Ex urna finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent Ex urna
                 finibus natoque auctor pretium etiam consequat eleifend
@@ -236,7 +236,7 @@ const Testimonial = () => {
                 finibus natoque auctor pretium etiam consequat eleifend
                 himenaeos mauris placerat ridiculus odio praesent
               </p>
-              <div className="text-center mb-[60px]">
+              <div className="text-center md-[60px]">
                 <button className="homeLargeAppoinMent  mt-[20px]   text-[#010101] bg-[#A8FF57]  ">
                   View All Testimonial
                 </button>
@@ -349,7 +349,7 @@ const Testimonial = () => {
                   </div>
 
                   <div>
-                    <p className="text-[#FFFFFF]joinClanSubPara  pr-[46px] pb-[25px]">
+                    <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
                       Ex urna finibus natoque auctor pretium etiam consequat
                       eleifend himenaeos mauris placerat ridiculus odio praesent
                       Ex urna finibus natoque auctor pretium etiam consequat
@@ -387,4 +387,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default TestimonialAbout;

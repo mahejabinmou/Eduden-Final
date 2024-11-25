@@ -5,7 +5,10 @@ const AboutUs = () => {
     <div className="text-[#FFFFFF] sectionGap">
       <div className="md:hidden block">
         <div className="flex  flex-col justify-between  ">
-          <h1 className="popularCategoryHead mb-[30px]">
+          <h1
+            className="popularCategoryHead 
+joinClanSubPara(para) mb-[30px]"
+          >
             {" "}
             <span className="border-b-4 border-[#A8FF57]">
               About {""} {""}
@@ -38,7 +41,10 @@ const AboutUs = () => {
 
       <div className="hidden md:block">
         <div className="flex lg:flex-row  flex-col justify-between items-start ">
-          <h1 className="popularCategoryHead mb-[30px]">
+          <h1
+            className="popularCategoryHead 
+joinClanSubPara(para) mb-[30px]"
+          >
             {" "}
             <span className="border-b-4 border-[#A8FF57]">
               About {""} {""}

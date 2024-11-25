@@ -12,7 +12,7 @@ const OurCollaboration = () => {
           <HiOutlineMinusSmall />{" "}
         </span>
       </h1>
-      <h1 className="popularCategoryHead mb-[35px] text-center">
+      <h1 className="popularCategoryHead mb-[20px] md:mb-[35px]  text-center">
         {" "}
         Our <span className="border-b-4 border-[#A8FF57]">Collaboration</span>
       </h1>

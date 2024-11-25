@@ -1,5 +1,3 @@
-import { HiArrowLongRight } from "react-icons/hi2";
-
 const TrendingCourses = () => {
   return (
     <div className="sectionGap">
@@ -33,7 +31,7 @@ const TrendingCourses = () => {
           {/* Text Section */}
           <div className="absolute inset-0  flex flex-col justify-end p-[25px] pb-[20px]  bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <div className="flex justify-between items-center">
-              <h1 className="text-white aboutPageHero ">Cyber Security</h1>
+              <h1 className="text-white aboutPageHero">Cyber Security</h1>
               {/* <HiArrowLongRight size={60} className="text-white " /> */}
 
               {/* <HiArrowLongRight size={60} className="text-white " /> */}

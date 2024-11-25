@@ -6,6 +6,7 @@ import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import AboutHero from "./AboutHero/AboutHero";
 import OnlineCourses from "./OnlineCourses/OnlineCourses";
+import TestimonialAbout from "./TestimonialAbout/TestimonialAbout";
 
 const AboutUsPage = () => {
   useEffect(() => {
@@ -17,7 +18,8 @@ const AboutUsPage = () => {
       <AboutHero></AboutHero>
       <OnlineCourses></OnlineCourses>
       <Video></Video>
-      <Testimonial></Testimonial>
+      {/* <Testimonial></Testimonial> */}
+      <TestimonialAbout />
       <OurCollaboration></OurCollaboration>
       <Footer></Footer>
     </div>

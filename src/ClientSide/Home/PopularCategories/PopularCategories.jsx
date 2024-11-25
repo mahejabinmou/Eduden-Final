@@ -23,7 +23,10 @@ const PopularCategories = () => {
           <HiOutlineMinusSmall />{" "}
         </span>
       </h1>
-      <h1 className="AboutUsHead mb-[80px] text-center"> Course Catagories</h1>
+      <h1 className="popularCategoryHead mb-[80px] text-center">
+        {" "}
+        Course Catagories
+      </h1>
 
       <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
         <div
@@ -41,7 +44,7 @@ const PopularCategories = () => {
           <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000]">
             Cyber Security
           </h1>
-          <p className="xl:mb-[50px]  lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px]  lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -75,10 +78,10 @@ const PopularCategories = () => {
               <path d="M51.8057 41.2764C52.5861 41.2764 53.2187 40.6437 53.2187 39.8633C53.2187 39.0829 52.5861 38.4502 51.8057 38.4502C51.0252 38.4502 50.3926 39.0829 50.3926 39.8633C50.3926 40.6437 51.0252 41.2764 51.8057 41.2764Z" />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200">
             UI/UX Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -115,10 +118,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200">
             Web Development
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -183,10 +186,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200">
             Graphic Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -227,10 +230,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-200">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-200">
             Mobile App Development
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -283,10 +286,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000] transition duration-1000">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-1000">
             Programming Languages
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] paraZ px-[10px] group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -342,10 +345,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-1000">
             Data Science and AI
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
@@ -441,10 +444,10 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] popularCategoryHead  group-hover:text-[#000000] transition duration-1000">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-1000">
             Database Management
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px]  paraZ px-[10px]  group-hover:text-[#000000] transition duration-1000">
+          <p className="xl:mb-[50px] lg:mb-[20px]  joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
