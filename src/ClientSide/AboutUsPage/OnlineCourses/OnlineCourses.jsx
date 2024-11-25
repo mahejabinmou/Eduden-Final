@@ -8,7 +8,7 @@ const OnlineCourses = () => {
       <div className="sectionGap">
         <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-start ">
           <div>
-            <h1 className="popularCategoryHead  mb-[30px] 2xl:max-w-[700px] xl:max-w-[506px] ">
+            <h1 className="popularCategoryHead  mb-[35px] 2xl:max-w-[700px] xl:max-w-[506px] ">
               We Providing The{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Best Quality Online Courses

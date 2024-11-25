@@ -11,8 +11,8 @@ const AboutHero = () => {
               h-[300px] flex justify-center items-center"
           ></div>
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">
-            <h1 className="hidden md:block aboutPageHero text-[#FFFFFF] pb-[25px] text-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[1000px]">
+            <h1 className="hidden md:block BannerHead text-[#FFFFFF] pb-[35px] text-center">
               A Large Range of Course{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Learning Paths Home

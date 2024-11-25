@@ -5,7 +5,7 @@ const UpcominEvents = () => {
   return (
     <div className="text-[#FFFFFF]  sectionGap">
       <div>
-        <h1 className="popularCategoryHead mb-[20px] text-center">
+        <h1 className="popularCategoryHead mb-[20px] md:mb-[45px] text-center">
           {" "}
           Upcoming <span className="border-b-4 border-[#A8FF57]">Events</span>
         </h1>
