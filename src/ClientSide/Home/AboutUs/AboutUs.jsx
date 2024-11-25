@@ -3,7 +3,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 const AboutUs = () => {
   return (
     <div className="text-[#FFFFFF] sectionGap">
-      <div className="md:hidden block">
+      <div className="lg:hidden block">
         <div className="flex  flex-col justify-between  ">
           <h1
             className="popularCategoryHead 
@@ -67,6 +67,14 @@ joinClanSubPara(para) mb-[30px]"
         </div>
 
         <div className="flex lg:flex-row flex-col justify-between items-start  mt-[30px] mb-[30px] ">
+          <button
+            className="flex items-center mb-[30px] hover:bg-[#A8FF57] hover:text-black justify-between gap-x-[10px] homeLargeAppoinMent
+        
+        border border-[#A8FF57]"
+          >
+            Read More <MdArrowRightAlt />
+          </button>
+
           <p className=" joinClanSubPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px]">
             Well, because we’re not your grandma’s boring old school! At
             Edu-Den, we’re the rebels of education, the mavericks of learning,
@@ -74,13 +82,6 @@ joinClanSubPara(para) mb-[30px]"
             slay dragons and code websites, all while cracking jokes and sipping
             on virtual coffee.
           </p>
-          <button
-            className="flex items-center lg:hidden block hover:bg-[#A8FF57] hover:text-black justify-between gap-x-[10px] homeLargeAppoinMent
-        
-        border border-[#A8FF57]"
-          >
-            Read More <MdArrowRightAlt />
-          </button>
         </div>
       </div>
     </div>

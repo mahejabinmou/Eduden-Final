@@ -318,7 +318,7 @@ text-[10px] leading-[15px]
     @apply 2xl:text-[60px] 2xl:leading-[80px] 
     xl:text-[50px] xl:leading-[70px] 
     lg:text-[40px] lg:leading-[60px]
-    md:text-[30px] md:leading-[60px] 
+    md:text-[30px] md:leading-[40px] 
   text-[25px]  leading-[34px]
     font-bold font-gucina;
   }

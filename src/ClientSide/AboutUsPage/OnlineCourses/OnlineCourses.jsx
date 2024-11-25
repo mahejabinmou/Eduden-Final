@@ -8,13 +8,13 @@ const OnlineCourses = () => {
       <div className="sectionGap">
         <div className="flex lg:flex-row  flex-col xl:gap-x-[68px] gap-x-[30px] justify-between items-start ">
           <div>
-            <h1 className="popularCategoryHead  mb-[50px] 2xl:max-w-[700px] xl:max-w-[506px] ">
+            <h1 className="popularCategoryHead  mb-[50px] 2xl:max-w-[700px] xl:max-w-[506px] md:max-w-[400px]">
               We Providing The{" "}
               <span className="border-b-4 border-[#A8FF57]">
                 Best Quality Online Courses
               </span>
             </h1>
-            <div className="mt-[20px] hidden md:block">
+            <div className="mt-[20px] hidden lg:block">
               <button
                 className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
@@ -38,7 +38,7 @@ const OnlineCourses = () => {
               We’ll teach you how to slay dragons and code websites, all while
               cracking jokes and sipping on virtual coffee.
             </p>
-            <div className="mt-[20px] md:hidden block">
+            <div className="mt-[20px] lg:hidden block">
               <button
                 className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
