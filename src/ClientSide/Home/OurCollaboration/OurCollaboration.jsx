@@ -2,7 +2,7 @@ import { HiOutlineMinusSmall } from "react-icons/hi2";
 
 const OurCollaboration = () => {
   return (
-    <div className="text-[#FFFFFF] sectionGap pt-[50px] md:pt-[0px]">
+    <div className="text-[#FFFFFF] sectionGap ">
       <h1 className="testimonialSub mb-[5px] md:mb-[25px]  flex items-center justify-center text-[#A8FF57]">
         <span>
           <HiOutlineMinusSmall />{" "}
