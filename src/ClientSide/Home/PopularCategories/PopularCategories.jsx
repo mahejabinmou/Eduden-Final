@@ -28,7 +28,7 @@ const PopularCategories = () => {
         Course Catagories
       </h1>
 
-      <div className="grid md:grid-cols-3  xl:grid-cols-4 items-center gap-[20px]">
+      <div className="grid md:grid-cols-3  xl:grid-cols-3  items-center gap-[20px]">
         <div
           onMouseEnter={() => setIsHovered1(true)} // Set hover to true
           onMouseLeave={() => setIsHovered1(false)} // Set hover to false
@@ -41,7 +41,7 @@ const PopularCategories = () => {
             />
           </div>
 
-          <h1 className="mb-[15px] popularCategoryHead group-hover:text-[#000000]">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000]">
             Cyber Security
           </h1>
           <p className="xl:mb-[50px]  lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000">

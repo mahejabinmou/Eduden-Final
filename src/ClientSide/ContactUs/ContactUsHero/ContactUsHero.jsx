@@ -9,7 +9,7 @@ const ContactUsHero = () => {
               h-[300px] flex justify-center items-center"
       ></div>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[670px]">
+      <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto ">
         <h1 className="BannerHead text-[#FFFFFF] pb-[25px] text-center">
           Archives: Contact Us
         </h1>

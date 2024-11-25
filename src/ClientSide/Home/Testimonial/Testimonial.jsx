@@ -193,7 +193,7 @@ const Testimonial = () => {
               <h1 className="text-[#A8FF57] testimonialSub pb-[25px]">
                 Testimonial
               </h1>
-              <h1 className="testimonialTitle text-[#FFFFFF]  pb-[25px] ">
+              <h1 className="popularCategoryHead text-[#FFFFFF]  pb-[25px] ">
                 What students say
               </h1>
               <p className="para text-[#FFFFFF] pb-[35px]">

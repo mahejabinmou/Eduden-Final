@@ -315,10 +315,10 @@ text-[10px] leading-[15px]
   }
 
   .popularCategoryHead {
-    @apply 2xl:text-[30px] 2xl:leading-[34.5px] 
-    xl:text-[16px] xl:leading-[34.5px] 
-    lg:text-[30px] lg:leading-[34.5px]
-    md:text-[30px] md:leading-[34.5px] 
+    @apply 2xl:text-[60px] 2xl:leading-[80px] 
+    xl:text-[50px] xl:leading-[70px] 
+    lg:text-[40px] lg:leading-[60px]
+    md:text-[30px] md:leading-[60px] 
   text-[25px]  leading-[34px]
     font-bold font-gucina;
   }
@@ -509,17 +509,17 @@ text-[10px] leading-[15px]
   }
 
   .aboutPageHero {
-    @apply 2xl:text-[50px] 2xl:leading-[65px]
-    xl:text-[50px] xl:leading-[65px] 
-    lg:text-[40px] lg:leading-[55px]
-    md:text-[50px] md:leading-[65px]
+    @apply 2xl:text-[40px] 2xl:leading-[60px]
+    xl:text-[30px] xl:leading-[65px] 
+    lg:text-[20px] lg:leading-[55px]
+    md:text-[20px] md:leading-[65px]
     text-[20px] leading-[26px]
     
     font-gucina font-bold;
   }
 
   .BannerHead {
-    @apply 2xl:text-[70px] 2xl:leading-[65px]
+    @apply 2xl:text-[80px] 2xl:leading-[80px] 
     xl:text-[50px] xl:leading-[65px] 
     lg:text-[40px] lg:leading-[55px]
     md:text-[50px] md:leading-[65px]
