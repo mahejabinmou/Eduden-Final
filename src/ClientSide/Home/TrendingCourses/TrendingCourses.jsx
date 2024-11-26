@@ -3,7 +3,8 @@ const TrendingCourses = () => {
     <div className="sectionGap">
       <div className="  text-white flex flex-col lg:flex-row md:items-center items-start justify-between  ">
         <h1 className="popularCategoryHead  pb-[20px]">
-          Trending <span className="border-b-4 border-[#A8FF57]">Courses</span>
+          Trending{" "}
+          <span className="BorderGlobal border-[#A8FF57]">Courses</span>
         </h1>
         <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[700px] lg:max-w-[600px] ">
           Well, because we’re not your grandma’s boring old school! At Edu-Den,

@@ -1,5 +1,3 @@
-import { CgArrowLongRight } from "react-icons/cg";
-import { HiArrowLongRight } from "react-icons/hi2";
 import { MdArrowRightAlt } from "react-icons/md";
 
 const OnlineCourses = () => {
@@ -10,11 +8,11 @@ const OnlineCourses = () => {
           <div>
             <h1 className="popularCategoryHead  mb-[50px] 2xl:max-w-[700px] xl:max-w-[506px] md:max-w-[400px]">
               We Providing The{" "}
-              <span className="border-b-4 border-[#A8FF57]">
+              <span className="BorderGlobal border-[#A8FF57]">
                 Best Quality Online Courses
               </span>
             </h1>
-            <div className="mt-[20px] hidden lg:block">
+            {/* <div className="mt-[20px] hidden lg:block">
               <button
                 className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
@@ -22,7 +20,7 @@ const OnlineCourses = () => {
               >
                 Read More <MdArrowRightAlt />
               </button>
-            </div>
+            </div> */}
           </div>
           <div>
             <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[600px] ">
@@ -38,7 +36,7 @@ const OnlineCourses = () => {
               We’ll teach you how to slay dragons and code websites, all while
               cracking jokes and sipping on virtual coffee.
             </p>
-            <div className="mt-[20px] lg:hidden block">
+            {/* <div className="mt-[20px] lg:hidden block">
               <button
                 className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
     
@@ -46,7 +44,7 @@ const OnlineCourses = () => {
               >
                 Read More <MdArrowRightAlt />
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

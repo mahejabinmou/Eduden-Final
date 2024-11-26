@@ -14,7 +14,7 @@ const Faq = () => {
       {/* FAQ Section */}
       <div className="">
         <h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] xl:mb-[80px] text-[#FFFFFF] ">
-          <span className="border-b-4 border-[#A8FF57] ">
+          <span className="BorderGlobal border-[#A8FF57] ">
             Frequently {""} {""}
           </span>
           <br />

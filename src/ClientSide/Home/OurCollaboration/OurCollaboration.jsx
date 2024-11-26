@@ -14,7 +14,7 @@ const OurCollaboration = () => {
       </h1>
       <h1 className="popularCategoryHead mb-[20px] md:mb-[45px]  text-center">
         {" "}
-        Our <span className="border-b-4 border-[#A8FF57]">Collaboration</span>
+        Our <span className="BorderGlobal border-[#A8FF57]">Collaboration</span>
       </h1>
       <p className="joinClanSubPara  mb-[50px] text-center">
         Well, because we’re not your grandma’s boring old school! At Edu-Den,
