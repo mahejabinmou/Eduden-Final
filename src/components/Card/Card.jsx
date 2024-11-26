@@ -22,7 +22,7 @@ const Card = ({
     return (
         <>
             <div
-                className={`w-full sm:min-h-[720px]  sm:h-[720px] bg-white rounded-[20px] flex flex-col gap-1 justify-between group hover:bg-[#A8FF57] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders ${
+                className={`w-full sm:min-h-[740px]  sm:h-[740px] bg-white rounded-[20px] flex flex-col gap-1 justify-between group hover:bg-[#A8FF57] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders ${
                     slider && "h-full"
                 }`}
                 onClick={() => navigate("/courseDetails")}
