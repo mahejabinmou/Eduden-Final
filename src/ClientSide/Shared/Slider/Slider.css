@@ -66,3 +66,11 @@
 .box-borders * {
     box-sizing: border-box !important;
 }
+@media only screen and (max-width: 768px) {
+    .swiper-slide {
+        display: block !important;
+    }
+    .upCmnCrs .swiper {
+        height: 650px !important;
+    }
+}
