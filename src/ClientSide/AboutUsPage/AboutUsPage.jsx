@@ -18,8 +18,8 @@ const AboutUsPage = () => {
       <AboutHero></AboutHero>
       <OnlineCourses></OnlineCourses>
       <Video></Video>
-      {/* <Testimonial></Testimonial> */}
-      <TestimonialAbout />
+      <Testimonial></Testimonial>
+      {/* <TestimonialAbout /> */}
       <OurCollaboration></OurCollaboration>
       <Footer></Footer>
     </div>
