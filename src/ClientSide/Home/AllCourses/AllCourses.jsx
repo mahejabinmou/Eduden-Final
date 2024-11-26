@@ -133,7 +133,9 @@ const AllCourses = () => {
         </h1>
         <h1 className="popularCategoryHead mb-[50px] text-center">
           {" "}
-          All <span className="border-b-4 border-[#A8FF57]">Courses</span>{" "}
+          All <span className="BorderGlobal border-[#A8FF57]">
+            Courses
+          </span>{" "}
         </h1>
       </div>
 

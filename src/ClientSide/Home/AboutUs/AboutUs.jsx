@@ -1,4 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -30,13 +31,15 @@ joinClanSubPara(para) mb-[30px]"
           </p>
         </div>
 
-        <button
-          className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] AboutHome
+        <Link className="/about">
+          <button
+            className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] AboutHome
         
         border border-[#A8FF57]  "
-        >
-          Read More <MdArrowRightAlt />
-        </button>
+          >
+            Read More <MdArrowRightAlt />
+          </button>
+        </Link>
       </div>
 
       <div className="hidden lg:block">
@@ -46,7 +49,7 @@ joinClanSubPara(para) mb-[30px]"
  mb-[30px]"
           >
             {" "}
-            <span className="border-b-4 border-[#A8FF57]">
+            <span className="BorderGlobal border-[#A8FF57]">
               About {""} {""}
             </span>
             {""} {""}Us
@@ -67,13 +70,15 @@ joinClanSubPara(para) mb-[30px]"
         </div>
 
         <div className="flex lg:flex-row flex-col justify-between items-start  mt-[30px] mb-[30px] ">
-          <button
-            className="flex items-center mb-[30px] hover:bg-[#A8FF57] hover:text-black justify-between gap-x-[10px] homeLargeAppoinMent
+          <Link className="/about">
+            <button
+              className="flex items-center mb-[30px] hover:bg-[#A8FF57] hover:text-black justify-between gap-x-[10px] homeLargeAppoinMent
         
         border border-[#A8FF57]"
-          >
-            Read More <MdArrowRightAlt />
-          </button>
+            >
+              Read More <MdArrowRightAlt />
+            </button>
+          </Link>
 
           <p className=" joinClanSubPara 2xl:max-w-[1000px] xl:max-w-[800px] lg:max-w-[700px]">
             Well, because we’re not your grandma’s boring old school! At
