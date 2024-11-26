@@ -65,7 +65,7 @@ const Footer = () => {
 						<div className="">
 							<h2 className="footerMenuTextTitle">Quick Link</h2>
 							<Link to="/About">
-								<p className="footerMenuText flex flex-row items-center gap-x-[10px] ">
+								<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 									<span>
 										<img
 											className="w-[9px] h-[9px] "
@@ -77,7 +77,7 @@ const Footer = () => {
 								</p>
 							</Link>
 							<Link to="/service">
-								<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+								<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 									<span>
 										<img
 											className="w-[9px] h-[9px] "
@@ -89,7 +89,7 @@ const Footer = () => {
 								</p>
 							</Link>
 							<Link to="/courses">
-								<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+								<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 									<span>
 										<img
 											className="w-[9px] h-[9px] "
@@ -101,7 +101,7 @@ const Footer = () => {
 								</p>
 							</Link>
 							<Link to="/contactus">
-								<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+								<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 									<span>
 										<img
 											className="w-[9px] h-[9px] "
@@ -117,7 +117,7 @@ const Footer = () => {
 						<div className="text-white">
 							<h2 className="footerMenuTextTitle">Learning platform</h2>
 
-							<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+							<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 								<span>
 									<img
 										className="w-[16px] h-[16px] "
@@ -128,7 +128,7 @@ const Footer = () => {
 								YouTube
 							</p>
 
-							<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+							<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 								<span>
 									<img
 										className="w-[16px] h-[16px] "
@@ -138,7 +138,7 @@ const Footer = () => {
 								</span>
 								Facebook
 							</p>
-							<p className="footerMenuText flex flex-row items-center gap-x-[10px]">
+							<p className="footerMenuText flex flex-row items-center gap-x-[10px] pb-2">
 								<span>
 									<img
 										className="w-[16px] h-[16px] "
@@ -152,7 +152,7 @@ const Footer = () => {
 
 						<div className="text-white">
 							<h2 className="footerMenuTextTitle">Get In Touch</h2>
-							<div className=" md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]">
+							<div className=" md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px] pb-2">
 								<p
 									className=" text-[14px] leading-[21px]  md:text-[14px] md:leading-[21px] lg:text-[14px] lg:leading-[23px]   xl:text-[14px] xl:leading-[21px]  
      2xl:text-[14px] 2xl:leading-[21px] font-gucina font-bold text-white
@@ -169,10 +169,10 @@ const Footer = () => {
 								</p>
 							</div>
 
-							<div className=" ">
+							<div className=" pb-2 ">
 								<p
 									className=" footerMenuText
-     md:pb-[2px] lg:pb-[2px] xl:pb-[2px] 2xl:pb-[2px] "
+     md:pb-[2px] lg:pb-[2px] xl:pb-[2px] 2xl:pb-[2px]"
 								>
 									Email:
 								</p>
@@ -183,7 +183,7 @@ const Footer = () => {
 									bd@eduden.com
 								</p>
 							</div>
-							<div className=" md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px]">
+							<div className=" md:pb-[10px] lg:pb-[10px] xl:pb-[10px] 2xl:pb-[10px] pb-2">
 								<p
 									className=" text-[14px] leading-[21px]  md:text-[14px] md:leading-[21px] lg:text-[14px] lg:leading-[23px]   xl:text-[14px] xl:leading-[21px]  
      2xl:text-[14px] 2xl:leading-[21px] font-gucina font-bold text-white
