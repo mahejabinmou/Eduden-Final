@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa"
 import CardFotter from "../WhatsNew/CardFotter"
 import { useState } from "react"
 import TitleContainer from "../../ClientSide/Shared/TitleContainer/TitleContainer"
+import { useNavigate } from "react-router-dom"
 
 /* eslint-disable react/prop-types */
 const Card = ({
@@ -17,12 +18,14 @@ const Card = ({
     slider,
 }) => {
     const [hover, setHover] = useState(false)
+    const navigate = useNavigate()
     return (
         <>
             <div
                 className={`w-full sm:min-h-[720px]  sm:h-[720px] bg-white rounded-[20px] flex flex-col gap-1 justify-between group hover:bg-[#A8FF57] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders ${
                     slider && "h-full"
                 }`}
+                onClick={() => navigate("/courseDetails")}
             >
                 {/* Content shown when not hovered */}
                 <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">
