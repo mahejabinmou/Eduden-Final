@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BiMessageDetail } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -66,9 +67,12 @@ const Faq = () => {
           Learn more about our services, course offerings, or support. We're
           here to help.
         </p>
-        <button className=" px-[20px] py-[8px] bg-[#A8FF57] text-[#010101] rounded-full">
-          Contact Us
-        </button>
+
+        <Link to="/contactUs">
+          <button className=" px-[20px] py-[8px] bg-[#A8FF57] text-[#010101] rounded-full">
+            Contact Us
+          </button>
+        </Link>
       </div>
     </div>
   );

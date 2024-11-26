@@ -97,14 +97,17 @@ const Navbar = () => {
                 </Link>
 
                 <li className="relative">
-                  <button
-                    onClick={toggleDropdown2}
-                    className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#A8FF57] focus:outline-none  mt-2"
-                  >
-                    Courses
-                    {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                  </button>
-                  {isDropdown2Open && (
+                  <Link to="/courses">
+                    <button
+                      onClick={toggleDropdown2}
+                      className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#A8FF57] focus:outline-none  mt-2"
+                    >
+                      Courses
+                      {/* {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />} */}
+                    </button>
+                  </Link>
+
+                  {/* {isDropdown2Open && (
                     <ul className="mt-2 mb-2 min-w-[150px] bg-[#A8FF57]/[.4] text-black rounded shadow-lg">
                       <Link to="/courses">
                         <li className="px-4 py-[5px] text-black  mt-2">
@@ -117,7 +120,7 @@ const Navbar = () => {
                         </li>
                       </Link>
                     </ul>
-                  )}
+                  )} */}
                 </li>
                 <li className="relative">
                   <button
@@ -187,16 +190,18 @@ const Navbar = () => {
                 </Link>
                 <li className="relative">
                   {/* Study Menu Item */}
-                  <button
-                    onClick={toggleDropdown2}
-                    className="text-[#FFFFFF] hover:text-[#A8FF57] flex items-center gap-x-[6px]"
-                  >
-                    Courses
-                    {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                  </button>
+                  <Link to="/courses">
+                    <button
+                      // onClick={toggleDropdown2}
+                      className="text-[#FFFFFF] hover:text-[#A8FF57] flex items-center gap-x-[6px]"
+                    >
+                      Courses
+                      {/* {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />} */}
+                    </button>
+                  </Link>
 
                   {/* Dropdown Menu */}
-                  {isDropdown2Open && (
+                  {/* {isDropdown2Open && (
                     <ul className="absolute left-0 mt-2 z-100000 w-40 bg-[#A8FF57]/[.4] text-white rounded shadow-lg">
                       <Link to="/courses">
                         {" "}
@@ -208,7 +213,7 @@ const Navbar = () => {
                         <Link to="/courseDetails">Course Details</Link>
                       </li>
                     </ul>
-                  )}
+                  )} */}
                 </li>
                 {/* Other Menu Items */}
                 <li className="relative">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NeedHelp = () => {
   return (
     <div>
@@ -25,9 +27,12 @@ const NeedHelp = () => {
               Party Now – No Boring Stuff Allowed.
             </p>
           </div>
-          <button className="NeedHelpbuttonPara bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[4px] px-[18px] gap-x-[10px] text-[#010101]">
-            Contact Us
-          </button>
+
+          <Link to="/contactUs">
+            <button className="NeedHelpbuttonPara bg-[#A8FF57] flex items-center justify-center rounded-[50px] py-[4px] px-[18px] gap-x-[10px] text-[#010101]">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>

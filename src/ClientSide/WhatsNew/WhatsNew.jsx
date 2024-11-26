@@ -13,7 +13,10 @@ const WhatsNew = () => {
       {/* <div className="bg-[#010101] sectionPadding">
         <div className="font-sans mt-[150px] min-h-screen max-w-[1920px] mx-auto"> */}
       <UpcomingCourses />
-      <UpcominEvents />
+      <div className="mt-[60px] md:mt-[80px]   lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]">
+        <UpcominEvents />
+      </div>
+
       <FreeWebinar />
       {/* </div>
       </div> */}

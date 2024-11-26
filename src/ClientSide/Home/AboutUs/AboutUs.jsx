@@ -31,7 +31,7 @@ joinClanSubPara(para) mb-[30px]"
           </p>
         </div>
 
-        <Link className="/about">
+        <Link to="/about">
           <button
             className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] AboutHome
         
@@ -70,7 +70,7 @@ joinClanSubPara(para) mb-[30px]"
         </div>
 
         <div className="flex lg:flex-row flex-col justify-between items-start  mt-[30px] mb-[30px] ">
-          <Link className="/about">
+          <Link to="/about">
             <button
               className="flex items-center mb-[30px] hover:bg-[#A8FF57] hover:text-black justify-between gap-x-[10px] homeLargeAppoinMent
         
