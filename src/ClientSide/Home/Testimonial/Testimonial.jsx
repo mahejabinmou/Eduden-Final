@@ -52,7 +52,7 @@ const Testimonial = () => {
 
             <div className="slider-container md:pb-[50px] pb-0 ">
               <Slider {...settings}>
-                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
+                <div className="text-[#FFFFFF] rounded-[10px]   max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
                   <div className="flex justify-between items-start">
                     {/* FaQuoteLeft Icon */}
                     <FaQuoteLeft

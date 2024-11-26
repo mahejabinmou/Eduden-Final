@@ -3,6 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 import { TiTick } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const FoundationCourse = () => {
   // Course data array
@@ -199,13 +200,15 @@ const FoundationCourse = () => {
 
           {/* Button */}
           <div className="mt-6">
-            <button
-              className="w-full joinClanSubPara
+            <Link to="/verify">
+              <button
+                className="w-full joinClanSubPara
  bg-[#A8FF57]
 text-black py-[6px] font-bold rounded-full"
-            >
-              Buy Now
-            </button>
+              >
+                Buy Now
+              </button>
+            </Link>
           </div>
         </div>
 

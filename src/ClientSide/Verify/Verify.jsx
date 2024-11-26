@@ -20,7 +20,7 @@ const Verify = () => {
       <div className=" sectionGap  bg-black">
         <VerifyForm setIsOkay={setIsOkay} setIsError={setIsError} />
       </div>
-      <div>
+      <div className="mt-[60px] md:mt-[80px]   lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]">
         <UpcominEvents />
       </div>
       <Footer />

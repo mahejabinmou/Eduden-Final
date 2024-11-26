@@ -1,4 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const JoinOurClan = () => {
   return (
@@ -25,9 +26,11 @@ const JoinOurClan = () => {
             <p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px] pb-[12px]">
               Join the Learning Party Now – No Boring Stuff Allowed.
             </p>
-            <button className="JoinButton bg-[#A8FF57] flex items-center justify-center rounded-[50px]  gap-x-[5px] text-[#010101]">
-              Enroll Now <MdArrowRightAlt />
-            </button>
+            <Link to="/courseDetails">
+              <button className="JoinButton bg-[#A8FF57] flex items-center justify-center rounded-[50px]  gap-x-[5px] text-[#010101]">
+                Enroll Now <MdArrowRightAlt />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
