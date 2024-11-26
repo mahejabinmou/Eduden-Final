@@ -212,7 +212,7 @@ text-black py-[6px] font-bold rounded-full"
           </div>
         </div>
 
-        <div className="bg-[#1A1A1A] text-white p-[50px]  rounded-[10px] max-w-[523px] mb-[50px]">
+        <div className="bg-[#1A1A1A] text-white    p-[50px]  rounded-[10px]  max-w-[523px] mb-[50px]">
           {/* Title */}
           <h2 className="popularCategoryHead mb-[50px]">Contact Us</h2>
 
@@ -228,8 +228,8 @@ text-black py-[6px] font-bold rounded-full"
             </div>
           </div>
 
-          <div className="flex  gap-x-[30px] mb-[50px]">
-            <div className="h-[60px] w-[60px] lg:h-[60px] lg:w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
+          <div className="grid grid-cols-2 it mb-[50px]">
+            <div className="h-[60px] w-[60px] lg:h-[60px] lg:w-[60px]   bg-[#8EFA6D] rounded-full flex items-center justify-center">
               <MdEmail size={27} className="text-black" />
             </div>
 
@@ -240,9 +240,9 @@ text-black py-[6px] font-bold rounded-full"
             </div>
           </div>
 
-          <div className="flex  gap-x-[30px] md:hidden block ">
+          <div className="grid grid-cols-2 md:hidden block ">
             <div
-              className="h-[60px] w-[72px]
+              className="lg:h-[60px] lg:w-[72px] h-[60px] w-[60px] 
             bg-[#8EFA6D] rounded-full flex items-center justify-center"
             >
               <FaLocationDot size={27} className="text-black" />
