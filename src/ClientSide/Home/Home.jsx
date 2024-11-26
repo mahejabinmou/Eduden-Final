@@ -67,7 +67,9 @@ const Home = () => {
       <Video></Video>
       <OurCollaboration></OurCollaboration>
       <JoinOurClan></JoinOurClan>
-      <UpcominEvents></UpcominEvents>
+      <div className=" pt-[0px]  md:pt-[80px] xl:pt-[100px] ">
+        <UpcominEvents></UpcominEvents>
+      </div>
       <Testimonial></Testimonial>
       <NeedHelp></NeedHelp>
       <Faq></Faq>
