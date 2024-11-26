@@ -216,7 +216,7 @@ text-black py-[6px] font-bold rounded-full"
           {/* Title */}
           <h2 className="popularCategoryHead mb-[50px]">Contact Us</h2>
 
-          <div className="flex  gap-x-[30px] mb-[50px]">
+          <div className="grid grid-cols-2 mb-[50px]">
             <div className="h-[60px] w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
               <FaPhoneAlt size={27} className="text-black" />
             </div>
@@ -240,9 +240,9 @@ text-black py-[6px] font-bold rounded-full"
             </div>
           </div>
 
-          <div className="grid grid-cols-2 md:hidden block ">
+          <div className="grid grid-cols-2 xl:hidden block ">
             <div
-              className="lg:h-[60px] lg:w-[72px] h-[60px] w-[60px] 
+              className="lg:h-[60px] lg:w-[60px] h-[60px] w-[60px] 
             bg-[#8EFA6D] rounded-full flex items-center justify-center"
             >
               <FaLocationDot size={27} className="text-black" />
@@ -256,9 +256,9 @@ text-black py-[6px] font-bold rounded-full"
               <p className="joinClanSubPara">GBnagla, example 54786</p>
             </div>
           </div>
-          {/* large */}
-          <div className="md:block hidden">
-            <div className="flex  gap-x-[30px] ">
+          {/*xl large */}
+          <div className="xl:block hidden">
+            <div className="grid grid-cols-2 ">
               <div
                 className="xl:h-[60px] xl:w-[82px] lg:h-[60px] lg:w-[60px] 2xl:h-[60px] 2xl:w-[60px] rounded-full
             bg-[#8EFA6D]  flex items-center justify-center"
