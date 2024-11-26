@@ -268,6 +268,20 @@ text-[10px] leading-[15px]
     font-gucina   rounded-[50px];
   }
 
+  .verifyAppoinMent {
+    @apply text-[18px] leading-[21px]  py-[8px] px-[10px]
+    
+    md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    /* =========  */
+    xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
+    font-gucina   rounded-[50px];
+  }
+
   .JoinButton {
     @apply text-[10px] leading-[21px]  py-[3px] px-[10px]
     

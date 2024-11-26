@@ -7,7 +7,7 @@ const UpcominEvents = () => {
       <div>
         <h1 className="popularCategoryHead mb-[20px] md:mb-[45px] text-center">
           {" "}
-          Upcoming <span className="border-b-4 border-[#A8FF57]">Events</span>
+          Upcoming <span className="BorderGlobal border-[#A8FF57]">Events</span>
         </h1>
         <p
           className="joinClanSubPara  mb-[50px]  2xl:px-[150px] xl:px-[150px] 
