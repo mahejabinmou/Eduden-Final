@@ -11,10 +11,10 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
   };
   return (
     <div
-      className="flex    flex-col md:flex-row justify-center items-center 2xl:gap-[118px]
+      className="flex    flex-col md:flex-row justify-center  items-center 2xl:gap-[118px]
     gap-[70px]"
     >
-      <div className="max-w-[625px]">
+      <div className="md:max-w-[60%] w-full">
         <img
           src={verifyImg}
           alt="verify image"
@@ -22,7 +22,7 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
           className=" w-full h-auto "
         />
       </div>
-      <div className="max-w-[40%] w-full">
+      <div className="md:max-w-[40%] w-full">
         <form className="flex flex-col w-full gap-[30px]" onSubmit={handleFrom}>
           <input
             type="text"
