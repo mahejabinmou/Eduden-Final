@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div className="flex  flex-col justify-between  ">
           <h1
             className="popularCategoryHead 
-joinClanSubPara(para) mb-[30px]"
+ mb-[30px]"
           >
             {" "}
             <span className="lg:border-b-4 border-b-2 border-[#A8FF57]">

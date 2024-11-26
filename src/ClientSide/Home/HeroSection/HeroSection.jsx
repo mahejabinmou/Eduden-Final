@@ -40,7 +40,7 @@ const HeroSection = () => {
                   WELCOME TO EDUDEN
                 </button>
 
-                <h1 className="heroHead  text-[#FFFFFF]  max-w-[300px] pb-[5px]">
+                <h1 className="heroHead  text-[#FFFFFF] max-w-[500px] pb-[5px]">
                   Where Learning Meets Imagination & Innovation!
                 </h1>
 
