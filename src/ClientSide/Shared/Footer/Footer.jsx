@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<div className="  ">
+		<div className="sectionGap">
 			{/* foooter content */}
 			<div className=" relative md:hidden block  ">
 				<div
@@ -20,10 +20,11 @@ const Footer = () => {
 					<div className=" pb-[50px] grid grid-cols-1 px-0  gap-y-[50px]">
 						<div className="">
 							<div className="footerLogoparent mb-[25px]">
+								{/* <img className="h-full w-full object-cover" src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp" alt="brand logo" /> */}
 								<img
-									className="h-full w-full object-cover "
-									src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp"
-									alt=""
+									className="h-full w-full object-cover"
+									src="/edu-den-logo.png"
+									alt="brand logo"
 								/>
 							</div>
 
@@ -232,10 +233,11 @@ const Footer = () => {
 					<div className="xl:mb-[50px] lg:mb-[50px] md:mb-[50px] grid grid-cols-2 lg:grid-cols-4 justify-center  items-start gap-x-[100px] ">
 						<div className="md:mb-[50px]">
 							<div className="footerLogoparent mb-[25px]">
+								{/* <img className="h-full w-full object-cover" src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp" alt="brand logo" /> */}
 								<img
-									className="h-full w-full"
-									src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp"
-									alt=""
+									className="h-full w-full object-cover"
+									src="/edu-den-logo.png"
+									alt="brand logo"
 								/>
 							</div>
 							<div className="">

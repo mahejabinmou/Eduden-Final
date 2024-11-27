@@ -37,7 +37,7 @@ const Testimonial = () => {
 		// slidesToScroll: slidesToScroll,
 	};
 	return (
-		<div className="section ">
+		<div className="section">
 			<div className="relative">
 				<div
 					style={{

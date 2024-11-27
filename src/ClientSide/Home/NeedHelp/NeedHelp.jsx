@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NeedHelp = () => {
 	return (
 		<div>
-			<div className="pt-[50px] xs:mt-[130px]  md:mt-[80px]   lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]  relative">
+			<div className="sectionGap relative">
 				{/* Background image section */}
 				<div
 					style={{
