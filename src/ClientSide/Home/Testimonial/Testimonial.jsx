@@ -210,9 +210,8 @@ const Testimonial = () => {
 				</div>
 
 				{/* phone */}
-
 				<div className="md:hidden block">
-					<div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between  gap-[30px]">
+					<div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between gap-x-[30px]">
 						{/* text */}
 
 						<div className=" text-center">
@@ -234,9 +233,9 @@ const Testimonial = () => {
 							{/* <button className="text-[#010101] buttonPara"></button> */}
 						</div>
 						{/* ------slider */}
-						<div className="slider-container md:mb-[30px] pb-0 ">
+						<div className="slider-container mb-[50px]">
 							<Slider {...settings}>
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] pt-[15px] pl-[25px]  relative bg-[#22212199]/[.6] ">
+								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
 									<div className="flex justify-between items-start">
 										{/* FaQuoteLeft Icon */}
 										<FaQuoteLeft
@@ -245,7 +244,7 @@ const Testimonial = () => {
 										/>
 
 										{/* Star Rating */}
-										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[46px]">
+										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[20px]">
 											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 										</div>
 									</div>
@@ -271,7 +270,7 @@ const Testimonial = () => {
 											/>
 										</div>
 										<div className="ml-[12px]">
-											<p className="text-[14px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
+											<p className="text-[16px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
 												Nazmul Islam
 											</p>
 											<p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
@@ -281,7 +280,7 @@ const Testimonial = () => {
 									</div>
 								</div>
 
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] pt-[15px]    pl-[25px]  relative bg-[#22212199]/[.6] ">
+								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
 									<div className="flex justify-between items-start">
 										{/* FaQuoteLeft Icon */}
 										<FaQuoteLeft
@@ -290,7 +289,7 @@ const Testimonial = () => {
 										/>
 
 										{/* Star Rating */}
-										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[46px]">
+										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[20px]">
 											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
 										</div>
 									</div>
@@ -316,7 +315,7 @@ const Testimonial = () => {
 											/>
 										</div>
 										<div className="ml-[12px]">
-											<p className="text-[14px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
+											<p className="text-[16px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
 												Nazmul Islam
 											</p>
 											<p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">

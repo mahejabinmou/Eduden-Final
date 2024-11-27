@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<div className=" section ">
+		<div className="  ">
 			{/* foooter content */}
 			<div className=" relative md:hidden block  ">
 				<div
