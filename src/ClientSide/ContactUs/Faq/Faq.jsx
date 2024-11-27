@@ -11,7 +11,7 @@ const Faq = () => {
 	};
 
 	return (
-		<div className="grid lg:grid-cols-2  grid-cols-1 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] pb-[50px]">
+		<div className="grid lg:grid-cols-2  grid-cols-1 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] ">
 			{/* FAQ Section */}
 			<div className="">
 				<h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] xl:mb-[80px] text-[#FFFFFF] ">
