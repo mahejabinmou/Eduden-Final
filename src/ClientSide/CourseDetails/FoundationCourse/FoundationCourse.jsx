@@ -24,7 +24,8 @@ const FoundationCourse = () => {
 				<div className="md:h-[510px] h-[168px] max-w-[1017px]   ">
 					<img
 						className="w-full h-full  rounded-[16px]"
-						src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
+						// src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
+						src="assets/images/new-changes/crs-dtls-head.png"
 						alt=""
 					/>
 				</div>
@@ -49,7 +50,7 @@ const FoundationCourse = () => {
 						Foundation Course To Understand About Software
 					</h1>
 					<div className="max-w-[895px]">
-						<p className="para text-[#FFFFFFCC]/[.8]">
+						<p className="joinClanSubPara text-[#FFFFFFCC]/[.8]">
 							Embark on a comprehensive React journey with our React Front To
 							Back course. Designed for beginners and seasoned developers alike,
 							this course covers the fundamentals and dives deep into advanced
@@ -61,7 +62,7 @@ const FoundationCourse = () => {
 						</p>
 
 						<div className="">
-							<ul className="para text-[#FFFFFFCC]/[.8] pt-[15px] list-disc ml-[30px]">
+							<ul className="joinClanSubPara text-[#FFFFFFCC]/[.8] pt-[15px] list-disc ml-[30px]">
 								<li className="pb-[15px] ">
 									Develop a strong understanding of JavaScript basics, including
 									variables, data types, and control flow, building a solid
@@ -86,11 +87,11 @@ const FoundationCourse = () => {
 						</div>
 
 						<div>
-							<h1 className="subTitle text-[#FFFFFF] pt-[50px]">
+							<h1 className="subTitle text-[#FFFFFF] pt-[35px] md:pt-[50px]">
 								What You Learn
 							</h1>
 							<div className="">
-								<ul className="para text-[#FFFFFFCC]/[.8] pt-[15px]  ">
+								<ul className="joinClanSubPara text-[#FFFFFFCC]/[.8] pt-[15px]  ">
 									<li className="pb-[15px] flex gap-x-[20px]">
 										<span>
 											<TiTick size={24} className="text-[#A8FF57]" />
@@ -132,17 +133,18 @@ const FoundationCourse = () => {
 				<div className="md:h-[510px] h-[168px] max-w-[1017px] md:pt-[50px] pt-[30px]">
 					<img
 						className="w-full h-full  rounded-[16px]"
-						src="https://i.ibb.co.com/s3tpzCZ/image-8-66f110de9f7e0.webp"
+						// src="https://i.ibb.co.com/s3tpzCZ/image-8-66f110de9f7e0.webp"
+						src="assets/images/new-changes/crs-dtls-scd.png"
 						alt=""
 					/>
 				</div>
 
-				<div className="pt-[50px]">
+				<div className="pt-[50px] mb-[35px] lg:mb-0">
 					<h1 className="subTitle text-[#FFFFFF]">
 						Why choose you this course
 					</h1>
 					<div className="">
-						<ul className="para text-[#FFFFFFCC]/[.8] pt-[15px]  max-w-[895px]">
+						<ul className="joinClanSubPara text-[#FFFFFFCC]/[.8] pt-[15px]  max-w-[895px]">
 							<li className="pb-[15px] flex gap-x-[20px]">
 								<span>
 									<TiTick size={24} className="text-[#A8FF57]" />
@@ -181,8 +183,8 @@ const FoundationCourse = () => {
 			</div>
 
 			{/* flex item */}
-			<div>
-				<div className="bg-[#1A1A1A] text-white p-[50px] rounded-[10px] max-w-[523px] mb-[50px]">
+			<div className="">
+				<div className="bg-[#1A1A1A] text-white p-[50px] rounded-[10px] max-w-[523px] mb-[50px] md:mx-auto ">
 					{/* Title */}
 					<h2 className="popularCategoryHead font-bold mb-6">
 						Course Information
@@ -192,8 +194,8 @@ const FoundationCourse = () => {
 					<ul>
 						{courseDetails.map((detail, index) => (
 							<li key={index} className="flex justify-between py-1">
-								<span className="para">{detail.label}</span>
-								<span className="para">{detail.value}</span>
+								<span className="joinClanSubPara">{detail.label}</span>
+								<span className="joinClanSubPara">{detail.value}</span>
 							</li>
 						))}
 					</ul>
@@ -212,11 +214,11 @@ text-black py-[6px] font-bold rounded-full"
 					</div>
 				</div>
 
-				<div className="bg-[#1A1A1A] text-white    p-[50px]  rounded-[10px]  max-w-[523px] mb-[50px]">
+				<div className="bg-[#1A1A1A] text-white    p-[50px]  rounded-[10px]  max-w-[523px] mb-[0px] md:mx-auto">
 					{/* Title */}
 					<h2 className="popularCategoryHead mb-[50px]">Contact Us</h2>
 
-					<div className="grid grid-cols-2 mb-[50px]">
+					<div className="grid grid-cols-[40%_60%] mb-[50px]">
 						<div className="h-[60px] w-[60px]  bg-[#8EFA6D] rounded-full flex items-center justify-center">
 							<FaPhoneAlt size={27} className="text-black" />
 						</div>
@@ -228,7 +230,7 @@ text-black py-[6px] font-bold rounded-full"
 						</div>
 					</div>
 
-					<div className="grid grid-cols-2 it mb-[50px]">
+					<div className="grid grid-cols-[40%_60%] mb-[50px]">
 						<div className="h-[60px] w-[60px] lg:h-[60px] lg:w-[60px]   bg-[#8EFA6D] rounded-full flex items-center justify-center">
 							<MdEmail size={27} className="text-black" />
 						</div>
@@ -240,7 +242,7 @@ text-black py-[6px] font-bold rounded-full"
 						</div>
 					</div>
 
-					<div className="grid grid-cols-2 xl:hidden block ">
+					<div className="grid grid-cols-[40%_60%] xl:hidden block ">
 						<div
 							className="lg:h-[60px] lg:w-[60px] h-[60px] w-[60px] 
             bg-[#8EFA6D] rounded-full flex items-center justify-center"
@@ -258,7 +260,7 @@ text-black py-[6px] font-bold rounded-full"
 					</div>
 					{/*xl large */}
 					<div className="xl:block hidden">
-						<div className="grid grid-cols-2 ">
+						<div className="grid grid-cols-[40%_60%] ">
 							<div
 								className="xl:h-[60px] xl:w-[60px] lg:h-[60px] lg:w-[60px] 2xl:h-[60px] 2xl:w-[60px] rounded-full
             bg-[#8EFA6D]  flex items-center justify-center"

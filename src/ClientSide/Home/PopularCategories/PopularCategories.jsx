@@ -71,7 +71,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/ui-ux-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -116,7 +116,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/web-dev-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -186,7 +186,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/graphic-design-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -262,7 +262,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/mobile-app-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -314,7 +314,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/programming-language-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -378,7 +378,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/data-science-n-ai-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
@@ -446,7 +446,7 @@ const PopularCategories = () => {
 					className="hover:bg-[#A8FF57B2]/[1] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
 				>
 					<img
-						src="card-hover.jpg"
+						src="assets/images/new-changes/database-management-course.jpg"
 						alt="Hovered Image"
 						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
