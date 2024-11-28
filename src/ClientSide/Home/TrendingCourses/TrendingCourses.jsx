@@ -24,7 +24,7 @@ const TrendingCourses = () => {
 					<div className="h-full w-full">
 						<img
 							className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-							src="https://i.ibb.co.com/VpXpTwd/rectangle-108-66f3daaa27fd4.webp"
+							src="assets/images/new-changes/tc-cs.png"
 							alt="Cyber Security"
 						/>
 					</div>
@@ -48,7 +48,7 @@ const TrendingCourses = () => {
 						<div className="h-full w-full ">
 							<img
 								className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
-								src="https://i.ibb.co.com/1bgG01s/rectangle-120-66f3db2b9e8b1.webp"
+								src="assets/images/new-changes/tc-gd.png"
 								alt=""
 							/>
 						</div>
@@ -105,7 +105,7 @@ const TrendingCourses = () => {
 						<div className="h-full w-full">
 							<img
 								className="w-full h-full rounded-[10px] object-cover transition-transform duration-500 group-hover:scale-110"
-								src="https://i.ibb.co.com/nggGJLH/rectangle-123-1-66f3dc2d8c7c7.webp"
+								src="assets/images/new-changes/tc-mad.png"
 								alt=""
 							/>
 						</div>

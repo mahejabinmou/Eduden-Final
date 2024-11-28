@@ -59,7 +59,7 @@ const HeroSection = () => {
 						<div className="relative ">
 							<div
 								style={{
-									backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
+									backgroundImage: `url(${"/assets/images/new-changes/home-hero-1.png"})`,
 								}}
 								className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[300px]  "
@@ -69,10 +69,10 @@ const HeroSection = () => {
 						<div className="relative ">
 							<div
 								style={{
-									backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
+									backgroundImage: `url(${"/assets/images/new-changes/home-hero-3.png"})`,
 								}}
 								className="
-            bg-no-repeat bg-center bg-cover w-[100%] h-[300px]  "
+            bg-no-repeat bg-center bg-cover w-[100%] h-[300px] opacity-[0.3] "
 							></div>
 						</div>
 						{/* slider three */}
@@ -149,7 +149,7 @@ const HeroSection = () => {
 						<div className="relative ">
 							<div
 								style={{
-									backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
+									backgroundImage: `url(${"/assets/images/new-changes/home-hero-1.png"})`,
 								}}
 								className="
           bg-no-repeat bg-center bg-cover h-[741px]"
@@ -159,10 +159,10 @@ const HeroSection = () => {
 						<div className="relative">
 							<div
 								style={{
-									backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,
+									backgroundImage: `url(${"/assets/images/new-changes/home-hero-3.png"})`,
 								}}
 								className="
-          bg-no-repeat bg-center bg-cover h-[741px]"
+          bg-no-repeat bg-center bg-cover h-[741px] opacity-[0.3]"
 							></div>
 						</div>
 						{/* slider three*/}

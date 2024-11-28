@@ -9,6 +9,7 @@ const JoinOurClan = () => {
 					<div
 						style={{
 							backgroundImage: `url("https://i.ibb.co.com/yhFHHCt/rectangle-139-66f4ca32c7136.webp")`,
+							// backgroundImage: `url("assets/images/new-changes/join-clan-img.png")`,
 						}}
 						className="bg-no-repeat bg-center bg-cover w-full md:h-[684px] h-[270px] flex justify-center items-center"
 					></div>
@@ -23,8 +24,8 @@ const JoinOurClan = () => {
 						<h1 className="popularCategoryHead px-[30px] md:px-[0px] text-[#FFFFFF] pb-[10px] text-center">
 							Unlock Your Inner Genius at Edu-Den!
 						</h1>
-						<p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px] pb-[12px]">
-							Join the Learning Party Now – No Boring Stuff Allowed.
+						<p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px] pb-[12px] text-center">
+							Join the Learning Party Now - No Boring Stuff Allowed.
 						</p>
 						<Link to="/courseDetails">
 							<button className="homeLargeAppoinMent bg-[#A8FF57] flex items-center justify-center rounded-[50px]  gap-x-[5px] text-[#010101]">

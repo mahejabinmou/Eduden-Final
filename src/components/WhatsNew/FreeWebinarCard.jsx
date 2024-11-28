@@ -4,8 +4,8 @@
 const FreeWebinarCard = ({ category, time, title, img }) => {
 	return (
 		<div className="flex p-2 md:p-[15px] items-center justify-between bg-white gap-2 rounded-[15px]">
-			<div>
-				<img src={img} alt="webinar" width={260} className="max-w-[130px]" />
+			<div className="w-[150px] h-[80px] flex items-center overflow-hidden">
+				<img src={img} alt="webinar" />
 			</div>
 			<div>
 				<div>
