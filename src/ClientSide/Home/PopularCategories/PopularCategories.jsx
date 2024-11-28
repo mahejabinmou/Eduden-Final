@@ -73,7 +73,7 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/ui-ux-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-fill opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
@@ -188,7 +188,7 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/graphic-design-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-left opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
 						style={{
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
