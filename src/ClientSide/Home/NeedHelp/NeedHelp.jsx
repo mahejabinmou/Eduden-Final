@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const NeedHelp = () => {
 	return (
-		<div>
-			<div className="sectionGap relative">
+		<div className="section">
+			<div className=" relative">
 				{/* Background image section */}
 				<div
 					style={{
