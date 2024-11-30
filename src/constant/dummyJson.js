@@ -409,7 +409,7 @@ const categories = {
 const filterCourse = [
 	{
 		id: 1,
-		category: "Cyber Security",
+		category: "UI/UX Design",
 		price: "$120",
 		title: "UI/UX Design for Web and Mobile for Kids",
 		rating: 5,
@@ -427,7 +427,7 @@ const filterCourse = [
 	},
 	{
 		id: 2,
-		category: "Graphicis Design",
+		category: "Graphics Design",
 		price: "$120",
 		title: "Introduce About Graphic Design for Beginners",
 		rating: 5,
@@ -445,7 +445,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 	},
 	{
 		id: 3,
-		category: "Cyber Security",
+		category: "Programming",
 		price: "$120",
 		title: "Introduction to Python Programming",
 		rating: 5,
@@ -464,7 +464,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
 	{
 		id: 4,
-		category: "Cyber Security",
+		category: "Data Science and AI",
 		price: "$120",
 		title: "Data Science and Machine Learning",
 		rating: 5,
@@ -520,7 +520,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
 	{
 		id: 7,
-		category: "Cyber Security",
+		category: "Web Development",
 		price: "$120",
 		title: "Popular course in Web Development",
 		rating: 5,
@@ -538,7 +538,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 	},
 	{
 		id: 8,
-		category: "Cyber Security",
+		category: "Programming",
 		price: "$20",
 		title: "DevOps and Continuous Integration",
 		rating: 5,

@@ -28,7 +28,7 @@ const PopularCategories = () => {
 				Course Catagories
 			</h1>
 
-			<div className="grid md:grid-cols-3  xl:grid-cols-3  items-center gap-[20px]">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4  items-center gap-[20px]">
 				<div
 					onMouseEnter={() => setIsHovered1(true)} // Set hover to true
 					onMouseLeave={() => setIsHovered1(false)} // Set hover to false
@@ -37,8 +37,9 @@ const PopularCategories = () => {
 					<img
 						src="card-hover.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -73,8 +74,9 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/ui-ux-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-fill opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-fill opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -118,8 +120,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/web-dev-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.5)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -188,8 +192,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/graphic-design-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-left opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-left opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.5)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -264,8 +270,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/mobile-app-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.75)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -316,8 +324,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/programming-language-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.5)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -380,8 +390,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/data-science-n-ai-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.5)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>
@@ -448,8 +460,10 @@ const PopularCategories = () => {
 					<img
 						src="assets/images/new-changes/database-management-course.jpg"
 						alt="Hovered Image"
-						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-40 transition-opacity duration-500 z-5"
+						className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
 						style={{
+							background: "cover",
+							filter: "brightness(0.5)",
 							mixBlendMode: "multiply", // Blend image with background color
 						}}
 					/>

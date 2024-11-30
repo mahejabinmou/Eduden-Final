@@ -11,13 +11,13 @@ const Faq = () => {
 	};
 
 	return (
-		<div className="grid lg:grid-cols-2  grid-cols-1 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] ">
+		<div className="grid grid-cols-1 lg:grid-cols-2 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] ">
 			{/* FAQ Section */}
 			<div className="">
 				<h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] xl:mb-[80px] text-[#FFFFFF] ">
-					<span className="BorderGlobal border-[#A8FF57] ">
-						Frequently {""} {""}
-					</span>
+					{/* <span className="BorderGlobal border-[#A8FF57] "> */}
+					Frequently {""} {""}
+					{/* </span> */}
 					<br />
 					Asked Question
 				</h2>
