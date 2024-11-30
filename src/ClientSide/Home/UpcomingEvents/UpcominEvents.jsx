@@ -13,7 +13,7 @@ const UpcominEvents = () => {
 					className="joinClanSubPara  mb-[35px]  2xl:px-[150px] xl:px-[150px] 
       md:px-[10px] px-[10px]"
 				>
-					Well, because we’re not your grandma’s boring old school! At Edu-Den,
+					Well, because we’re not your grandma’s boring old school! At Eduden,
 					we’re the rebels of education, the mavericks of learning, and the
 					champions of fun-filled knowledge. We’ll teach you how to slay dragons
 					and code websites, all while cracking jokes and sipping on virtual

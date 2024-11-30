@@ -17,14 +17,14 @@ const OurCollaboration = () => {
 				Our <span className="BorderGlobal border-[#A8FF57]">Collaboration</span>
 			</h1>
 			<p className="joinClanSubPara  mb-[35px]">
-				Well, because we’re not your grandma’s boring old school! At Edu-Den,
+				Well, because we’re not your grandma’s boring old school! At Eduden,
 				we’re the rebels of education, the mavericks of learning, and the
 				champions of fun-filled knowledge. We’ll teach you how to slay dragons
 				and code websites, all while cracking jokes and sipping on virtual
 				coffee. So, why settle for snooze-worthy lectures when you can join the
-				Edu-Den revolution? Let’s make learning epic together!Well, because
-				we’re not your grandma’s boring old school! At Edu-Den, we’re the rebels
-				of education, the mavericks of learning.
+				Eduden revolution? Let’s make learning epic together!Well, because we’re
+				not your grandma’s boring old school! At Eduden, we’re the rebels of
+				education, the mavericks of learning.
 			</p>
 
 			<div className="grid grid-cols-1 lg:grid-cols-4 gap-[32px]">

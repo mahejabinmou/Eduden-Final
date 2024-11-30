@@ -51,7 +51,7 @@ const Navbar = () => {
 		<div>
 			{/* Fixed Navbar */}
 
-			<nav className={`lg:hidden fix ${scrolled ? "hidden" : ""} `}>
+			<nav className={`lg:hidden fix ${scrolled ? "hidden" : ""}`}>
 				<div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
 					<div className="headerLogo ">
 						<Link to="/">
