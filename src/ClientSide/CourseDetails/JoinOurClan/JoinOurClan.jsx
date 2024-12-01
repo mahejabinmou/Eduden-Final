@@ -22,7 +22,7 @@ const JoinOurClan = () => {
 							Join Our Clan
 						</p>
 						<h1 className="popularCategoryHead px-[30px] md:px-[0px] text-[#FFFFFF] pb-[10px] text-center">
-							Unlock Your Inner Genius at Edu-Den!
+							Unlock Your Inner Genius at Eduden!
 						</h1>
 						<p className="text-[#FFFFFF] joinClanSubPara px-[30px] md:px-[0px] md:pb-[35px] mb-[10px] pb-[12px] text-center">
 							Join the Learning Party Now - No Boring Stuff Allowed.

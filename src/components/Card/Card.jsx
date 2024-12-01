@@ -42,7 +42,7 @@ const Card = ({
 					<div className="px-[14px] md:px-[25px] mt-10 md:mt-[68px]">
 						<div>
 							<div className="flex items-center justify-between">
-								<p className="p-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
+								<p className="px-[15px] py-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
 									{category}
 								</p>
 								<div className="flex items-center gap-[2px]">
@@ -69,7 +69,7 @@ const Card = ({
 				<div className="px-[14px] md:px-[25px] pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out">
 					<div>
 						<div className="flex items-center justify-between">
-							<p className="p-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
+							<p className="px-[15px] py-[5px] bg-black text-[14px] md:text-[20px] font-bold text-[#A8FF57] rounded-[50px]">
 								{category}
 							</p>
 							<div className="flex items-center gap-[2px]">

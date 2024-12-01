@@ -1,11 +1,19 @@
+import { HiOutlineMinusSmall } from "react-icons/hi2";
+
 const UpCmnTtle = () => {
-  return (
-    <div className="flex items-center gap-[10px] justify-center">
-      <hr className="w-[82px] h-[1px] bg-white" />
-      <h3 className="font-gucina text-[#A8FF57] testimonialSub">Upcoming</h3>
-      <hr className="w-[82px] h-[1px] bg-white" />
-    </div>
-  );
+	return (
+		<div className="flex items-center gap-[10px] justify-center">
+			<h3 className="flex font-gucina text-[#A8FF57] testimonialSub">
+				<span>
+					<HiOutlineMinusSmall />
+				</span>
+				Upcoming
+				<span>
+					<HiOutlineMinusSmall />
+				</span>
+			</h3>
+		</div>
+	);
 };
 
 export default UpCmnTtle;

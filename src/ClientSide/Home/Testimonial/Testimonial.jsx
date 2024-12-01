@@ -41,9 +41,10 @@ const Testimonial = () => {
 			<div className="relative">
 				<div
 					style={{
-						backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
+						// backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
+						backgroundImage: `url("assets/images/testimonial-bg.png")`,
 					}}
-					className="bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center"
+					className="bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center opacity-40"
 				></div>
 				{/* large */}
 				<div className="hidden md:block">

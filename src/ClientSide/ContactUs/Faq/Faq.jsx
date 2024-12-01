@@ -11,13 +11,13 @@ const Faq = () => {
 	};
 
 	return (
-		<div className="grid lg:grid-cols-2  grid-cols-1 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] ">
+		<div className="grid grid-cols-1 lg:grid-cols-2 sectionGap md:gap-x-0 md:gap-y-[80px] text-[#FFFFFF] lg:gap-x-[80px] ">
 			{/* FAQ Section */}
 			<div className="">
 				<h2 className=" popularCategoryHead mb-[0px] md:mb-[40px] xl:mb-[80px] text-[#FFFFFF] ">
-					<span className="BorderGlobal border-[#A8FF57] ">
-						Frequently {""} {""}
-					</span>
+					{/* <span className="BorderGlobal border-[#A8FF57] "> */}
+					Frequently {""} {""}
+					{/* </span> */}
 					<br />
 					Asked Question
 				</h2>
@@ -55,8 +55,8 @@ const Faq = () => {
 
 			{/* Call to Action Section */}
 			<div className=" bg-[#1A1A1A] rounded-lg py-[50px] md:mt-[0px] mt-[60px] flex flex-col justify-center items-center">
-				<div className="mb-[20px]">
-					<BiMessageDetail size={121} />
+				<div className="mb-[20px] text-[80px] lg:text-[120px]">
+					<BiMessageDetail />
 				</div>
 				<div className=" text-center mb-[5px] md:mb-[25px]">
 					<h3 className="faqActionHead text-[#FFFFFF] max-w-[550px] leading-[50px] xl:0 lg:px-[50px]">

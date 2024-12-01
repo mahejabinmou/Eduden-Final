@@ -197,7 +197,7 @@ const Footer = () => {
      2xl:text-[14px] 2xl:leading-[21px] font-gucina font-bold text-white
     "
 								>
-									Dhaka, kollanpur, bridge er niche.
+									Nabinagar Housing, Mohammadpur, Dhaka
 								</p>
 							</div>
 						</div>
@@ -389,7 +389,7 @@ const Footer = () => {
 									Location:
 								</p>
 								<p className="text-[14px] leading-[21px] font-gucina font-bold text-white">
-									Dhaka, kollanpur, bridge er niche.
+									Nabinagar Housing, Mohammadpur, Dhaka
 								</p>
 							</div>
 						</div>

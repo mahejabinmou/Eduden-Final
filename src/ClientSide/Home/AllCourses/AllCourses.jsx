@@ -131,7 +131,7 @@ const AllCourses = () => {
 						<HiOutlineMinusSmall />{" "}
 					</span>
 				</h1>
-				<h1 className="popularCategoryHead mb-[50px] text-center">
+				<h1 className="popularCategoryHead mb-[35px] text-center">
 					{" "}
 					All <span className="BorderGlobal border-[#A8FF57]">
 						Courses
@@ -139,7 +139,7 @@ const AllCourses = () => {
 				</h1>
 			</div>
 
-			<div className="hidden lg:block flex text-center items-center flex-row lg:gap-x-[20px] gap-x-[5px] text-white group">
+			<div className="hidden lg:block flex text-center items-center flex-row lg:gap-x-[20px] gap-x-[5px] space-x-4 space-y-4 text-white group lg:mb-[50px]">
 				<button
 					onClick={() => handleCategories("Show All")}
 					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
@@ -147,16 +147,22 @@ const AllCourses = () => {
 					Show All
 				</button>
 				<button
-					onClick={() => handleCategories("Graphicis Design")}
+					onClick={() => handleCategories("Cyber Security")}
 					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
 				>
-					Graphicis Design
+					Cyber Security
 				</button>
 				<button
-					onClick={() => handleCategories("Ux/Ui Design")}
+					onClick={() => handleCategories("Graphics Design")}
 					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
 				>
-					Ux/Ui Design
+					Graphics Design
+				</button>
+				<button
+					onClick={() => handleCategories("UI/UX Design")}
+					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
+				>
+					UI/UX Design
 				</button>
 				<button
 					onClick={() => handleCategories("Web Development")}
@@ -181,6 +187,12 @@ const AllCourses = () => {
 					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
 				>
 					Ethical Hacking
+				</button>
+				<button
+					onClick={() => handleCategories("Data Science and AI")}
+					className="allCoursesBtn rounded-[50px] hover:bg-[#A8FF57] hover:text-[#010101]"
+				>
+					Data Science and AI
 				</button>
 			</div>
 			<div className="mt-[35px]">
