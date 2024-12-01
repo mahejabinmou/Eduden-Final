@@ -483,7 +483,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
 	{
 		id: 5,
-		category: "Cyber Security",
+		category: "Ethical Hacking",
 		price: "$120",
 		title: "Ethical Hacking and Penetration Testing",
 		rating: 5,
@@ -539,7 +539,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 	{
 		id: 8,
 		category: "Programming",
-		price: "$20",
+		price: "$120",
 		title: "DevOps and Continuous Integration",
 		rating: 5,
 		image: "assets/images/course-cat-8.jpg",
