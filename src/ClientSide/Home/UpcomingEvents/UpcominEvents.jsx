@@ -11,7 +11,7 @@ const UpcominEvents = () => {
 				</h1>
 				<p
 					className="joinClanSubPara  mb-[35px]  2xl:px-[150px] xl:px-[150px] 
-      md:px-[10px] px-[10px]"
+      md:px-[10px] px-[10px] text-center"
 				>
 					Well, because we’re not your grandma’s boring old school! At Eduden,
 					we’re the rebels of education, the mavericks of learning, and the
@@ -49,7 +49,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px]  relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px]  relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/Artificial Intelligence Bootcamp.jpg"
@@ -103,7 +103,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/Cybersecurity Mastery Bootcamp.jpg"
@@ -157,7 +157,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/Android App Development Bootcamp.jpg"
@@ -211,7 +211,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/Database Management 2.jpg"
@@ -265,7 +265,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/Database Management.jpg"
@@ -319,7 +319,7 @@ const UpcominEvents = () => {
           </div>
         </div> */}
 
-				<div className="rounded-[20px] relative w-full h-[513px] overflow-hidden shadow-lg group">
+				<div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
 					<img
 						className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
 						src="/assets/images/UpcomingEvents/23411.jpg"

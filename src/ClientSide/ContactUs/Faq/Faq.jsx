@@ -55,8 +55,8 @@ const Faq = () => {
 
 			{/* Call to Action Section */}
 			<div className=" bg-[#1A1A1A] rounded-lg py-[50px] md:mt-[0px] mt-[60px] flex flex-col justify-center items-center">
-				<div className="mb-[20px]">
-					<BiMessageDetail size={121} />
+				<div className="mb-[20px] text-[80px] lg:text-[120px]">
+					<BiMessageDetail />
 				</div>
 				<div className=" text-center mb-[5px] md:mb-[25px]">
 					<h3 className="faqActionHead text-[#FFFFFF] max-w-[550px] leading-[50px] xl:0 lg:px-[50px]">

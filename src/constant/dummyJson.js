@@ -396,16 +396,6 @@ we're your one-stop destination for unlocking your potential and conquering the 
 	},
 ];
 
-const categories = {
-	"Show All": true,
-	"Graphicis Design": false,
-	"Ux/Ui Design": false,
-	"Web Development": false,
-	"Mobile App Development": false,
-	Programming: false,
-	"Ethical Hacking": false,
-};
-
 const filterCourse = [
 	{
 		id: 1,
