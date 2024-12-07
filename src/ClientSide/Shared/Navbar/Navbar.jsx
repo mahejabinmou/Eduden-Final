@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
+import "./Navbar.css";
 // import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
@@ -168,6 +169,47 @@ const Navbar = () => {
 					)}
 				</div>
 			</nav>
+
+			{/* <div className="navigation lg:hidden">
+				<input
+					type="checkbox"
+					id="nav-toggle"
+					className="navigation__checkbox"
+				/>
+				<label htmlFor="nav-toggle" className="navigation__button">
+					<span className="navigation__icon">&nbsp;</span>
+				</label>
+				<div className="navigation__background">&nbsp;</div>
+				<nav className="navigation__nav">
+					<ul className="navigation__list">
+						<li className="navigation__item">
+							<a href="#" className="navigation__link">
+								About
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#" className="navigation__link">
+								Courses
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#" className="navigation__link">
+								What&apos;s New
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#" className="navigation__link">
+								Verify
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#" className="navigation__link">
+								Contact Us
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div> */}
 
 			{/* large screen nav */}
 			<nav className="hidden lg:block w-full z-50 relative">
