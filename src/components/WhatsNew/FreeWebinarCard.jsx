@@ -2,14 +2,14 @@
 /* eslint-disable react/prop-types */
 
 const FreeWebinarCard = ({ category, time, title, img }) => {
-	return (
-		<div className="flex p-2 md:p-[15px] items-center justify-between bg-white gap-2 rounded-[15px]">
-			<div className="w-[150px] h-[80px] flex items-center overflow-hidden">
-				<img src={img} alt="webinar" />
-			</div>
-			<div>
-				<div>
-					{/* <svg
+  return (
+    <div className="flex p-2 md:p-[15px] items-center justify-between bg-white gap-2 rounded-[15px]">
+      <div className="w-[150px] h-[80px] flex items-center overflow-hidden">
+        <img src={img} alt="webinar" />
+      </div>
+      <div>
+        <div>
+          {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
                         height="17"
@@ -21,21 +21,21 @@ const FreeWebinarCard = ({ category, time, title, img }) => {
                             fill="#3D7D01"
                         />
                     </svg> */}
-					<p className="text-[#3D7D01] text-[12px]">{time}</p>
-				</div>
-				<div className="mt-1">
-					<h4 className="text-[#1A1A1A] text-[14px] md:text-[16px] font-semibold font-sans">
-						{title}
-					</h4>
-				</div>
-				<div className="mt-2">
-					<button className="max-w-[180px] text-[#010101] font-medium text-[12px] px-2 py-1 bg-[#A8FF57] rounded-[50px] w-full cursor-pointer hover:bg-[#a8ff57ce] ">
-						See Details
-					</button>
-				</div>
-			</div>
-		</div>
-	);
+          <p className="text-[#00A4FF] text-[12px]">{time}</p>
+        </div>
+        <div className="mt-1">
+          <h4 className="text-[#1A1A1A] text-[14px] md:text-[16px] font-semibold font-sans">
+            {title}
+          </h4>
+        </div>
+        <div className="mt-2">
+          <button className="max-w-[180px] bg-[#00A4FF1A]/[.1] text-[#010101] font-medium text-[12px] px-2 py-1 border border-[#00A4FF] rounded-[50px] w-full cursor-pointer hover:bg-[#00A4FF] ">
+            See Details
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default FreeWebinarCard;

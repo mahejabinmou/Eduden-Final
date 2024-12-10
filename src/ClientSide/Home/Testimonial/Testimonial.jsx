@@ -6,332 +6,332 @@ import "slick-carousel/slick/slick.css";
 import "./Testimonial.css";
 
 const Testimonial = () => {
-	const is2XL = useMediaQuery({ minWidth: 1536 });
-	const isXl = useMediaQuery({ minWidth: 1366 });
-	const isLg = useMediaQuery({ minWidth: 1024 });
-	const isMd = useMediaQuery({ minWidth: 768 });
+  const is2XL = useMediaQuery({ minWidth: 1536 });
+  const isXl = useMediaQuery({ minWidth: 1366 });
+  const isLg = useMediaQuery({ minWidth: 1024 });
+  const isMd = useMediaQuery({ minWidth: 768 });
 
-	let slidesToShow = 1;
-	//   let slidesToScroll = 1;
+  let slidesToShow = 1;
+  //   let slidesToScroll = 1;
 
-	if (is2XL) {
-		slidesToShow = 1;
-		// slidesToScroll = 4;
-	} else if (isXl) {
-		slidesToShow = 1;
-		// slidesToScroll = 3;
-	} else if (isLg) {
-		slidesToShow = 1;
-		// slidesToScroll = 3;
-	} else if (isMd) {
-		slidesToShow = 1;
-		// slidesToScroll = 2;
-	}
+  if (is2XL) {
+    slidesToShow = 1;
+    // slidesToScroll = 4;
+  } else if (isXl) {
+    slidesToShow = 1;
+    // slidesToScroll = 3;
+  } else if (isLg) {
+    slidesToShow = 1;
+    // slidesToScroll = 3;
+  } else if (isMd) {
+    slidesToShow = 1;
+    // slidesToScroll = 2;
+  }
 
-	const settings = {
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		slidesToShow: slidesToShow,
-		// slidesToScroll: slidesToScroll,
-	};
-	return (
-		<div className="section">
-			<div className="relative">
-				<div
-					style={{
-						// backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
-						backgroundImage: `url("assets/images/testimonial-bg.png")`,
-					}}
-					className="bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center opacity-40"
-				></div>
-				{/* large */}
-				<div className="hidden md:block">
-					<div className=" sectionGap absolute inset-0 grid grid-cols-2 items-center justify-between lg:gap-[119px] gap-[30px]">
-						{/* ------slider */}
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: slidesToShow,
+    // slidesToScroll: slidesToScroll,
+  };
+  return (
+    <div className="section">
+      <div className="relative">
+        <div
+          style={{
+            // backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
+            backgroundImage: `url("assets/images/testimonial-bg.png")`,
+          }}
+          className="bg-no-repeat bg-center bg-cover w-full h-[684px] flex justify-center items-center opacity-40"
+        ></div>
+        {/* large */}
+        <div className="hidden md:block">
+          <div className=" sectionGap absolute inset-0 grid grid-cols-2 items-center justify-between lg:gap-[119px] gap-[30px]">
+            {/* ------slider */}
 
-						<div className="slider-container md:pb-[50px]  ">
-							<Slider {...settings}>
-								<div className="text-[#FFFFFF] rounded-[10px]   max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6]">
-									<div className="flex justify-between items-start">
-										{/* FaQuoteLeft Icon */}
-										<FaQuoteLeft
-											size={45}
-											className="  text-[#FFFFFF] pb-[15px]"
-										/>
+            <div className="slider-container md:pb-[50px]  ">
+              <Slider {...settings}>
+                <div className="text-[#FFFFFF] rounded-[10px]   max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6]">
+                  <div className="flex justify-between items-start">
+                    {/* FaQuoteLeft Icon */}
+                    <FaQuoteLeft
+                      size={45}
+                      className="  text-[#FFFFFF] pb-[15px]"
+                    />
 
-										{/* Star Rating */}
-										<div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
-											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-										</div>
-									</div>
+                    {/* Star Rating */}
+                    <div className="flex items-center pb-[25px] text-[#00A4FF] gap-x-[6px] pr-[46px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
 
-									<div>
-										<p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio praesent
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio
-											praesentEx urna finibus natoque auctor pretium etiam
-											consequat eleifend himenaeos mauris placerat ridiculus
-											odio praesent
-										</p>
-									</div>
+                  <div>
+                    <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio praesent
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio
+                      praesentEx urna finibus natoque auctor pretium etiam
+                      consequat eleifend himenaeos mauris placerat ridiculus
+                      odio praesent
+                    </p>
+                  </div>
 
-									<div className="flex items-center mb-5">
-										<div>
-											<img
-												className="w-[50px] h-[50px] object-cover"
-												src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-												alt="Lisa Dowen"
-											/>
-										</div>
-										<div className="ml-[12px]">
-											<p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#A8FF57]">
-												Nazmul Islam
-											</p>
-											<p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-												Graphics Designer
-											</p>
-										</div>
-									</div>
-								</div>
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
-									<div className="flex justify-between items-start">
-										{/* FaQuoteLeft Icon */}
-										<FaQuoteLeft
-											size={45}
-											className="  text-[#FFFFFF] pb-[15px]"
-										/>
+                  <div className="flex items-center mb-5">
+                    <div>
+                      <img
+                        className="w-[50px] h-[50px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#00A4FF]">
+                        Nazmul Islam
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
+                        Graphics Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
+                  <div className="flex justify-between items-start">
+                    {/* FaQuoteLeft Icon */}
+                    <FaQuoteLeft
+                      size={45}
+                      className="  text-[#FFFFFF] pb-[15px]"
+                    />
 
-										{/* Star Rating */}
-										<div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
-											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-										</div>
-									</div>
+                    {/* Star Rating */}
+                    <div className="flex items-center pb-[25px] text-[#00A4FF] gap-x-[6px] pr-[46px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
 
-									<div>
-										<p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio praesent
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio
-											praesentEx urna finibus natoque auctor pretium etiam
-											consequat eleifend himenaeos mauris placerat ridiculus
-											odio praesent
-										</p>
-									</div>
+                  <div>
+                    <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio praesent
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio
+                      praesentEx urna finibus natoque auctor pretium etiam
+                      consequat eleifend himenaeos mauris placerat ridiculus
+                      odio praesent
+                    </p>
+                  </div>
 
-									<div className="flex items-center mb-5">
-										<div>
-											<img
-												className="w-[50px] h-[50px] object-cover"
-												src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-												alt="Lisa Dowen"
-											/>
-										</div>
-										<div className="ml-[12px]">
-											<p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#A8FF57]">
-												Nazmul Islam
-											</p>
-											<p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-												Graphics Designer
-											</p>
-										</div>
-									</div>
-								</div>
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
-									<div className="flex justify-between items-start">
-										<FaQuoteLeft
-											size={45}
-											className="  text-[#FFFFFF] pb-[15px]"
-										/>
+                  <div className="flex items-center mb-5">
+                    <div>
+                      <img
+                        className="w-[50px] h-[50px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#00A4FF]">
+                        Nazmul Islam
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
+                        Graphics Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[95%] pt-[50px] pb-[50px] pl-[35px]  relative bg-[#22212199]/[.6] ">
+                  <div className="flex justify-between items-start">
+                    <FaQuoteLeft
+                      size={45}
+                      className="  text-[#FFFFFF] pb-[15px]"
+                    />
 
-										<div className="flex items-center pb-[25px] text-[#F6941E] gap-x-[6px] pr-[46px]">
-											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-										</div>
-									</div>
+                    <div className="flex items-center pb-[25px] text-[#00A4FF] gap-x-[6px] pr-[46px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
 
-									<div>
-										<p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio praesent
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio
-											praesentEx urna finibus natoque auctor pretium etiam
-											consequat eleifend himenaeos mauris placerat ridiculus
-											odio praesent
-										</p>
-									</div>
+                  <div>
+                    <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio praesent
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio
+                      praesentEx urna finibus natoque auctor pretium etiam
+                      consequat eleifend himenaeos mauris placerat ridiculus
+                      odio praesent
+                    </p>
+                  </div>
 
-									<div className="flex items-center mb-5">
-										<div>
-											<img
-												className="w-[50px] h-[50px] object-cover"
-												src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-												alt="Lisa Dowen"
-											/>
-										</div>
-										<div className="ml-[12px]">
-											<p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#A8FF57]">
-												Nazmul Islam
-											</p>
-											<p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-												Graphics Designer
-											</p>
-										</div>
-									</div>
-								</div>
-							</Slider>
-						</div>
+                  <div className="flex items-center mb-5">
+                    <div>
+                      <img
+                        className="w-[50px] h-[50px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#00A4FF]">
+                        Nazmul Islam
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
+                        Graphics Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
+            </div>
 
-						{/* text */}
+            {/* text */}
 
-						<div className=" ">
-							<h1 className="text-[#A8FF57] testimonialSub pb-[25px]">
-								Testimonial
-							</h1>
-							<h1 className="popularCategoryHead text-[#FFFFFF]  pb-[25px] ">
-								What students say
-							</h1>
-							<p className="joinClanSubPara text-[#FFFFFF] pb-[35px]">
-								Ex urna finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent Ex urna
-								finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent Ex urna
-								finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent
-							</p>
-							{/* <button className="text-[#010101] buttonPara">
+            <div className=" ">
+              <h1 className=" text-[#00A4FF] testimonialSub pb-[25px]">
+                Testimonial
+              </h1>
+              <h1 className="popularCategoryHead text-[#FFFFFF]  pb-[25px] ">
+                What students say
+              </h1>
+              <p className="joinClanSubPara text-[#FFFFFF] pb-[35px]">
+                Ex urna finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent Ex urna
+                finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent Ex urna
+                finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent
+              </p>
+              {/* <button className="text-[#010101] buttonPara">
                 View All Testimonial
               </button> */}
-						</div>
-					</div>
-				</div>
+            </div>
+          </div>
+        </div>
 
-				{/* phone */}
-				<div className="md:hidden block">
-					<div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between gap-x-[30px]">
-						{/* text */}
+        {/* phone */}
+        <div className="md:hidden block">
+          <div className=" sectionGap absolute inset-0 grid grid-cols-1 items-center justify-between gap-x-[30px]">
+            {/* text */}
 
-						<div className=" text-center">
-							<h1 className="text-[#A8FF57] testimonialSub mb-[5px] ">
-								Testimonial
-							</h1>
-							<h1 className="popularCategoryHead text-[#FFFFFF]  ">
-								What students say
-							</h1>
-							<p className="joinClanSubPara text-[#FFFFFF]  pt-[20px]">
-								Ex urna finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent Ex urna
-								finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent Ex urna
-								finibus natoque auctor pretium etiam consequat eleifend
-								himenaeos mauris placerat ridiculus odio praesent
-							</p>
+            <div className=" text-center">
+              <h1 className=" text-[#00389B] testimonialSub mb-[5px] ">
+                Testimonial
+              </h1>
+              <h1 className="popularCategoryHead text-[#FFFFFF]  ">
+                What students say
+              </h1>
+              <p className="joinClanSubPara text-[#FFFFFF]  pt-[20px]">
+                Ex urna finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent Ex urna
+                finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent Ex urna
+                finibus natoque auctor pretium etiam consequat eleifend
+                himenaeos mauris placerat ridiculus odio praesent
+              </p>
 
-							{/* <button className="text-[#010101] buttonPara"></button> */}
-						</div>
-						{/* ------slider */}
-						<div className="slider-container mb-[50px]">
-							<Slider {...settings}>
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
-									<div className="flex justify-between items-start">
-										{/* FaQuoteLeft Icon */}
-										<FaQuoteLeft
-											size={20}
-											className="  text-[#FFFFFF] mb-[10px]"
-										/>
+              {/* <button className="text-[#010101] buttonPara"></button> */}
+            </div>
+            {/* ------slider */}
+            <div className="slider-container mb-[50px]">
+              <Slider {...settings}>
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
+                  <div className="flex justify-between items-start">
+                    {/* FaQuoteLeft Icon */}
+                    <FaQuoteLeft
+                      size={20}
+                      className="  text-[#FFFFFF] mb-[10px]"
+                    />
 
-										{/* Star Rating */}
-										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[20px]">
-											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-										</div>
-									</div>
+                    {/* Star Rating */}
+                    <div className="flex items-center mb-[10px] text-[#00A4FF]  gap-x-[6px] pr-[20px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
 
-									<div>
-										<p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio praesent
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio
-											praesentEx urna finibus natoque auctor pretium etiam
-											consequat eleifend himenaeos mauris placerat ridiculus
-											odio praesent
-										</p>
-									</div>
+                  <div>
+                    <p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio praesent
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio
+                      praesentEx urna finibus natoque auctor pretium etiam
+                      consequat eleifend himenaeos mauris placerat ridiculus
+                      odio praesent
+                    </p>
+                  </div>
 
-									<div className="flex items-center mb-[5px]">
-										<div>
-											<img
-												className="w-[40px] h-[40px] object-cover"
-												src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-												alt="Lisa Dowen"
-											/>
-										</div>
-										<div className="ml-[12px]">
-											<p className="text-[16px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
-												Nazmul Islam
-											</p>
-											<p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
-												Graphics Designer
-											</p>
-										</div>
-									</div>
-								</div>
+                  <div className="flex items-center mb-[5px]">
+                    <div>
+                      <img
+                        className="w-[40px] h-[40px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[16px] leading-[16px] font-bold font-gucina text-[#00A4FF]">
+                        Nazmul Islam
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
+                        Graphics Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-								<div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
-									<div className="flex justify-between items-start">
-										{/* FaQuoteLeft Icon */}
-										<FaQuoteLeft
-											size={20}
-											className="  text-[#FFFFFF] mb-[10px]"
-										/>
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
+                  <div className="flex justify-between items-start">
+                    {/* FaQuoteLeft Icon */}
+                    <FaQuoteLeft
+                      size={20}
+                      className="  text-[#FFFFFF] mb-[10px]"
+                    />
 
-										{/* Star Rating */}
-										<div className="flex items-center mb-[10px] text-[#F6941E] gap-x-[6px] pr-[20px]">
-											<FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
-										</div>
-									</div>
+                    {/* Star Rating */}
+                    <div className="flex items-center mb-[10px] text-[#00A4FF] gap-x-[6px] pr-[20px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
 
-									<div>
-										<p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio praesent
-											Ex urna finibus natoque auctor pretium etiam consequat
-											eleifend himenaeos mauris placerat ridiculus odio
-											praesentEx urna finibus natoque auctor pretium etiam
-											consequat eleifend himenaeos mauris placerat ridiculus
-											odio praesent
-										</p>
-									</div>
+                  <div>
+                    <p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio praesent
+                      Ex urna finibus natoque auctor pretium etiam consequat
+                      eleifend himenaeos mauris placerat ridiculus odio
+                      praesentEx urna finibus natoque auctor pretium etiam
+                      consequat eleifend himenaeos mauris placerat ridiculus
+                      odio praesent
+                    </p>
+                  </div>
 
-									<div className="flex items-center mb-[5px]">
-										<div>
-											<img
-												className="w-[40px] h-[40px] object-cover"
-												src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-												alt="Lisa Dowen"
-											/>
-										</div>
-										<div className="ml-[12px]">
-											<p className="text-[16px] leading-[16px] font-bold font-gucina text-[#A8FF57]">
-												Nazmul Islam
-											</p>
-											<p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
-												Graphics Designer
-											</p>
-										</div>
-									</div>
-								</div>
-							</Slider>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+                  <div className="flex items-center mb-[5px]">
+                    <div>
+                      <img
+                        className="w-[40px] h-[40px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[16px] leading-[16px] font-bold font-gucina text-[#00A4FF] ">
+                        Nazmul Islam
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
+                        Graphics Designer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Testimonial;

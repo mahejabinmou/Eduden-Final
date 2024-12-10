@@ -4,7 +4,7 @@ const WhatsNewHero = ({ title }) => {
     <div className="relative xl:mt-[25px] lg:mt-[20px] mt-[10px] ">
       <div
         style={{
-          backgroundImage: `url("https://i.ibb.co.com/zb910bd/Bg.webp")`,
+          backgroundImage: `url("/BgEdu.png")`,
         }}
         className="bg-no-repeat  bg-cover w-full  md:h-[400px]  2xl:h-[600px]
               h-[300px] flex justify-center items-center"
