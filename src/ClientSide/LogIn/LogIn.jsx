@@ -53,7 +53,7 @@ const LogIn = () => {
         <div className="text-center md:text-left">
           <button
             type="button"
-            className="mx-1 h-9 w-9  rounded-full bg-[#A8FF57]/[92.3] hover:bg-[#8EFA6D]/[79.68] text-white shadow-[0_4px_9px_-4px_#3b71ca]"
+            className="mx-1 h-9 w-9  rounded-full bg-[#00A4FF]/[92.3] hover:bg-[#8EFA6D]/[79.68] text-white shadow-[0_4px_9px_-4px_#3b71ca]"
           >
             <BiLogoFacebook
               size={20}
@@ -62,7 +62,7 @@ const LogIn = () => {
           </button>
           <button
             type="button"
-            className="inlne-block mx-1 h-9 w-9 rounded-full bg-[#A8FF57]/[92.3] hover:bg-[#8EFA6D]/[79.68] uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca]"
+            className="inlne-block mx-1 h-9 w-9 rounded-full bg-[#00A4FF]/[92.3] hover:bg-[#8EFA6D]/[79.68] uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca]"
           >
             <FaGoogle
               size={20}

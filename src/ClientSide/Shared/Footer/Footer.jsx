@@ -50,7 +50,7 @@ const Footer = () => {
 
                 {/* <a
                   href=""
-                  className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
+                  className="bg-[#00A4FF] text-[#030303] px-[8px] rounded-full py-[8px]"
                 >
                   <CiYoutube size={28} className="footerSocailIcon" />
                 </a> */}
@@ -230,7 +230,7 @@ const Footer = () => {
                   </a>
                   {/* <a
                     href=""
-                    className="bg-[#A8FF57] text-[#030303] px-[8px] rounded-full py-[8px]"
+                    className="bg-[#00A4FF] text-[#030303] px-[8px] rounded-full py-[8px]"
                   >
                     <CiYoutube size={28} className="footerSocailIcon" />
                   </a> */}
