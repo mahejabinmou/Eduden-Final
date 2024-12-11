@@ -77,7 +77,7 @@ const Navbar = () => {
                   <Link to="/">
                     <img
                       className="h-full w-full object-cover"
-                      src="/edu-den-logo.png"
+                      src="/edudenNew.png"
                       alt="brand logo"
                     />
                   </Link>

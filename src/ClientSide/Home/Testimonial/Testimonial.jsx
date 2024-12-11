@@ -216,7 +216,7 @@ const Testimonial = () => {
             {/* text */}
 
             <div className=" text-center">
-              <h1 className=" text-[#00389B] testimonialSub mb-[5px] ">
+              <h1 className=" text-[#00A4FF] testimonialSub mb-[5px] ">
                 Testimonial
               </h1>
               <h1 className="popularCategoryHead text-[#FFFFFF]  ">
