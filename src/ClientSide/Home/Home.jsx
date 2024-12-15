@@ -58,7 +58,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="">
+    <div>
       <HeroSection></HeroSection>
       <AboutUs></AboutUs>
       <PopularCategories></PopularCategories>

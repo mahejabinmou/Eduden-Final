@@ -12,15 +12,6 @@ const OnlineCourses = () => {
                 Best Quality Online Courses
               </span>
             </h1>
-            {/* <div className="mt-[20px] hidden lg:block">
-              <button
-                className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
-    
-    border   border-[#A8FF57]"
-              >
-                Read More <MdArrowRightAlt />
-              </button>
-            </div> */}
           </div>
           <div>
             <p className="joinClanSubPara 2xl:max-w-[800px] xl:max-w-[600px] lg:max-w-[600px] ">
@@ -36,21 +27,12 @@ const OnlineCourses = () => {
               We’ll teach you how to slay dragons and code websites, all while
               cracking jokes and sipping on virtual coffee.
             </p>
-            {/* <div className="mt-[20px] lg:hidden block">
-              <button
-                className="flex items-center justify-between gap-x-[10px] mb-[30px] homeLargeAppoinMent
-    
-    border   border-[#A8FF57]"
-              >
-                Read More <MdArrowRightAlt />
-              </button>
-            </div> */}
           </div>
         </div>
       </div>
 
       <div className="sectionGap  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-center gap-[20px]">
-        <div className="hover:bg-[#00A4FF] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 transition-colors duration-500 fill-current text-black group-hover:text-white"
@@ -102,7 +84,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-[#00A4FF] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 transition-colors duration-500 fill-current text-black group-hover:text-white"
@@ -144,7 +126,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-[#00A4FF] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"
@@ -197,7 +179,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-[#00A4FF] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"

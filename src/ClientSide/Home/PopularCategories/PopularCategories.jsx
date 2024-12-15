@@ -32,7 +32,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered1(true)} // Set hover to true
           onMouseLeave={() => setIsHovered1(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="card-hover.jpg"
@@ -50,17 +50,18 @@ const PopularCategories = () => {
             />
           </div>
 
-          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] z-10">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-white z-10">
             Cyber Security
           </h1>
-          <p className="xl:mb-[50px]  lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px]  lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
+            {/* /arrow-black.png */}
             <img
-              src={isHovered1 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered1 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -69,7 +70,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered2(true)} // Set hover to true
           onMouseLeave={() => setIsHovered2(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/ui-ux-course.jpg"
@@ -96,17 +97,17 @@ const PopularCategories = () => {
               <path d="M51.8057 41.2764C52.5861 41.2764 53.2187 40.6437 53.2187 39.8633C53.2187 39.0829 52.5861 38.4502 51.8057 38.4502C51.0252 38.4502 50.3926 39.0829 50.3926 39.8633C50.3926 40.6437 51.0252 41.2764 51.8057 41.2764Z" />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200 z-10">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-white transition duration-200 z-10">
             UI/UX Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered2 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered2 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -115,7 +116,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered3(true)} // Set hover to true
           onMouseLeave={() => setIsHovered3(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/web-dev-course.jpg"
@@ -128,24 +129,6 @@ const PopularCategories = () => {
             }}
           />
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center z-10">
-            {/* <svg
-              width="30"
-              height="30"
-              viewBox="0 0 61 31"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="transition-colors  duration-1000 fill-current text-black group-hover:text-white"
-            >
-              <path
-                d="M15.9851 30.2773C15.6427 30.2773 15.2775 30.1404 15.0264 29.8664L0.485474 15.3255L14.7981 1.01291C15.3231 0.487885 16.1905 0.487885 16.7384 1.01291C17.2862 1.53793 17.2634 2.40536 16.7384 2.95322L4.36612 15.3255L16.9667 27.9261C17.4917 28.4511 17.4917 29.3186 16.9667 29.8664C16.6928 30.1404 16.3503 30.2773 16.0079 30.2773H15.9851Z"
-                fill="currentColor"
-              />
-              <path
-                d="M45.706 30.2776C45.3636 30.2776 44.9983 30.1407 44.7472 29.8667C44.2222 29.3417 44.2222 28.4743 44.7472 27.9264L57.1196 15.5541L44.519 2.95352C43.994 2.4285 43.994 1.56107 44.519 1.01321C45.044 0.465362 45.9114 0.488189 46.4593 1.01321L61.0002 15.5541L46.6875 29.8667C46.4136 30.1407 46.0713 30.2776 45.7288 30.2776H45.706Z"
-                fill="currentColor"
-              />
-            </svg> */}
-
             <svg
               width="30"
               height="30"
@@ -168,17 +151,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200 z-10">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-white transition duration-200 z-10">
             Web Development
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered3 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered3 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -187,7 +170,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered4(true)} // Set hover to true
           onMouseLeave={() => setIsHovered4(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/graphic-design-course.jpg"
@@ -246,17 +229,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-200 z-10">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-white transition duration-200 z-10">
             Graphic Design
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered4 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered4 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -265,7 +248,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered5(true)} // Set hover to true
           onMouseLeave={() => setIsHovered5(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/mobile-app-course.jpg"
@@ -300,17 +283,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-200 z-10">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-white transition duration-200 z-10">
             Mobile App Development
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered5 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered5 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -319,7 +302,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered6(true)} // Set hover to true
           onMouseLeave={() => setIsHovered6(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/programming-language-course.jpg"
@@ -366,17 +349,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-1000 z-10">
+          <h1 className="mb-[15px] aboutPageHero group-hover:text-white transition duration-1000 z-10">
             Programming Languages
           </h1>
-          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered6 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered6 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -385,7 +368,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered7(true)} // Set hover to true
           onMouseLeave={() => setIsHovered7(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/data-science-n-ai-course.jpg"
@@ -436,17 +419,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-1000 z-10">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-white transition duration-1000 z-10">
             Data Science and AI
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered7 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered7 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
@@ -455,7 +438,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered8(true)} // Set hover to true
           onMouseLeave={() => setIsHovered8(false)} // Set hover to false
-          className="hover:bg-[#00A4FF] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/database-management-course.jpg"
@@ -546,17 +529,17 @@ const PopularCategories = () => {
               />
             </svg>
           </div>
-          <h1 className="mb-[15px] aboutPageHero  group-hover:text-[#000000] transition duration-1000 z-10">
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-white transition duration-1000 z-10">
             Database Management
           </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px]  joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-1000 z-10">
+          <p className="xl:mb-[50px] lg:mb-[20px]  joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
             Fermentum fusce himenaeos neque condimentum maecenas vitae congue
             iaculis inceptos ullamcorper habitasse
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
             <img
-              src={isHovered8 ? "/arrow-black.png" : "/arrow-white.png"}
+              src={isHovered8 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>

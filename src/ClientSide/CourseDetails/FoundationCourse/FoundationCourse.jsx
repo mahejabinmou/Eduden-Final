@@ -25,7 +25,7 @@ const FoundationCourse = () => {
           <img
             className="w-full h-full  rounded-[16px]"
             // src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
-            src="assets/images/new-changes/crs-dtls-head.png"
+            src="/enroll.jpg"
             alt=""
           />
         </div>

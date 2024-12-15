@@ -116,7 +116,7 @@ const HeroSection = () => {
                   </span>
 
                   {/* Arrow */}
-                  <span className="transform rotate-[-90] text-white">
+                  <span className="transform rotate-[-90] text-black">
                     <MdArrowDownward className="" size={20} />
                   </span>
 
