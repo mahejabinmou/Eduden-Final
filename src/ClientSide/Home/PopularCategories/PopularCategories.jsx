@@ -32,7 +32,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered1(true)} // Set hover to true
           onMouseLeave={() => setIsHovered1(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00389B]  to-[#00A4FF] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="card-hover.jpg"
@@ -70,7 +70,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered2(true)} // Set hover to true
           onMouseLeave={() => setIsHovered2(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group transition-all duration-1000  rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/ui-ux-course.jpg"
@@ -116,7 +116,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered3(true)} // Set hover to true
           onMouseLeave={() => setIsHovered3(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group transition-all duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/web-dev-course.jpg"
@@ -170,7 +170,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered4(true)} // Set hover to true
           onMouseLeave={() => setIsHovered4(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/graphic-design-course.jpg"
@@ -248,7 +248,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered5(true)} // Set hover to true
           onMouseLeave={() => setIsHovered5(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/mobile-app-course.jpg"
@@ -302,7 +302,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered6(true)} // Set hover to true
           onMouseLeave={() => setIsHovered6(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/programming-language-course.jpg"
@@ -368,7 +368,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered7(true)} // Set hover to true
           onMouseLeave={() => setIsHovered7(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/data-science-n-ai-course.jpg"
@@ -438,7 +438,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered8(true)} // Set hover to true
           onMouseLeave={() => setIsHovered8(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF] via-[#68dcd8] to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group transition duration-1000 rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="assets/images/new-changes/database-management-course.jpg"
