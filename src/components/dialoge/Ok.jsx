@@ -50,13 +50,13 @@ const Ok = ({
         <div className="flex gap-3 md:gap-5 flex-col md:flex-row">
           <button
             onClick={() => setIsOkay(false)}
-            className="px-[50px] py-[6px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] hover:bg-[#a8ff5769]"
+            className="px-[50px] py-[6px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] hover:border-[#00A4FF]"
           >
             Not Now
           </button>
           <button
             onClick={() => setIsOkay(false)}
-            className="px-[50px] py-[6px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] flex items-center gap-3 rounded-[50px] hover:bg-[#a8ff5769]"
+            className="px-[50px] py-[6px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] flex items-center gap-3 rounded-[50px] hover:border-[#00A4FF]"
           >
             <FaDownload />{" "}
             <span className="text-nowrap">Download Certificate</span>

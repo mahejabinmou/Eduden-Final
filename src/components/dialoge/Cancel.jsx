@@ -38,13 +38,13 @@ const Cancel = ({ setIsError }) => {
         <div className="flex gap-5">
           <button
             onClick={() => setIsError(false)}
-            className="px-[35px] py-[5px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] hover:bg-[#a8ff5769]"
+            className="px-[35px] py-[5px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] border hover:bg-white hover:border-[#00A4FF]"
           >
             Cancel
           </button>
           <button
             onClick={() => setIsError(false)}
-            className="px-[35px] py-[5px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] hover:bg-[#a8ff5769]"
+            className="px-[35px] py-[5px] bg-[#00A4FF] font-gucina text-[rgba(1, 1, 1, 0.80)] rounded-[50px] border hover:bg-white hover:border-[#00A4FF]"
           >
             Try Again
           </button>
