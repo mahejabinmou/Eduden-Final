@@ -36,7 +36,7 @@ const ContactForm = () => {
           <img
             className="w-full h-full"
             // src="https://i.ibb.co.com/3sCWhbG/image-10-66f21ff3dce94.webp"
-            src="/contactEdu.jpg"
+            src="/contactUsImg.jpg"
             alt=""
           />
         </div>
