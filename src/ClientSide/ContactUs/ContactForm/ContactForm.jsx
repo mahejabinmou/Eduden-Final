@@ -33,12 +33,7 @@ const ContactForm = () => {
     <div className="sectionGap">
       <div className="lg:grid grid-cols-2 gap-x-[100px]   mx-0 justify-between items-center text-white">
         <div className=" h-[530px]  w-full">
-          <img
-            className="w-full h-full"
-            // src="https://i.ibb.co.com/3sCWhbG/image-10-66f21ff3dce94.webp"
-            src="/contactUsImg.jpg"
-            alt=""
-          />
+          <img className="w-full h-full" src="/contactUsImg.jpg" alt="" />
         </div>
         <div className=" mt-[35px] text-[#FFFFFF]  w-full">
           <button className="homeLargeAppoinMent pointer-events-none mb-[40px] px-[20px] py-[10px]  rounded-[30px] bg-[#1A1A1A]">
