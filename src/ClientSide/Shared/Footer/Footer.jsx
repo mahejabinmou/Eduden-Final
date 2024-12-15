@@ -61,13 +61,13 @@ const Footer = () => {
 
             <div className="">
               <h2 className="footerMenuTextTitle">Quick Link</h2>
-              <Link to="/About">
+              <Link to="/">
                 <p className="footerMenuText text-[#00A4FF] flex flex-row items-center gap-x-[10px] pb-2">
                   <MdOutlineArrowRight size={28} />
                   Home
                 </p>
               </Link>
-              <Link to="/service">
+              <Link to="/about">
                 <p className="footerMenuText text-[#00A4FF] flex flex-row items-center gap-x-[10px] pb-2">
                   <MdOutlineArrowRight size={28} />
                   About
@@ -235,7 +235,7 @@ const Footer = () => {
 
             <div className="flex flex-col lg:justify-self-center">
               <h2 className="footerMenuTextTitle">Quick Link</h2>
-              <Link to="/About">
+              <Link to="/">
                 <p className="footerMenuText  flex flex-row items-center gap-x-[10px]">
                   <MdOutlineArrowRight size={28} className="text-[#00A4FF]" />
                   Home
