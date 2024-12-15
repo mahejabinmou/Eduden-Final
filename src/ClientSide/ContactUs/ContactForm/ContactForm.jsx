@@ -32,7 +32,7 @@ const ContactForm = () => {
   return (
     <div className="sectionGap">
       <div className="lg:grid grid-cols-2 gap-x-[100px]  mx-0 justify-between items-center text-white">
-        <div className=" lg:h-[531px] h-[356px] w-full">
+        <div className=" lg:h-[630px] h-[356px] w-full">
           <img
             className="w-full h-full"
             // src="https://i.ibb.co.com/3sCWhbG/image-10-66f21ff3dce94.webp"
