@@ -41,11 +41,10 @@ const ContactForm = () => {
           />
         </div>
         <div className=" mt-[35px] text-[#FFFFFF]  w-full">
-          <div>
-            <button className="homeLargeAppoinMent pointer-events-none mb-[40px] px-[40px] p-[10px]  rounded-[30px] bg-[#1A1A1A]">
-              Contact Us
-            </button>
-          </div>
+          <button className="homeLargeAppoinMent pointer-events-none mb-[40px] px-[20px] py-[10px]  rounded-[30px] bg-[#1A1A1A]">
+            Contact Us
+          </button>
+
           <h3 className=" mb-[30px] formTitle ">
             Have a Question? Contact Us Today
           </h3>
@@ -100,7 +99,7 @@ const ContactForm = () => {
 
             <div className=" ">
               <input
-                className=" bg-[#00A4FF] text-[#010101]  py-[10px] px-[20px] rounded-[50px] cursor-pointer   "
+                className=" bg-[#00A4FF] text-[#010101]  homeLargeAppoinMent  rounded-[50px] cursor-pointer   "
                 type="submit"
                 value="Send Message"
                 disabled={!isFormValid}

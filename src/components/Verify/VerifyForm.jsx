@@ -64,7 +64,7 @@ const VerifyForm = ({ setIsOkay, setIsErro }) => {
               })
             }
           />
-          <button className="homeLargeAppoinMent bg-[#00A4FF]  text-[#010101]  max-w-[160px] ">
+          <button className="homeLargeAppoinMent bg-[#00A4FF]  text-[#010101] md:max-w-[130px]  max-w-[100px] ">
             Verify
           </button>
         </form>
