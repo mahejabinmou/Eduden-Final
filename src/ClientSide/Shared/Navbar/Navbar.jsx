@@ -59,7 +59,7 @@ const Navbar = () => {
             <Link to="/">
               <img
                 className="h-full w-full object-cover"
-                src="/edudenNew.png"
+                src="/edudenLogoWhite.png"
                 alt="brand logo"
               />
             </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
                   <Link to="/">
                     <img
                       className="h-full w-full object-cover"
-                      src="/edudenNew.png"
+                      src="/edudenLogoBlack.png"
                       alt="brand logo"
                     />
                   </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
                   className="md:text-[38px] text-[35px] font-title"
                   onClick={handleClose}
                 >
-                  <MdClose className="text-[#00389B]" />
+                  <MdClose className="text-[#00A4FF]" />
                 </div>
               </div>
               <div className="mobileMenuParent23">
@@ -177,7 +177,7 @@ const Navbar = () => {
             <Link to="/">
               <img
                 className="h-full w-full object-cover"
-                src="/edudenNew.png"
+                src="/edudenLogoWhite.png"
                 alt="brand logo"
               />
             </Link>
@@ -188,7 +188,7 @@ const Navbar = () => {
               <Link to="/" onClick={menuClose}>
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
-                    isActive("/") ? "ring-2 ring-[#00389B] rounded-full" : ""
+                    isActive("/") ? "ring-2 ring-[#00A4FF] rounded-full" : ""
                   }`}
                 >
                   Home
@@ -199,7 +199,7 @@ const Navbar = () => {
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
                     isActive("/About")
-                      ? "ring-2 ring-[#00389B] rounded-full"
+                      ? "ring-2 ring-[#00A4FF] rounded-full"
                       : ""
                   }`}
                 >
@@ -211,7 +211,7 @@ const Navbar = () => {
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
                     isActive("/courses")
-                      ? "ring-2 ring-[#00389B] rounded-full"
+                      ? "ring-2 ring-[#00A4FF] rounded-full"
                       : ""
                   }`}
                 >
@@ -223,7 +223,7 @@ const Navbar = () => {
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
                     isActive("/whatsnew")
-                      ? "ring-2 ring-[#00389B] rounded-full"
+                      ? "ring-2 ring-[#00A4FF] rounded-full"
                       : ""
                   }`}
                 >
@@ -235,7 +235,7 @@ const Navbar = () => {
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
                     isActive("/verify")
-                      ? "ring-2 ring-[#00389B] rounded-full"
+                      ? "ring-2 ring-[#00A4FF] rounded-full"
                       : ""
                   }`}
                 >
@@ -247,7 +247,7 @@ const Navbar = () => {
                 <li
                   className={`text-[#FFFFFF] hover:text-[#00A4FF] px-3 py-1 ${
                     isActive("/contactus")
-                      ? "ring-2 ring-[#00389B] rounded-full"
+                      ? "ring-2 ring-[#00A4FF] rounded-full"
                       : ""
                   }`}
                 >
@@ -257,7 +257,7 @@ const Navbar = () => {
             </div>
           </div>
           <Link to="/courseDetails">
-            <button className="homeLargeAppoinMent bg-[#00A4FF]  text-white  ">
+            <button className="homeLargeAppoinMent bg-[#00A4FF]  text-[#010101]  ">
               Enroll Now
             </button>
           </Link>

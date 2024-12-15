@@ -12,12 +12,6 @@ const Footer = () => {
     <div className="section">
       {/* foooter content */}
       <div className=" relative md:hidden block  ">
-        <div
-          style={{
-            backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
-          }}
-          className="bg-no-repeat bg-center bg-cover w-full h-[900px]  flex justify-center items-center"
-        ></div>
         <div className="absolute inset-0  sectionGap text-white/[.8]">
           <div className=" pb-[50px] grid grid-cols-1 px-0  gap-y-[50px]">
             <div className="">
@@ -25,7 +19,7 @@ const Footer = () => {
                 {/* <img className="h-full w-full object-cover" src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp" alt="brand logo" /> */}
                 <img
                   className="h-full w-full object-cover"
-                  src="/edudenNew.png"
+                  src="/edudenLogoWhite.png"
                   alt="brand logo"
                 />
               </div>
@@ -188,13 +182,6 @@ const Footer = () => {
 
       {/* large */}
       <div className="relative hidden md:block  ">
-        <div
-          style={{
-            backgroundImage: `url("https://i.ibb.co.com/wBkKgnw/group-1088-66f6576d0b079.webp")`,
-          }}
-          className="bg-no-repeat bg-center bg-cover w-full h-[480px] flex justify-center items-center"
-        ></div>
-
         <div className="absolute inset-0   sectionGap text-white/[.8]">
           <div className="xl:mb-[50px] lg:mb-[50px] md:mb-[50px] grid grid-cols-2 lg:grid-cols-4 justify-center  items-start gap-x-[100px] ">
             <div className="md:mb-[50px]">
@@ -202,7 +189,7 @@ const Footer = () => {
                 {/* <img className="h-full w-full object-cover" src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp" alt="brand logo" /> */}
                 <img
                   className="h-full w-full object-cover"
-                  src="/edudenNew.png"
+                  src="/edudenLogoWhite.png"
                   alt="brand logo"
                 />
               </div>

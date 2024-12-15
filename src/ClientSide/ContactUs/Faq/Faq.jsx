@@ -69,7 +69,7 @@ const Faq = () => {
         </p>
 
         <Link to="/contactUs">
-          <button className="homeLargeAppoinMent px-[20px] py-[8px] bg-[#00A4FF]  text-[#010101]   rounded-full">
+          <button className="homeLargeAppoinMent  bg-[#00A4FF]  text-[#010101]   rounded-[50px]">
             Contact Us
           </button>
         </Link>

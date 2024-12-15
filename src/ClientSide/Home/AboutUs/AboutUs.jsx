@@ -33,9 +33,9 @@ const AboutUs = () => {
 
         <Link to="/about">
           <button
-            className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] homeLargeAppoinMent hover:bg-[#35DFE6] hover:text-white
+            className="mt-[30px] flex items-center justify-between gap-x-[5px] mb-[30px] homeLargeAppoinMent  hover:text-white
         
-         text-white border-2 border-[#00389B]"
+         text-white border-2 border-[#00A4FF] hover:bg-[#00A4FF]"
           >
             Read More <MdArrowRightAlt />
           </button>
@@ -74,7 +74,7 @@ const AboutUs = () => {
             <button
               className="flex items-center mb-[30px] justify-between gap-x-[10px] homeLargeAppoinMent
         
-          text-white border-2 border-[#00389B]"
+          text-white border-2 border-[#00A4FF] hover:bg-[#00A4FF]"
             >
               Read More <MdArrowRightAlt />
             </button>

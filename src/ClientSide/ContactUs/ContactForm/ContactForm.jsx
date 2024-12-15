@@ -31,8 +31,8 @@ const ContactForm = () => {
   };
   return (
     <div className="sectionGap">
-      <div className="lg:grid grid-cols-2 gap-x-[100px] lg:mx-[89px] mx-0 justify-between items-center text-white">
-        <div className=" lg:h-[731px] h-[356px]">
+      <div className="lg:grid grid-cols-2 gap-x-[100px]  mx-0 justify-between items-center text-white">
+        <div className=" lg:h-[531px] h-[356px] w-full">
           <img
             className="w-full h-full"
             // src="https://i.ibb.co.com/3sCWhbG/image-10-66f21ff3dce94.webp"
@@ -40,7 +40,7 @@ const ContactForm = () => {
             alt=""
           />
         </div>
-        <div className=" mt-[35px] text-[#FFFFFF] max-w-[656px] ">
+        <div className=" mt-[35px] text-[#FFFFFF]  w-full">
           <div>
             <button className="homeLargeAppoinMent pointer-events-none mb-[40px] px-[40px] p-[10px]  rounded-[30px] bg-[#1A1A1A]">
               Contact Us

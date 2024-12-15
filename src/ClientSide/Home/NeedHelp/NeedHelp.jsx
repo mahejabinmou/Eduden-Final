@@ -29,7 +29,7 @@ const NeedHelp = () => {
           </div>
 
           <Link to="/contactUs">
-            <button className="homeLargeAppoinMent bg-[#00A4FF]     flex items-center justify-center rounded-[50px] py-[4px] px-[18px] gap-x-[10px] text-[#010101] mb-[60px] md:mb-[0px]">
+            <button className="homeLargeAppoinMent bg-[#00A4FF]     flex items-center justify-center rounded-[50px]  gap-x-[10px] text-[#010101] mb-[60px] md:mb-[0px]">
               Contact Us
             </button>
           </Link>
