@@ -32,7 +32,7 @@ const PopularCategories = () => {
         <div
           onMouseEnter={() => setIsHovered1(true)} // Set hover to true
           onMouseLeave={() => setIsHovered1(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00389B]  to-[#00A4FF] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
         >
           <img
             src="card-hover.jpg"
