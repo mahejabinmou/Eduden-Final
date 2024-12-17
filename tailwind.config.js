@@ -10,6 +10,7 @@ export default {
       },
       screens: {
         xs: "375px",
+        large: "1500px",
       },
 
       backgroundImage: {

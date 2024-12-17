@@ -539,6 +539,7 @@ text-[10px] leading-[15px]
     @apply 2xl:text-[40px] 2xl:leading-[60px]
     xl:text-[24px] xl:leading-[30px] 
     lg:text-[20px] lg:leading-[55px]
+    large:text-[30px] large:leading-[30px] 
     md:text-[20px] md:leading-[65px]
     text-[20px] leading-[26px]
     
