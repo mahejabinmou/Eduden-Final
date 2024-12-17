@@ -31,10 +31,10 @@ const OnlineCourses = () => {
         </div>
       </div>
 
-      <div className="sectionGap  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-center gap-[20px]">
+      <div className="sectionGap  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  2xl:grid-cols-4  items-center gap-[20px]">
         <div
-          className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px]  lg:h-[500px] 
-        xl:h-[400px]
+          className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px]  lg:h-[400px] 
+        2xl:h-[500px] xl:h-[410px]
          to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  "
         >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
@@ -88,7 +88,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[500px] 2xl:h-[400px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 transition-colors duration-500 fill-current text-black group-hover:text-white"
@@ -130,7 +130,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[500px] 2xl:h-[400px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"
@@ -183,7 +183,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[500px] 2xl:h-[400px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"
