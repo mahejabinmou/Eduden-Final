@@ -13,7 +13,7 @@ const Benefits = () => {
       <div className="  grid grid-cols-1   lg:grid-cols-3  2xl:grid-cols-3  items-center gap-[36px]">
         <div
           className=" h-[480px] md:h-[300px]  lg:h-[500px] 
-        2xl:h-[450px] xl:h-[450px]
+        2xl:h-[470px] xl:h-[470px]
           bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
@@ -44,7 +44,7 @@ const Benefits = () => {
 
         <div
           className=" h-[480px] md:h-[300px]  lg:h-[500px] 
-          2xl:h-[450px] xl:h-[450px]
+          2xl:h-[470px] xl:h-[470px]
             bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
@@ -75,7 +75,7 @@ const Benefits = () => {
 
         <div
           className=" h-[480px] md:h-[300px]  lg:h-[500px] 
-          2xl:h-[450px] xl:h-[450px]
+          2xl:h-[470px] xl:h-[470px]
             bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
