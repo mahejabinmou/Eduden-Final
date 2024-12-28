@@ -1,6 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-// eslint-disable-next-line no-unused-vars
-import React, { useEffect, useState } from "react";
+// // /* eslint-disable react/no-unescaped-entities */
+// // // eslint-disable-next-line no-unused-vars
+
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { MdArrowDownward } from "react-icons/md";
@@ -59,6 +59,7 @@ const HeroSection = () => {
           </div>
 
           <Slider {...settings}>
+            {/* slider one */}
             <div className="relative ">
               <div
                 style={{
@@ -149,17 +150,18 @@ const HeroSection = () => {
           </div>
 
           <Slider {...settings}>
+            {/* slider one */}
             <div className="relative ">
               <div
                 style={{
                   backgroundImage: `url(${"/assets/images/new-changes/home-hero-1.png"})`,
                 }}
                 className="
-          bg-no-repeat bg-center bg-cover h-[741px]"
+          bg-no-repeat bg-center bg-cover h-[741px] "
               ></div>
             </div>
             {/* slider two */}
-            <div className="relative">
+            <div className="relative    ">
               <div
                 style={{
                   backgroundImage: `url(${"/assets/images/new-changes/home-hero-3.png"})`,
@@ -169,7 +171,7 @@ const HeroSection = () => {
               ></div>
             </div>
             {/* slider three*/}
-            <div className="relative">
+            <div className="relative  ">
               <div
                 style={{
                   backgroundImage: `url(${"/assets/images/HomeBanner.png"})`,

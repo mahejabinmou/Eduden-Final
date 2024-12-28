@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         gucina: ["Gucina"],
+        lexend: ["Lexend"],
         sans: ["Open Sans"],
       },
       screens: {

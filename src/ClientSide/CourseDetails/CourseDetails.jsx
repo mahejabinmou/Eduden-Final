@@ -4,6 +4,7 @@ import Navbar from "../Shared/Navbar/Navbar";
 import CourseDetailsHero from "./CourseDetailsHero/CourseDetailsHero";
 import FoundationCourse from "./FoundationCourse/FoundationCourse";
 import JoinOurClan from "./JoinOurClan/JoinOurClan";
+import Benefits from "./Benefits/Benefits";
 
 const CourseDetails = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const CourseDetails = () => {
       <CourseDetailsHero></CourseDetailsHero>
       <FoundationCourse></FoundationCourse>
       <JoinOurClan></JoinOurClan>
+      <Benefits></Benefits>
       <Footer></Footer>
     </div>
   );
