@@ -304,7 +304,7 @@ const FoundationCourse = () => {
         <h1 className="text-[#FFFFFF] popularCategoryHead pb-[16px]">
           UI/UX Designer
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[16px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[20px]">
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
             <p className="text-[#FFFFFFCC] joinClanSubPara">Duration</p>
             <p className="text-[#FFFFFFCC] courseDetailsPara">6 month</p>

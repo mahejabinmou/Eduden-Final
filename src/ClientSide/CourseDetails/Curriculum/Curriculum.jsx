@@ -4,7 +4,7 @@ const Curriculum = () => {
   return (
     <div className="sectionGap grid  grid-cols-1  xl:grid-cols-2 gap-[80px]">
       {/* picture */}
-      <div className="md:h-[496px] h-[168px] 2xl:max-w-2/3  ">
+      <div className="h-[496px]  2xl:max-w-2/3  ">
         <img
           className="w-full h-full  rounded-[16px]"
           // src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
@@ -19,7 +19,7 @@ const Curriculum = () => {
             Course curriculum & tools
           </h1>
 
-          <div className="xl:flex grid grid-cols-1 md:grid md:grid-cols-2 xl:flex-row gap-[10px]">
+          <div className="xl:flex grid grid-cols-1 sm:grid sm:grid-cols-2 xl:flex-row gap-[10px]">
             <ul className="text-[#FFFFFFCC]">
               {[
                 "Sketch Principles",
