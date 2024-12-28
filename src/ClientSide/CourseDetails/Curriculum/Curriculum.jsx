@@ -72,7 +72,7 @@ const Curriculum = () => {
             </div>
             <div className="flex items-center  gap-[14px]">
               <img src="/xdA.jpg" alt="" className="h-[30px] w-[30px]" />
-              <p className="text-white">Adobe XD</p>
+              <p className="text-white">Figma</p>
             </div>
           </div>
         </div>
