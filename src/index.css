@@ -170,6 +170,16 @@
     font-normal font-lexend;
   }
 
+  .curriculumPara {
+    @apply 2xl:text-[18px] 2xl:leading-[27px] 
+    xl:text-[18px] xl:leading-[27px] 
+    lg:text-[18px] lg:leading-[27px] 
+    md:text-[18px] md:leading-[27px] 
+    text-[18px] leading-[27px] 
+
+    font-normal font-lexend;
+  }
+
   .customPara {
     @apply 2xl:text-[18px] 2xl:leading-[27px] 
     xl:text-[18px] xl:leading-[27px] 
@@ -370,6 +380,16 @@ text-[10px] leading-[15px]
     xl:text-[12px] xl:leading-[21px]
     lg:text-[14px] lg:leading-[21px]
     md:text-[14px] md:leading-[21px] 
+    text-[14px] leading-[21px] 
+
+    font-normal font-lexend;
+  }
+  .CourseUi {
+    @apply 2xl:text-[12px] 2xl:leading-[21px] 
+    xl:text-[12px] xl:leading-[21px]
+    lg:text-[14px] lg:leading-[21px]
+    md:text-[14px] md:leading-[21px] 
+    text-[14px] leading-[16px] 
 
     font-normal font-lexend;
   }
@@ -566,11 +586,11 @@ text-[10px] leading-[15px]
   }
   .benefitHead {
     @apply 2xl:text-[30px] 2xl:leading-[40px]
-    xl:text-[30px] xl:leading-[40px] 
-    lg:text-[30px] lg:leading-[40px]
-    large:text-[30px] large:leading-[40px] 
+    xl:text-[25px] xl:leading-[40px] 
+    lg:text-[25px] lg:leading-[40px]
+    large:text-[25px] large:leading-[40px] 
     md:text-[30px] md:leading-[40px]
-    text-[30px] leading-[40px]
+    text-[30px] leading-[38px]
     
     font-gucina font-bold;
   }

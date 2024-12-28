@@ -5,6 +5,7 @@ import CourseDetailsHero from "./CourseDetailsHero/CourseDetailsHero";
 import FoundationCourse from "./FoundationCourse/FoundationCourse";
 import JoinOurClan from "./JoinOurClan/JoinOurClan";
 import Benefits from "./Benefits/Benefits";
+import Curriculum from "./Curriculum/Curriculum";
 
 const CourseDetails = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const CourseDetails = () => {
       <FoundationCourse></FoundationCourse>
       <JoinOurClan></JoinOurClan>
       <Benefits></Benefits>
+      <Curriculum></Curriculum>
       <Footer></Footer>
     </div>
   );

@@ -329,10 +329,10 @@ const FoundationCourse = () => {
         </p>
 
         <div className="flex flex-row gap-[16px] ">
-          <button className="px-[25px] py-[6px]  rounded-[50px] popularCategoryPara text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
+          <button className="px-[16px] py-[10px] md:px-[25px] md:py-[6px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
             Admission
           </button>
-          <button className="px-[25px] py-[6px]  rounded-[50px] popularCategoryPara text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
+          <button className="px-[16px] py-[10px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
             Join free seminar
           </button>
         </div>

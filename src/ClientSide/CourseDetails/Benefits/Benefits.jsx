@@ -12,7 +12,7 @@ const Benefits = () => {
 
       <div className="  grid grid-cols-1   lg:grid-cols-3  2xl:grid-cols-3  items-center gap-[36px]">
         <div
-          className=" h-[480px] md:h-[300px]  lg:h-[500px] 
+          className=" h-[480px] md:h-[300px]  lg:h-[520px] 
         2xl:h-[480px] xl:h-[480px]
           bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >
@@ -43,7 +43,7 @@ const Benefits = () => {
         </div>
 
         <div
-          className=" h-[480px] md:h-[300px]  lg:h-[500px] 
+          className=" h-[480px] md:h-[300px]  lg:h-[520px] 
           2xl:h-[480px] xl:h-[480px]
             bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >
@@ -74,7 +74,7 @@ const Benefits = () => {
         </div>
 
         <div
-          className=" h-[480px] md:h-[300px]  lg:h-[500px] 
+          className=" h-[480px] md:h-[300px]  lg:h-[520px] 
           2xl:h-[480px] xl:h-[480px]
             bg-[#FFFFFF3D] px-[30px] pt-[50px] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
         >

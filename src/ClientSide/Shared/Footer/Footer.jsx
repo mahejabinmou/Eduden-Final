@@ -183,7 +183,7 @@ const Footer = () => {
       {/* large */}
       <div className="relative hidden md:block  ">
         <div className="absolute inset-0   sectionGap text-white/[.8]">
-          <div className="xl:mb-[50px] lg:mb-[50px] md:mb-[50px] grid grid-cols-2 lg:grid-cols-4 justify-center  items-start gap-x-[100px] ">
+          <div className="xl:mb-[50px] lg:mb-[50px] md:mb-[50px] grid grid-cols-2 lg:grid-cols-4 justify-center  items-center gap-x-[100px] ">
             <div className="md:mb-[50px]">
               <div className="footerLogoparent mb-[25px]">
                 {/* <img className="h-full w-full object-cover" src="https://i.ibb.co.com/C5kSmh8/layer-1-1-66f24f9bd9b5b.webp" alt="brand logo" /> */}
