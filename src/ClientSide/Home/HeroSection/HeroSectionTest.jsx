@@ -73,12 +73,12 @@ function CustomSlider() {
       </div>
 
       {/* large screen */}
-      <div className="w-full bg-black text-white pt-[20px] pb-5 hidden md:block">
+      <div className="w-full bg-black text-white pt-14 pb-5 hidden md:block">
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="px-5 overflow-hidden">
               <div
-                className="flex flex-col justify-center items-start bg-gray-800 bg-cover bg-center rounded-lg w-[70vw] h-[70vh] md:w-[75vw] mx-auto px-10"
+                className="flex flex-col justify-center items-start bg-gray-800 bg-cover bg-center rounded-lg w-[70vw]  md:w-[75vw] mx-auto px-10"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
                 <div className="flex justify-between items-center">
