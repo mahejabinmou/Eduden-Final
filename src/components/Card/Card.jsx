@@ -41,11 +41,11 @@ const Card = ({
           </div>
           <div className="px-[14px] md:px-[25px] mt-10 md:mt-[68px]">
             <div>
-              <div className="flex items-center justify-between gap-[30px]">
+              <div className="flex items-center justify-between gap-[10px] sm:gap-[30px] ">
                 <p className="w-[170px] h-[36px] flex justify-center items-center bg-[#010101] text-[14px] leading-[16px] font-bold text-[#00A4FF] rounded-[50px]">
                   {category}
                 </p>
-                <div className="flex items-center  gap-[8px]">
+                <div className="flex items-center gap-[4px] sm:gap-[8px]">
                   <FaStar fill="#FF8A00" className="h-[16px] w-[16px]" />
                   <FaStar fill="#FF8A00" className="h-[16px] w-[16px]" />
                   <FaStar fill="#FF8A00" className="h-[16px] w-[16px]" />
@@ -68,11 +68,11 @@ const Card = ({
         {/* Content shown on hover */}
         <div className="px-[14px] md:px-[25px]  pt-[30px] group-hover:block hidden transition-opacity duration-500 ease-in-out">
           <div>
-            <div className="flex items-center  gap-[30px]">
+            <div className="flex items-center gap-[10px] sm:gap-[30px]">
               <p className="w-[170px] h-[36px] flex justify-center items-center bg-[#010101]  text-[14px]  leading-[16px] font-bold text-[#00A4FF] rounded-[50px]">
                 {category}
               </p>
-              <div className="flex items-center gap-[8px]">
+              <div className="flex items-center gap-[4px] sm:gap-[8px]">
                 <FaStar color="#010101" className="h-[16px] w-[16px]" />
                 <FaStar fill="#010101" className="h-[16px] w-[16px]" />
                 <FaStar fill="#010101" className="h-[16px] w-[16px]" />
