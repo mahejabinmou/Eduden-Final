@@ -6,6 +6,7 @@ import FoundationCourse from "./FoundationCourse/FoundationCourse";
 import JoinOurClan from "./JoinOurClan/JoinOurClan";
 import Benefits from "./Benefits/Benefits";
 import Curriculum from "./Curriculum/Curriculum";
+import CurriculumTest from "./Curriculum/CurriculumTest";
 
 const CourseDetails = () => {
   useEffect(() => {
@@ -17,7 +18,8 @@ const CourseDetails = () => {
       <CourseDetailsHero></CourseDetailsHero>
       <FoundationCourse></FoundationCourse>
       <JoinOurClan></JoinOurClan>
-      <Curriculum></Curriculum>
+      {/* <Curriculum></Curriculum> */}
+      <CurriculumTest></CurriculumTest>
       <Benefits></Benefits>
       <Footer></Footer>
     </div>

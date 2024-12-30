@@ -10,7 +10,7 @@ const WhatsNewHero = ({ title }) => {
               h-[300px] flex justify-center items-center"
       ></div>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto max-w-[1000px]">
+      <div className="absolute inset-0 flex flex-col items-center justify-center ">
         <h1 className="BannerHead text-[#FFFFFF] pb-[25px] text-center">
           {title}
         </h1>
