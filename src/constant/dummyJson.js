@@ -399,11 +399,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 const filterCourse = [
   {
     id: 1,
-    category: "UI/UX Design",
+    category: "Data Science and AI",
     price: "$120",
-    title: "UI/UX Design for Web and Mobile for Kids",
+    title: "Data Science and Machine Learning",
     rating: 5,
-    image: "assets/images/course-cat-1.jpg",
+    image: "assets/images/course-cat-4.jpg",
     hoverBgColor: "bg-green-500",
     description:
       "We're your one-stop destination for unlocking your potential and conquering the digital.",
@@ -412,9 +412,10 @@ const filterCourse = [
       duration: "12.5 hours",
     },
     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-    we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
-    img: upCmnPic1,
+we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    img: upCmnPic2,
   },
+
   {
     id: 2,
     category: "Graphics Design",
@@ -454,11 +455,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 4,
-    category: "Data Science and AI",
+    category: "UI/UX Design",
     price: "$120",
-    title: "Data Science and Machine Learning",
+    title: "UI/UX Design for Web and Mobile for Kids",
     rating: 5,
-    image: "assets/images/course-cat-4.jpg",
+    image: "assets/images/course-cat-1.jpg",
     hoverBgColor: "bg-green-500",
     description:
       "We're your one-stop destination for unlocking your potential and conquering the digital.",
@@ -467,8 +468,8 @@ we're your one-stop destination for unlocking your potential and conquering the 
       duration: "12.5 hours",
     },
     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
-    img: upCmnPic2,
+    we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    img: upCmnPic1,
   },
 
   {

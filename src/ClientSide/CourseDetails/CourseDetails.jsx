@@ -17,8 +17,8 @@ const CourseDetails = () => {
       <CourseDetailsHero></CourseDetailsHero>
       <FoundationCourse></FoundationCourse>
       <JoinOurClan></JoinOurClan>
-      <Benefits></Benefits>
       <Curriculum></Curriculum>
+      <Benefits></Benefits>
       <Footer></Footer>
     </div>
   );

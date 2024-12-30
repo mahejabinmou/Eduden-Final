@@ -64,6 +64,18 @@ const AllCourses = () => {
         >
           Show All
         </button>
+
+        <button
+          onClick={() => handleCategories("Data Science and AI")}
+          // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
+          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+            categoriesList["Data Science and AI"]
+              ? "bg-[#00A4FF] text-[#010101]"
+              : ""
+          }`}
+        >
+          Data Science and AI
+        </button>
         <button
           onClick={() => handleCategories("Cyber Security")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF]  hover:text-[#010101]"
@@ -136,17 +148,6 @@ const AllCourses = () => {
           }`}
         >
           Ethical Hacking
-        </button>
-        <button
-          onClick={() => handleCategories("Data Science and AI")}
-          // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
-            categoriesList["Data Science and AI"]
-              ? "bg-[#00A4FF] text-[#010101]"
-              : ""
-          }`}
-        >
-          Data Science and AI
         </button>
       </div>
       <div className="mt-[35px]">

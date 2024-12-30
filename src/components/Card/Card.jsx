@@ -42,7 +42,7 @@ const Card = ({
           <div className="px-[14px] md:px-[25px] mt-10 md:mt-[68px]">
             <div>
               <div className="flex items-center justify-between">
-                <p className="px-[15px] py-[5px] bg-[#010101] text-[14px] md:text-[20px] font-bold text-[#00A4FF] rounded-[50px]">
+                <p className="px-[15px] py-[5px] bg-[#010101] text-[14px] md:text-[20px] xl:text-[18px] font-bold text-[#00A4FF] rounded-[50px]">
                   {category}
                 </p>
                 <div className="flex items-center gap-[2px]">

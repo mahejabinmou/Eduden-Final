@@ -30,6 +30,76 @@ const PopularCategories = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4  items-center gap-[20px]">
         <div
+          onMouseEnter={() => setIsHovered7(true)} // Set hover to true
+          onMouseLeave={() => setIsHovered7(false)} // Set hover to false
+          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
+        >
+          <img
+            src="assets/images/new-changes/data-science-n-ai-course.jpg"
+            alt="Hovered Image"
+            className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
+            style={{
+              background: "cover",
+              filter: "brightness(0.5)",
+              mixBlendMode: "multiply", // Blend image with background color
+            }}
+          />
+          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center z-10">
+            <svg
+              className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
+              width="50"
+              height="47"
+              viewBox="0 0 50 47"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.1747 15.6004C19.436 15.6004 14.1059 15.0432 9.76006 14.0032C5.52567 13.0003 0.474121 11.106 0.474121 7.80018C0.474121 2.67434 12.8987 0 25.1747 0C37.4507 0 49.8567 2.67434 49.8567 7.80018C49.8567 11.106 44.8052 13.0003 40.5708 14.0032C36.3178 15.0246 30.8391 15.6004 25.1747 15.6004ZM25.1747 2.22862C11.4501 2.22862 2.70275 5.53441 2.70275 7.80018C2.70275 8.91449 5.0428 10.6045 10.2801 11.8488C14.403 12.8332 19.696 13.3903 25.1747 13.3903C30.6534 13.3903 35.9464 12.8517 40.0508 11.8674C45.288 10.6231 47.6281 8.93307 47.6281 7.81876C47.6281 5.55299 38.8808 2.2472 25.1747 2.2472V2.22862Z"
+                fill="currentColor"
+              />
+              <path
+                d="M25.1747 36.0854C19.6217 36.0854 14.1802 35.5283 9.85292 34.5254L9.70434 34.4882C3.66848 33.0211 0.474121 30.8667 0.474121 28.2852C0.474121 27.6724 0.975562 27.1709 1.58843 27.1709C2.20131 27.1709 2.70275 27.6724 2.70275 28.2852C2.70275 29.381 5.00566 31.0524 10.1129 32.2968H10.2244C18.6003 34.3025 31.7492 34.2839 40.0694 32.3153L40.2179 32.2782C45.3252 31.0153 47.6095 29.3624 47.6095 28.2667C47.6095 27.6538 48.111 27.1523 48.7239 27.1523C49.3367 27.1523 49.8382 27.6538 49.8382 28.2667C49.8382 30.8667 46.6438 33.0025 40.6079 34.4697L40.4594 34.5068C36.1507 35.5097 30.7277 36.0668 25.1561 36.0668L25.1747 36.0854Z"
+                fill="currentColor"
+              />
+              <path
+                d="M40.3668 34.5248C39.7539 34.5248 39.2524 34.0233 39.2524 33.4105C39.2524 32.7976 39.7539 32.2961 40.3668 32.2961C40.9796 32.2961 41.4811 32.7976 41.4811 33.4105C41.4811 34.0233 40.9982 34.5248 40.3668 34.5248Z"
+                fill="currentColor"
+              />
+              <path
+                d="M25.1747 46.3366C12.8987 46.3366 0.474121 43.6623 0.474121 38.5364C0.474121 37.9235 0.975562 37.4221 1.58843 37.4221C2.20131 37.4221 2.70275 37.9235 2.70275 38.5364C2.70275 40.8022 11.4501 44.108 25.1747 44.108C38.8993 44.108 47.6281 40.8022 47.6281 38.5364C47.6281 37.9235 48.1295 37.4221 48.7424 37.4221C49.3553 37.4221 49.8567 37.9235 49.8567 38.5364C49.8567 43.6623 37.4321 46.3366 25.1747 46.3366Z"
+                fill="currentColor"
+              />
+              <path
+                d="M9.98274 34.5248H9.96417C9.35129 34.5248 8.84985 34.0233 8.84985 33.4105C8.84985 32.7976 9.35129 32.2961 9.96417 32.2961C10.577 32.2961 11.0785 32.7976 11.0785 33.4105C11.0785 34.0233 10.5956 34.5248 9.98274 34.5248Z"
+                fill="currentColor"
+              />
+              <path
+                d="M1.58843 39.6512C0.975562 39.6512 0.474121 39.1497 0.474121 38.5368V18.0521C0.474121 17.4392 0.975562 16.9377 1.58843 16.9377C2.20131 16.9377 2.70275 17.4392 2.70275 18.0521V38.5368C2.70275 39.1497 2.20131 39.6512 1.58843 39.6512Z"
+                fill="currentColor"
+              />
+              <path
+                d="M25.1747 25.8519C19.5289 25.8519 14.2359 25.3133 9.87149 24.2733L9.72291 24.2362C5.5071 23.2333 0.474121 21.3389 0.474121 18.0517V7.80005H2.70275C2.70275 8.91436 5.0428 10.6044 10.2801 11.8487C14.403 12.833 19.696 13.3902 25.1747 13.3902C30.6534 13.3902 35.9464 12.8516 40.0508 11.8673C45.288 10.623 47.6281 8.93294 47.6281 7.81862H49.8567V18.0703C49.8567 21.3575 44.8238 23.2518 40.6079 24.2547L40.4594 24.2919C36.1693 25.3133 30.7463 25.8705 25.1747 25.8705V25.8519ZM10.1129 22.0447L10.2615 22.0818C14.4216 23.0847 19.7332 23.6233 25.1747 23.6233C30.6163 23.6233 35.9278 23.0661 40.0694 22.0818L40.2179 22.0447C45.3438 20.8004 47.6281 19.1475 47.6281 18.0517V9.9714C44.8817 11.0814 40.4594 12.0918 25.1747 12.0918C9.89005 12.0918 5.48727 11.0814 2.70275 9.9714V18.0517C2.70275 19.1475 4.96855 20.8004 10.1129 22.0447Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <h1 className="mb-[15px] aboutPageHero  group-hover:text-white transition duration-1000 z-10">
+            Data Science and AI
+          </h1>
+          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
+            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
+            iaculis inceptos ullamcorper habitasse
+          </p>
+          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
+            {/* Conditional rendering based on hover state */}
+            <img
+              src={isHovered7 ? "/arrow-white.png" : "/arrow-white.png"}
+              alt="Arrow"
+            />
+          </div>
+        </div>
+
+        <div
           onMouseEnter={() => setIsHovered1(true)} // Set hover to true
           onMouseLeave={() => setIsHovered1(false)} // Set hover to false
           className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] group transition-all duration-1000 h-[405px] rounded-[20px] text-center py-[58px] relative overflow-hidden"
@@ -360,76 +430,6 @@ const PopularCategories = () => {
             {/* Conditional rendering based on hover state */}
             <img
               src={isHovered6 ? "/arrow-white.png" : "/arrow-white.png"}
-              alt="Arrow"
-            />
-          </div>
-        </div>
-
-        <div
-          onMouseEnter={() => setIsHovered7(true)} // Set hover to true
-          onMouseLeave={() => setIsHovered7(false)} // Set hover to false
-          className="hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] h-[405px] group  rounded-[20px] text-center py-[58px] relative overflow-hidden"
-        >
-          <img
-            src="assets/images/new-changes/data-science-n-ai-course.jpg"
-            alt="Hovered Image"
-            className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-30 transition-opacity duration-500 z-5"
-            style={{
-              background: "cover",
-              filter: "brightness(0.5)",
-              mixBlendMode: "multiply", // Blend image with background color
-            }}
-          />
-          <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center z-10">
-            <svg
-              className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
-              width="50"
-              height="47"
-              viewBox="0 0 50 47"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.1747 15.6004C19.436 15.6004 14.1059 15.0432 9.76006 14.0032C5.52567 13.0003 0.474121 11.106 0.474121 7.80018C0.474121 2.67434 12.8987 0 25.1747 0C37.4507 0 49.8567 2.67434 49.8567 7.80018C49.8567 11.106 44.8052 13.0003 40.5708 14.0032C36.3178 15.0246 30.8391 15.6004 25.1747 15.6004ZM25.1747 2.22862C11.4501 2.22862 2.70275 5.53441 2.70275 7.80018C2.70275 8.91449 5.0428 10.6045 10.2801 11.8488C14.403 12.8332 19.696 13.3903 25.1747 13.3903C30.6534 13.3903 35.9464 12.8517 40.0508 11.8674C45.288 10.6231 47.6281 8.93307 47.6281 7.81876C47.6281 5.55299 38.8808 2.2472 25.1747 2.2472V2.22862Z"
-                fill="currentColor"
-              />
-              <path
-                d="M25.1747 36.0854C19.6217 36.0854 14.1802 35.5283 9.85292 34.5254L9.70434 34.4882C3.66848 33.0211 0.474121 30.8667 0.474121 28.2852C0.474121 27.6724 0.975562 27.1709 1.58843 27.1709C2.20131 27.1709 2.70275 27.6724 2.70275 28.2852C2.70275 29.381 5.00566 31.0524 10.1129 32.2968H10.2244C18.6003 34.3025 31.7492 34.2839 40.0694 32.3153L40.2179 32.2782C45.3252 31.0153 47.6095 29.3624 47.6095 28.2667C47.6095 27.6538 48.111 27.1523 48.7239 27.1523C49.3367 27.1523 49.8382 27.6538 49.8382 28.2667C49.8382 30.8667 46.6438 33.0025 40.6079 34.4697L40.4594 34.5068C36.1507 35.5097 30.7277 36.0668 25.1561 36.0668L25.1747 36.0854Z"
-                fill="currentColor"
-              />
-              <path
-                d="M40.3668 34.5248C39.7539 34.5248 39.2524 34.0233 39.2524 33.4105C39.2524 32.7976 39.7539 32.2961 40.3668 32.2961C40.9796 32.2961 41.4811 32.7976 41.4811 33.4105C41.4811 34.0233 40.9982 34.5248 40.3668 34.5248Z"
-                fill="currentColor"
-              />
-              <path
-                d="M25.1747 46.3366C12.8987 46.3366 0.474121 43.6623 0.474121 38.5364C0.474121 37.9235 0.975562 37.4221 1.58843 37.4221C2.20131 37.4221 2.70275 37.9235 2.70275 38.5364C2.70275 40.8022 11.4501 44.108 25.1747 44.108C38.8993 44.108 47.6281 40.8022 47.6281 38.5364C47.6281 37.9235 48.1295 37.4221 48.7424 37.4221C49.3553 37.4221 49.8567 37.9235 49.8567 38.5364C49.8567 43.6623 37.4321 46.3366 25.1747 46.3366Z"
-                fill="currentColor"
-              />
-              <path
-                d="M9.98274 34.5248H9.96417C9.35129 34.5248 8.84985 34.0233 8.84985 33.4105C8.84985 32.7976 9.35129 32.2961 9.96417 32.2961C10.577 32.2961 11.0785 32.7976 11.0785 33.4105C11.0785 34.0233 10.5956 34.5248 9.98274 34.5248Z"
-                fill="currentColor"
-              />
-              <path
-                d="M1.58843 39.6512C0.975562 39.6512 0.474121 39.1497 0.474121 38.5368V18.0521C0.474121 17.4392 0.975562 16.9377 1.58843 16.9377C2.20131 16.9377 2.70275 17.4392 2.70275 18.0521V38.5368C2.70275 39.1497 2.20131 39.6512 1.58843 39.6512Z"
-                fill="currentColor"
-              />
-              <path
-                d="M25.1747 25.8519C19.5289 25.8519 14.2359 25.3133 9.87149 24.2733L9.72291 24.2362C5.5071 23.2333 0.474121 21.3389 0.474121 18.0517V7.80005H2.70275C2.70275 8.91436 5.0428 10.6044 10.2801 11.8487C14.403 12.833 19.696 13.3902 25.1747 13.3902C30.6534 13.3902 35.9464 12.8516 40.0508 11.8673C45.288 10.623 47.6281 8.93294 47.6281 7.81862H49.8567V18.0703C49.8567 21.3575 44.8238 23.2518 40.6079 24.2547L40.4594 24.2919C36.1693 25.3133 30.7463 25.8705 25.1747 25.8705V25.8519ZM10.1129 22.0447L10.2615 22.0818C14.4216 23.0847 19.7332 23.6233 25.1747 23.6233C30.6163 23.6233 35.9278 23.0661 40.0694 22.0818L40.2179 22.0447C45.3438 20.8004 47.6281 19.1475 47.6281 18.0517V9.9714C44.8817 11.0814 40.4594 12.0918 25.1747 12.0918C9.89005 12.0918 5.48727 11.0814 2.70275 9.9714V18.0517C2.70275 19.1475 4.96855 20.8004 10.1129 22.0447Z"
-                fill="currentColor"
-              />
-            </svg>
-          </div>
-          <h1 className="mb-[15px] aboutPageHero  group-hover:text-white transition duration-1000 z-10">
-            Data Science and AI
-          </h1>
-          <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
-          </p>
-          <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
-            {/* Conditional rendering based on hover state */}
-            <img
-              src={isHovered7 ? "/arrow-white.png" : "/arrow-white.png"}
               alt="Arrow"
             />
           </div>
