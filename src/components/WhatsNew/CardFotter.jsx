@@ -1,10 +1,9 @@
 import { CiClock2 } from "react-icons/ci";
 import { FaRegComments } from "react-icons/fa";
-import { TiGroupOutline } from "react-icons/ti";
 
 const CardFotter = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between ">
       <div className="flex items-center gap-[5px] font-[300] text-[14px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
