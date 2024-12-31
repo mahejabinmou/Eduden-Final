@@ -56,30 +56,30 @@ import UpcominEvents from "./UpcomingEvents/UpcominEvents";
 import Video from "./Video/Video";
 
 const Home = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
-	return (
-		<div>
-			<Navbar />
-			{/* <HeroSection></HeroSection> */}
-			<CustomSlider />
-			<AboutUs></AboutUs>
-			<PopularCategories></PopularCategories>
-			<TrendingCourses></TrendingCourses>
-			<AllCourses></AllCourses>
-			<Video></Video>
-			<OurCollaboration></OurCollaboration>
-			<JoinOurClan></JoinOurClan>
-			<div className=" pt-[0px]  md:pt-[80px] xl:pt-[100px] ">
-				<UpcominEvents></UpcominEvents>
-			</div>
-			<Testimonial></Testimonial>
-			<NeedHelp></NeedHelp>
-			<Faq></Faq>
-			<Footer></Footer>
-		</div>
-	);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return (
+    <div>
+      <Navbar />
+      {/* <HeroSection></HeroSection> */}
+      <CustomSlider />
+      <AboutUs></AboutUs>
+      <PopularCategories></PopularCategories>
+      <TrendingCourses></TrendingCourses>
+      <AllCourses></AllCourses>
+      <Video></Video>
+      <OurCollaboration></OurCollaboration>
+      {/* <JoinOurClan></JoinOurClan> */}
+      <div className=" pt-[0px]  md:pt-[80px] xl:pt-[100px] ">
+        <UpcominEvents></UpcominEvents>
+      </div>
+      <Testimonial></Testimonial>
+      <NeedHelp></NeedHelp>
+      <Faq></Faq>
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default Home;

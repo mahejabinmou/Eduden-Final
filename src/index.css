@@ -395,13 +395,10 @@ text-[10px] leading-[15px]
   }
 
   .allCoursesBtn {
-    @apply lg:text-[16px] lg:leading-[24px] 
-    lg:px-[20px] py-[5px]
-    xl:text-[20px] xl:leading-[24px] 
-    xl:px-[20px]
-    text-[12px] leading-[20px] px-[16px] 
-     2xl:text-[22px]
-    font-gucina font-semibold;
+    @apply px-[16px] py-[8px]
+    text-[18px] leading-[20px] 
+     
+    font-lexend rounded-[20px] font-semibold;
   }
 
   .upcomingEvent {

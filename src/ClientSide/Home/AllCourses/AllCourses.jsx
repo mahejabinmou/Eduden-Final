@@ -58,7 +58,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Show All")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Show All"] ? "bg-[#00A4FF] text-[#010101]" : ""
           }`}
         >
@@ -68,7 +68,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Data Science and AI")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Data Science and AI"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""
@@ -79,7 +79,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Cyber Security")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF]  hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Cyber Security"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""
@@ -90,7 +90,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Graphics Design")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Graphics Design"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""
@@ -101,7 +101,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("UI/UX Design")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["UI/UX Design"] ? "bg-[#00A4FF] text-[#010101]" : ""
           }`}
         >
@@ -110,7 +110,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Web Development")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Web Development"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""
@@ -121,7 +121,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Mobile App Development")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Mobile App Development"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""
@@ -132,7 +132,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Programming")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Programming"] ? "bg-[#00A4FF] text-[#010101]" : ""
           }`}
         >
@@ -141,7 +141,7 @@ const AllCourses = () => {
         <button
           onClick={() => handleCategories("Ethical Hacking")}
           // className="allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101]"
-          className={`allCoursesBtn rounded-[50px] hover:bg-[#00A4FF] hover:text-[#010101] ${
+          className={`allCoursesBtn  hover:bg-[#00A4FF] hover:text-[#010101] ${
             categoriesList["Ethical Hacking"]
               ? "bg-[#00A4FF] text-[#010101]"
               : ""

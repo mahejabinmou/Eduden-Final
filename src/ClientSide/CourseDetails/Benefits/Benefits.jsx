@@ -12,11 +12,11 @@ const Benefits = () => {
 
       <div className="  grid grid-cols-1   lg:grid-cols-3  2xl:grid-cols-3  items-center gap-[36px]">
         <div
-          className=" px-[10px] h-[400px]  md:h-[300px]  lg:h-[500px] sm:h-[350px] sm:px-[30px]
-       2xl:h-[500px]  xl:h-[550px] xl:px-[60px] lg:px-[20px]
-          bg-[#FFFFFF3D] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF3D] text-center  "
+          className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
+        2xl:h-[420px]  xl:h-[460px]  
+          bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
-          <div>
+          <div className="px-[10px]  sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
@@ -45,11 +45,11 @@ const Benefits = () => {
         </div>
 
         <div
-          className=" px-[10px] h-[400px] md:h-[300px]  lg:h-[500px] sm:h-[350px] sm:px-[30px]
-          2xl:h-[500px] xl:h-[550px] flex justify-end items-center xl:px-[60px] lg:px-[20px]
-            bg-[#FFFFFF3D] group rounded-[8px] border border-[#FFFFFF3D] text-center  "
+          className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
+       2xl:h-[420px]  xl:h-[460px] 
+          bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center   "
         >
-          <div>
+          <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
@@ -66,23 +66,23 @@ const Benefits = () => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Lifetime Access to Course
+              Lifetime Access
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
               Buying the course once entitles you to lifetime access to all
-              course content alongside continual updates. Furthermore, you will
-              have lifetime access to the private support channel where we will
-              attempt to address any questions you have post-course.
+              course content.Furthermore, you will have lifetime access to the
+              private support channel where we will attempt to address any
+              questions you have post-course.
             </p>
           </div>
         </div>
 
         <div
-          className=" px-[10px] h-[400px] md:h-[300px]  lg:h-[500px] sm:h-[350px] sm:px-[30px]
-          2xl:h-[500px] xl:h-[550px] flex justify-center items-center xl:px-[60px] lg:px-[20px]
-            bg-[#FFFFFF3D]  group rounded-[8px] border border-[#FFFFFF3D] text-center  "
+          className="  h-[350px] md:h-[300px]  lg:h-[530px] sm:h-[350px] 
+           2xl:h-[420px] xl:h-[460px]  flex justify-center items-center 
+            bg-[#FFFFFF]/[.10]  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
-          <div>
+          <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
@@ -99,7 +99,7 @@ const Benefits = () => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Get set for career interviews
+              Ready for interviews
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
               UI/UX positions are highly sought after in today's job market.
