@@ -341,7 +341,7 @@ const FoundationCourse = () => {
       {/* picture */}
       <div className="md:h-[496px] h-[168px]   ">
         <img
-          className="w-full h-full  rounded-[16px]"
+          className="w-full h-full  rounded-[16px] object-cover"
           // src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
           src="/enroll.jpg"
           alt=""
