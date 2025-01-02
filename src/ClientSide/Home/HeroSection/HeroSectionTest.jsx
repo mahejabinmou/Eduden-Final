@@ -73,15 +73,15 @@ function CustomSlider() {
       </div>
 
       {/* large screen */}
-      <div className="w-full bg-black text-white pt-14 pb-5 hidden md:block">
+      <div className="w-full  text-white pt-14 pb-5 hidden md:block">
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="px-5 overflow-hidden">
               <div
-                className="flex flex-col justify-center items-start bg-gray-800 bg-cover bg-center rounded-lg w-[70vw]  md:w-[75vw] mx-auto px-10"
+                className="flex flex-col   bg-cover bg-center rounded-lg w-[70vw]  md:w-[75vw] mx-auto px-10  "
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between 2xl:gap-[748px] items-center">
                   <div>
                     <button className="py-3 px-4 w-80 text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-10 cursor-default">
                       WELCOME TO EDUDEN
@@ -89,12 +89,6 @@ function CustomSlider() {
                     <h1 className="heroHead  text-[#FFFFFF] max-w-screen-lg pb-2">
                       {slide.title}
                     </h1>
-                    <p className="md:max-w-md lg:max-w-screen-sm HomeBannerPara text-[#FFFFFF]">
-                      {slide.paragraph}
-                    </p>
-                    <button className="homeLargeAppoinMent my-10 px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
-                      {slide.button}
-                    </button>
                   </div>
 
                   {/* rotated section start */}
