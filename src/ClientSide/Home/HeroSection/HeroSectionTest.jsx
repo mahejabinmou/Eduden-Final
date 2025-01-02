@@ -78,7 +78,8 @@ function CustomSlider() {
           {slides.map((slide, index) => (
             <div key={index} className="px-5 overflow-hidden">
               <div
-                className="flex flex-col   bg-cover bg-center rounded-lg w-[70vw]  md:w-[75vw] mx-auto px-10  "
+                className="flex flex-col   bg-cover bg-center rounded-lg w-[70vw]  md:w-[75vw] mx-auto px-10
+"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
                 <div className="flex justify-between 2xl:gap-[748px] items-center">
@@ -89,6 +90,12 @@ function CustomSlider() {
                     <h1 className="heroHead  text-[#FFFFFF] max-w-screen-lg pb-2">
                       {slide.title}
                     </h1>
+                    <p className="md:max-w-md lg:max-w-screen-sm HomeBannerPara text-[#FFFFFF]">
+                      {slide.paragraph}
+                    </p>
+                    <button className="homeLargeAppoinMent my-10 px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
+                      {slide.button}
+                    </button>
                   </div>
 
                   {/* rotated section start */}
