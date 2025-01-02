@@ -5,7 +5,6 @@ import CourseDetailsHero from "./CourseDetailsHero/CourseDetailsHero";
 import FoundationCourse from "./FoundationCourse/FoundationCourse";
 import JoinOurClan from "./JoinOurClan/JoinOurClan";
 import Benefits from "./Benefits/Benefits";
-import Curriculum from "./Curriculum/Curriculum";
 import CurriculumTest from "./Curriculum/CurriculumTest";
 
 const CourseDetails = () => {
