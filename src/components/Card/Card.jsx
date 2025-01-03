@@ -25,7 +25,10 @@ const Card = ({
         className={`w-full sm:min-h-[740px]  sm:h-[740px] bg-white rounded-[20px] flex flex-col gap-1 justify-between group hover:bg-gradient-to-bl from-[#00A4FF]  to-[#00389B] flex-grow-0 flex-shrink-0 transition-all duration-500 ease-in-out box-borders ${
           slider && "h-full"
         }`}
-        onClick={() => navigate("/courseDetails")}
+        // onClick={() => navigate("/courseDetails")}
+        onClick={() =>
+          navigate(`/courseDetails/${encodeURIComponent(title.trim())}`)
+        }
       >
         {/* Content shown when not hovered */}
         <div className="group-hover:hidden block transition-opacity duration-500 ease-in-out">

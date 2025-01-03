@@ -2,6 +2,8 @@
 // import { FaLocationDot } from "react-icons/fa6";
 // import { MdEmail } from "react-icons/md";
 
+import { useParams } from "react-router-dom";
+
 // import { TiTick } from "react-icons/ti";
 // import { Link } from "react-router-dom";
 
@@ -285,24 +287,79 @@
 
 // export default FoundationCourse;
 
-const FoundationCourse = () => {
-  // Course data array
-  // const courseDetails = [
-  //   { label: "Price:", value: "$30" },
-  //   { label: "Instructor:", value: "John Doe" },
-  //   { label: "Certification:", value: "Yes" },
-  //   { label: "Lessons:", value: "17" },
-  //   { label: "Duration:", value: "3 months" },
-  //   { label: "Lecture:", value: "30" },
-  //   { label: "Enrolled:", value: "105" },
-  //   { label: "Skill level:", value: "Basic" },
-  //   { label: "Quiz:", value: "Yes" },
-  // ];
+// import { filterCourse } from "../../../constant/dummyJson";
+// const FoundationCourse = () => {
+
+//   const { title } = useParams();
+//   const courseData = filterCourse.find(
+//     (course) => course.title.replace(/\s+/g, "-").toLowerCase() === title
+//   );
+
+//   if (!courseData) {
+//     return <p className="text-white">Course not found!</p>;
+//   }
+//   return (
+//     <div className="sectionGap bg-[#010101] flex flex-col-reverse  xl:grid   xl:grid-cols-2 gap-[80px]">
+//       <div>
+//         <h1 className="text-[#FFFFFF] popularCategoryHead pb-[16px]">
+//           {courseData.title}
+//         </h1>
+//         <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[20px]">
+//           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
+//             <p className="text-[#FFFFFFCC] joinClanSubPara">Duration</p>
+//             <p className="text-[#FFFFFFCC] courseDetailsPara">6 month</p>
+//           </div>
+//           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
+//             <p className="text-[#FFFFFFCC] joinClanSubPara">Lecture</p>
+//             <p className="text-[#FFFFFFCC] courseDetailsPara">48</p>
+//           </div>
+//           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
+//             <p className="text-[#FFFFFFCC] joinClanSubPara">Projects</p>
+//             <p className="text-[#FFFFFFCC] courseDetailsPara">20</p>
+//           </div>
+//         </div>
+//         <p className="text-[#FFFFFFCC] joinClanSubPara pb-[30px]">
+//           Embark on a comprehensive React journey with our React Front To Back
+//           course. Designed for beginners and seasoned developers alike, this
+//           course covers the fundamentals and dives deep into advanced topics.
+//           From building interactive user interfaces to managing state and
+//           integrating with APIs, you’ll gain hands-on experience. Elevate your
+//           React skills and stay at the forefront of web development trends with
+//           this immersive and practical learning experience.
+//         </p>
+
+//         <div className="flex flex-row gap-[16px] ">
+//           <button className="px-[16px] py-[10px] md:px-[25px] md:py-[6px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
+//             Admission
+//           </button>
+//           <button className="px-[16px] py-[10px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
+//             Join free seminar
+//           </button>
+//         </div>
+//       </div>
+
+//       {/* picture */}
+//       <div className="md:h-[496px] h-[168px]   ">
+//         <img
+//           className="w-full h-full  rounded-[16px] object-cover"
+//           // src="https://i.ibb.co.com/Qvbtmw7/image-3-66f065ea8e550.webp"
+//           src="/enroll.jpg"
+//           alt=""
+//         />
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default FoundationCourse;
+
+const FoundationCourse = ({ course }) => {
   return (
     <div className="sectionGap bg-[#010101] flex flex-col-reverse  xl:grid   xl:grid-cols-2 gap-[80px]">
       <div>
         <h1 className="text-[#FFFFFF] popularCategoryHead pb-[16px]">
-          UI/UX Designer
+          {/* UI/UX Design */}
+          {course.title}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[20px]">
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">

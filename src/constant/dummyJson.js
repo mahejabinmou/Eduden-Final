@@ -399,6 +399,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 const filterCourse = [
   {
     id: 1,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Data Science and AI",
     price: "$120",
     title: "Data Science and Machine Learning",
@@ -418,6 +423,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 2,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Graphics Design",
     price: "$120",
     title: "Introduce About Graphic Design for Beginners",
@@ -436,6 +446,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
   },
   {
     id: 3,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Programming",
     price: "$120",
     title: "Introduction to Python Programming",
@@ -455,6 +470,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 4,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "UI/UX Design",
     price: "$120",
     title: "UI/UX Design for Web and Mobile for Kids",
@@ -474,6 +494,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 5,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Ethical Hacking",
     price: "$120",
     title: "Ethical Hacking and Penetration Testing",
@@ -492,6 +517,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
   },
   {
     id: 6,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Cyber Security",
     price: "$120",
     title: "Network Administration (CCNA)",
@@ -511,6 +541,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 7,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Web Development",
     price: "$120",
     title: "Popular course in Web Development",
@@ -529,6 +564,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
   },
   {
     id: 8,
+    lecture: "48",
+    duration: "6 month",
+    projects: "20",
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+
     category: "Programming",
     price: "$120",
     title: "DevOps and Continuous Integration",
@@ -549,60 +589,75 @@ we're your one-stop destination for unlocking your potential and conquering the 
       bgColor: "bg-green-500",
     },
   },
-  //   {
-  //     id: 10,
-  //     category: "Cyber Security",
-  //     price: "$120",
-  //     title: "Data Science and Machine Learning",
-  //     rating: 5,
-  //     image: "url-to-image4",
-  //     hoverBgColor: "bg-green-500",
-  //     description:
-  //       "We're your one-stop destination for unlocking your potential and conquering the digital.",
-  //     details: {
-  //       students: 29,
-  //       duration: "12.5 hours",
-  //     },
-  //     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-  // we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
-  //     img: upCmnPic1,
-  //   },
-  //   {
-  //     id: 11,
-  //     category: "Cyber Security",
-  //     price: "$120",
-  //     title: "UI/UX Design for Web and Mobile for Kids",
-  //     rating: 5,
-  //     image: "url-to-image1",
-  //     hoverBgColor: "bg-green-500",
-  //     description:
-  //       "We're your one-stop destination for unlocking your potential and conquering the digital.",
-  //     details: {
-  //       students: 29,
-  //       duration: "12.5 hours",
-  //     },
-  //     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-  // we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
-  //     img: upCmnPic1,
-  //   },
-  //   {
-  //     id: 12,
-  //     category: "Cyber Security",
-  //     price: "$120",
-  //     title: "Introduction to Python Programming",
-  //     rating: 5,
-  //     image: "url-to-image2",
-  //     hoverBgColor: "bg-green-500",
-  //     description:
-  //       "We're your one-stop destination for unlocking your potential and conquering the digital.",
-  //     details: {
-  //       students: 29,
-  //       duration: "12.5 hours",
-  //     },
-  //     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-  // we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
-  //     img: upCmnPic2,
-  //   },
 ];
 
-export { courses, filterCourse, freeWebinar, upComingCourses };
+const distensionInfo = [
+  {
+    course: "Data Science and Machine Learning",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+  {
+    course: "Introduce About Graphic Design for Beginners",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+  {
+    course: "Introduction to Python Programming",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+  {
+    course: "UI/UX Design for Web and Mobile for Kids",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+  {
+    course: "Ethical Hacking and Penetration Testing",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+
+  {
+    course: "Network Administration (CCNA)",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+
+  {
+    course: "Popular course in Web Development",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+  {
+    course: "DevOps and Continuous Integration",
+    duration: "6 month",
+    lecture: "48",
+    projects: "20",
+    id: 1,
+    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+  },
+];
+
+export { courses, filterCourse, freeWebinar, upComingCourses, distensionInfo };

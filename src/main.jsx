@@ -21,6 +21,7 @@ import UserDashboard from "./ClientSide/Dashboard/UserDashboard/UserDashboard";
 import ViewDetails from "./ClientSide/Dashboard/UserDashboard/ViewDetails/ViewDetails";
 
 import WhatsNew from "./ClientSide/WhatsNew/WhatsNew";
+import FoundationCourse from "./ClientSide/CourseDetails/FoundationCourse/FoundationCourse";
 
 const router = createBrowserRouter([
   {
@@ -36,8 +37,12 @@ const router = createBrowserRouter([
     element: <Footer></Footer>,
   },
   {
-    path: "/courseDetails",
+    path: "/courseDetails/:title",
     element: <CourseDetails></CourseDetails>,
+  },
+  {
+    path: "/course/:title",
+    element: <FoundationCourse></FoundationCourse>,
   },
   {
     path: "/whatsnew",

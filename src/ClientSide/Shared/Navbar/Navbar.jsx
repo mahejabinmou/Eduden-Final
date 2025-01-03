@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 // import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -49,7 +49,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  const navigate = useNavigate();
   return (
     <div>
       {/* Fixed Navbar */}
@@ -256,7 +256,11 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <Link to="/courseDetails">
+          <Link
+            onClick={() =>
+              navigate(`/course/${title.replace(/\s+/g, "-").toLowerCase()}`)
+            }
+          >
             <button className="homeLargeAppoinMent bg-[#00A4FF]  text-[#010101]  ">
               Enroll Now
             </button>
