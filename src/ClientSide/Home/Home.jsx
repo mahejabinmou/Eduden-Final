@@ -53,6 +53,7 @@ import Testimonial from "./Testimonial/Testimonial";
 import TrendingCourses from "./TrendingCourses/TrendingCourses";
 import UpcominEvents from "./UpcomingEvents/UpcominEvents";
 import Video from "./Video/Video";
+import Balance from "./Balance/Balance";
 
 const Home = () => {
   useEffect(() => {
@@ -75,6 +76,7 @@ const Home = () => {
       </div>
       <Testimonial></Testimonial>
       <NeedHelp></NeedHelp>
+      <Balance></Balance>
       <Faq></Faq>
       <Footer></Footer>
     </div>

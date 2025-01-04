@@ -366,20 +366,24 @@ const FoundationCourse = ({ course }) => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[20px]">
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
-            <p className="text-[#FFFFFFCC] joinClanSubPara">Duration</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">
+            <p className="text-[#FFFFFFCC] joinClanSubPara font-lexend">
+              Duration
+            </p>
+            <p className="text-[#FFFFFFCC] courseDetailsPara font-lexend">
               {course.duration}
             </p>
           </div>
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
             <p className="text-[#FFFFFFCC] joinClanSubPara">Lecture</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">
+            <p className="text-[#FFFFFFCC] courseDetailsPara font-lexend">
               {course.lecture}
             </p>
           </div>
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
-            <p className="text-[#FFFFFFCC] joinClanSubPara">Projects</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">
+            <p className="text-[#FFFFFFCC] joinClanSubPara font-lexend">
+              Projects
+            </p>
+            <p className="text-[#FFFFFFCC] courseDetailsPara font-lexend">
               {course.projects}
             </p>
           </div>
