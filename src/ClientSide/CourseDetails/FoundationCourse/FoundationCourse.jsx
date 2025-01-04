@@ -352,7 +352,7 @@ import { useParams } from "react-router-dom";
 // };
 
 // export default FoundationCourse;
-
+/* eslint-disable react/prop-types */
 const FoundationCourse = ({ course }) => {
   return (
     <div className="sectionGap bg-[#010101] flex flex-col-reverse  xl:grid   xl:grid-cols-2 gap-[80px]">

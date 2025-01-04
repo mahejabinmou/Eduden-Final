@@ -49,6 +49,7 @@ const AllCourses = () => {
         <h1 className="popularCategoryHead mb-[35px] text-center">
           {" "}
           All <span className="BorderGlobal  border-[#00A4FF]">
+            {" "}
             Courses
           </span>{" "}
         </h1>

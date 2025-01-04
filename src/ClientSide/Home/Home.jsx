@@ -40,7 +40,6 @@
 
 import { useEffect } from "react";
 import Faq from "../ContactUs/Faq/Faq";
-import JoinOurClan from "../CourseDetails/JoinOurClan/JoinOurClan";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import AboutUs from "./AboutUs/AboutUs";

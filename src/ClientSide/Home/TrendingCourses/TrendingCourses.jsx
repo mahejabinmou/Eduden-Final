@@ -1,7 +1,7 @@
 const TrendingCourses = () => {
   return (
     <div className="sectionGap">
-      <div className="  text-white flex flex-col lg:flex-row md:items-center items-start justify-between  ">
+      <div className="  text-white flex flex-col gap-x-[50px] lg:flex-row md:items-center items-start justify-between  ">
         <h1 className="popularCategoryHead  pb-[20px]">
           Trending{" "}
           <span className="BorderGlobal  border-[#00A4FF]">Courses</span>

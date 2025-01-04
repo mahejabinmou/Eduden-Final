@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 // import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";

@@ -43,7 +43,7 @@ const AboutUs = () => {
       </div>
 
       <div className="hidden lg:block">
-        <div className="flex lg:flex-row  flex-col justify-between items-start ">
+        <div className="flex lg:flex-row  flex-col gap-x-[50px]  justify-between items-start ">
           <h1
             className="popularCategoryHead 
  mb-[30px]"
