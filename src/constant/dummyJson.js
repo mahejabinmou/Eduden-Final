@@ -399,10 +399,10 @@ we're your one-stop destination for unlocking your potential and conquering the 
 const filterCourse = [
   {
     id: 1,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+    lecture: "24",
+    duration: "3 months",
+    projects: "9",
+    para: "Embark on a comprehensive Data Science and Machine Learning journey with our Data Science and Machine Learning course. In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
 
     category: "Data Science and AI",
     price: "$120",
