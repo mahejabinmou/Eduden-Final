@@ -31,9 +31,9 @@ const CourseDetails = () => {
         <>
           <CourseDetailsHero course={course} />
           <FoundationCourse course={course} />
-          <JoinOurClan />
-          <CurriculumTest />
-          <Benefits />
+          <JoinOurClan course={course} />
+          <CurriculumTest course={course} />
+          <Benefits course={course} />
         </>
       ) : (
         <p>Course not found!</p>

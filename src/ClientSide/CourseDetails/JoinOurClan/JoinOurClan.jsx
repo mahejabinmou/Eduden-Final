@@ -42,23 +42,26 @@
 
 // export default JoinOurClan;
 
-import React from "react";
 import { BsRecordBtn } from "react-icons/bs";
 import { FaVideo } from "react-icons/fa";
 
 import { MdLiveTv, MdOutlineAssignment, MdOutlineQuiz } from "react-icons/md";
-
-const FeaturesSection = () => {
+/* eslint-disable react/prop-types */
+const FeaturesSection = ({ course }) => {
   const features = [
     {
       icon: <FaVideo className="text-white w-[30px] h-[20px] mx-auto" />, // Replace with an actual icon or image
       title: "225+ Videos in 15 Modules",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "The course comprises 15 modules and more than 225 videos for gradual learning and is presented through documentation.",
     },
     {
       icon: <BsRecordBtn className="text-white w-[30px] h-[20px] mx-auto" />,
       title: "150+ hours recorded content",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "Video duration and size have been optimized taking into account bandwidth and time consumption.",
     },
@@ -67,18 +70,24 @@ const FeaturesSection = () => {
         <MdOutlineAssignment className="text-white w-[30px] h-[20px] mx-auto" />
       ),
       title: "9 Assignments",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "Assignment solutions will be posted on GitHub after the course for self-practice.",
     },
     {
       icon: <MdOutlineQuiz className="text-white w-[30px] h-[20px] mx-auto" />,
       title: "100+ Quizzes",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
     },
     {
       icon: <MdLiveTv className="text-white w-[30px] h-[20px] mx-auto" />,
       title: "7 live sessions",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
     },
@@ -107,6 +116,8 @@ const FeaturesSection = () => {
         </svg>
       ),
       title: "20 Projects",
+      overView:
+        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
         "We embraced a project-centric learning methodology for the duration of the course. There are 15 projects planned for completion in the course.",
     },
@@ -118,15 +129,7 @@ const FeaturesSection = () => {
         <h1 className="popularCategoryHead  text-white pb-[16px]">
           Course Overview
         </h1>
-        <p className="joinClanSubPara text-white/[.8]">
-          Embark on a comprehensive React journey with our React Front To Back
-          course. Designed for beginners and seasoned developers alike, this
-          course covers the fundamentals and dives deep into advanced topics.
-          From building interactive user interfaces to managing state and
-          integrating with APIs, you’ll gain hands-on experience. Elevate your
-          React skills and stay at the forefront of web development trends with
-          this immersive and practical learning experience.
-        </p>
+        <p className="joinClanSubPara text-white/[.8]">{course.overView}</p>
       </div>
       <div className="bg-[#181717] px-[50px] py-[50px]  2xl:px-[80px] 2xl:py-[100px] xl:px-[50px] xl:py-[50px] rounded-[14px] text-white ">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-[80px] lg:gap-[30px] xl:gap-[80px] 2xl:gap-[100px]">

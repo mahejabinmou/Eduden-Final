@@ -32,19 +32,19 @@ const CurriculumTest = () => {
         <h2 className="popularCategoryHead text-white font-gucina pb-[10px]">
           Course curriculum & tools
         </h2>
-        <p className="text-[#FFFFFFCC] text-[18px] leading-[27px] font-normal pb-[10px]">
+        <p className="text-[#FFFFFF]/[.80] text-[18px] leading-[27px] font-normal pb-[10px]">
           UI/UX Design
         </p>
         <div className="flex justify-center gap-[36px]">
           <div className="flex items-center gap-[14px]">
             <img src="/xd.png" alt="" className="h-[30px] w-[30px]" />
-            <p className="text-white text-[18px] leading-[27px] font-normal font-lexend">
+            <p className="text-[#FFFFFF] text-[18px] leading-[27px] font-normal font-lexend">
               Adobe XD
             </p>
           </div>
           <div className="flex items-center  gap-[14px]">
             <img src="/figma.png" alt="" className="h-[30px] w-[30px]" />
-            <p className="text-white text-[18px] leading-[27px] font-normal font-lexend">
+            <p className="text-[#FFFFFF] text-[18px] leading-[27px] font-normal font-lexend">
               Figma
             </p>
           </div>

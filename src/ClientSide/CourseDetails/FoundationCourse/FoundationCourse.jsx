@@ -351,8 +351,8 @@ import { useParams } from "react-router-dom";
 //     </div>
 //   );
 // };
-
 // export default FoundationCourse;
+
 /* eslint-disable react/prop-types */
 const FoundationCourse = ({ course }) => {
   const [activeButton, setActiveButton] = useState("Admission"); // Default active button
