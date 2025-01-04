@@ -402,7 +402,7 @@ const filterCourse = [
     lecture: "24",
     duration: "3 months",
     projects: "9",
-    para: "Embark on a comprehensive Data Science and Machine Learning journey with our Data Science and Machine Learning course. In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
+    para: "Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow! Ever wonder how Netflix knows exactly what you want to watch next? Or how your email filters out those very important spam messages? It’s all thanks to data science! In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
 
     category: "Data Science and AI",
     price: "$120",

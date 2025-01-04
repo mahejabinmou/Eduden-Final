@@ -2,6 +2,7 @@
 // import { FaLocationDot } from "react-icons/fa6";
 // import { MdEmail } from "react-icons/md";
 
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 // import { TiTick } from "react-icons/ti";
@@ -354,6 +355,8 @@ import { useParams } from "react-router-dom";
 // export default FoundationCourse;
 /* eslint-disable react/prop-types */
 const FoundationCourse = ({ course }) => {
+  const [activeButton, setActiveButton] = useState("Admission"); // Default active button
+
   return (
     <div className="sectionGap bg-[#010101] flex flex-col-reverse  xl:grid   xl:grid-cols-2 gap-[80px]">
       <div>
@@ -382,21 +385,37 @@ const FoundationCourse = ({ course }) => {
           </div>
         </div>
         <p className="text-[#FFFFFFCC] joinClanSubPara pb-[30px]">
-          {/* Embark on a comprehensive React journey with our React Front To Back
-          course. Designed for beginners and seasoned developers alike, this
-          course covers the fundamentals and dives deep into advanced topics.
-          From building interactive user interfaces to managing state and
-          integrating with APIs, you’ll gain hands-on experience. Elevate your
-          React skills and stay at the forefront of web development trends with
-          this immersive and practical learning experience. */}
           {course.para}
         </p>
 
-        <div className="flex flex-row gap-[16px] ">
+        {/* <div className="flex flex-row gap-[16px] ">
           <button className="px-[16px] py-[10px] md:px-[25px] md:py-[6px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
             Admission
           </button>
           <button className="px-[16px] py-[10px]  rounded-[50px] CourseUi text-white bg-[#1A1A1A]  hover:bg-[#00A4FF] hover:text-[#010101]">
+            Join free seminar
+          </button>
+        </div> */}
+
+        <div className="flex flex-row gap-[16px]">
+          <button
+            onClick={() => setActiveButton("Admission")}
+            className={`px-[16px] py-[10px] md:px-[25px] md:py-[6px] rounded-[50px] CourseUi text-white ${
+              activeButton === "Admission"
+                ? "bg-[#00A4FF] text-[#010101]"
+                : "bg-[#1A1A1A] hover:bg-[#00A4FF] hover:text-[#010101]"
+            }`}
+          >
+            Admission
+          </button>
+          <button
+            onClick={() => setActiveButton("Seminar")}
+            className={`px-[16px] py-[10px] rounded-[50px] CourseUi text-white ${
+              activeButton === "Seminar"
+                ? "bg-[#00A4FF] text-[#010101]"
+                : "bg-[#1A1A1A] hover:bg-[#00A4FF] hover:text-[#010101]"
+            }`}
+          >
             Join free seminar
           </button>
         </div>
