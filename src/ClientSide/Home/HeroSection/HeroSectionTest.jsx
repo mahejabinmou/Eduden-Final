@@ -51,16 +51,16 @@ function CustomSlider() {
           {slides.map((slide, index) => (
             <div key={index} className="px-2 overflow-hidden">
               <div
-                className="flex flex-col bg-cover bg-no-repeat bg-center rounded-lg  w-[70vw] md:w-[75vw] mx-auto py-2 px-4"
+                className="flex flex-col bg-cover bg-no-repeat bg-center rounded-lg  w-[70vw] md:w-[75vw] mx-auto py-2 px-4 sm:px-[30px]"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
                 <button className="py-[8px] px-[10px]  text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-4 w-40">
                   WELCOME TO EDUDEN
                 </button>
-                <h1 className="heroHead text-[#FFFFFF] w-56 mb-3">
+                <h1 className="heroHead text-[#FFFFFF] w-[220px] sm:w-[300px] mb-3">
                   {slide.title}
                 </h1>
-                <p className="w-56 HomeBannerPara text-[#FFFFFF]">
+                <p className=" w-[220px] sm:w-[320px] HomeBannerPara text-[#FFFFFF]">
                   {slide.paragraph}
                 </p>
                 <button className="homeLargeAppoinMent my-4 px-[10px] py-[5px] w-28 flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
@@ -82,7 +82,7 @@ function CustomSlider() {
 "
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="flex justify-between 2xl:gap-[748px] items-center">
+                <div className="flex justify-between md:gap-[20px] lg:gap-[50px] 2xl:gap-[100px] xl:gap-[100px] items-center">
                   <div>
                     <button className="py-3 px-4 w-80 text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-10 cursor-default">
                       WELCOME TO EDUDEN
