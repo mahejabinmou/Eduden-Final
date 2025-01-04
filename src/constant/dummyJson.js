@@ -423,9 +423,9 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 2,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
+    lecture: "38",
+    duration: "4 month",
+    projects: "18",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
 
     category: "Graphics Design",

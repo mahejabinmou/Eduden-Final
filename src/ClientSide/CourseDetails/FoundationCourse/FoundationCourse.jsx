@@ -364,25 +364,32 @@ const FoundationCourse = ({ course }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] pb-[20px]">
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
             <p className="text-[#FFFFFFCC] joinClanSubPara">Duration</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">6 month</p>
+            <p className="text-[#FFFFFFCC] courseDetailsPara">
+              {course.duration}
+            </p>
           </div>
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
             <p className="text-[#FFFFFFCC] joinClanSubPara">Lecture</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">48</p>
+            <p className="text-[#FFFFFFCC] courseDetailsPara">
+              {course.lecture}
+            </p>
           </div>
           <div className="flex flex-col justify-center items-center py-[8px] border border-white rounded-[16px]">
             <p className="text-[#FFFFFFCC] joinClanSubPara">Projects</p>
-            <p className="text-[#FFFFFFCC] courseDetailsPara">20</p>
+            <p className="text-[#FFFFFFCC] courseDetailsPara">
+              {course.projects}
+            </p>
           </div>
         </div>
         <p className="text-[#FFFFFFCC] joinClanSubPara pb-[30px]">
-          Embark on a comprehensive React journey with our React Front To Back
+          {/* Embark on a comprehensive React journey with our React Front To Back
           course. Designed for beginners and seasoned developers alike, this
           course covers the fundamentals and dives deep into advanced topics.
           From building interactive user interfaces to managing state and
           integrating with APIs, you’ll gain hands-on experience. Elevate your
           React skills and stay at the forefront of web development trends with
-          this immersive and practical learning experience.
+          this immersive and practical learning experience. */}
+          {course.para}
         </p>
 
         <div className="flex flex-row gap-[16px] ">
