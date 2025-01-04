@@ -40,9 +40,9 @@ const ContactCard = () => {
           <div>
             <h1 className="testimonialSub pb-4">Our Location</h1>
             <p className="joinClanSubPara pb-2">
-              5678 Bangla Main Road, cities 580
+              24/A Road-6, Nabinagar Housing,
             </p>
-            <p className="joinClanSubPara">GBangla, example 54786</p>
+            <p className="joinClanSubPara"> Mohammadpur, Dhaka</p>
           </div>
         </div>
       </div>
