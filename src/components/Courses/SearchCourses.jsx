@@ -23,7 +23,7 @@
 /* eslint-disable no-irregular-whitespace */
 const SearchCourses = () => {
   return (
-    <div className=" flex justify-between items-center mt-[50px] mb-[30px] md:mb-[70px]">
+    <div className=" flex justify-between items-center  mt-[50px] mb-[30px] md:mb-[70px]">
       <div>
         <p className="text-white text-[9px] md:text-[14px]">
           Showing 1-9 Of 62 Results

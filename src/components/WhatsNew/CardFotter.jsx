@@ -3,7 +3,7 @@ import { FaRegComments } from "react-icons/fa";
 
 const CardFotter = () => {
   return (
-    <div className="flex items-center justify-between bg-white">
+    <div className="flex items-center justify-between ">
       <div className="flex items-center gap-[5px] font-[300] text-[14px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
