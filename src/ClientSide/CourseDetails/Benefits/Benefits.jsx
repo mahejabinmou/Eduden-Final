@@ -14,10 +14,10 @@ const Benefits = ({ course }) => {
       <div className="  grid grid-cols-1   lg:grid-cols-3  2xl:grid-cols-3  items-center gap-[36px]">
         <div
           className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-        2xl:h-[420px]  xl:h-[520px] 
+        2xl:h-[420px]  xl:h-[500px]
           bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
-          <div className="px-[10px]  sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
+          <div className="px-[10px]  sm:px-[60px] 2xl:px-[30px]  xl:px-[30px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
@@ -44,10 +44,10 @@ const Benefits = ({ course }) => {
 
         <div
           className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-       2xl:h-[420px]  xl:h-[520px]
+       2xl:h-[420px]  xl:h-[500px]
           bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center   "
         >
-          <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
+          <div className="px-[10px] sm:px-[60px] 2xl:px-[30px]  xl:px-[30px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
@@ -74,10 +74,10 @@ const Benefits = ({ course }) => {
 
         <div
           className="  h-[350px] md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-           2xl:h-[420px] xl:h-[520px]  flex justify-center items-center 
+           2xl:h-[420px] xl:h-[500px] flex justify-center items-center 
             bg-[#FFFFFF]/[.10]  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
-          <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
+          <div className="px-[10px] sm:px-[60px] 2xl:px-[30px]  xl:px-[30px] lg:px-[30px] pt-[50px] pb-[50px]">
             <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[25px] rounded-[50px] bg-[#00A4FF1A]   flex justify-center items-center">
               <svg
                 width="50"
