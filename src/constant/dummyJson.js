@@ -548,9 +548,9 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 4,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
+    lecture: "24",
+    duration: "3 months",
+    projects: "6",
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
