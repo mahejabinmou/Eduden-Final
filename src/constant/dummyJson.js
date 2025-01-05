@@ -576,7 +576,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
     overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+      "In this UI/UX Design for Web course, participants will  descend into the fundamentals of creating visually appealing and user-friendly websites. They'll learn how to design intuitive interfaces, build engaging user experiences, and apply best practices in layout, navigation, and accessibility. From wireframing to prototyping and usability testing, we’ll cover it all. Learn how to transform any website into a seamless, enjoyable experience for users.",
     para: "Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to find the Contact Us button? Well, we’re here to fix that! In this course, you’ll learn to design websites that not only look awesome but are also easy to navigate. So, buckle up and let's create some web magic!",
 
     category: "UI/UX Design",
