@@ -294,7 +294,7 @@ text-[10px] leading-[15px]
     xl:text-[20px] xl:leading-[30px] xl:py-[8px] xl:px-[20px] 
     /* =========  */
     2xl:text-[20px] 2xl:leading-[30px] 2xl:py-[8px] 2xl:px-[20px] 
-    font-gucina   rounded-[50px];
+    font-lexend   rounded-[50px];
   }
 
   .verifyAppoinMent {
@@ -342,7 +342,7 @@ text-[10px] leading-[15px]
   .heroSecSubHead {
     @apply md:text-[20px] md:leading-[20px]
     text-[12px] leading-[12px]
-    font-gucina font-medium;
+    font-lexend font-medium;
   }
 
   .heroHead {

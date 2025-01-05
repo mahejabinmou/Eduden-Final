@@ -54,7 +54,7 @@ function CustomSlider() {
                 className="flex flex-col bg-cover bg-no-repeat bg-center rounded-lg  w-[70vw] md:w-[75vw] mx-auto py-2 px-4 sm:px-[30px]"
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <button className="py-[8px] px-[10px]  text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-4 w-40">
+                <button className="py-[8px] px-[10px] font-lexend  text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-4 w-40">
                   WELCOME TO EDUDEN
                 </button>
                 <h1 className="heroHead text-[#FFFFFF] w-[220px] sm:w-[300px] mb-3">
@@ -63,7 +63,7 @@ function CustomSlider() {
                 <p className=" w-[220px] sm:w-[320px] HomeBannerPara text-[#FFFFFF]">
                   {slide.paragraph}
                 </p>
-                <button className="homeLargeAppoinMent my-4 px-[10px] py-[5px] w-28 flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
+                <button className="homeLargeAppoinMent font-lexend my-4 px-[10px] py-[5px] w-28 flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
                   {slide.button}
                 </button>
               </div>
@@ -84,7 +84,7 @@ function CustomSlider() {
               >
                 <div className="flex justify-between md:gap-[20px] lg:gap-[50px] 2xl:gap-[100px] xl:gap-[100px] items-center">
                   <div>
-                    <button className="py-3 px-4 w-80 text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-10 cursor-default">
+                    <button className="py-3 px-4 w-80 font-lexend text-[#00A4FF] border border-white/[0.5] rounded-[10px] heroSecSubHead my-10 cursor-default">
                       WELCOME TO EDUDEN
                     </button>
                     <h1 className="heroHead  text-[#FFFFFF] max-w-screen-lg pb-2">
@@ -93,7 +93,7 @@ function CustomSlider() {
                     <p className="md:max-w-md lg:max-w-screen-sm HomeBannerPara text-[#FFFFFF]">
                       {slide.paragraph}
                     </p>
-                    <button className="homeLargeAppoinMent my-10 px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
+                    <button className="homeLargeAppoinMent font-lexend my-10 px-[16px] py-[5px] flex items-center justify-between text-[#010101] bg-[#00A4FF] font-bold">
                       {slide.button}
                     </button>
                   </div>
