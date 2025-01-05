@@ -577,11 +577,11 @@ we're your one-stop destination for unlocking your potential and conquering the 
     ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+    para: "Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to find the Contact Us button? Well, we’re here to fix that! In this course, you’ll learn to design websites that not only look awesome but are also easy to navigate. So, buckle up and let's create some web magic!",
 
     category: "UI/UX Design",
     price: "$120",
-    title: "UI/UX Design for Web and Mobile for Kids",
+    title: "UI/UX Design for Web Course",
     rating: 5,
     image: "assets/images/course-cat-1.jpg",
     hoverBgColor: "bg-green-500",
