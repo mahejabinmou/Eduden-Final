@@ -49,35 +49,35 @@ import { MdLiveTv, MdOutlineAssignment, MdOutlineQuiz } from "react-icons/md";
 /* eslint-disable react/prop-types */
 const FeaturesSection = ({ course }) => {
   const features = [
-    {
-      icon: <FaVideo className="text-white w-[30px] h-[20px] mx-auto" />, // Replace with an actual icon or image
-      title: "225+ Videos in 15 Modules",
-      overView:
-        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-      description:
-        "The course comprises 15 modules and more than 225 videos for gradual learning and is presented through documentation.",
-    },
-    {
-      icon: <BsRecordBtn className="text-white w-[30px] h-[20px] mx-auto" />,
-      title: "150+ hours recorded content",
-      overView:
-        "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-      description:
-        "Video duration and size have been optimized taking into account bandwidth and time consumption.",
-    },
+    // {
+    //   icon: <FaVideo className="text-white w-[30px] h-[20px] mx-auto" />, // Replace with an actual icon or image
+    //   title: "225+ Videos in 15 Modules",
+    //   overView:
+    //     "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+    //   description:
+    //     "The course comprises 15 modules and more than 225 videos for gradual learning and is presented through documentation.",
+    // },
+    // {
+    //   icon: <BsRecordBtn className="text-white w-[30px] h-[20px] mx-auto" />,
+    //   title: "150+ hours recorded content",
+    //   overView:
+    //     "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+    //   description:
+    //     "Video duration and size have been optimized taking into account bandwidth and time consumption.",
+    // },
     {
       icon: (
         <MdOutlineAssignment className="text-white w-[30px] h-[20px] mx-auto" />
       ),
-      title: "9 Assignments",
+      title: "12 Assignments",
       overView:
         "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
-        "Assignment solutions will be posted on GitHub after the course for self-practice.",
+        "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
     },
     {
       icon: <MdOutlineQuiz className="text-white w-[30px] h-[20px] mx-auto" />,
-      title: "100+ Quizzes",
+      title: "30+ Quizzes",
       overView:
         "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
@@ -85,7 +85,7 @@ const FeaturesSection = ({ course }) => {
     },
     {
       icon: <MdLiveTv className="text-white w-[30px] h-[20px] mx-auto" />,
-      title: "7 live sessions",
+      title: "Live sessions",
       overView:
         "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
@@ -115,11 +115,11 @@ const FeaturesSection = ({ course }) => {
           />
         </svg>
       ),
-      title: "20 Projects",
+      title: "9 Projects",
       overView:
         "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
       description:
-        "We embraced a project-centric learning methodology for the duration of the course. There are 15 projects planned for completion in the course.",
+        "We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.",
     },
   ];
 
@@ -132,7 +132,7 @@ const FeaturesSection = ({ course }) => {
         <p className="joinClanSubPara text-white/[.8]">{course.overView}</p>
       </div>
       <div className="bg-[#181717] px-[50px] py-[50px]  2xl:px-[80px] 2xl:py-[100px] xl:px-[50px] xl:py-[50px] rounded-[14px] text-white ">
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-[80px] lg:gap-[30px] xl:gap-[80px] 2xl:gap-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[80px] lg:gap-[30px] xl:gap-[80px] 2xl:gap-[100px]">
           {features.map((feature, index) => (
             <div key={index} className="text-center">
               <div className="flex flex-row gap-[30px] justify-center items-center">
@@ -142,7 +142,7 @@ const FeaturesSection = ({ course }) => {
                   <p className="menuPara">{feature.description}</p>
                 </div>
                 {/* Dotted divider */}
-                {index % 3 !== 2 && (
+                {(index + 1) % 2 !== 0 && index !== features.length - 1 && (
                   <div className="border-r-2  border-dotted border-gray-500 h-[100px] mx-auto hidden lg:block"></div>
                 )}
               </div>

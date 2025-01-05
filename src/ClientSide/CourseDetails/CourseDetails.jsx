@@ -22,11 +22,7 @@ const CourseDetails = () => {
   return (
     <div>
       <Navbar></Navbar>
-      {/* <CourseDetailsHero></CourseDetailsHero>
-      <FoundationCourse></FoundationCourse>
-      <JoinOurClan></JoinOurClan>
-      <CurriculumTest></CurriculumTest>
-      <Benefits></Benefits> */}
+
       {course ? (
         <>
           <CourseDetailsHero course={course} />

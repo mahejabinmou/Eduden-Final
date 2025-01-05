@@ -1,4 +1,5 @@
-const Benefits = () => {
+/* eslint-disable react/prop-types */
+const Benefits = ({ course }) => {
   return (
     <div className="sectionGap">
       <div className="mb-[75px] text-center xl:max-w-[1140px] mx-auto">
@@ -13,7 +14,7 @@ const Benefits = () => {
       <div className="  grid grid-cols-1   lg:grid-cols-3  2xl:grid-cols-3  items-center gap-[36px]">
         <div
           className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-        2xl:h-[420px]  xl:h-[460px]  
+        2xl:h-[420px]  xl:h-[520px] 
           bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
           <div className="px-[10px]  sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
@@ -33,20 +34,17 @@ const Benefits = () => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Course Certificate
+              Earn a Course Completion Certificate
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
-              Participants completing every assignment and the final exams with
-              a minimum 50% mark will earn a course certificate. A digital copy
-              of the certificate is available for download online. Hard copies
-              will not be supplied.
+              {course.Certificate}
             </p>
           </div>
         </div>
 
         <div
           className="  h-[350px]  md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-       2xl:h-[420px]  xl:h-[460px] 
+       2xl:h-[420px]  xl:h-[520px]
           bg-[#FFFFFF]/[.10] flex justify-end items-center  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center   "
         >
           <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
@@ -66,20 +64,17 @@ const Benefits = () => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Lifetime Access
+              100% Access on Purchase Period
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
-              Buying the course once entitles you to lifetime access to all
-              course content.Furthermore, you will have lifetime access to the
-              private support channel where we will attempt to address any
-              questions you have post-course.
+              {course.Access}
             </p>
           </div>
         </div>
 
         <div
           className="  h-[350px] md:h-[300px]  lg:h-[530px] sm:h-[350px] 
-           2xl:h-[420px] xl:h-[460px]  flex justify-center items-center 
+           2xl:h-[420px] xl:h-[520px]  flex justify-center items-center 
             bg-[#FFFFFF]/[.10]  group rounded-[8px] border border-[#FFFFFF]/[.24] text-center  "
         >
           <div className="px-[10px] sm:px-[60px] 2xl:px-[60px]  xl:px-[60px] lg:px-[30px] pt-[50px] pb-[50px]">
@@ -99,12 +94,10 @@ const Benefits = () => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Ready for interviews
+              Get set for career interviews
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
-              UI/UX positions are highly sought after in today's job market.
-              Once you excel in completing the course, your increased confidence
-              will help you excel in interviews
+              {course.interview}
             </p>
           </div>
         </div>

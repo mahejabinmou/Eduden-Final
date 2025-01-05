@@ -402,6 +402,30 @@ const filterCourse = [
     lecture: "24",
     duration: "3 months",
     projects: "9",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow! Ever wonder how Netflix knows exactly what you want to watch next? Or how your email filters out those very important spam messages? It’s all thanks to data science! In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
@@ -428,6 +452,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "38",
     duration: "4 month",
     projects: "18",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -453,6 +501,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "48",
     duration: "6 month",
     projects: "20",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -479,6 +551,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "48",
     duration: "6 month",
     projects: "20",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -505,6 +601,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "48",
     duration: "6 month",
     projects: "20",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -530,6 +650,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "48",
     duration: "6 month",
     projects: "20",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -556,6 +700,32 @@ we're your one-stop destination for unlocking your potential and conquering the 
     lecture: "48",
     duration: "6 month",
     projects: "20",
+
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -580,6 +750,30 @@ we're your one-stop destination for unlocking your potential and conquering the 
     id: 8,
     lecture: "48",
     duration: "6 month",
+    Certificate:
+      "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+    curriculum: [
+      { cid: 1, c: "Foundations & Introduction of Data Science" },
+      { cid: 2, c: "Data Wrangling & Cleaning" },
+      { cid: 3, c: "Statistics for Data Science" },
+      { cid: 4, c: "Data Visualization" },
+      { cid: 5, c: " Introduction to Machine Learning" },
+      { cid: 6, c: " Supervised Learning - Regression" },
+      { cid: 7, c: "Supervised Learning - Classification" },
+      { cid: 8, c: "Unsupervised Learning" },
+      { cid: 9, c: "Neural Networks & Deep Learning" },
+      { cid: 10, c: "Neural Networks & Deep Learning" },
+      { cid: 11, c: "Natural Language Processing (NLP)" },
+      { cid: 12, c: "Big Data and Tools" },
+      { cid: 13, c: "Python" },
+      { cid: 14, c: "SQL" },
+      { cid: 15, c: "Google Colab" },
+      { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     projects: "20",
