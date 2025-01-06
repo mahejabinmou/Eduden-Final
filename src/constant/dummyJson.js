@@ -934,7 +934,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
     category: "Web Development",
     price: "$120",
-    title: "Popular course in Web Development",
+    title: "Mastering Web Development",
     rating: 5,
     image: "assets/images/course-cat-7.jpg",
     hoverBgColor: "bg-green-500",
