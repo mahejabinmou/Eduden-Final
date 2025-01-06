@@ -85,7 +85,7 @@ const JoinOurClan = ({ course }) => {
             <div className="flex flex-row gap-[30px] justify-center items-center">
               <div>
                 <div className=" mb-[20px]">
-                  <MdLiveTv className="text-white w-[30px] h-[20px] mx-auto" />,
+                  <MdLiveTv className="text-white w-[30px] h-[20px] mx-auto" />
                 </div>
                 <h3 className="menuHead mb-[8px]">
                   {course.features[2]?.title3}
