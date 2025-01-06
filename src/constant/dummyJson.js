@@ -871,66 +871,66 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 7,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
+    lecture: "36",
+    duration: "3 months",
+    projects: "6",
 
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
       "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
     interview:
-      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+      "Positions in Web Development are in high demand as businesses expand their online presence.Roles such as Front-end Developer, Back-end Developer, Full-stack Developer are offered by various companies.This course will equip you with the skills needed to excel in technical interviews and contribute to innovative projects in the fast-paced tech industry. ",
 
     curriculum: [
-      { cid: 1, c: "Foundations & Introduction of Data Science" },
-      { cid: 2, c: "Data Wrangling & Cleaning" },
-      { cid: 3, c: "Statistics for Data Science" },
-      { cid: 4, c: "Data Visualization" },
-      { cid: 5, c: " Introduction to Machine Learning" },
-      { cid: 6, c: " Supervised Learning - Regression" },
-      { cid: 7, c: "Supervised Learning - Classification" },
-      { cid: 8, c: "Unsupervised Learning" },
-      { cid: 9, c: "Neural Networks & Deep Learning" },
-      { cid: 10, c: "Neural Networks & Deep Learning" },
-      { cid: 11, c: "Natural Language Processing (NLP)" },
-      { cid: 12, c: "Big Data and Tools" },
-      { cid: 13, c: "Python" },
-      { cid: 14, c: "SQL" },
-      { cid: 15, c: "Google Colab" },
-      { cid: 16, c: "Microsoft Azure ML Studio" },
+      { cid: 1, c: "Introduction to Web Development" },
+      { cid: 2, c: "HTML Basics" },
+      { cid: 3, c: "CSS Styling" },
+      { cid: 4, c: "JavaScript Fundamentals" },
+      { cid: 5, c: "Responsive Web Design" },
+      { cid: 6, c: "Advanced CSS Techniques" },
+      { cid: 7, c: "JavaScript and Web Interactivity" },
+      { cid: 8, c: "Version Control with Git and GitHub" },
+      { cid: 9, c: "Web Development Frameworks" },
+      { cid: 10, c: "Project Work" },
+      { cid: 11, c: "Deployment and Hosting" },
+      { cid: 12, c: "Visual Studio Code (VS Code)" },
+      { cid: 13, c: "GitHub" },
+      { cid: 14, c: "Bootstrap" },
+      // { cid: 15, c: "Google Colab" },
+      // { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
     features: [
       {
-        title1: "12 Assignments",
+        title1: "25 Assignments",
         overView1:
-          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
         description1:
           "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
       },
       {
-        title2: "30+ Quizzes",
+        title2: "40+ Quizzes",
         overView2:
-          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
         description2:
           "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
       },
       {
         title3: "Live sessions",
         overView3:
-          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
         description3:
           "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
       },
       {
-        title4: "9 Projects",
-        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        title4: "6 Projects",
+        overView4: `We embraced a project-centric learning methodology for the duration of the course. There are 6 projects planned for completion in the course.`,
         description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
       },
     ],
     overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+      "Step into the world of web development, where creativity meets code! In this dynamic course, you'll learn to craft beautiful, functional websites using HTML, CSS, and JavaScript. We’ll guide you through every line of code with interactive lessons and real-world projects, turning you into a web-building pro. Whether you're starting from scratch or polishing your skills, we’ll make sure you’re ready to build the next big thing on the web.",
+    para: "Ready to turn your wild ideas into reality? Learn how to build stunning websites and unleash your inner tech genius. Whether you’re a complete newbie or you just want to level up, this course will teach you how to transform blank screens into beautiful, functional webpages. Let’s figure out how we can make the web a little cooler—one pixel at a time. Get ready to click, code, and conquer!",
 
     category: "Web Development",
     price: "$120",
