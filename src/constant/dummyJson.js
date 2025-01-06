@@ -426,6 +426,36 @@ const filterCourse = [
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
+    ],
+
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow! Ever wonder how Netflix knows exactly what you want to watch next? Or how your email filters out those very important spam messages? It’s all thanks to data science! In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?",
@@ -476,6 +506,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -496,6 +554,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
 we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
     img: upCmnPic1,
   },
+
   {
     id: 3,
     lecture: "48",
@@ -524,6 +583,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 14, c: "SQL" },
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
     ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
@@ -575,6 +662,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30 Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "6 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 6 projects planned for completion in the course.`,
+      },
+    ],
     overView:
       "In this UI/UX Design for Web course, participants will  descend into the fundamentals of creating visually appealing and user-friendly websites. They'll learn how to design intuitive interfaces, build engaging user experiences, and apply best practices in layout, navigation, and accessibility. From wireframing to prototyping and usability testing, we’ll cover it all. Learn how to transform any website into a seamless, enjoyable experience for users.",
     para: "Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to find the Contact Us button? Well, we’re here to fix that! In this course, you’ll learn to design websites that not only look awesome but are also easy to navigate. So, buckle up and let's create some web magic!",
@@ -625,6 +740,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -673,6 +816,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 14, c: "SQL" },
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
     ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
@@ -726,6 +897,34 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+    features: [
+      {
+        title1: "12 Assignments",
+        overView1:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description1:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title2: "30+ Quizzes",
+        overView2:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description2:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title3: "Live sessions",
+        overView3:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description3:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+      },
+    ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
@@ -773,6 +972,29 @@ we're your one-stop destination for unlocking your potential and conquering the 
       { cid: 14, c: "SQL" },
       { cid: 15, c: "Google Colab" },
       { cid: 16, c: "Microsoft Azure ML Studio" },
+    ],
+    features: [
+      {
+        title: "12 Assignments",
+        overView:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description:
+          "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
+      },
+      {
+        title: "30+ Quizzes",
+        overView:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description:
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
+      },
+      {
+        title: "Live sessions",
+        overView:
+          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+        description:
+          "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
     ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
