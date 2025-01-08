@@ -34,7 +34,7 @@ const Benefits = ({ course }) => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Earn a Course Completion Certificate
+              Course Certificate
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
               {course.Certificate}
@@ -94,7 +94,7 @@ const Benefits = ({ course }) => {
               </svg>
             </div>
             <h1 className="mb-[10px] benefitHead text-white">
-              Get set for career interviews
+              Ready for interviews
             </h1>
             <p className="xl:mb-[20px] lg:mb-[20px] benefitPara px-[10px]  text-[#FFFFFFCC]">
               {course.interview}

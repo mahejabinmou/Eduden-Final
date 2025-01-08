@@ -462,7 +462,7 @@ const filterCourse = [
 
     category: "Data Science and AI",
     price: "$120",
-    title: "Data Science and Machine Learning",
+    title: " Data Science and Machine Learning Course",
     rating: 5,
     image: "assets/images/course-cat-4.jpg",
     hoverBgColor: "bg-green-500",
@@ -768,14 +768,16 @@ From writing your first “Hello, World!” to create small programs that can ac
       {
         title4: "12 Projects",
         overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
-        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 12 projects planned for completion in the course.`,
+        description4: `Positions in Ethical Hacking and Penetration Testing are in high demand as cybersecurity becomes a critical focus for businesses worldwide. Roles like Penetration Tester, Security Analyst, or Ethical Hacker offer exciting opportunities to safeguard digital infrastructures and protect sensitive data from cyber threats. This course will prepare you to confidently tackle technical interviews.
+`,
       },
     ],
     overView: `Participants will master the art of securing systems by thinking like a hacker. They’ll learn how to identify vulnerabilities, test defenses, and protect networks from cyber threats. From reconnaissance and vulnerability scanning to exploitation and reporting, this will cover every phase of ethical hacking. Using industry-standard tools and real-world scenarios, participants will master the skills needed to safeguard digital environments and stay one step ahead of cybercriminals. 
 `,
     para: `Ever wanted to legally hack into something and get praised for it? Well, you're in the right place! This course is your backstage pass to the world of ethical hacking—think of it as "Good Guy Hacking: 101."
 We’ll teach you how to outsmart the cyber villains, uncover vulnerabilities, and turn weaknesses into strengths. Along the way, become the person companies call when they want their digital doors checked for cracks. Because let’s face it—someone’s needed to keep the internet safe. 
-Ready to hack the system (ethically, of course)!`,
+Ready to hack the system (ethically, of course)!
+`,
 
     category: "Ethical Hacking",
     price: "$120",
@@ -885,7 +887,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
     Access:
       "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
     interview:
-      "Positions in Web Development are in high demand as businesses expand their online presence.Roles such as Front-end Developer, Back-end Developer, Full-stack Developer are offered by various companies.This course will equip you with the skills needed to excel in technical interviews and contribute to innovative projects in the fast-paced tech industry. ",
+      "Positions in Web Development are now in high demand globally . Roles such as Front-end Developer, Back-end Developer, Full-stack Developer, and Web Development Specialist are actively sought by companies across various industries. Mastering web development concepts will give you the confidence and skills to excel in technical interviews.",
 
     curriculum: [
       { cid: 1, c: "Introduction to Web Development" },
@@ -928,8 +930,9 @@ we're your one-stop destination for unlocking your potential and conquering the 
         description3:
           "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
       },
+
       {
-        title4: "6 Projects",
+        title4: "9 Projects",
         overView4: `We embraced a project-centric learning methodology for the duration of the course. There are 6 projects planned for completion in the course.`,
         description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
       },
@@ -956,59 +959,67 @@ we're your one-stop destination for unlocking your potential and conquering the 
   },
   {
     id: 8,
-    lecture: "48",
-    duration: "6 month",
+    lecture: "36",
+    duration: "3 months",
+    projects: "9",
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
       "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
     interview:
-      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+      "DevOps professionals are in high demand globally, with roles like DevOps Engineer and Automation Specialist highly sought after. This course prepares you to excel in interviews, automate deployment pipelines, and master CI/CD practices.",
+
     curriculum: [
-      { cid: 1, c: "Foundations & Introduction of Data Science" },
-      { cid: 2, c: "Data Wrangling & Cleaning" },
-      { cid: 3, c: "Statistics for Data Science" },
-      { cid: 4, c: "Data Visualization" },
-      { cid: 5, c: " Introduction to Machine Learning" },
-      { cid: 6, c: " Supervised Learning - Regression" },
-      { cid: 7, c: "Supervised Learning - Classification" },
-      { cid: 8, c: "Unsupervised Learning" },
-      { cid: 9, c: "Neural Networks & Deep Learning" },
-      { cid: 10, c: "Neural Networks & Deep Learning" },
-      { cid: 11, c: "Natural Language Processing (NLP)" },
-      { cid: 12, c: "Big Data and Tools" },
-      { cid: 13, c: "Python" },
-      { cid: 14, c: "SQL" },
-      { cid: 15, c: "Google Colab" },
-      { cid: 16, c: "Microsoft Azure ML Studio" },
+      { cid: 1, c: "Introduction to DevOps" },
+      { cid: 2, c: "Version Control Systems" },
+      { cid: 3, c: "Introduction to Continuous Integration (CI)" },
+      { cid: 4, c: "Basic Scripting and Automation" },
+      { cid: 5, c: "Jenkins - Continuous Integration Tool" },
+      { cid: 6, c: "Continuous Delivery & Continuous Deployment (CD)" },
+      { cid: 7, c: "Configuration Management Tools" },
+      { cid: 8, c: "Docker - Containerization for DevOps" },
+      {
+        cid: 9,
+        c: "Orchestration with KubernetesInfrastructure as Code (IaC)",
+      },
+      { cid: 10, c: "Monitoring and Logging in DevOps" },
+      { cid: 11, c: "Security in DevOps (DevSecOps)" },
+      { cid: 12, c: "Git" },
+      { cid: 13, c: "Jenkins" },
+      { cid: 14, c: "Docker" },
     ],
     features: [
       {
-        title: "12 Assignments",
-        overView:
+        title1: "25 Assignments",
+        overView1:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-        description:
+        description1:
           "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
       },
       {
-        title: "30+ Quizzes",
-        overView:
+        title2: "30+ Quizzes",
+        overView2:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-        description:
+        description2:
           "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
       },
       {
-        title: "Live sessions",
-        overView:
+        title3: "Live sessions",
+        overView3:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-        description:
+        description3:
           "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
+      },
+      {
+        title4: "9 Projects",
+        overView4: `We embraced a project-centric learning methodology for the duration of the course. There are 6 projects planned for completion in the course.`,
+        description4: `DevOps professionals are in demand worldwide! This course equips you with the skills to ace DevOps interviews, automate deployment pipelines, and master CI/CD practices. Ready to excel?`,
       },
     ],
     overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    projects: "20",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+      "Ready to revolutionize the way you develop and deploy software? Dive into the world of DevOps and Continuous Integration, where automation meets innovation. Say goodbye to manual deployment headaches and hello to faster, seamless releases. Get hands-on with the tools that power modern software—because in DevOps, speed and reliability are everything!",
+
+    para: "Welcome to the world of DevOps. In this course, you’ll learn how to build, test, and deploy software faster and more reliably with Continuous Integration (CI) and Continuous Delivery (CD).Get ready to embrace the DevOps mindset and stop worrying about broken builds, deployment disasters, and downtime.",
 
     category: "Programming",
     price: "$120",
