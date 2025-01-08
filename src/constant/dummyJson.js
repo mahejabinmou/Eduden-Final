@@ -467,7 +467,7 @@ const filterCourse = [
     image: "assets/images/course-cat-4.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow!...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -545,7 +545,7 @@ But this isn’t just another boring lecture series. Expect interactive activiti
     image: "assets/images/course-cat-2.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Discover how to blend shapes, colors, and typography into designs that not only look good but also communicate effectively...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -626,7 +626,7 @@ From writing your first “Hello, World!” to create small programs that can ac
     image: "assets/images/course-cat-3.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Embark on a comprehensive React journey with our Python Programming Course, where coding becomes as intuitive as slicing through butter! This beginner-friendly course will introduce...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -704,7 +704,7 @@ From writing your first “Hello, World!” to create small programs that can ac
     image: "assets/images/course-cat-1.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -786,7 +786,7 @@ Ready to hack the system (ethically, of course)!
     image: "assets/images/course-cat-5.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Ever wanted to legally hack into something and get praised for it? Well, you're in the right place! This course is your backstage pass to the world of ethical hacking—think of it as Good Guy Hacking: 101...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -866,7 +866,7 @@ From setting up your first network to troubleshooting like a pro, we'll cover th
     image: "assets/images/course-cat-6.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Welcome to the world of networks, where routers and switches aren't just gadgets they're the backbone of the digital universe! In this fun and interactive CCNA course, you'll learn how to...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -948,7 +948,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
     image: "assets/images/course-cat-7.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Ready to turn your wild ideas into reality? Learn how to build stunning websites and unleash your inner tech genius. Whether you’re a complete newbie or you just want to level up, this...",
     details: {
       students: 29,
       duration: "12.5 hours",
@@ -1028,7 +1028,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
     image: "assets/images/course-cat-8.jpg",
     hoverBgColor: "bg-green-500",
     description:
-      "We're your one-stop destination for unlocking your potential and conquering the digital.",
+      "Welcome to the world of DevOps. In this course, you’ll learn how to build, test, and deploy software faster and more reliably with Continuous Integration (CI) and Continuous Delivery (CD)...",
     details: {
       students: 29,
       duration: "6.5 hours",
