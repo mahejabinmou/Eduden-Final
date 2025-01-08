@@ -479,43 +479,42 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 2,
-    lecture: "38",
-    duration: "4 month",
-    projects: "18",
+    lecture: "36",
+    duration: "3 month",
+    projects: "9",
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
       "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
     interview:
-      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+      "Graphic Design professionals are in high demand across industries as brands prioritize visual storytelling and digital presence. Roles such as Graphic Designer, Brand Designer, and Visual Content Creator are actively sought after by companies worldwide. This course equips you with the creative and technical skills to excel in design interviews, build an impressive portfolio, and contribute to impactful projects in the dynamic world of design.",
     curriculum: [
-      { cid: 1, c: "Foundations & Introduction of Data Science" },
-      { cid: 2, c: "Data Wrangling & Cleaning" },
-      { cid: 3, c: "Statistics for Data Science" },
-      { cid: 4, c: "Data Visualization" },
-      { cid: 5, c: " Introduction to Machine Learning" },
-      { cid: 6, c: " Supervised Learning - Regression" },
-      { cid: 7, c: "Supervised Learning - Classification" },
-      { cid: 8, c: "Unsupervised Learning" },
-      { cid: 9, c: "Neural Networks & Deep Learning" },
-      { cid: 10, c: "Neural Networks & Deep Learning" },
-      { cid: 11, c: "Natural Language Processing (NLP)" },
-      { cid: 12, c: "Big Data and Tools" },
-      { cid: 13, c: "Python" },
-      { cid: 14, c: "SQL" },
-      { cid: 15, c: "Google Colab" },
-      { cid: 16, c: "Microsoft Azure ML Studio" },
+      { cid: 1, c: "Introduction to Graphic Design" },
+      { cid: 2, c: "Principles of Design" },
+      { cid: 3, c: "Exploring Typography" },
+      { cid: 4, c: "Understanding Color Theory" },
+      { cid: 5, c: "Layout and Composition" },
+      { cid: 6, c: "Branding Essentials" },
+      { cid: 7, c: "Introduction to Digital Illustration" },
+      { cid: 8, c: "Social Media Graphics" },
+      { cid: 9, c: "Packaging Design" },
+      { cid: 10, c: "Web and Mobile Design" },
+      { cid: 11, c: "Capstone Project Guidance" },
+      { cid: 12, c: "Presentation and Portfolio Building" },
+      { cid: 13, c: "Adobe Photoshop" },
+      { cid: 14, c: "Adobe Illustrator" },
+      { cid: 15, c: "Pexels" },
     ],
     features: [
       {
-        title1: "12 Assignments",
+        title1: "25 Assignments",
         overView1:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
         description1:
           "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
       },
       {
-        title2: "30+ Quizzes",
+        title2: "40+ Quizzes",
         overView2:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
         description2:
@@ -536,11 +535,12 @@ we're your one-stop destination for unlocking your potential and conquering the 
     ],
     overView:
       "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+    para: `Discover how to blend shapes, colors, and typography into designs that not only look good but also communicate effectively. Don't worry about starting from scratch—this course is tailored for beginners, so no previous experience is needed.
+But this isn’t just another boring lecture series. Expect interactive activities, creative challenges, and even a few design "myths" busted along the way. ( As it says: You don’t need to be an artist to be a great designer! ) Get ready to shape the future—one design at a time. `,
 
     category: "Graphics Design",
     price: "$120",
-    title: "Introduce About Graphic Design for Beginners",
+    title: "Graphic Design Essentials: An Introductory Course",
     rating: 5,
     image: "assets/images/course-cat-2.jpg",
     hoverBgColor: "bg-green-500",
@@ -557,9 +557,9 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 3,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
+    lecture: "36",
+    duration: "3 months",
+    projects: "6",
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
@@ -567,35 +567,37 @@ we're your one-stop destination for unlocking your potential and conquering the 
     interview:
       "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
     curriculum: [
-      { cid: 1, c: "Foundations & Introduction of Data Science" },
-      { cid: 2, c: "Data Wrangling & Cleaning" },
-      { cid: 3, c: "Statistics for Data Science" },
-      { cid: 4, c: "Data Visualization" },
-      { cid: 5, c: " Introduction to Machine Learning" },
-      { cid: 6, c: " Supervised Learning - Regression" },
-      { cid: 7, c: "Supervised Learning - Classification" },
-      { cid: 8, c: "Unsupervised Learning" },
-      { cid: 9, c: "Neural Networks & Deep Learning" },
-      { cid: 10, c: "Neural Networks & Deep Learning" },
-      { cid: 11, c: "Natural Language Processing (NLP)" },
-      { cid: 12, c: "Big Data and Tools" },
-      { cid: 13, c: "Python" },
-      { cid: 14, c: "SQL" },
-      { cid: 15, c: "Google Colab" },
-      { cid: 16, c: "Microsoft Azure ML Studio" },
+      { cid: 1, c: "Python Basics" },
+      { cid: 2, c: "Data Types and Variables" },
+      { cid: 3, c: "Control Flow" },
+      { cid: 4, c: "Functions and Modules" },
+      { cid: 5, c: "Working with Files" },
+      { cid: 6, c: "Error Handling" },
+      { cid: 7, c: "Data Structures" },
+      { cid: 8, c: "Python Libraries Introduction" },
+      { cid: 9, c: "Object-Oriented Programming (OOP)" },
+      { cid: 10, c: "Introduction to APIs" },
+      { cid: 11, c: "Final Project Preparation" },
+      { cid: 12, c: "Capstone Project Presentation" },
+      { cid: 13, c: "Jupyter Notebook" },
+      { cid: 14, c: "VS Code" },
+      { cid: 15, c: "NumPy" },
+      { cid: 16, c: "Matplotlib" },
+      { cid: 17, c: "Pandas" },
     ],
+
     features: [
       {
-        title1: "12 Assignments",
+        title1: "25 Assignments",
         overView1:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
         description1:
           "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
       },
       {
-        title2: "30+ Quizzes",
+        title2: "40+ Quizzes",
         overView2:
-          "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+          "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
         description2:
           "At the end of each video, quizzes with answers and explanations are available, letting you monitor your learning progress.",
       },
@@ -607,14 +609,15 @@ we're your one-stop destination for unlocking your potential and conquering the 
           "Live meetings are scheduled weekly, engaging in crucial assignment discussions, allowing you to inquire about different topics directly.",
       },
       {
-        title4: "9 Projects",
+        title4: "6 Projects",
         overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
-        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
+        description4: `We embraced a project-centric learning methodology for the duration of the course. There are 6 projects planned for completion in the course.`,
       },
     ],
     overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+      "Unleash your inner coder with our Introduction to Python Programming course! Learn the art of turning ideas into working code with a language that’s as versatile as it is beginner-friendly. From writing your first line of Python to automating tasks and solving real-world problems, this course covers it all. ",
+    para: `Embark on a comprehensive React journey with our Python Programming Course, where coding becomes as intuitive as slicing through butter! This beginner-friendly course will introduce you to the magic of programming with Python, a language loved by techies and meme-makers alike.
+From writing your first “Hello, World!” to create small programs that can actually do something, we’ll guide you every step of the way. By the end of this course, you’ll have the skills to solve real-world problems with Python and the confidence. `,
 
     category: "Programming",
     price: "$120",
@@ -793,43 +796,42 @@ we're your one-stop destination for unlocking your potential and conquering the 
 
   {
     id: 6,
-    lecture: "48",
-    duration: "6 month",
-    projects: "20",
+    lecture: "36",
+    duration: "3 month",
+    projects: "9",
     Certificate:
       "Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.",
     Access:
       "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
     interview:
-      "Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer, Data Science Consultant, Robotics Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease, positioning you as a strong contender for these coveted roles!",
+      "Network Administrators are in high demand! This CCNA course prepares you to excel in roles like Network Engineer and IT Support Specialist. Ready to be the expert every company needs? Let’s dive in!",
     curriculum: [
-      { cid: 1, c: "Foundations & Introduction of Data Science" },
-      { cid: 2, c: "Data Wrangling & Cleaning" },
-      { cid: 3, c: "Statistics for Data Science" },
-      { cid: 4, c: "Data Visualization" },
-      { cid: 5, c: " Introduction to Machine Learning" },
-      { cid: 6, c: " Supervised Learning - Regression" },
-      { cid: 7, c: "Supervised Learning - Classification" },
-      { cid: 8, c: "Unsupervised Learning" },
-      { cid: 9, c: "Neural Networks & Deep Learning" },
-      { cid: 10, c: "Neural Networks & Deep Learning" },
-      { cid: 11, c: "Natural Language Processing (NLP)" },
-      { cid: 12, c: "Big Data and Tools" },
-      { cid: 13, c: "Python" },
-      { cid: 14, c: "SQL" },
-      { cid: 15, c: "Google Colab" },
-      { cid: 16, c: "Microsoft Azure ML Studio" },
+      { cid: 1, c: "Introduction to Networking" },
+      { cid: 2, c: "IP Addressing" },
+      { cid: 3, c: "Routing Basics" },
+      { cid: 4, c: "Switching Concepts" },
+      { cid: 5, c: "Routing Protocols Deep Dive" },
+      { cid: 6, c: "Network Security" },
+      { cid: 7, c: "Wireless Networking" },
+      { cid: 8, c: "Troubleshooting Basics" },
+      { cid: 9, c: "Advanced Routing and Switching" },
+      { cid: 10, c: "Network Automation" },
+      { cid: 11, c: "Real-World Network Scenarios" },
+      { cid: 12, c: "Final Project and Exam Preparation" },
+      { cid: 13, c: "Cisco Packet Tracer" },
+      { cid: 14, c: "GNS3" },
+      { cid: 15, c: "Wireshark" },
     ],
     features: [
       {
-        title1: "12 Assignments",
+        title1: "25 Assignments",
         overView1:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
         description1:
           "Assignment solutions will be posted on GitHub or Slack after the course for self-practice.",
       },
       {
-        title2: "30+ Quizzes",
+        title2: "40+ Quizzes",
         overView2:
           "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
         description2:
@@ -848,9 +850,12 @@ we're your one-stop destination for unlocking your potential and conquering the 
         description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
       },
     ],
-    overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
-    para: "Embark on a comprehensive React journey with our React Front To Back course. Designed for beginners and seasoned developers alike, this course covers the fundamentals and dives deep into advanced topics. From building interactive user interfaces to managing state and integrating with APIs, you’ll gain hands-on experience. Elevate your React skills and stay at the forefront of web development trends with this immersive and practical learning experience.",
+    overView: `Step into the world of networks. In this course, you’ll learn how to connect the dots or more accurately, the routers and switches! We’ll take you from zero to network hero, teaching you how to set up and manage networks like a pro.
+You’ll master the basics of IP addressing, configure routers, troubleshoot network issues, and even secure your network from the digital bad guys.Think of it as your backstage pass to the tech world where Wi-Fi issues are no longer your problem, but your solutions!
+`,
+    para: `Welcome to the world of networks, where routers and switches aren't just gadgets they're the backbone of the digital universe! In this fun and interactive CCNA course, you'll learn how to connect, secure, and manage networks, turning you into the go-to tech hero for any connectivity problem.
+From setting up your first network to troubleshooting like a pro, we'll cover the essentials of IP addressing, routing, switching, and network security without the jargon overload. Ready to build networks that work and stop that endless buffering? Let’s get started!
+`,
 
     category: "Cyber Security",
     price: "$120",
@@ -900,6 +905,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
       // { cid: 15, c: "Google Colab" },
       // { cid: 16, c: "Microsoft Azure ML Studio" },
     ],
+
     features: [
       {
         title1: "25 Assignments",
