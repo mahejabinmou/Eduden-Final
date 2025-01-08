@@ -143,7 +143,7 @@ const CurriculumTest = ({ course }) => {
       <div className="text-center mt-[76px]">
         <button
           onClick={handleToggleView}
-          className="border border-[#00A4FF] text-[12px] leading-[18px] font-medium font-lexend text-[#00A4FF] hover:bg-[#00A4FF] hover:text-black transition-all duration-300 px-[46px] py-[16px] rounded-[50px]"
+          className="border border-[#00A4FF] text-[14px] leading-[18px] font-medium font-lexend text-[#00A4FF] hover:bg-[#00A4FF] hover:text-black transition-all duration-300 px-[46px] py-[16px] rounded-[50px]"
         >
           {itemsToShow === 8 ? "View All" : "View Less"}
         </button>

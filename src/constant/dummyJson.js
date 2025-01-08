@@ -768,7 +768,7 @@ From writing your first “Hello, World!” to create small programs that can ac
       {
         title4: "12 Projects",
         overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
-        description4: `Positions in Ethical Hacking and Penetration Testing are in high demand as cybersecurity becomes a critical focus for businesses worldwide. Roles like Penetration Tester, Security Analyst, or Ethical Hacker offer exciting opportunities to safeguard digital infrastructures and protect sensitive data from cyber threats. This course will prepare you to confidently tackle technical interviews.
+        description4: `Positions in Ethical Hacking and Penetration Testing are in high demand  Roles like Penetration Tester, Security Analyst, or Ethical Hacker offer exciting opportunities to safeguard digital infrastructures and protect sensitive data from cyber threats. This course will prepare you to confidently tackle technical interviews.
 `,
       },
     ],
