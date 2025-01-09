@@ -23,33 +23,6 @@ const UpcominEvents = () => {
       </div>
 
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-[40px]">
-        {/* <div className="rounded-[20px]  relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/mFRHnyq/group-1090-66f4d156025ce.webp"
-            alt=""
-          />
-          <div className="absolute  inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px]">
-              Artificial Intelligence Bootcamp
-            </h1>
-            <p className="upcomingPara  mb-[40px]  lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="rounded-[20px]  relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
             className="w-full h-full object-cover transition-all duration-500 group-hover:opacity-15"
@@ -61,10 +34,10 @@ const UpcominEvents = () => {
               Artificial Intelligence Bootcamp
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              Join our hands-on offline workshop to master AI concepts and
+              applications.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -73,36 +46,10 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+            <h1 className="comingSoon  pb-5">Coming Soon...</h1>
           </div>
         </div>
-
-        {/* <div className="rounded-[20px] relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/LkMLg9K/group-1076-66f4dbcb585e8.webp"
-            alt=""
-          />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px] ">
-              Cybersecurity Mastery Bootcamp
-            </h1>
-            <p className="upcomingPara  mb-[40px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
@@ -115,10 +62,9 @@ const UpcominEvents = () => {
               Cybersecurity Mastery Bootcamp
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              A workshop to secure your digital future with expert guidance.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -127,36 +73,11 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+
+            <h1 className="comingSoon  pb-5">Coming Soon...</h1>
           </div>
         </div>
-
-        {/* <div className="rounded-[20px] relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/B4yPcfy/group-1022-66f4dc175bd81.webp"
-            alt=""
-          />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px] ">
-              Android App Development Bootcamp
-            </h1>
-            <p className="upcomingPara  mb-[40px]  lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
@@ -166,13 +87,13 @@ const UpcominEvents = () => {
           />
           <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
             <h1 className="upcomingHead mb-[15px] lg:px-[50px] px-[20px]">
-              Android App Development Bootcamp
+              Android App Development workshop
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              Take part in our offline App Development workshop and build your
+              own apps from scratch.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -181,36 +102,11 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+
+            <h1 className="comingSoon  pb-5">Coming Soon...</h1>
           </div>
         </div>
-
-        {/* <div className="rounded-[20px] relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/9yFZVD7/group-1080-66f4dcb0195fe.webp"
-            alt=""
-          />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px] ">
-              Database Management
-            </h1>
-            <p className="upcomingPara  mb-[40px]  lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
@@ -223,10 +119,9 @@ const UpcominEvents = () => {
               Database Management
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              Gain hands-on experience in organizing and securing data.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -235,36 +130,11 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+
+            <h1 className="comingSoon  pb-5">Coming Soon...</h1>
           </div>
         </div>
-
-        {/* <div className="rounded-[20px] relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/h91cb8f/group-1024-66f4dd09bcd8c.webp"
-            alt=""
-          />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px] ">
-              Database Management
-            </h1>
-            <p className="upcomingPara  mb-[40px]  lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
@@ -277,10 +147,10 @@ const UpcominEvents = () => {
               Graphic Design
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              Unleash your creativity and learn to create stunning visual
+              content.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -289,36 +159,10 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+            <h1 className="comingSoon pb-5">Coming Soon...</h1>
           </div>
         </div>
-
-        {/* <div className="rounded-[20px] relative w-full h-[513px]  overflow-hidden shadow-lg">
-          <img
-            className="w-full h-full object-cover "
-            src="https://i.ibb.co.com/X5w4s1R/group-1078-66f4dd5a506eb.webp"
-            alt=""
-          />
-          <div className="absolute inset-0 top-[277px] flex flex-col justify-center items-center text-center ">
-            <h1 className="upcomingHead  mb-[15px]  lg:px-[50px] px-[20px] ">
-              Database Management
-            </h1>
-            <p className="upcomingPara  mb-[40px]  lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
-            </p>
-            <div className="flex flex-row items-center gap-x-[42px]">
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <FaRegClock size={14} />{" "}
-                <span className="upcomingEvent">1hr, 24m</span>
-              </div>
-              <div className="flex flex-row items-center gap-x-[5px]">
-                <SlCalender size={14} />{" "}
-                <span className="upcomingEvent">jun 12, 2024</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="rounded-[20px] relative w-full h-[515px] overflow-hidden shadow-md group">
           <img
@@ -331,10 +175,10 @@ const UpcominEvents = () => {
               UI/UX Design
             </h1>
             <p className="upcomingPara mb-[20px] lg:px-[50px] px-[20px]">
-              Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-              iaculis inceptos ullamcorper habitasse
+              Enhance your design skills and learn to create user-friendly,
+              impactful interfaces.
             </p>
-            <div className="flex flex-row items-center gap-x-[42px] pb-5">
+            {/* <div className="flex flex-row items-center gap-x-[42px] pb-5">
               <div className="flex flex-row items-center gap-x-[5px]">
                 <FaRegClock size={14} />{" "}
                 <span className="upcomingEvent">1hr, 24m</span>
@@ -343,7 +187,8 @@ const UpcominEvents = () => {
                 <SlCalender size={14} />{" "}
                 <span className="upcomingEvent">jun 12, 2024</span>
               </div>
-            </div>
+            </div> */}
+            <h1 className="comingSoon pb-5">Coming Soon...</h1>
           </div>
         </div>
       </div>

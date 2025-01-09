@@ -472,8 +472,7 @@ const filterCourse = [
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-  we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Welcome to the Data Science course—where numbers are your new best friends, and you'll be turning data into wow! Ever wonder how Netflix knows exactly what you want to watch next? Or how your email filters out those very important spam messages? It’s all thanks to data science! In this course, we’ll teach you how to wrangle data like a pro, predict the future like a fortune teller, and make decisions based on solid facts (no magic ball needed!). So grab your laptop, get ready to crack some codes, and let’s make data your superpower by analyzing data, building predictive models, and extracting valuable insights—because who says learning can’t be fun?`,
     img: upCmnPic2,
   },
 
@@ -550,8 +549,8 @@ But this isn’t just another boring lecture series. Expect interactive activiti
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Discover how to blend shapes, colors, and typography into designs that not only look good but also communicate effectively. Don't worry about starting from scratch—this course is tailored for beginners, so no previous experience is needed.
+But this isn’t just another boring lecture series. Expect interactive activities, creative challenges, and even a few design "myths" busted along the way. ( As it says: You don’t need to be an artist to be a great designer! ) Get ready to shape the future—one design at a time. `,
     img: upCmnPic1,
   },
 
@@ -631,8 +630,8 @@ From writing your first “Hello, World!” to create small programs that can ac
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-  we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Embark on a comprehensive React journey with our Python Programming Course, where coding becomes as intuitive as slicing through butter! This beginner-friendly course will introduce you to the magic of programming with Python, a language loved by techies and meme-makers alike.
+From writing your first “Hello, World!” to create small programs that can actually do something, we’ll guide you every step of the way. By the end of this course, you’ll have the skills to solve real-world problems with Python and the confidence. `,
     img: upCmnPic2,
   },
 
@@ -709,8 +708,7 @@ From writing your first “Hello, World!” to create small programs that can ac
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-    we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Welcome to the UI/UX Design for Web course, where we turn confusing websites into smooth, user-friendly experiences! Ever been on a site so confusing you felt like you needed a GPS to find the Contact Us button? Well, we’re here to fix that! In this course, you’ll learn to design websites that not only look awesome but are also easy to navigate. So, buckle up and let's create some web magic!`,
     img: upCmnPic1,
   },
 
@@ -791,8 +789,9 @@ Ready to hack the system (ethically, of course)!
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Ever wanted to legally hack into something and get praised for it? Well, you're in the right place! This course is your backstage pass to the world of ethical hacking—think of it as "Good Guy Hacking: 101."
+We’ll teach you how to outsmart the cyber villains, uncover vulnerabilities, and turn weaknesses into strengths. Along the way, become the person companies call when they want their digital doors checked for cracks. Because let’s face it—someone’s needed to keep the internet safe. 
+Ready to hack the system (ethically, of course)!`,
     img: upCmnPic1,
   },
 
@@ -871,8 +870,8 @@ From setting up your first network to troubleshooting like a pro, we'll cover th
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Welcome to the world of networks, where routers and switches aren't just gadgets they're the backbone of the digital universe! In this fun and interactive CCNA course, you'll learn how to connect, secure, and manage networks, turning you into the go-to tech hero for any connectivity problem.
+From setting up your first network to troubleshooting like a pro, we'll cover the essentials of IP addressing, routing, switching, and network security without the jargon overload. Ready to build networks that work and stop that endless buffering? Let’s get started!`,
     img: upCmnPic1,
   },
 
@@ -953,8 +952,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
       students: 29,
       duration: "12.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Ready to turn your wild ideas into reality? Learn how to build stunning websites and unleash your inner tech genius. Whether you’re a complete newbie or you just want to level up, this course will teach you how to transform blank screens into beautiful, functional webpages. Let’s figure out how we can make the web a little cooler—one pixel at a time. Get ready to click, code, and conquer!`,
     img: upCmnPic2,
   },
   {
@@ -1033,8 +1031,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
       students: 29,
       duration: "6.5 hours",
     },
-    crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+    crsDetails: `Welcome to the world of DevOps. In this course, you’ll learn how to build, test, and deploy software faster and more reliably with Continuous Integration (CI) and Continuous Delivery (CD).Get ready to embrace the DevOps mindset and stop worrying about broken builds, deployment disasters, and downtime.`,
     img: upCmnPic3,
     button: {
       text: "Enroll Now",

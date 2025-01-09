@@ -1,4 +1,3 @@
-import { CiLocationOn } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Balance = () => {
@@ -15,14 +14,14 @@ const Balance = () => {
       <div className="text-[#FFFFFF] ">
         <h1 className="pb-[20px]  popularCategoryHead ">Our Brance</h1>
         <p className="pb-[40px] joinClanSubPara font-lexend">
-          Lorem ipsum dolor sit amet consectetur. Vel amet arcu ac risus eu
-          dignissim mattis ut est. Amet amet eu turpis cras lacus. Tortor id
-          consectetur ut odio ut congue posuere nulla. Sodales blandit sodales
-          neque suscipit.
+          Our branches are dedicated to providing top-quality education and
+          support to learners everywhere. At edu Den, we combine advanced
+          technology with expert instructors, affordable pricing, and a
+          commitment to innovation ensuring students to achieve their goals.
         </p>
         <div className="flex items-start  gap-[22px] pb-[40px]">
-          <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
-            <FaLocationDot className="text-[#00A4FF] h-[28px] w-[22px] " />
+          <div className="2xl:w-[60px] 2xl:h-[60px] xl:w-[60px] xl:h-[60px] lg:w-[85px] lg:h-[65px] md:w-[60px] md:h-[60px] sm:w-[60px] sm:h-[60px] ts:w-[60px] ts:h-[40px] w-[60px] h-[40px] flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
+            <FaLocationDot className="text-[#00A4FF] h-[18px] w-[18px] md:h-[28px] md:w-[22px] " />
           </div>
 
           <div>
@@ -35,8 +34,8 @@ const Balance = () => {
           </div>
         </div>
         <div className="flex items-start  gap-[22px] pb-[40px]">
-          <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
-            <FaLocationDot className="text-[#00A4FF] h-[28px] w-[22px] " />
+          <div className="2xl:w-[60px] 2xl:h-[60px] xl:w-[90px] xl:h-[60px] lg:w-[120px] lg:h-[65px] md:w-[60px] md:h-[60px] sm:w-[60px] sm:h-[60px]  w-[90px] h-[40px]   flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
+            <FaLocationDot className="text-[#00A4FF] h-[18px] w-[18px] md:h-[28px] md:w-[22px] " />
           </div>
 
           <div>
@@ -44,13 +43,14 @@ const Balance = () => {
               India
             </h1>
             <p className="joinClanSubPara font-lexend">
-              4/4E, Club Town Complex, Kolkata
+              Astra Towers, ANO - 312, Newtown, Kolkata, West Bengal 700135,
+              India
             </p>
           </div>
         </div>
         <div className="flex items-start  gap-[22px] pb-[40px]">
-          <div className="w-[60px] h-[60px] flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
-            <FaLocationDot className="text-[#00A4FF] h-[28px] w-[22px] " />
+          <div className="2xl:w-[60px] 2xl:h-[60px] xl:w-[85px] xl:h-[60px] lg:w-[115px] lg:h-[65px] md:w-[60px] md:h-[60px] sm:w-[60px] sm:h-[60px] w-[80px] h-[40px] flex justify-center items-center bg-[#FFFFFF] rounded-[36px]">
+            <FaLocationDot className="text-[#00A4FF] h-[18px] w-[18px] md:h-[28px] md:w-[22px] " />
           </div>
 
           <div>
@@ -58,7 +58,7 @@ const Balance = () => {
               Bangladesh
             </h1>
             <p className="joinClanSubPara font-lexend">
-              4/4E, Club Town Complex,Mohammadpr
+              24/A , Road Number 6, Nabinagar Housing, Mohammadpur, Dhaka
             </p>
           </div>
         </div>

@@ -415,6 +415,10 @@ text-[10px] leading-[15px]
     @apply text-[14px] leading-[21px] 
     font-gucina font-normal;
   }
+  .comingSoon {
+    @apply text-[20px] leading-[21px] 
+    font-gucina font-normal;
+  }
 
   .upcomingTitle {
     @apply 2xl:text-[70px] 2xl:leading-[80px]
