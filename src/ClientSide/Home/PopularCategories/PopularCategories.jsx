@@ -87,8 +87,8 @@ const PopularCategories = () => {
             Data Science and AI
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Learn how to harness data to make smarter choices, uncover patterns,
+            and build intelligent systems that evolve.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -124,8 +124,8 @@ const PopularCategories = () => {
             Cyber Security
           </h1>
           <p className="xl:mb-[50px]  lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Master the basics of IP addressing, configure routers, troubleshoot
+            network issues, and even secure your network.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -171,8 +171,8 @@ const PopularCategories = () => {
             UI/UX Design
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Learn how to design intuitive interfaces, and apply best practices
+            in layout, navigation and accessibility.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -225,8 +225,8 @@ const PopularCategories = () => {
             Web Development
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            From building user friendly interfaces to creating powerful backend
+            systems, learn along with this course.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -303,8 +303,8 @@ const PopularCategories = () => {
             Graphic Design
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            learn the core principles of design, the secrets behind stunning
+            visuals, and the tools that turn ideas into masterpieces.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -357,8 +357,8 @@ const PopularCategories = () => {
             Mobile App Development
           </h1>
           <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Build, test, and deploy software faster and more reliably with
+            Continuous Integration (CI) and Continuous Delivery (CD)
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -423,8 +423,8 @@ const PopularCategories = () => {
             Programming Languages
           </h1>
           <p className="xl:mb-[50px] lg:[20px] joinClanSubPara px-[10px] group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            Learn the basics of Python, including understanding Python syntax,
+            working with data structures and building applications.
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
@@ -451,83 +451,6 @@ const PopularCategories = () => {
             }}
           />
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center z-10">
-            {/* <svg
-              className="w-[30px] h-[30px] group-hover:text-white text-[#000000]"
-              width="47"
-              height="46"
-              viewBox="0 0 47 46"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M43.8131 30.8362H4.49838C0.434791 30.8362 0 28.679 0 27.7593V17.107C0 15.6354 1.20401 14.4314 2.6756 14.4314H44.2312C45.7028 14.4314 46.9068 15.6354 46.9068 17.107V27.7593C46.9068 29.4483 45.5188 30.8362 43.8298 30.8362H43.8131ZM2.6756 16.4381C2.3077 16.4381 2.0067 16.7391 2.0067 17.107V27.7593C2.0067 28.6958 3.56191 28.8295 4.49838 28.8295H43.8131C44.3984 28.8295 44.8834 28.3446 44.8834 27.7593V17.107C44.8834 16.7391 44.5824 16.4381 44.2145 16.4381H2.65888H2.6756Z"
-                fill="currentColor"
-              />
-              <path
-                d="M44.8834 16.4383H2.0067C0.903014 16.4383 0 15.5353 0 14.4316V3.09366C0 2.50837 0.167224 1.92307 0.46823 1.43812C1.07024 0.535098 2.04015 0 3.07695 0H43.7964C45.5021 0 46.8901 1.38796 46.8901 3.09366V14.4316C46.8901 15.5353 45.9871 16.4383 44.8834 16.4383ZM3.07695 2.0067C2.70905 2.0067 2.37459 2.19065 2.1572 2.5251C2.05687 2.6756 2.0067 2.87627 2.0067 3.09366V14.4316H44.8834V3.09366C44.8834 2.49165 44.3984 2.0067 43.7964 2.0067H3.07695Z"
-                fill="currentColor"
-              />
-              <path
-                d="M8.47838 12.2744C6.271 12.2744 4.48169 10.4851 4.48169 8.2777C4.48169 6.07032 6.271 4.28101 8.47838 4.28101C10.6858 4.28101 12.4918 6.07032 12.4918 8.2777C12.4918 10.4851 10.7025 12.2744 8.47838 12.2744ZM8.47838 6.271C7.37469 6.271 6.48839 7.17401 6.48839 8.2777C6.48839 9.38139 7.39142 10.2677 8.47838 10.2677C9.56535 10.2677 10.4684 9.36467 10.4684 8.2777C10.4684 7.19073 9.56535 6.271 8.47838 6.271Z"
-                fill="currentColor"
-              />
-              <path
-                d="M8.47838 26.6389C6.271 26.6389 4.48169 24.8496 4.48169 22.6422C4.48169 20.4348 6.271 18.6455 8.47838 18.6455C10.6858 18.6455 12.4918 20.4348 12.4918 22.6422C12.4918 24.8496 10.7025 26.6389 8.47838 26.6389ZM8.47838 20.6355C7.37469 20.6355 6.48839 21.5385 6.48839 22.6255C6.48839 23.7125 7.39142 24.6322 8.47838 24.6322C9.56535 24.6322 10.4684 23.7292 10.4684 22.6255C10.4684 21.5218 9.56535 20.6355 8.47838 20.6355Z"
-                fill="currentColor"
-              />
-              <path
-                d="M27.1073 7.89297C27.4951 7.89297 27.8096 7.57852 27.8096 7.19063C27.8096 6.80273 27.4951 6.48828 27.1073 6.48828C26.7194 6.48828 26.4049 6.80273 26.4049 7.19063C26.4049 7.57852 26.7194 7.89297 27.1073 7.89297Z"
-                fill="currentColor"
-              />
-              <path
-                d="M30.1005 7.89297C30.4884 7.89297 30.8029 7.57852 30.8029 7.19063C30.8029 6.80273 30.4884 6.48828 30.1005 6.48828C29.7126 6.48828 29.3982 6.80273 29.3982 7.19063C29.3982 7.57852 29.7126 7.89297 30.1005 7.89297Z"
-                fill="currentColor"
-              />
-              <path
-                d="M33.0941 7.89297C33.482 7.89297 33.7964 7.57852 33.7964 7.19063C33.7964 6.80273 33.482 6.48828 33.0941 6.48828C32.7062 6.48828 32.3917 6.80273 32.3917 7.19063C32.3917 7.57852 32.7062 7.89297 33.0941 7.89297Z"
-                fill="currentColor"
-              />
-              <path
-                d="M36.0705 7.89297C36.4584 7.89297 36.7729 7.57852 36.7729 7.19063C36.7729 6.80273 36.4584 6.48828 36.0705 6.48828C35.6826 6.48828 35.3682 6.80273 35.3682 7.19063C35.3682 7.57852 35.6826 7.89297 36.0705 7.89297Z"
-                fill="currentColor"
-              />
-              <path
-                d="M39.0639 7.89297C39.4518 7.89297 39.7663 7.57852 39.7663 7.19063C39.7663 6.80273 39.4518 6.48828 39.0639 6.48828C38.676 6.48828 38.3616 6.80273 38.3616 7.19063C38.3616 7.57852 38.676 7.89297 39.0639 7.89297Z"
-                fill="currentColor"
-              />
-              <path
-                d="M28.5288 10.0334C28.9167 10.0334 29.2311 9.7189 29.2311 9.33101C29.2311 8.94311 28.9167 8.62866 28.5288 8.62866C28.1409 8.62866 27.8264 8.94311 27.8264 9.33101C27.8264 9.7189 28.1409 10.0334 28.5288 10.0334Z"
-                fill="currentColor"
-              />
-              <path
-                d="M31.5223 10.0334C31.9102 10.0334 32.2246 9.7189 32.2246 9.33101C32.2246 8.94311 31.9102 8.62866 31.5223 8.62866C31.1344 8.62866 30.82 8.94311 30.82 9.33101C30.82 9.7189 31.1344 10.0334 31.5223 10.0334Z"
-                fill="currentColor"
-              />
-              <path
-                d="M34.5157 10.0334C34.9036 10.0334 35.218 9.7189 35.218 9.33101C35.218 8.94311 34.9036 8.62866 34.5157 8.62866C34.1278 8.62866 33.8134 8.94311 33.8134 9.33101C33.8134 9.7189 34.1278 10.0334 34.5157 10.0334Z"
-                fill="currentColor"
-              />
-              <path
-                d="M37.5091 10.0334C37.897 10.0334 38.2115 9.7189 38.2115 9.33101C38.2115 8.94311 37.897 8.62866 37.5091 8.62866C37.1212 8.62866 36.8068 8.94311 36.8068 9.33101C36.8068 9.7189 37.1212 10.0334 37.5091 10.0334Z"
-                fill="currentColor"
-              />
-              <path
-                d="M40.5026 10.0334C40.8905 10.0334 41.2049 9.7189 41.2049 9.33101C41.2049 8.94311 40.8905 8.62866 40.5026 8.62866C40.1147 8.62866 39.8003 8.94311 39.8003 9.33101C39.8003 9.7189 40.1147 10.0334 40.5026 10.0334Z"
-                fill="currentColor"
-              />
-              <path
-                d="M32.0201 12.4422C32.408 12.4422 32.7224 12.1278 32.7224 11.7399C32.7224 11.352 32.408 11.0375 32.0201 11.0375C31.6322 11.0375 31.3177 11.352 31.3177 11.7399C31.3177 12.1278 31.6322 12.4422 32.0201 12.4422Z"
-                fill="currentColor"
-              />
-              <path
-                d="M35.0136 12.4422C35.4015 12.4422 35.7159 12.1278 35.7159 11.7399C35.7159 11.352 35.4015 11.0375 35.0136 11.0375C34.6257 11.0375 34.3112 11.352 34.3112 11.7399C34.3112 12.1278 34.6257 12.4422 35.0136 12.4422Z"
-                fill="currentColor"
-              />
-              <path
-                d="M38.0071 12.4422C38.395 12.4422 38.7094 12.1278 38.7094 11.7399C38.7094 11.352 38.395 11.0375 38.0071 11.0375C37.6192 11.0375 37.3047 11.352 37.3047 11.7399C37.3047 12.1278 37.6192 12.4422 38.0071 12.4422Z"
-                fill="currentColor"
-              />
-            </svg> */}
             <svg
               width="41"
               height="41"
@@ -562,8 +485,8 @@ const PopularCategories = () => {
             Database Management
           </h1>
           <p className="xl:mb-[50px] lg:mb-[20px]  joinClanSubPara px-[10px]  group-hover:text-white transition duration-1000 z-10">
-            Fermentum fusce himenaeos neque condimentum maecenas vitae congue
-            iaculis inceptos ullamcorper habitasse
+            The processes and technologies used to efficiently store, organize,
+            manage, and retrieve data in databases
           </p>
           <div className="w-14 h-12 2xl:w-20 xl:w-20 lg:w-20 md:w-14 mx-auto pt-[60px] md:pt-[40px] xl:pt-[0px] z-10">
             {/* Conditional rendering based on hover state */}
