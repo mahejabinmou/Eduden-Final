@@ -451,7 +451,7 @@ const filterCourse = [
       },
       {
         title4: "9 Projects",
-        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
+        overView4: `Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!`,
         description4: `We embraced a project-centric learning methodology for the duration of the course. There are 9 projects planned for completion in the course.`,
       },
     ],
@@ -462,7 +462,7 @@ const filterCourse = [
 
     category: "Data Science and AI",
     price: "$120",
-    title: " Data Science and Machine Learning Course",
+    title: "Data Science and Machine Learning Course",
     rating: 5,
     image: "assets/images/course-cat-4.jpg",
     hoverBgColor: "bg-green-500",
@@ -473,7 +473,7 @@ const filterCourse = [
       duration: "12.5 hours",
     },
     crsDetails: `we're your one-stop destination for unlocking your potential and conquering the digital.
-we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
+  we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital.we're your one-stop destination for unlocking your potential and conquering the digital. digital.we're your one-stop destination for unlocking your potential and conquering the digital.`,
     img: upCmnPic2,
   },
 
@@ -534,7 +534,7 @@ we're your one-stop destination for unlocking your potential and conquering the 
       },
     ],
     overView:
-      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
+      "Unlock the power of data with our Data Science and Machine Learning course! Dive into the art of analyzing and transforming raw data into actionable insights, while mastering cutting-edge machine learning algorithms. From data cleaning and statistical analysis to building predictive models with Python and TensorFlow. Learn how to harness data to make smarter choices, uncover patterns, and build intelligent systems that evolve. Get ready to shape the future—one dataset at a time!",
     para: `Discover how to blend shapes, colors, and typography into designs that not only look good but also communicate effectively. Don't worry about starting from scratch—this course is tailored for beginners, so no previous experience is needed.
 But this isn’t just another boring lecture series. Expect interactive activities, creative challenges, and even a few design "myths" busted along the way. ( As it says: You don’t need to be an artist to be a great designer! ) Get ready to shape the future—one design at a time. `,
 

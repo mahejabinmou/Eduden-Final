@@ -23,6 +23,10 @@ const Footer = () => {
                   alt="brand logo"
                 />
               </div>
+              <p className="footerHeaderLogoText text-white">
+                Empowering learners with innovative technology to unlock their
+                full potential in education and beyond.
+              </p>
 
               <div className="flex  flex-row mt-[20px] gap-x-[10px]">
                 <a
@@ -42,12 +46,6 @@ const Footer = () => {
                   <FaInstagram size={28} className="footerSocailIcon" />
                 </a>
 
-                {/* <a
-                  href=""
-                  className="bg-[#00A4FF] text-[#030303] px-[8px] rounded-full py-[8px]"
-                >
-                  <CiYoutube size={28} className="footerSocailIcon" />
-                </a> */}
                 <a
                   href="https://www.linkedin.com/company/edu-den/"
                   target="_blank"
@@ -195,8 +193,8 @@ const Footer = () => {
               </div>
               <div className="">
                 <p className="footerHeaderLogoText text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Empowering learners with innovative technology to unlock their
+                  full potential in education and beyond.
                 </p>
                 <div className="flex flex-row mt-[20px] gap-x-[10px]">
                   <a

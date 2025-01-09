@@ -33,8 +33,8 @@ const OnlineCourses = () => {
 
       <div className="sectionGap  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  2xl:grid-cols-4  items-center gap-[20px]">
         <div
-          className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px]  lg:h-[400px] 
-        2xl:h-[500px] xl:h-[410px]
+          className="hover:bg-gradient-to-bl from-[#00A4FF] h-[320px] md:h-[400px]  lg:h-[400px] 
+        2xl:h-[500px] xl:h-[450px]
          to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  "
         >
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
@@ -63,11 +63,11 @@ const OnlineCourses = () => {
             </svg>
           </div>
           <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
-            Life Time Access
+            Course Certificate
           </h1>
           <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
-            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
-            labore dolore magna.
+            Every assignment and the final exams with a minimum 50% mark will
+            earn a course certificate.
           </p>
           <div className="flex items-center justify-center pb-[30px]">
             <svg
@@ -88,7 +88,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[320px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[450px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 transition-colors duration-500 fill-current text-black group-hover:text-white"
@@ -105,11 +105,12 @@ const OnlineCourses = () => {
             </svg>
           </div>
           <h1 className="mb-[15px] aboutPageHero group-hover:text-[#000000] transition duration-500">
-            Life Time Access
+            100% Access
+            {/* on Purchase Period */}
           </h1>
           <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
-            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
-            labore dolore magna.
+            Buying the course entitles you to access to all course content for a
+            certain period.
           </p>
           <div className="flex items-center justify-center pb-[30px]">
             <svg
@@ -130,7 +131,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[320px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[450px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"
@@ -160,8 +161,8 @@ const OnlineCourses = () => {
             Expert Instructors
           </h1>
           <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px]  group-hover:text-[#000000] transition duration-500">
-            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
-            labore dolore magna.
+            Learn from expert instructors dedicated to guiding you toward
+            success.
           </p>
 
           <div className="flex items-center justify-center pb-[30px]">
@@ -183,7 +184,7 @@ const OnlineCourses = () => {
           </div>
         </div>
 
-        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[300px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[410px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
+        <div className="hover:bg-gradient-to-bl from-[#00A4FF] h-[320px] md:h-[400px] lg:h-[400px] 2xl:h-[500px] xl:h-[450px] to-[#00389B] bg-[#141414] px-[30px] pt-[50px] group rounded-[20px] text-center  ">
           <div className="h-[60px] w-[60px] mx-auto xl:mb-[45px] lg:mb-[20px] mb-[20px] rounded-full bg-white group-hover:bg-[#000000] flex justify-center items-center">
             <svg
               className="w-8 h-8 stroke-current text-black group-hover:text-white"
@@ -225,8 +226,7 @@ const OnlineCourses = () => {
             Lowest Price
           </h1>
           <p className="xl:mb-[20px] lg:mb-[20px] joinClanSubPara px-[10px] group-hover:text-[#000000] transition duration-500">
-            Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc
-            labore dolore magna.
+            Quality education at the Best Value, accessible to everyone.
           </p>
 
           <div className="flex items-center justify-center pb-[30px]">

@@ -69,13 +69,14 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
+                      "I entered this course with meager experience in design,
+                      and I would say that the course has really changed the way
+                      I've been thinking about digital design.
+                      {/* & has literally
+                      gone through the entire process, from user research to
+                      wireframing, prototyping, and usability testing. */}
+                      I would recommend this course to anyone who wants to make
+                      a career in UI/UX design.
                     </p>
                   </div>
 
@@ -89,10 +90,10 @@ const Testimonial = () => {
                     </div>
                     <div className="ml-[12px]">
                       <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#00A4FF]">
-                        Nazmul Islam
+                        Sarah Chowdhury
                       </p>
                       <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-                        Graphics Designer
+                        UI/UX Designer
                       </p>
                     </div>
                   </div>
@@ -113,13 +114,11 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
+                      The website was great. Entered the course with zero
+                      knowledge of coding but by the end of it, I was able to
+                      create complete and fully functional websites.I am now
+                      working as a junior web developer, and really, I can't ask
+                      for a better foundation.
                     </p>
                   </div>
 
@@ -133,10 +132,10 @@ const Testimonial = () => {
                     </div>
                     <div className="ml-[12px]">
                       <p className="text-[20px] leading-[23px] font-bold font-gucina text-xl text-[#00A4FF]">
-                        Nazmul Islam
+                        Audry Roy
                       </p>
                       <p className="font-sans font-normal text-[10px] leading-[11.5px] text-[#FFFFFF]">
-                        Graphics Designer
+                        Web Developer
                       </p>
                     </div>
                   </div>
@@ -155,13 +154,15 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] joinClanSubPara pr-[46px] pb-[25px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
+                      I've got a history relating to art and drawing which has
+                      always gripped me.
+                      {/* however, it felt appropriate to make a
+                      big move to put this area of passion into full throttle
+                      with graphic design.  */}
+                      Case studies were very hands-on and enabled me to build a
+                      diverse portfolio, now ready to tackle both print and
+                      digital design projects. I would recommend this to anyone
+                      keen to step into the realm of graphic design.
                     </p>
                   </div>
 
@@ -195,17 +196,19 @@ const Testimonial = () => {
               <h1 className="popularCategoryHead text-[#FFFFFF]  pb-[25px] ">
                 What students say
               </h1>
-              <p className="joinClanSubPara text-[#FFFFFF] pb-[35px]">
-                Ex urna finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent Ex urna
-                finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent Ex urna
-                finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent
-              </p>
-              {/* <button className="text-[#010101] buttonPara">
-                View All Testimonial
-              </button> */}
+              <div className="pb-[35px]">
+                <p className="joinClanSubPara text-[#FFFFFF] pb-[10px]">
+                  `I Never Thought Learning Could Be This Fun! Studying feels so
+                  easy with all the hands-on activities and engaging quizzes.
+                  This website made learning so much more fun, and I'm able to
+                  track my progress step by step. It's like having a tutor in my
+                  pocket 24/7!`
+                </p>
+                <p className="joinClanSubPara text-[#FFFFFF] text-center ">
+                  {" "}
+                  - Adnan Mahmud, College Student
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -222,14 +225,19 @@ const Testimonial = () => {
               <h1 className="popularCategoryHead text-[#FFFFFF]  ">
                 What students say
               </h1>
-              <p className="joinClanSubPara text-[#FFFFFF]  pt-[20px]">
-                Ex urna finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent Ex urna
-                finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent Ex urna
-                finibus natoque auctor pretium etiam consequat eleifend
-                himenaeos mauris placerat ridiculus odio praesent
-              </p>
+              <div className="pt-[20px]">
+                <p className="joinClanSubPara text-[#FFFFFF] ">
+                  `I Never Thought Learning Could Be This Fun! Studying feels so
+                  easy with all the hands-on activities and engaging quizzes.
+                  This website made learning so much more fun, and I'm able to
+                  track my progress step by step. It's like having a tutor in my
+                  pocket 24/7!`
+                </p>
+                <p className="joinClanSubPara text-[#FFFFFF] text-center pt-[10px]">
+                  {" "}
+                  - Adnan Mahmud, College Student
+                </p>
+              </div>
 
               {/* <button className="text-[#010101] buttonPara"></button> */}
             </div>
@@ -252,13 +260,14 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
+                      "I entered this course with meager experience in design,
+                      and I would say that the course has really changed the way
+                      I've been thinking about digital design.
+                      {/* & has literally
+                      gone through the entire process, from user research to
+                      wireframing, prototyping, and usability testing. */}
+                      I would recommend this course to anyone who wants to make
+                      a career in UI/UX design.
                     </p>
                   </div>
 
@@ -272,10 +281,10 @@ const Testimonial = () => {
                     </div>
                     <div className="ml-[12px]">
                       <p className="text-[16px] leading-[16px] font-bold font-gucina text-[#00A4FF]">
-                        Nazmul Islam
+                        Sarah Chowdhury
                       </p>
                       <p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
-                        Graphics Designer
+                        UI/UX Designer
                       </p>
                     </div>
                   </div>
@@ -297,13 +306,11 @@ const Testimonial = () => {
 
                   <div>
                     <p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio praesent
-                      Ex urna finibus natoque auctor pretium etiam consequat
-                      eleifend himenaeos mauris placerat ridiculus odio
-                      praesentEx urna finibus natoque auctor pretium etiam
-                      consequat eleifend himenaeos mauris placerat ridiculus
-                      odio praesent
+                      The website was great. Entered the course with zero
+                      knowledge of coding but by the end of it, I was able to
+                      create complete and fully functional websites.I am now
+                      working as a junior web developer, and really, I can't ask
+                      for a better foundation.
                     </p>
                   </div>
 
@@ -317,10 +324,56 @@ const Testimonial = () => {
                     </div>
                     <div className="ml-[12px]">
                       <p className="text-[16px] leading-[16px] font-bold font-gucina text-[#00A4FF] ">
-                        Nazmul Islam
+                        Audry Roy
                       </p>
                       <p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
-                        Graphics Designer
+                        Web Developer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-[#FFFFFF] rounded-[10px]  max-w-[100%] py-[15px] px-[15px]  relative bg-[#22212199]/[.6] ">
+                  <div className="flex justify-between items-start">
+                    {/* FaQuoteLeft Icon */}
+                    <FaQuoteLeft
+                      size={20}
+                      className="  text-[#FFFFFF] mb-[10px]"
+                    />
+
+                    {/* Star Rating */}
+                    <div className="flex items-center mb-[10px] text-[#00A4FF] gap-x-[6px] pr-[20px]">
+                      <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    </div>
+                  </div>
+
+                  <div>
+                    <p className="text-[#FFFFFF] customPara pr-[5px] pb-[10px]">
+                      I've got a history relating to art and drawing which has
+                      always gripped me.
+                      {/* however, it felt appropriate to make a
+                      big move to put this area of passion into full throttle
+                      with graphic design.  */}
+                      Case studies were very hands-on and enabled me to build a
+                      diverse portfolio, now ready to tackle both print and
+                      digital design projects. I would recommend this to anyone
+                      keen to step into the realm of graphic design.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center mb-[5px]">
+                    <div>
+                      <img
+                        className="w-[40px] h-[40px] object-cover"
+                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
+                        alt="Lisa Dowen"
+                      />
+                    </div>
+                    <div className="ml-[12px]">
+                      <p className="text-[16px] leading-[16px] font-bold font-gucina text-[#00A4FF] ">
+                        Nazmul Islam – Graphic Designer
+                      </p>
+                      <p className="font-sans font-normal text-[10px] leading-[10px] text-[#FFFFFF]">
+                        Graphic Designer
                       </p>
                     </div>
                   </div>
