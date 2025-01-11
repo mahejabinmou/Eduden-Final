@@ -83,9 +83,9 @@ const Testimonial = () => {
                   <div className="flex items-center mb-5">
                     <div>
                       <img
-                        className="w-[50px] h-[50px] object-cover"
-                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-                        alt="Lisa Dowen"
+                        className="w-[50px] h-[50px] object-cover rounded-full"
+                        src="https://i.ibb.co.com/6tyPyMD/output-5.jpg"
+                        alt="Sarah Chowdhury"
                       />
                     </div>
                     <div className="ml-[12px]">
@@ -125,9 +125,9 @@ const Testimonial = () => {
                   <div className="flex items-center mb-5">
                     <div>
                       <img
-                        className="w-[50px] h-[50px] object-cover"
-                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-                        alt="Lisa Dowen"
+                        className="w-[50px] h-[50px] object-cover rounded-full"
+                        src="https://i.ibb.co.com/8XkWXPb/output-6.jpg"
+                        alt="Audry Roy"
                       />
                     </div>
                     <div className="ml-[12px]">
@@ -169,7 +169,7 @@ const Testimonial = () => {
                   <div className="flex items-center mb-5">
                     <div>
                       <img
-                        className="w-[50px] h-[50px] object-cover"
+                        className="w-[50px] h-[50px] object-cover rounded-full"
                         src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
                         alt="Lisa Dowen"
                       />
@@ -275,8 +275,8 @@ const Testimonial = () => {
                     <div>
                       <img
                         className="w-[40px] h-[40px] object-cover"
-                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-                        alt="Lisa Dowen"
+                        src="https://i.ibb.co.com/6tyPyMD/output-5.jpg"
+                        alt="Sarah Chowdhury"
                       />
                     </div>
                     <div className="ml-[12px]">
@@ -318,8 +318,8 @@ const Testimonial = () => {
                     <div>
                       <img
                         className="w-[40px] h-[40px] object-cover"
-                        src="https://i.ibb.co.com/mTzDs5N/ellipse-14-1-66f6556b12a75.webp"
-                        alt="Lisa Dowen"
+                        src="https://i.ibb.co.com/8XkWXPb/output-6.jpg"
+                        alt="Audry Roy"
                       />
                     </div>
                     <div className="ml-[12px]">
